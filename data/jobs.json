@@ -1,0 +1,51 @@
+{
+ "generated": "2026-08-22T12:00:00.000Z",
+ "lastScanId": "baseline",
+ "jobs": [
+  {
+   "id": "stub00000001",
+   "firm": "TEST Firm",
+   "title": "Quantitative Research Off-Cycle Intern (STUB — données de test)",
+   "url": "https://example.com/job1",
+   "locations": [{"city": "London", "country": "UK"}],
+   "regions": ["Europe"],
+   "type": "offcycle_internship",
+   "category": "QR",
+   "posted": null,
+   "start": "Oct 2027",
+   "snippet": "Placeholder en attendant le vrai scrape. PhD/MSc in quantitative field, Python, statistics.",
+   "firstSeen": "2026-08-22",
+   "seenScan": "baseline"
+  },
+  {
+   "id": "stub00000002",
+   "firm": "TEST Firm 2",
+   "title": "Graduate Quant Trader (STUB)",
+   "url": "https://example.com/job2",
+   "locations": [{"city": "Amsterdam", "country": "Netherlands"}, {"city": "Singapore", "country": "Singapore"}],
+   "regions": ["Europe", "Asie-Pacifique"],
+   "type": "graduate",
+   "category": "QT",
+   "posted": null,
+   "start": null,
+   "snippet": "Placeholder.",
+   "firstSeen": "2026-08-22",
+   "seenScan": "baseline"
+  },
+  {
+   "id": "stub00000003",
+   "firm": "TEST Firm",
+   "title": "Summer ML Intern 2027 (STUB, doit être masqué par défaut)",
+   "url": "https://example.com/job3",
+   "locations": [{"city": "New York", "country": "USA"}],
+   "regions": ["Amérique du Nord"],
+   "type": "summer_internship",
+   "category": "ML",
+   "posted": null,
+   "start": null,
+   "snippet": "Placeholder summer — masqué par défaut.",
+   "firstSeen": "2026-08-22",
+   "seenScan": "baseline"
+  }
+ ]
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Quant Board</title>
+  <meta name="description" content="Veille des offres junior QR / QT / ML dans les trading firms">
+  <meta name="theme-color" content="#0b1220">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon-192.png">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Quant Board">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="app-header">
+    <div class="header-row">
+      <h1>Quant<span>Board</span></h1>
+      <div class="meta-info" id="meta-info">…</div>
+    </div>
+    <nav class="tabs" id="tabs">
+      <button class="tab active" data-tab="new">Nouvelles <span class="badge" id="badge-new">0</span></button>
+      <button class="tab" data-tab="all">Offres <span class="badge" id="badge-all">0</span></button>
+      <button class="tab" data-tab="firms">Firms</button>
+    </nav>
+  </header>
+
+  <section class="filters" id="filters">
+    <input type="search" id="search" placeholder="Rechercher un poste, une firm…" autocomplete="off">
+    <div class="chip-row" id="cat-chips" aria-label="Catégories"></div>
+    <div class="chip-row" id="type-chips" aria-label="Types"></div>
+    <div class="select-row">
+      <select id="region-select"><option value="">Toutes régions</option></select>
+      <select id="firm-select"><option value="">Toutes les firms</option></select>
+      <select id="sort-select">
+        <option value="recent">Plus récentes</option>
+        <option value="firm">Firm A→Z</option>
+      </select>
+      <button id="fav-toggle" class="icon-btn" title="Favoris uniquement">★</button>
+    </div>
+  </section>
+
+  <main id="content">
+    <div class="loading" id="loading">Chargement des offres…</div>
+    <div id="job-list" class="job-list"></div>
+    <div id="firm-list" class="firm-list" hidden></div>
+    <div id="empty" class="empty" hidden></div>
+  </main>
+
+  <footer class="app-footer" id="footer"></footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+{
+ "firms": [
+  {"name": "TEST Firm", "website": "https://example.com", "careersUrl": "https://example.com/careers", "ats": "greenhouse", "apiEndpoint": null, "apiMethod": "GET", "apiBody": null, "status": "ok", "notes": "stub", "jobCount": 2},
+  {"name": "TEST Firm 2", "website": "https://example.com", "careersUrl": "https://example.com/careers", "ats": "custom_html", "apiEndpoint": null, "apiMethod": "GET", "apiBody": null, "status": "no_relevant_roles", "notes": "stub", "jobCount": 1}
+ ]
+}
