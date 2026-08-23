@@ -1,33 +1,17 @@
 #!/usr/bin/env node
 // Applique le résultat d'une veille classifiée à data/jobs.json.
-// Entrée : data/scan-apply.json = { scanId?: string, add: [job sans id/firstSeen/seenScan], removeIds: [string] }
+// Entrée : data/scan-apply.json = { scanId?: string, add: [...], removeIds: [...] }
 // - add: [{firm, title, url, locations:[{city,country}], type, category, posted?, start?, snippet?}]
-// - calcule les ids, regions ; archive les offres supprimées dans data/archive.json ; met à jour meta + jobCount des firms.
+// - calcule ids + régions ; archive les offres retirées ; met à jour meta et jobCount des firms.
 // Usage: node scripts/apply-scan.mjs
 import { readFileSync, writeFileSync, existsSync } from 'node:fs';
-import { createHash } from 'node:crypto';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { region, jobId, normLocations, TYPES, CATEGORIES } from './lib.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const p = f => join(ROOT, 'data', f);
 const TODAY = new Date().toISOString().slice(0, 10);
-
-const EUROPE = new Set(['UK', 'Ireland', 'France', 'Netherlands', 'Germany', 'Switzerland', 'Spain', 'Italy', 'Sweden', 'Czechia', 'Poland', 'Austria', 'Belgium', 'Denmark', 'Norway', 'Finland', 'Portugal', 'Greece', 'Hungary', 'Romania', 'Bulgaria', 'Croatia', 'Estonia', 'Latvia', 'Lithuania', 'Luxembourg', 'Malta', 'Cyprus', 'Gibraltar', 'Jersey', 'Guernsey', 'Monaco', 'Isle of Man']);
-const NA = new Set(['USA', 'Canada', 'Mexico', 'Bermuda', 'Cayman Islands', 'Bahamas', 'Puerto Rico']);
-const APAC = new Set(['Singapore', 'Hong Kong', 'Japan', 'China', 'India', 'Australia', 'New Zealand', 'South Korea', 'Taiwan', 'Vietnam', 'Thailand', 'Malaysia', 'Indonesia', 'Philippines']);
-const CANON = { 'United Kingdom': 'UK', 'US': 'USA', 'United States': 'USA', 'Czech Republic': 'Czechia', 'Korea': 'South Korea' };
-const region = c => !c ? 'Autre' : EUROPE.has(c) ? 'Europe' : NA.has(c) ? 'Amérique du Nord' : APAC.has(c) ? 'Asie-Pacifique' : 'Autre';
-
-function normUrl(u) {
-  try {
-    const url = new URL(u);
-    for (const k of [...url.searchParams.keys()]) if (/^(utm_|gh_src|lever-|source|ref)/i.test(k)) url.searchParams.delete(k);
-    url.hash = '';
-    return url.toString().replace(/\/$/, '');
-  } catch { return (u || '').trim(); }
-}
-const jobId = (firm, url, title) => createHash('sha1').update(`${firm}|${normUrl(url)}|${title}`).digest('hex').slice(0, 12);
 
 const apply = JSON.parse(readFileSync(p('scan-apply.json'), 'utf8'));
 const jobsData = JSON.parse(readFileSync(p('jobs.json'), 'utf8'));
@@ -39,17 +23,25 @@ const existing = new Set(jobsData.jobs.map(j => j.id));
 
 let added = 0;
 for (const j of apply.add || []) {
-  const locations = (j.locations || []).map(l => ({ city: l.city || null, country: CANON[l.country] || l.country || null }));
-  const regions = [...new Set(locations.map(l => region(l.country)))];
+  if (!j || !j.firm || !j.title || !j.url) continue;
   const id = jobId(j.firm, j.url, j.title);
   if (existing.has(id)) continue;
+  const locations = normLocations(j.locations);
+  const regions = [...new Set(locations.map(l => region(l.country)))];
   jobsData.jobs.push({
-    id, firm: j.firm, title: String(j.title).trim(), url: j.url,
-    locations, regions: regions.length ? regions : ['Autre'],
-    type: j.type || 'fulltime_junior', category: j.category || 'OTHER',
-    posted: j.posted || null, start: j.start || null,
+    id,
+    firm: j.firm,
+    title: String(j.title).trim(),
+    url: j.url,
+    locations,
+    regions: regions.length ? regions : ['Non précisé'],
+    type: TYPES.has(j.type) ? j.type : 'fulltime_junior',
+    category: CATEGORIES.has(j.category) ? j.category : 'OTHER',
+    posted: j.posted || null,
+    start: j.start || null,
     snippet: (j.snippet || '').slice(0, 400),
-    firstSeen: TODAY, seenScan: scanId,
+    firstSeen: TODAY,
+    seenScan: scanId,
   });
   existing.add(id);
   added++;
