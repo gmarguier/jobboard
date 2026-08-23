@@ -12,7 +12,7 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="apple-mobile-web-app-title" content="Quant Board">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?v=2">
 </head>
 <body>
   <header class="app-header">
@@ -28,17 +28,26 @@
   </header>
 
   <section class="filters" id="filters">
-    <input type="search" id="search" placeholder="Rechercher un poste, une firm…" autocomplete="off">
-    <div class="chip-row" id="cat-chips" aria-label="Catégories"></div>
-    <div class="chip-row" id="type-chips" aria-label="Types"></div>
-    <div class="select-row">
-      <select id="region-select"><option value="">Toutes régions</option></select>
-      <select id="firm-select"><option value="">Toutes les firms</option></select>
-      <select id="sort-select">
-        <option value="recent">Plus récentes</option>
-        <option value="firm">Firm A→Z</option>
-      </select>
+    <div class="search-row">
+      <input type="search" id="search" placeholder="Rechercher un poste, une firm…" autocomplete="off">
+      <button id="filters-toggle" class="filters-toggle" aria-expanded="false" aria-controls="filter-panel">
+        Filtres<span class="filter-count" id="filter-count" hidden></span>
+      </button>
       <button id="fav-toggle" class="icon-btn" title="Favoris uniquement">★</button>
+    </div>
+    <div class="filter-panel" id="filter-panel" hidden>
+      <div class="chip-row" id="cat-chips" aria-label="Catégories"></div>
+      <div class="chip-row" id="type-chips" aria-label="Types"></div>
+      <div class="select-row">
+        <select id="region-select"><option value="">Toutes régions</option></select>
+        <select id="firm-select"><option value="">Toutes les firms</option></select>
+        <select id="sort-select">
+          <option value="priority">Pertinence</option>
+          <option value="recent">Plus récentes</option>
+          <option value="firm">Firm A→Z</option>
+        </select>
+      </div>
+      <button id="reset-filters" class="reset-btn">Réinitialiser les filtres</button>
     </div>
   </section>
 
@@ -51,6 +60,6 @@
 
   <footer class="app-footer" id="footer"></footer>
 
-  <script src="app.js"></script>
+  <script src="app.js?v=2"></script>
 </body>
 </html>

@@ -92,8 +92,11 @@ h1 span { color: var(--accent); }
   gap: 8px;
 }
 
+.search-row { display: flex; gap: 6px; }
+
 #search {
-  width: 100%;
+  flex: 1;
+  min-width: 0;
   padding: 10px 14px;
   border-radius: var(--radius);
   border: 1px solid var(--border);
@@ -101,6 +104,53 @@ h1 span { color: var(--accent); }
   color: var(--text);
   font: inherit;
   font-size: 0.95rem;
+}
+
+.filters-toggle {
+  appearance: none;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 0 12px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: var(--bg-raised);
+  color: var(--text-dim);
+  font: inherit;
+  font-size: 0.82rem;
+  font-weight: 600;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.filters-toggle[aria-expanded="true"] { border-color: var(--accent); color: var(--accent); }
+
+.filter-count {
+  background: var(--accent);
+  color: #06210f;
+  border-radius: 999px;
+  min-width: 17px;
+  padding: 0 5px;
+  font-size: 0.68rem;
+  line-height: 17px;
+  text-align: center;
+}
+
+.filter-panel { display: flex; flex-direction: column; gap: 8px; padding-top: 2px; }
+/* `display: flex` l'emporterait sur le `display: none` de [hidden] (spécificité de classe). */
+.filter-panel[hidden] { display: none; }
+
+.reset-btn {
+  appearance: none;
+  align-self: flex-start;
+  background: none;
+  border: none;
+  color: var(--text-faint);
+  font: inherit;
+  font-size: 0.78rem;
+  text-decoration: underline;
+  padding: 2px 0;
+  cursor: pointer;
 }
 
 #search::placeholder { color: var(--text-faint); }
@@ -124,7 +174,7 @@ h1 span { color: var(--accent); }
 
 .chip.on { border-color: var(--chip-color, var(--accent)); color: var(--chip-color, var(--accent)); background: color-mix(in srgb, var(--chip-color, var(--accent)) 12%, transparent); }
 
-.select-row { display: flex; gap: 6px; }
+.select-row { display: flex; gap: 6px; flex-wrap: wrap; }
 
 select {
   flex: 1;
@@ -218,6 +268,23 @@ main { padding: 10px 16px; max-width: 760px; margin: 0 auto; }
 }
 
 .card-btn.fav.on { color: #fbbf24; border-color: #fbbf24; }
+
+.more-btn {
+  appearance: none;
+  width: 100%;
+  padding: 13px;
+  border-radius: var(--radius);
+  border: 1px dashed var(--border);
+  background: var(--bg-raised);
+  color: var(--text-dim);
+  font: inherit;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.more-btn span { color: var(--text-faint); font-weight: 400; }
+.more-btn:active { border-color: var(--accent); color: var(--accent); }
 
 /* ---------- Firms tab ---------- */
 .firm-list { display: flex; flex-direction: column; gap: 6px; }

@@ -11,6 +11,11 @@
   const CAT_LABELS = { QR: 'Quant Research', QT: 'Trading', ML: 'Machine Learning', ENG: 'Engineering', OTHER: 'Autre' };
   const CAT_COLORS = { QR: 'var(--qr)', QT: 'var(--qt)', ML: 'var(--ml)', ENG: 'var(--eng)', OTHER: 'var(--other)' };
 
+  // Priorité de tri « Pertinence » : off-cycle d'abord (seuls compatibles avec
+  // une sortie d'Oxford en sept. 2027), summers en dernier.
+  const TYPE_PRIORITY = { offcycle_internship: 0, internship: 1, graduate: 2, fulltime_junior: 3, summer_internship: 4 };
+  const PAGE_SIZE = 40;
+
   const state = {
     tab: 'new',
     search: '',
@@ -18,8 +23,9 @@
     types: new Set(TYPE_ORDER.filter(t => t !== 'summer_internship')), // summers masqués par défaut
     region: '',
     firm: '',
-    sort: 'recent',
+    sort: 'priority',
     favsOnly: false,
+    shown: PAGE_SIZE, // rendu incrémental : nombre de cartes affichées
   };
 
   const store = {
@@ -34,7 +40,7 @@
     state.cats = new Set(savedFilters.cats || [...state.cats]);
     state.types = new Set(savedFilters.types || [...state.types]);
     state.region = savedFilters.region || '';
-    state.sort = savedFilters.sort || 'recent';
+    state.sort = savedFilters.sort || 'priority';
   }
 
   let DATA = { jobs: [], lastScanId: 'baseline', generated: null };
@@ -76,8 +82,16 @@
 
   function sortJobs(arr) {
     const copy = [...arr];
-    if (state.sort === 'firm') copy.sort((a, b) => a.firm.localeCompare(b.firm) || a.title.localeCompare(b.title));
-    else copy.sort((a, b) => (b.firstSeen || '').localeCompare(a.firstSeen || '') || a.firm.localeCompare(b.firm));
+    if (state.sort === 'firm') {
+      copy.sort((a, b) => a.firm.localeCompare(b.firm) || a.title.localeCompare(b.title));
+    } else if (state.sort === 'recent') {
+      copy.sort((a, b) => (b.firstSeen || '').localeCompare(a.firstSeen || '') || a.firm.localeCompare(b.firm));
+    } else {
+      copy.sort((a, b) =>
+        (TYPE_PRIORITY[a.type] ?? 9) - (TYPE_PRIORITY[b.type] ?? 9) ||
+        (b.firstSeen || '').localeCompare(a.firstSeen || '') ||
+        a.firm.localeCompare(b.firm));
+    }
     return copy;
   }
 
@@ -142,11 +156,40 @@
       empty.textContent = state.tab === 'new'
         ? 'Aucune nouvelle offre depuis le dernier scan. Reviens après la prochaine veille ✨'
         : 'Aucune offre ne correspond aux filtres.';
-    } else {
-      empty.hidden = true;
-      jobList.hidden = false;
-      jobList.innerHTML = shown.map(jobCard).join('');
+      return;
     }
+
+    empty.hidden = true;
+    jobList.hidden = false;
+    // Rendu incrémental : au-delà de quelques dizaines de cartes, tout injecter
+    // d'un coup rend le scroll poussif sur téléphone.
+    const slice = shown.slice(0, state.shown);
+    const rest = shown.length - slice.length;
+    jobList.innerHTML = slice.map(jobCard).join('') +
+      (rest > 0 ? `<button class="more-btn" id="more-btn">Afficher ${Math.min(rest, PAGE_SIZE)} offres de plus <span>(${rest} restantes)</span></button>` : '');
+
+    if (rest > 0) observeSentinel();
+  }
+
+  // Charge la page suivante quand le bouton « Afficher plus » approche du viewport.
+  let sentinelObserver = null;
+  function observeSentinel() {
+    const btn = $('more-btn');
+    if (!btn) return;
+    sentinelObserver?.disconnect();
+    sentinelObserver = new IntersectionObserver(entries => {
+      if (entries.some(e => e.isIntersecting)) {
+        state.shown += PAGE_SIZE;
+        render();
+      }
+    }, { rootMargin: '400px' });
+    sentinelObserver.observe(btn);
+  }
+
+  /** Remet la pagination à zéro : tout changement de filtre repart du haut. */
+  function resetAndRender() {
+    state.shown = PAGE_SIZE;
+    render();
   }
 
   function buildFilters() {
@@ -167,6 +210,35 @@
 
     $('sort-select').value = state.sort;
     $('fav-toggle').classList.toggle('on', state.favsOnly);
+    updateFilterCount();
+  }
+
+  const DEFAULT_TYPES = TYPE_ORDER.filter(t => t !== 'summer_internship');
+
+  /** Nombre de filtres qui s'écartent de la vue par défaut, affiché sur le bouton « Filtres ». */
+  function updateFilterCount() {
+    let n = 0;
+    if (state.cats.size !== Object.keys(CAT_LABELS).length) n++;
+    if (state.types.size !== DEFAULT_TYPES.length || DEFAULT_TYPES.some(t => !state.types.has(t))) n++;
+    if (state.region) n++;
+    if (state.firm) n++;
+    if (state.sort !== 'priority') n++;
+    const badge = $('filter-count');
+    badge.hidden = n === 0;
+    badge.textContent = n;
+  }
+
+  function resetFilters() {
+    state.cats = new Set(Object.keys(CAT_LABELS));
+    state.types = new Set(DEFAULT_TYPES);
+    state.region = '';
+    state.firm = '';
+    state.sort = 'priority';
+    state.search = '';
+    $('search').value = '';
+    saveFilters();
+    buildFilters();
+    resetAndRender();
   }
 
   function wireEvents() {
@@ -174,17 +246,28 @@
       const btn = e.target.closest('.tab');
       if (!btn) return;
       state.tab = btn.dataset.tab;
-      render();
+      window.scrollTo({ top: 0 });
+      resetAndRender();
     });
 
-    $('search').addEventListener('input', e => { state.search = e.target.value.trim(); render(); });
+    $('search').addEventListener('input', e => { state.search = e.target.value.trim(); resetAndRender(); });
+
+    $('filters-toggle').addEventListener('click', () => {
+      const panel = $('filter-panel');
+      const open = panel.hidden;
+      panel.hidden = !open;
+      $('filters-toggle').setAttribute('aria-expanded', String(open));
+      store.set('qb-panel-open', open);
+    });
+
+    $('reset-filters').addEventListener('click', resetFilters);
 
     $('cat-chips').addEventListener('click', e => {
       const chip = e.target.closest('.chip'); if (!chip) return;
       const k = chip.dataset.cat;
       state.cats.has(k) ? state.cats.delete(k) : state.cats.add(k);
       chip.classList.toggle('on');
-      saveFilters(); render();
+      saveFilters(); updateFilterCount(); resetAndRender();
     });
 
     $('type-chips').addEventListener('click', e => {
@@ -192,16 +275,16 @@
       const t = chip.dataset.type;
       state.types.has(t) ? state.types.delete(t) : state.types.add(t);
       chip.classList.toggle('on');
-      saveFilters(); render();
+      saveFilters(); updateFilterCount(); resetAndRender();
     });
 
-    $('region-select').addEventListener('change', e => { state.region = e.target.value; saveFilters(); render(); });
-    $('firm-select').addEventListener('change', e => { state.firm = e.target.value; render(); });
-    $('sort-select').addEventListener('change', e => { state.sort = e.target.value; saveFilters(); render(); });
+    $('region-select').addEventListener('change', e => { state.region = e.target.value; saveFilters(); updateFilterCount(); resetAndRender(); });
+    $('firm-select').addEventListener('change', e => { state.firm = e.target.value; updateFilterCount(); resetAndRender(); });
+    $('sort-select').addEventListener('change', e => { state.sort = e.target.value; saveFilters(); updateFilterCount(); resetAndRender(); });
     $('fav-toggle').addEventListener('click', () => {
       state.favsOnly = !state.favsOnly;
       $('fav-toggle').classList.toggle('on', state.favsOnly);
-      render();
+      resetAndRender();
     });
 
     $('job-list').addEventListener('click', e => {
@@ -219,6 +302,13 @@
         render();
       } else if (!e.target.closest('a')) {
         card.classList.toggle('expanded');
+      }
+    });
+
+    $('job-list').addEventListener('click', e => {
+      if (e.target.closest('#more-btn')) {
+        state.shown += PAGE_SIZE;
+        render();
       }
     });
   }
@@ -248,6 +338,10 @@
 
     buildFilters();
     wireEvents();
+    if (store.get('qb-panel-open', false)) {
+      $('filter-panel').hidden = false;
+      $('filters-toggle').setAttribute('aria-expanded', 'true');
+    }
     render();
   }
 

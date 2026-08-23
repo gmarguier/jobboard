@@ -1,6 +1,8 @@
 /* Quant Board service worker — network-first, cache fallback (offline) */
-const CACHE = 'quantboard-v1';
-const SHELL = ['./', 'index.html', 'style.css', 'app.js', 'manifest.webmanifest', 'icons/icon-192.png', 'icons/icon-512.png'];
+// Bump ce numéro à chaque changement d'app.js / style.css : l'ancien cache est
+// alors purgé à l'activation et l'app se met à jour sur le téléphone.
+const CACHE = 'quantboard-v2';
+const SHELL = ['./', 'index.html', 'style.css?v=2', 'app.js?v=2', 'manifest.webmanifest', 'icons/icon-192.png', 'icons/icon-512.png'];
 
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(SHELL)).then(() => self.skipWaiting()));
