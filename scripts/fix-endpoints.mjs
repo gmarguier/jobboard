@@ -123,6 +123,19 @@ if (existsSync(p('overrides.json'))) {
   }
 }
 
+// Type d'activité de chaque firm (data/firm-types.json fait foi). Comme firms.json est
+// reconstruit à chaque fusion, la classification doit être réappliquée ici.
+if (existsSync(p('firm-types.json'))) {
+  const types = JSON.parse(readFileSync(p('firm-types.json'), 'utf8')).types || {};
+  let tagged = 0, missing = [];
+  for (const f of firmsData.firms) {
+    if (types[f.name]) { f.firmType = types[f.name]; tagged++; }
+    else { f.firmType = 'autre'; missing.push(f.name); }
+  }
+  console.log(`  ⊙ types d'activité : ${tagged}/${firmsData.firms.length} firms classées`);
+  if (missing.length) console.log(`     non classées → "autre" : ${missing.join(', ')}`);
+}
+
 writeFileSync(p('firms.json'), JSON.stringify(firmsData, null, 1));
 const withApi = firmsData.firms.filter(f => f.apiEndpoints?.length).length;
 console.log(`${firmsData.firms.length} firms · ${withApi} avec API · ${changed} avec plusieurs boards`);

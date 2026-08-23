@@ -8,6 +8,7 @@ Jobboard personnel de Grégoire : offres junior (stages off-cycle en priorité, 
 - **Données** : `data/jobs.json` (offres + meta `{generated, lastScanId}`), `data/firms.json` (les 171 firms avec leur *recette de scraping* : `ats`, `apiEndpoint`, `apiMethod`, `apiBody`, `notes`), `data/seen.json` (index de TOUS les postings déjà vus, pertinents ou non — évite de re-classifier), `data/archive.json` (offres retirées).
 - **Onglet « Nouvelles »** : offres dont `seenScan === lastScanId` (et `lastScanId !== 'baseline'`). Chaque scan fait avancer `lastScanId`, donc les nouveautés d'hier rejoignent le flux commun au scan suivant.
 - **Types** : `offcycle_internship` · `internship` · `graduate` · `fulltime_junior` · `summer_internship` (masqué par défaut dans l'app). **Catégories** : `QR` · `QT` · `ML` · `ENG` · `OTHER`.
+- **Type d'activité des firms** (`firmType`, source de vérité `data/firm-types.json`, réappliqué par `fix-endpoints.mjs`) : `mm_hft` (market maker / HFT) · `prop` (prop trading hors HFT) · `hf_syst` (hedge fund systématique) · `hf_multistrat` (plateforme à pods) · `hf_disc` (discrétionnaire / macro) · `am` (asset management institutionnel) · `crypto` · `autre`. Sert de filtre et de badge dans l'app, et regroupe l'onglet Firms.
 - Les ids de jobs sont `sha1(firm|url normalisée|titre)[:12]` — calculés par les scripts, ne pas les fabriquer à la main.
 
 ## Scripts

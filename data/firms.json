@@ -18,7 +18,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "prop"
   },
   {
    "name": "A Priori Investments",
@@ -31,7 +32,8 @@
    "status": "no_relevant_roles",
    "notes": "Squarespace site. Careers page exists but lists zero postings and no ATS - it just invites applicants to email info@aprioriinvestments.com ('searching for a few brilliant minds to join our hunt for alpha'). Re-scrape: curl -sL https://www.aprioriinvestments.com/careers and check whether any job links or ATS embeds have appeared.",
    "jobCount": 0,
-   "apiEndpoints": []
+   "apiEndpoints": [],
+   "firmType": "hf_syst"
   },
   {
    "name": "ABC arbitrage",
@@ -51,7 +53,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "prop"
   },
   {
    "name": "Acadian Asset Management",
@@ -71,7 +74,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "am"
   },
   {
    "name": "Akuna Capital",
@@ -91,7 +95,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "mm_hft"
   },
   {
    "name": "Albatross Labs",
@@ -111,7 +116,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "crypto"
   },
   {
    "name": "All Options",
@@ -131,7 +137,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "mm_hft"
   },
   {
    "name": "AlphaGrep",
@@ -151,7 +158,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "mm_hft"
   },
   {
    "name": "AlphaSimplex",
@@ -171,7 +179,8 @@
      "method": "POST",
      "body": "{\"appliedFacets\":{},\"limit\":20,\"offset\":0,\"searchText\":\"\"}"
     }
-   ]
+   ],
+   "firmType": "am"
   },
   {
    "name": "Alphataraxia Management",
@@ -191,7 +200,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "prop"
   },
   {
    "name": "Alyeska Investment Group",
@@ -204,7 +214,8 @@
    "status": "careers_not_found",
    "notes": "Official site alyeskagroup.com is a one-page placeholder (address only, no nav). /careers, /jobs, /join-us all 404. No Greenhouse/Lever board found under alyeska/alyeskainvestmentgroup/alyeskagroup tokens. Jobs appear only via aggregators (LinkedIn company page, Dice, levels.fyi). Re-check LinkedIn company page manually.",
    "jobCount": 0,
-   "apiEndpoints": []
+   "apiEndpoints": [],
+   "firmType": "hf_disc"
   },
   {
    "name": "Ansatz Capital",
@@ -224,7 +235,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "prop"
   },
   {
    "name": "AQR Capital Management",
@@ -244,7 +256,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "hf_syst"
   },
   {
    "name": "Aquatic Capital",
@@ -264,7 +277,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "hf_syst"
   },
   {
    "name": "Arrowstreet Capital",
@@ -290,7 +304,8 @@
      "method": "POST",
      "body": null
     }
-   ]
+   ],
+   "firmType": "am"
   },
   {
    "name": "ART Advisors",
@@ -303,7 +318,8 @@
    "status": "careers_not_found",
    "notes": "A.R.T. Advisors LLC (statistical-arbitrage fund, 500 Park Ave, New York, founded 2001 by Aaron Sosnick) has no public website. WebSearch on 2026-08-22 found only LinkedIn/Glassdoor/SEC/Preqin profiles; guessed domains (artadvisors.com, artadvisorsllc.com, art-advisors.com, artllc.com, artadv.com) are all unreachable. Firm appears to recruit only via LinkedIn and headhunters; re-check the LinkedIn jobs tab manually.",
    "jobCount": 0,
-   "apiEndpoints": []
+   "apiEndpoints": [],
+   "firmType": "hf_syst"
   },
   {
    "name": "Aspect Capital",
@@ -323,7 +339,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "hf_syst"
   },
   {
    "name": "Atto Trading",
@@ -343,7 +360,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "mm_hft"
   },
   {
    "name": "AXQ Capital",
@@ -363,7 +381,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "hf_syst"
   },
   {
    "name": "B2C2",
@@ -383,7 +402,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "crypto"
   },
   {
    "name": "Balyasny Asset Management",
@@ -403,7 +423,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "hf_multistrat"
   },
   {
    "name": "Banyan Alpha Investment",
@@ -416,7 +437,8 @@
    "status": "careers_not_found",
    "notes": "Single-page GoDaddy website-builder site with no careers page and no ATS. Footer has a 'We are Hiring!' blurb (ML scientists, quantitative researchers, algorithmic traders) with contact email careers@banyanalpha.com only - no job postings anywhere. /careers, /jobs, /join-us etc. all 404. Re-scrape: fetch https://banyanalpha.com/banyan-alpha and check whether a job list or ATS link has appeared.",
    "jobCount": 0,
-   "apiEndpoints": []
+   "apiEndpoints": [],
+   "firmType": "hf_syst"
   },
   {
    "name": "Belvedere Trading",
@@ -436,7 +458,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "mm_hft"
   },
   {
    "name": "BlackEdge Capital",
@@ -456,7 +479,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "mm_hft"
   },
   {
    "name": "BlueCrest Capital Management",
@@ -476,7 +500,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "hf_disc"
   },
   {
    "name": "Bluefin Capital Management",
@@ -496,7 +521,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "prop"
   },
   {
    "name": "Blueshift Asset Management",
@@ -516,7 +542,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "hf_syst"
   },
   {
    "name": "Boerboel Trading",
@@ -536,7 +563,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "prop"
   },
   {
    "name": "Boulder Hill Capital Management",
@@ -549,7 +577,8 @@
    "status": "careers_not_found",
    "notes": "NYC hedge fund (founded 2021, ~$1.5bn, 888 7th Ave). No official website found (bhcm.com is a parked domain; boulderhillcapital.com etc. do not resolve); only presence is the LinkedIn company page, whose /jobs tab requires login (guest fetch 404s). An old LinkedIn DevOps Engineer posting (jobs/view/3180141590) is marked no longer accepting applications. LinkedIn guest jobs API search for 'Boulder Hill Capital' returns no live postings on 2026-08-22. Re-scrape: check LinkedIn company jobs tab with an authenticated session.",
    "jobCount": 0,
-   "apiEndpoints": []
+   "apiEndpoints": [],
+   "firmType": "hf_syst"
   },
   {
    "name": "Brevan Howard",
@@ -569,7 +598,8 @@
      "method": "POST",
      "body": "{\"appliedFacets\":{},\"limit\":20,\"offset\":0,\"searchText\":\"\"}"
     }
-   ]
+   ],
+   "firmType": "hf_disc"
   },
   {
    "name": "Bridgewater Associates",
@@ -589,7 +619,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "hf_disc"
   },
   {
    "name": "Cantor Fitzgerald",
@@ -609,7 +640,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "autre"
   },
   {
    "name": "Capital Fund Management",
@@ -629,7 +661,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "hf_syst"
   },
   {
    "name": "Capital Markets Trading",
@@ -642,7 +675,8 @@
    "status": "careers_not_found",
    "notes": "Small WordPress brochure site (pages: home, what-we-do, who-we-are, ventures, contact only - verified via /wp-json/wp/v2/pages). No careers page and no job listings anywhere; the contact page merely has a 'Careers' toggle on its enquiry form for speculative CV submission. Re-check occasionally via the wp-json pages list for a new careers page.",
    "jobCount": 0,
-   "apiEndpoints": []
+   "apiEndpoints": [],
+   "firmType": "mm_hft"
   },
   {
    "name": "Capstone",
@@ -662,7 +696,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "hf_syst"
   },
   {
    "name": "Capula",
@@ -682,7 +717,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "hf_disc"
   },
   {
    "name": "Caxton Associates",
@@ -702,7 +738,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "hf_disc"
   },
   {
    "name": "Centiva Capital",
@@ -715,7 +752,8 @@
    "status": "no_relevant_roles",
    "notes": "No ATS and no job listings. Careers section is an anchor on the WordPress homepage with two APPLY NOW buttons (Investment / Non-Investment Opportunities) opening speculative-application FluentForm popups (popup ids 3025/3279, embedded in homepage HTML) aimed at PM candidates with track records; employment inquiries via recruiting@centivacapital.com. Web search confirms no external job board. Re-scrape: curl -sL https://centivacapital.com/ and diff the id=\"CAREERS\" section for new listings or ATS links.",
    "jobCount": 0,
-   "apiEndpoints": []
+   "apiEndpoints": [],
+   "firmType": "hf_multistrat"
   },
   {
    "name": "Chicago Trading Company",
@@ -741,7 +779,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "mm_hft"
   },
   {
    "name": "Cipher Capital",
@@ -754,7 +793,8 @@
    "status": "careers_not_found",
    "notes": "Single-page WordPress brochure site (one sentence about systematic investing, #philosophy anchor only); /careers, /jobs, /join-us all 404; WP REST API lists a single page. Small quant fund (Cipher Capital LP, ~$1.3bn AUM, 2-10 employees per LinkedIn); no ATS or job board found via web search. Re-check: curl -sL https://ciphercap.com/ for any new careers link; LinkedIn company page linkedin.com/company/cipher-capital-lp.",
    "jobCount": 0,
-   "apiEndpoints": []
+   "apiEndpoints": [],
+   "firmType": "hf_syst"
   },
   {
    "name": "Citadel",
@@ -774,7 +814,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "hf_multistrat"
   },
   {
    "name": "Citadel Securities",
@@ -794,7 +835,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "mm_hft"
   },
   {
    "name": "ClearAlpha",
@@ -814,7 +856,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "hf_multistrat"
   },
   {
    "name": "Consolidated Trading",
@@ -827,7 +870,8 @@
    "status": "careers_not_found",
    "notes": "Site (WordPress one-pager, also at http://www.consolidatedtrading.com, HTTP only) has no careers section; /careers and /join-us 404. Only jobs link on the site points to LinkedIn company jobs (login-walled). Third-party listings exist on builtinchicago.org/company/consolidated-trading-llc/jobs (JS-rendered) but no official ATS found (greenhouse/lever/ashby/workday probes negative). Re-scan: check the homepage for new career links and the LinkedIn jobs page.",
    "jobCount": 0,
-   "apiEndpoints": []
+   "apiEndpoints": [],
+   "firmType": "mm_hft"
   },
   {
    "name": "CQS",
@@ -847,7 +891,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "hf_disc"
   },
   {
    "name": "Da Vinci Derivatives",
@@ -867,7 +912,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "mm_hft"
   },
   {
    "name": "Dark Forest",
@@ -880,7 +926,8 @@
    "status": "careers_not_found",
    "notes": "darkforesttech.com is a minimal static landing page (~4.6KB): \"Dark Forest Technologies — Quantitative Investment Management\", contact recruiting@darkforesttech.com. No careers page (/careers, /jobs etc. all 404), no ATS, no job board found via web search (NY-based quant hedge fund, hires via email). Re-scrape: curl -s https://www.darkforesttech.com and check for new links; applications go to recruiting@darkforesttech.com.",
    "jobCount": 0,
-   "apiEndpoints": []
+   "apiEndpoints": [],
+   "firmType": "hf_syst"
   },
   {
    "name": "DE Shaw",
@@ -900,7 +947,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "hf_syst"
   },
   {
    "name": "Dolat Capital",
@@ -920,7 +968,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "mm_hft"
   },
   {
    "name": "DRW",
@@ -940,7 +989,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "prop"
   },
   {
    "name": "Duality Group",
@@ -953,7 +1003,8 @@
    "status": "unreachable",
    "notes": "dualitygroup.com is dead: HTTPS fails (SSL, no A record served properly) and HTTP returns a WP Engine 'Site Not Configured' 404. No Greenhouse/Lever/Ashby board found under dualitygroup/duality/dualityadvisers tokens. Firm (Duality Advisers LP, NY, Dario Villani) appeared still active per third-party data as of May 2026 but has no findable careers page. Re-check dualitygroup.com and LinkedIn company page occasionally.",
    "jobCount": 0,
-   "apiEndpoints": []
+   "apiEndpoints": [],
+   "firmType": "crypto"
   },
   {
    "name": "DV Trading",
@@ -973,7 +1024,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "prop"
   },
   {
    "name": "Edgehog Trading",
@@ -993,7 +1045,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "mm_hft"
   },
   {
    "name": "Edgestream Partners",
@@ -1013,7 +1066,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "hf_syst"
   },
   {
    "name": "Eisler Capital",
@@ -1026,7 +1080,8 @@
    "status": "unreachable",
    "notes": "Firm has shut down: fund closure effective 2025-12-31; New York office closed with 79 jobs cut in July 2026 (Hedgeweek). eislercapital.com no longer resolves (apex has NS records but no A record; www CNAME points to a dead CloudFront distribution). No live careers page or ATS board exists. Safe to remove from daily re-scan.",
    "jobCount": 0,
-   "apiEndpoints": []
+   "apiEndpoints": [],
+   "firmType": "hf_multistrat"
   },
   {
    "name": "Elequin Capital",
@@ -1046,7 +1101,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "hf_syst"
   },
   {
    "name": "Elk Capital Markets",
@@ -1066,7 +1122,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "mm_hft"
   },
   {
    "name": "Emergent Trading",
@@ -1086,7 +1143,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "mm_hft"
   },
   {
    "name": "Engineers Gate",
@@ -1106,7 +1164,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "hf_syst"
   },
   {
    "name": "Eqvilent",
@@ -1126,7 +1185,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "crypto"
   },
   {
    "name": "Ergoteles Capital",
@@ -1139,7 +1199,8 @@
    "status": "unreachable",
    "notes": "Official site dead: ergotelescapital.com and www.ergotelescapital.com both 301 to info.ergotelescapital.com, which has no DNS record (checked via 8.8.8.8, 2026-08-22). No Greenhouse/Lever/Ashby board under tokens ergoteles/ergotelescapital/ergoteles-capital. Third-party sources (Wall Street Oasis) say hiring is via email recruiting@ergotelescapital.com and that the firm runs an 8-10 week summer internship for students ~1 year from graduation. Re-scrape: re-test DNS of info.ergotelescapital.com; if it resolves, look for a careers page.",
    "jobCount": 0,
-   "apiEndpoints": []
+   "apiEndpoints": [],
+   "firmType": "hf_syst"
   },
   {
    "name": "Eschaton Trading",
@@ -1159,7 +1220,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "prop"
   },
   {
    "name": "Evergreen Statistical Trading",
@@ -1179,7 +1241,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "mm_hft"
   },
   {
    "name": "ExodusPoint",
@@ -1199,7 +1262,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "hf_multistrat"
   },
   {
    "name": "Five Rings",
@@ -1219,7 +1283,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "mm_hft"
   },
   {
    "name": "Florin Court Capital",
@@ -1232,7 +1297,8 @@
    "status": "careers_not_found",
    "notes": "Single-page static site (index.html only, ~19-employee systematic CTA, part of Brummer & Partners). No careers link on homepage; only anchors #about/#contact and a Backstop investor portal link. Probed /careers, /careers/, /join-us, /jobs, /working-here, /life/careers, /career -> all 404. Web search found no ATS board (no greenhouse/lever/ashby). Re-check: curl -sL https://florincourt.com and grep for career links.",
    "jobCount": 0,
-   "apiEndpoints": []
+   "apiEndpoints": [],
+   "firmType": "hf_syst"
   },
   {
    "name": "Flow Traders",
@@ -1252,7 +1318,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "mm_hft"
   },
   {
    "name": "Freestone Grove Partners",
@@ -1265,7 +1332,8 @@
    "status": "no_relevant_roles",
    "notes": "WordPress one-page site (Citadel-alumni fundamental+quant equity fund; offices Austin, New York, West Palm Beach, San Francisco). Careers section (#careers anchor) is culture prose only - no job listings, no ATS embed; applications via mailto:careers@fgrovep.com. /careers, /jobs, /open-positions -> 404. Web search found no greenhouse/lever/ashby board. Re-check: curl -sL https://fgrovep.com and grep for ATS domains or new careers links.",
    "jobCount": 0,
-   "apiEndpoints": []
+   "apiEndpoints": [],
+   "firmType": "hf_multistrat"
   },
   {
    "name": "G-Research",
@@ -1285,7 +1353,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "hf_syst"
   },
   {
    "name": "GAM Systematic",
@@ -1305,7 +1374,8 @@
      "method": "POST",
      "body": "{\"appliedFacets\":{},\"limit\":20,\"offset\":0,\"searchText\":\"\"}"
     }
-   ]
+   ],
+   "firmType": "am"
   },
   {
    "name": "Garda Capital Partners",
@@ -1325,7 +1395,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "hf_multistrat"
   },
   {
    "name": "Gelber Group",
@@ -1345,7 +1416,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "prop"
   },
   {
    "name": "Geneva Trading",
@@ -1365,7 +1437,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "prop"
   },
   {
    "name": "Geode Capital Management",
@@ -1385,7 +1458,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "am"
   },
   {
    "name": "Graham Capital Management",
@@ -1405,7 +1479,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "hf_disc"
   },
   {
    "name": "Graviton Research Capital",
@@ -1425,7 +1500,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "mm_hft"
   },
   {
    "name": "Group One Trading",
@@ -1445,7 +1521,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "prop"
   },
   {
    "name": "GSA Capital Partners",
@@ -1465,7 +1542,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "hf_syst"
   },
   {
    "name": "GSR",
@@ -1485,7 +1563,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "crypto"
   },
   {
    "name": "GTS",
@@ -1505,7 +1584,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "mm_hft"
   },
   {
    "name": "HAP Capital",
@@ -1518,7 +1598,8 @@
    "status": "unreachable",
    "notes": "Site dead as of 2026-08-22: hap-capital.com and www.hap-capital.com (incl. /openings.html) return a Wix \"ConnectYourDomain\" 404 error page. No Greenhouse (hapcapital/hap-capital/hapcapitalllc/hap), Lever, or Ashby board found. Firm historically posted QR/C++ roles on hap-capital.com/openings.html. Re-check the domain periodically; also try LinkedIn company page.",
    "jobCount": 0,
-   "apiEndpoints": []
+   "apiEndpoints": [],
+   "firmType": "mm_hft"
   },
   {
    "name": "Headlands Technologies",
@@ -1538,7 +1619,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "mm_hft"
   },
   {
    "name": "Hudson Bay Capital",
@@ -1551,7 +1633,8 @@
    "status": "no_relevant_roles",
    "notes": "Careers page (Webflow site) is brochure-only: culture/values text, no job listings and no ATS integration. Recruiting contact is careers@hudsonbaycapital.com; offices Stamford/New York/Miami/Los Angeles/London/Dubai/Hong Kong. No Greenhouse/Lever/Ashby board found under hudsonbaycapital variants. Re-scrape: curl -sL https://www.hudsonbaycapital.com/careers and grep for ATS domains or new listing links; also check their LinkedIn jobs tab.",
    "jobCount": 0,
-   "apiEndpoints": []
+   "apiEndpoints": [],
+   "firmType": "hf_multistrat"
   },
   {
    "name": "Hudson River Trading",
@@ -1571,7 +1654,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "mm_hft"
   },
   {
    "name": "IMC Trading",
@@ -1591,7 +1675,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "mm_hft"
   },
   {
    "name": "Jacobs Levy Equity Management",
@@ -1611,7 +1696,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "am"
   },
   {
    "name": "Jain Global",
@@ -1624,7 +1710,8 @@
    "status": "careers_not_found",
    "notes": "Official site is a minimal landing page with no careers section (sitemap has only /, /not_found, /uk_disclosures; only mailto contacts). No Greenhouse/Lever/Ashby board or Workday tenant found under jainglobal/jain-global tokens. Recruiting appears to run via LinkedIn (linkedin.com/company/jain-global, ~23 roles per aggregators, Aug 2026) and recruiters; LinkedIn requires auth so postings not scrapeable here. Aggregator (simplify.jobs) showed a stale Summer 2026 Quantitative Research Intern (London, Systematic Trading). Re-check LinkedIn jobs page manually or via authenticated session.",
    "jobCount": 0,
-   "apiEndpoints": []
+   "apiEndpoints": [],
+   "firmType": "hf_multistrat"
   },
   {
    "name": "Jane Street",
@@ -1644,7 +1731,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "mm_hft"
   },
   {
    "name": "Jocassee Quantitative",
@@ -1664,7 +1752,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "hf_syst"
   },
   {
    "name": "Jump Trading",
@@ -1684,7 +1773,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "mm_hft"
   },
   {
    "name": "Kepos Capital",
@@ -1697,7 +1787,8 @@
    "status": "careers_not_found",
    "notes": "Site is an Angular SPA whose only routes (extracted from main.*.js bundle) are home/ourfirm/ourstrategies/contactus/termsofuse - no careers route. /careers, /jobs, /join-us all 404. No Greenhouse/Lever/Ashby board under keposcapital|kepos|keposcapitallp. UPenn career-services employer page shows no postings. Re-scrape: re-check site routes and LinkedIn company page linkedin.com/company/kepos-capital-l.p. (login-gated).",
    "jobCount": 0,
-   "apiEndpoints": []
+   "apiEndpoints": [],
+   "firmType": "hf_disc"
   },
   {
    "name": "Kore Trading",
@@ -1717,7 +1808,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "prop"
   },
   {
    "name": "Kula Investments",
@@ -1730,7 +1822,8 @@
    "status": "unreachable",
    "notes": "Official site www.kulainvestments.com (per LinkedIn and Built In) does not resolve/connect (curl exit on http and https, no DNS answer). LinkedIn company page shows no job postings. Built In Chicago profile (builtinchicago.org/company/kula-investments/jobs) explicitly shows 'No jobs to discover at this time'. ~16-employee Chicago systematic fund founded 2020. Re-scrape: poll builtinchicago.org/company/kula-investments/jobs and the LinkedIn page.",
    "jobCount": 0,
-   "apiEndpoints": []
+   "apiEndpoints": [],
+   "firmType": "hf_syst"
   },
   {
    "name": "Laurion Capital Management",
@@ -1750,7 +1843,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "hf_multistrat"
   },
   {
    "name": "Lord Abbett",
@@ -1770,7 +1864,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "am"
   },
   {
    "name": "Lynx Asset Management",
@@ -1790,7 +1885,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "hf_syst"
   },
   {
    "name": "Mako",
@@ -1810,7 +1906,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "mm_hft"
   },
   {
    "name": "Man Group",
@@ -1830,7 +1927,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "hf_syst"
   },
   {
    "name": "Mana Partners",
@@ -1850,7 +1948,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "hf_syst"
   },
   {
    "name": "Marquette Partners",
@@ -1870,7 +1969,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "prop"
   },
   {
    "name": "Marshall Wace",
@@ -1890,7 +1990,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "hf_disc"
   },
   {
    "name": "Maven Securities",
@@ -1910,7 +2011,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "mm_hft"
   },
   {
    "name": "Millburn",
@@ -1923,7 +2025,8 @@
    "status": "careers_not_found",
    "notes": "millburn.com (HubSpot site) has no careers page; sitemap.xml lists no careers/jobs URL. Legacy domain www.millburncorp.com/careers is dead (Cloudflare error 1001/409). No Greenhouse/Lever/Ashby board under tokens millburn / millburnridgefield / millburnridgefieldcorporation. Firm states it hires opportunistically; openings appear on LinkedIn (linkedin.com/company/millburnridgefieldllc) and university boards. Re-check sitemap and LinkedIn; contact via https://millburn.com/contact-us.",
    "jobCount": 0,
-   "apiEndpoints": []
+   "apiEndpoints": [],
+   "firmType": "am"
   },
   {
    "name": "Millennium",
@@ -1943,7 +2046,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "hf_multistrat"
   },
   {
    "name": "Monoceros",
@@ -1956,7 +2060,8 @@
    "status": "careers_not_found",
    "notes": "Board Greenhouse 'monoceros' supprimé (404 confirmé le 2026-08-23, aucun token alternatif trouvé). monoceros.com sans page carrières. À re-tester périodiquement.",
    "jobCount": 0,
-   "apiEndpoints": []
+   "apiEndpoints": [],
+   "firmType": "prop"
   },
   {
    "name": "Nebula Research & Development",
@@ -1969,7 +2074,8 @@
    "status": "careers_not_found",
    "notes": "Single-page brochure site (title, one paragraph, mailto:info@nebularesearch.com). All common careers paths return 404. ~8-person NY stat-arb manager (per web search); no jobs page or ATS anywhere. Re-check occasionally by fetching homepage and grepping for 'career'.",
    "jobCount": 0,
-   "apiEndpoints": []
+   "apiEndpoints": [],
+   "firmType": "hf_syst"
   },
   {
    "name": "Old Mission Capital",
@@ -1989,7 +2095,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "mm_hft"
   },
   {
    "name": "Optiver",
@@ -2009,7 +2116,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "mm_hft"
   },
   {
    "name": "Paloma Partners",
@@ -2029,7 +2137,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "hf_multistrat"
   },
   {
    "name": "PanAgora",
@@ -2049,7 +2158,8 @@
      "method": "POST",
      "body": "{\"appliedFacets\":{},\"limit\":20,\"offset\":0,\"searchText\":\"\"}"
     }
-   ]
+   ],
+   "firmType": "am"
   },
   {
    "name": "Parallax Volatility Advisers",
@@ -2062,7 +2172,8 @@
    "status": "unreachable",
    "notes": "www.parallaxfund.com resolves to 198.162.225.80 but every HTTPS/HTTP connection is refused/times out (curl exit 000, WebFetch ECONNREFUSED 198.162.225.80:443). Tried https://www.parallaxfund.com, /careers, https://parallaxfund.com, https://www.parallax-fund.com - all dead. No ATS reference discoverable. Third-party listings only (builtin.com/company/parallax-volatility-advisers/jobs showed a 'Junior Developer' 2 months old, not verifiable from the firm). Re-check the origin host periodically; if it returns, try /careers and grep for greenhouse/lever/ashby.",
    "jobCount": 0,
-   "apiEndpoints": []
+   "apiEndpoints": [],
+   "firmType": "mm_hft"
   },
   {
    "name": "PDT Partners",
@@ -2082,7 +2193,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "hf_syst"
   },
   {
    "name": "Peak6",
@@ -2102,7 +2214,8 @@
      "method": "POST",
      "body": "{\"appliedFacets\":{},\"limit\":20,\"offset\":0,\"searchText\":\"\"}"
     }
-   ]
+   ],
+   "firmType": "mm_hft"
   },
   {
    "name": "PGIM Quant Solutions",
@@ -2122,7 +2235,8 @@
      "method": "POST",
      "body": "{\"appliedFacets\":{},\"limit\":20,\"offset\":0,\"searchText\":\"\"}"
     }
-   ]
+   ],
+   "firmType": "am"
   },
   {
    "name": "Point72 / Cubist",
@@ -2142,7 +2256,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "hf_multistrat"
   },
   {
    "name": "Polaris7",
@@ -2162,7 +2277,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "prop"
   },
   {
    "name": "Prime Trading",
@@ -2175,7 +2291,8 @@
    "status": "careers_not_found",
    "notes": "Squarespace site; homepage nav links to /join-us but it returns 404; legacy /careers.html also 404. No ATS found. Historical applications via hr@prime-trading.com; third-party listings exist on Built In Chicago (builtinchicago.org/company/prime-trading-llc/jobs). Re-check /join-us periodically in case the page is restored.",
    "jobCount": 0,
-   "apiEndpoints": []
+   "apiEndpoints": [],
+   "firmType": "prop"
   },
   {
    "name": "QMS Capital Management",
@@ -2195,7 +2312,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "hf_syst"
   },
   {
    "name": "Qsemble Capital Management",
@@ -2208,7 +2326,8 @@
    "status": "careers_not_found",
    "notes": "Website is a bare placeholder page (233 bytes: firm name + address, 1 Rockefeller Plaza NY). No careers page, no ATS; web search finds only third-party pages (LinkedIn, Glassdoor, H1B databases). Firm hires quant researchers/developers historically via H1B filings; check LinkedIn company page for openings.",
    "jobCount": 0,
-   "apiEndpoints": []
+   "apiEndpoints": [],
+   "firmType": "hf_syst"
   },
   {
    "name": "Quadeye",
@@ -2228,7 +2347,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "mm_hft"
   },
   {
    "name": "Quadrature",
@@ -2248,7 +2368,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "prop"
   },
   {
    "name": "Quantbot Technologies",
@@ -2268,7 +2389,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "hf_syst"
   },
   {
    "name": "Quantbox Research",
@@ -2288,7 +2410,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "mm_hft"
   },
   {
    "name": "Quantitative Investment Management",
@@ -2301,7 +2424,8 @@
    "status": "careers_not_found",
    "notes": "www.quantitative.com redirects to quantitative.com, a single-page HubSpot site with NO careers section. Probed /careers, /jobs, /join-us, /team, /about-us, /sitemap.xml - all 404. Only contact is inquiry@quantitative.com. ~40-person systematic ML fund in Charlottesville, VA (founded 2003, Jaffray Woodriff). Quirk: default curl UA can get 404 on the homepage; use a browser User-Agent. Re-check homepage occasionally for a careers link; no ATS detected anywhere.",
    "jobCount": 0,
-   "apiEndpoints": []
+   "apiEndpoints": [],
+   "firmType": "hf_syst"
   },
   {
    "name": "Quantlab Financial",
@@ -2321,7 +2445,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "mm_hft"
   },
   {
    "name": "Quantumrock Capital",
@@ -2334,7 +2459,8 @@
    "status": "careers_not_found",
    "notes": "WordPress/Elementor site reachable but has no careers section: /careers, /jobs, /join-us, /career all 404 on quantumrock.ai and on sister domain quantumrock.group; homepage/team pages have no careers or hiring links. Tiny AI-driven asset manager (Munich/Luxembourg/UAE). Recheck https://www.quantumrock.ai and https://www.quantumrock.group occasionally for a new careers link; firm says openings are announced via its news page and LinkedIn.",
    "jobCount": 0,
-   "apiEndpoints": []
+   "apiEndpoints": [],
+   "firmType": "hf_syst"
   },
   {
    "name": "Qube Research & Technologies",
@@ -2354,7 +2480,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "hf_syst"
   },
   {
    "name": "QVR Advisors",
@@ -2367,7 +2494,8 @@
    "status": "careers_not_found",
    "notes": "Site is now a Squarespace cover page with only a logo and ir@qvradvisors.com; /careers and /team (previously indexed) return 404. Historical careers page and eFinancialCareers profile state QVR hires only experienced candidates who precisely fit specific roles - no juniors; speculative resumes to careers@qvradvisors.com. SF-based options/vol boutique. Recheck https://www.qvradvisors.com/careers occasionally.",
    "jobCount": 0,
-   "apiEndpoints": []
+   "apiEndpoints": [],
+   "firmType": "hf_syst"
   },
   {
    "name": "Radix Trading",
@@ -2393,7 +2521,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "mm_hft"
   },
   {
    "name": "Renaissance Technologies",
@@ -2413,7 +2542,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "hf_syst"
   },
   {
    "name": "Rokos Capital Management",
@@ -2426,7 +2556,8 @@
    "status": "no_relevant_roles",
    "notes": "Careers page is a Next.js marketing page with no job listings and no ATS (checked page JS chunk /_next/static/chunks/app/careers/page-*.js: static content only). Greenhouse/Lever/Ashby tokens rokoscapital/rokoscapitalmanagement/rokos all 404. Applications go to careers@rokoscapital.com; roles are advertised via LinkedIn and recruiters. Re-scrape: curl -sL https://www.rokoscapital.com/careers and re-check for an ATS embed appearing.",
    "jobCount": 0,
-   "apiEndpoints": []
+   "apiEndpoints": [],
+   "firmType": "hf_disc"
   },
   {
    "name": "RSJ",
@@ -2446,7 +2577,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "mm_hft"
   },
   {
    "name": "SCALP Trade",
@@ -2459,7 +2591,8 @@
    "status": "no_relevant_roles",
    "notes": "Careers page exists (Statamic CMS site) but contains only a 'Work With Us' culture blurb - no job listings, no ATS embed, no application email or form link. Contact via /contact page. Re-scrape: curl -sL https://scalptrade.com/careers and check whether a listings section or ATS link has been added.",
    "jobCount": 0,
-   "apiEndpoints": []
+   "apiEndpoints": [],
+   "firmType": "mm_hft"
   },
   {
    "name": "Schonfeld Strategic Advisors",
@@ -2479,7 +2612,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "hf_multistrat"
   },
   {
    "name": "Segantii Capital Management",
@@ -2492,7 +2626,8 @@
    "status": "careers_not_found",
    "notes": "WordPress site (nav: About us / Investment approach / Community / Contact) has no careers section; /careers, /jobs, /join-us, /career all 404. Firm announced wind-down and return of investor capital in 2024 (insider dealing case); site figures frozen at 31 Mar 2024. Former careers listings no longer online. Re-check occasionally: curl -sL https://www.segantii.com/ and grep for career links.",
    "jobCount": 0,
-   "apiEndpoints": []
+   "apiEndpoints": [],
+   "firmType": "hf_disc"
   },
   {
    "name": "Sensato Investors",
@@ -2505,7 +2640,8 @@
    "status": "careers_not_found",
    "notes": "Homepage (checked 2026-08-23) serves only an error page: \"Error. Page cannot be displayed.\" Common paths (/careers, /jobs, /join-us, /about) return empty 200 responses. No Greenhouse/Lever/Ashby board found under tokens sensato, sensatoinvestors, sensato-investors (all 404). SF-based Asia-Pacific quant equity firm; LinkedIn page exists but no careers page located. Re-check homepage occasionally in case site is restored.",
    "jobCount": 0,
-   "apiEndpoints": []
+   "apiEndpoints": [],
+   "firmType": "am"
   },
   {
    "name": "Seven Eight Capital",
@@ -2518,7 +2654,8 @@
    "status": "unreachable",
    "notes": "Firm wound down (announced Dec 2024, liquidated 2025) after investor redemptions; it had spun out of Schonfeld. Domain seveneightcapital.com now redirects to a parked /lander page. Former Greenhouse board token \"seveneightcapital\" returns 404 (\"Job not found\") and the embed board page shows \"Sorry, we can't find that page\". No re-scrape possible; firm defunct — consider removing from daily scan.",
    "jobCount": 0,
-   "apiEndpoints": []
+   "apiEndpoints": [],
+   "firmType": "hf_syst"
   },
   {
    "name": "Simplex Trading",
@@ -2538,7 +2675,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "prop"
   },
   {
    "name": "Spark Investment Management",
@@ -2558,7 +2696,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "hf_syst"
   },
   {
    "name": "Squarepoint Capital",
@@ -2578,7 +2717,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "hf_syst"
   },
   {
    "name": "Stevens Capital Management",
@@ -2598,7 +2738,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "hf_syst"
   },
   {
    "name": "Summit Securities Group",
@@ -2618,7 +2759,8 @@
      "method": "POST",
      "body": "{\"operationName\": \"JobBoardList\", \"variables\": {\"boardId\": \"ssg\"}, \"query\": \"query JobBoardList($boardId: String!) { oatsExternalJobPostings(boardId: $boardId) { jobPostings { id extId title locations { name city isoCountry isRemote } job { department { name } locationType employmentType } } } }\"}"
     }
-   ]
+   ],
+   "firmType": "prop"
   },
   {
    "name": "Sumo",
@@ -2631,7 +2773,8 @@
    "status": "careers_not_found",
    "notes": "sumo.co is a WordPress brochure site (Who We Are / What We Value / What We Seek / contact form) with no careers or jobs section and no ATS references. Firm recruits experienced traders, emerging managers and algorithmic strategies via contact form (info@sumo.co) and LinkedIn (linkedin.com/company/sumo-trading). No junior/campus hiring channel found via web search.",
    "jobCount": 0,
-   "apiEndpoints": []
+   "apiEndpoints": [],
+   "firmType": "prop"
   },
   {
    "name": "Sunrise Futures",
@@ -2651,7 +2794,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "prop"
   },
   {
    "name": "Susquehanna International Group",
@@ -2671,7 +2815,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "mm_hft"
   },
   {
    "name": "Symmetry Investments",
@@ -2691,7 +2836,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "hf_disc"
   },
   {
    "name": "Systematica Investments",
@@ -2711,7 +2857,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "hf_syst"
   },
   {
    "name": "Tanius Technology",
@@ -2724,7 +2871,8 @@
    "status": "no_relevant_roles",
    "notes": "Wix site; /jobs page needs JS rendering but on 2026-08-22 renders only the heading 'LATEST JOB OPPORTUNITIES' with zero listings — no ATS embed detected. Contact info@tanius.com. Aggregators (BeBee/Lensa) carry stale scraped Tanius posts (Quantitative Trader; Senior PM/Trader/Quant) not present on the official page — do not trust them. Re-scrape: render https://www.tanius.com/jobs with a headless browser and diff the visible text.",
    "jobCount": 0,
-   "apiEndpoints": []
+   "apiEndpoints": [],
+   "firmType": "mm_hft"
   },
   {
    "name": "Teza Technologies",
@@ -2744,7 +2892,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "hf_syst"
   },
   {
    "name": "TGS Management Company",
@@ -2764,7 +2913,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "hf_syst"
   },
   {
    "name": "Tibra",
@@ -2784,7 +2934,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "mm_hft"
   },
   {
    "name": "Tokka Labs",
@@ -2804,7 +2955,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "crypto"
   },
   {
    "name": "Tower Research Capital",
@@ -2824,7 +2976,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "mm_hft"
   },
   {
    "name": "Tradebot",
@@ -2844,7 +2997,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "mm_hft"
   },
   {
    "name": "Tradelink Holdings",
@@ -2864,7 +3018,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "prop"
   },
   {
    "name": "TransMarket Group",
@@ -2884,7 +3039,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "prop"
   },
   {
    "name": "Trexquant Investment",
@@ -2904,7 +3060,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "hf_syst"
   },
   {
    "name": "Two Sigma",
@@ -2924,7 +3081,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "hf_syst"
   },
   {
    "name": "Valkyrie Trading",
@@ -2937,7 +3095,8 @@
    "status": "ok",
    "notes": "Custom WordPress careers page, no ATS and no JSON API - scrape https://www.valkyrietrading.com/careers/ (single page, no pagination, header states the open-position count, 6 as of 2026-08-23). Each role links to https://www.valkyrietrading.com/careers/{slug}/ containing 'What You'll Do' / 'What You'll Need' / salary range. IMPORTANT: the careers page explicitly states 'We will not be offering fall, spring or summer internships in the 2026-2027 academic year' - no internships at all this cycle, only a possible one-week Trading Boot Camp announced via a notify form. All roles are Chicago (425 S. Financial Place, Suite 3200) and require unrestricted US work authorisation with no visa sponsorship. Dropped: Senior Derivatives Trader (Experienced) and Quantitative Researcher (Experienced).",
    "jobCount": 4,
-   "apiEndpoints": []
+   "apiEndpoints": [],
+   "firmType": "prop"
   },
   {
    "name": "Vatic Investments",
@@ -2957,7 +3116,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "mm_hft"
   },
   {
    "name": "Vector Trading",
@@ -2977,7 +3137,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "mm_hft"
   },
   {
    "name": "Verition Fund Management",
@@ -2997,7 +3158,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "hf_multistrat"
   },
   {
    "name": "Virtu Financial",
@@ -3017,7 +3179,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "mm_hft"
   },
   {
    "name": "Volant Trading",
@@ -3037,7 +3200,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "mm_hft"
   },
   {
    "name": "Voleon Group",
@@ -3057,7 +3221,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "hf_syst"
   },
   {
    "name": "Voloridge Investment Management",
@@ -3077,7 +3242,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "hf_syst"
   },
   {
    "name": "Volterra Technologies",
@@ -3090,7 +3256,8 @@
    "status": "careers_not_found",
    "notes": "~7-employee NY systematic volatility-arbitrage firm (Volterra Technologies LP, founded 2019 by Joshua Segal). No company website found; LinkedIn page lists no jobs and no careers link. Greenhouse/Lever/Ashby probes for volterra/volterratechnologies/volterra-technologies/volterratech all 404. Re-check LinkedIn jobs tab: https://www.linkedin.com/company/volterra-technologies/jobs/.",
    "jobCount": 0,
-   "apiEndpoints": []
+   "apiEndpoints": [],
+   "firmType": "hf_syst"
   },
   {
    "name": "Walleye Capital",
@@ -3116,7 +3283,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "hf_multistrat"
   },
   {
    "name": "WH Trading",
@@ -3129,7 +3297,8 @@
    "status": "careers_not_found",
    "notes": "Site is up (Chicago prop derivatives firm, ~75 staff) but has NO careers/jobs page: /careers, /jobs, /join-us etc. all 404 and WP REST page list confirms no careers page exists. https://whtrading.com/life-at-wh-trading/ describes a 9-week summer internship program (no posting, no application URL). Recruiting via email opportunities@whtrading.com and Handshake (auth-required). Re-check /life-at-wh-trading/ and LinkedIn https://www.linkedin.com/company/wh-trading for postings.",
    "jobCount": 0,
-   "apiEndpoints": []
+   "apiEndpoints": [],
+   "firmType": "prop"
   },
   {
    "name": "Wincent",
@@ -3149,7 +3318,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "crypto"
   },
   {
    "name": "Wintermute",
@@ -3169,7 +3339,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "crypto"
   },
   {
    "name": "Winton Capital Management",
@@ -3189,7 +3360,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "hf_syst"
   },
   {
    "name": "Wolverine Trading",
@@ -3209,7 +3381,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "mm_hft"
   },
   {
    "name": "WorldQuant",
@@ -3229,7 +3402,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "hf_syst"
   },
   {
    "name": "Xantium",
@@ -3249,7 +3423,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "hf_multistrat"
   },
   {
    "name": "XR Trading",
@@ -3269,7 +3444,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "mm_hft"
   },
   {
    "name": "XTX Markets",
@@ -3289,7 +3465,8 @@
      "method": "GET",
      "body": null
     }
-   ]
+   ],
+   "firmType": "mm_hft"
   }
  ]
 }

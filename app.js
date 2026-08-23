@@ -11,6 +11,20 @@
   const CAT_LABELS = { QR: 'Quant Research', QT: 'Trading', ML: 'Machine Learning', ENG: 'Engineering', OTHER: 'Autre' };
   const CAT_COLORS = { QR: 'var(--qr)', QT: 'var(--qt)', ML: 'var(--ml)', ENG: 'var(--eng)', OTHER: 'var(--other)' };
 
+  // Type d'activité de la firm. Label court pour le badge des cartes, label long
+  // pour le filtre et l'onglet Firms.
+  const FIRM_TYPES = {
+    mm_hft: { short: 'HFT / MM', long: 'Market maker / HFT', color: 'var(--ft-mm)' },
+    prop: { short: 'Prop', long: 'Prop trading', color: 'var(--ft-prop)' },
+    hf_syst: { short: 'HF systématique', long: 'Hedge fund systématique', color: 'var(--ft-syst)' },
+    hf_multistrat: { short: 'HF multi-strat', long: 'Hedge fund multi-strat (pods)', color: 'var(--ft-multi)' },
+    hf_disc: { short: 'HF discrétionnaire', long: 'Hedge fund discrétionnaire / macro', color: 'var(--ft-disc)' },
+    am: { short: 'Asset mgmt', long: 'Asset management', color: 'var(--ft-am)' },
+    crypto: { short: 'Crypto', long: 'Crypto / actifs numériques', color: 'var(--ft-crypto)' },
+    autre: { short: 'Autre', long: 'Autre', color: 'var(--other)' },
+  };
+  const FIRM_TYPE_ORDER = ['mm_hft', 'prop', 'hf_syst', 'hf_multistrat', 'hf_disc', 'am', 'crypto', 'autre'];
+
   // Priorité de tri « Pertinence » : off-cycle d'abord (seuls compatibles avec
   // une sortie d'Oxford en sept. 2027), summers en dernier.
   const TYPE_PRIORITY = { offcycle_internship: 0, internship: 1, graduate: 2, fulltime_junior: 3, summer_internship: 4 };
@@ -21,12 +35,16 @@
     search: '',
     cats: new Set(Object.keys(CAT_LABELS)),
     types: new Set(TYPE_ORDER.filter(t => t !== 'summer_internship')), // summers masqués par défaut
+    firmTypes: new Set(FIRM_TYPE_ORDER),
     region: '',
     firm: '',
     sort: 'priority',
     favsOnly: false,
     shown: PAGE_SIZE, // rendu incrémental : nombre de cartes affichées
   };
+
+  /** Type d'activité d'une firm, résolu depuis firms.json (rempli au chargement). */
+  const firmTypeOf = new Map();
 
   const store = {
     get(key, fallback) { try { return JSON.parse(localStorage.getItem(key)) ?? fallback; } catch { return fallback; } },
@@ -39,6 +57,7 @@
   if (savedFilters) {
     state.cats = new Set(savedFilters.cats || [...state.cats]);
     state.types = new Set(savedFilters.types || [...state.types]);
+    state.firmTypes = new Set(savedFilters.firmTypes || [...state.firmTypes]);
     state.region = savedFilters.region || '';
     state.sort = savedFilters.sort || 'priority';
   }
@@ -49,7 +68,7 @@
   const $ = id => document.getElementById(id);
 
   function saveFilters() {
-    store.set('qb-filters', { cats: [...state.cats], types: [...state.types], region: state.region, sort: state.sort });
+    store.set('qb-filters', { cats: [...state.cats], types: [...state.types], firmTypes: [...state.firmTypes], region: state.region, sort: state.sort });
   }
 
   function isNew(j) {
@@ -70,6 +89,7 @@
     if (state.favsOnly && !favs.has(j.id)) return false;
     if (!state.cats.has(j.category)) return false;
     if (!state.types.has(j.type)) return false;
+    if (!state.firmTypes.has(firmTypeOf.get(j.firm) || 'autre')) return false;
     if (state.region && !(j.regions || []).includes(state.region)) return false;
     if (state.firm && j.firm !== state.firm) return false;
     if (state.search) {
@@ -102,8 +122,11 @@
       `<span class="tag" style="--tag-color:${j.type === 'offcycle_internship' ? 'var(--accent)' : 'var(--other)'}">${esc(TYPE_LABELS[j.type] || j.type)}</span>`,
     ];
     if (j.start) tags.push(`<span class="tag">Début : ${esc(j.start)}</span>`);
+    // Pas de badge pour "autre" : il n'apprend rien et alourdit chaque carte.
+    const ftKey = firmTypeOf.get(j.firm);
+    const ft = ftKey && ftKey !== 'autre' ? FIRM_TYPES[ftKey] : null;
     return `<article class="job-card${isNew(j) ? ' is-new' : ''}" data-id="${j.id}">
-      <div class="job-firm">${esc(j.firm)}${isNew(j) ? '<span class="new-flag">NOUVEAU</span>' : ''}</div>
+      <div class="job-firm">${esc(j.firm)}${ft ? `<span class="firm-type" style="--ft-color:${ft.color}">${esc(ft.short)}</span>` : ''}${isNew(j) ? '<span class="new-flag">NOUVEAU</span>' : ''}</div>
       <div class="job-title"><a href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.title)}</a></div>
       <div class="job-loc">📍 ${esc(locText(j))}</div>
       <div class="tag-row">${tags.join('')}</div>
@@ -132,15 +155,25 @@
     if (state.tab === 'firms') {
       jobList.hidden = true; empty.hidden = true; firmList.hidden = false;
       const withJobs = FIRMS.filter(f => f.jobCount > 0).length;
+      const firmRow = f => {
+        const dot = f.status === 'ok' ? 'ok' : f.status === 'no_relevant_roles' ? 'warn' : 'bad';
+        const href = f.careersUrl || f.website || '#';
+        return `<div class="firm-row">
+          <span class="status-dot ${dot}" title="${esc(f.status)}"></span>
+          <span class="firm-name"><a href="${esc(href)}" target="_blank" rel="noopener">${esc(f.name)}</a></span>
+          <span class="firm-count">${f.jobCount} offre${f.jobCount > 1 ? 's' : ''}</span>
+        </div>`;
+      };
+      // Groupé par type d'activité : plus lisible que 177 lignes à plat.
+      const groups = FIRM_TYPE_ORDER
+        .map(t => ({ t, list: FIRMS.filter(f => (f.firmType || 'autre') === t) }))
+        .filter(g => g.list.length);
       firmList.innerHTML = `<div class="loading" style="padding:10px">${FIRMS.length} firms suivies · ${withJobs} avec offres actuellement</div>` +
-        FIRMS.map(f => {
-          const dot = f.status === 'ok' ? 'ok' : f.status === 'no_relevant_roles' ? 'warn' : 'bad';
-          const href = f.careersUrl || f.website || '#';
-          return `<div class="firm-row">
-            <span class="status-dot ${dot}" title="${esc(f.status)}"></span>
-            <span class="firm-name"><a href="${esc(href)}" target="_blank" rel="noopener">${esc(f.name)}</a></span>
-            <span class="firm-ats">${esc(f.ats || '?')}</span>
-            <span class="firm-count">${f.jobCount} offre${f.jobCount > 1 ? 's' : ''}</span>
+        groups.map(g => {
+          const n = g.list.reduce((s, f) => s + f.jobCount, 0);
+          return `<div class="firm-group" style="--ft-color:${FIRM_TYPES[g.t].color}">
+            <h2>${esc(FIRM_TYPES[g.t].long)} <span>${g.list.length} firm${g.list.length > 1 ? 's' : ''} · ${n} offre${n > 1 ? 's' : ''}</span></h2>
+            ${g.list.map(firmRow).join('')}
           </div>`;
         }).join('');
       return;
@@ -200,6 +233,13 @@
     typeChips.innerHTML = TYPE_ORDER.map(t =>
       `<button class="chip${state.types.has(t) ? ' on' : ''}" data-type="${t}">${TYPE_LABELS[t]}</button>`).join('');
 
+    // Un seul type de firm présent dans les données = filtre sans intérêt.
+    const presentFirmTypes = FIRM_TYPE_ORDER.filter(t => FIRMS.some(f => f.firmType === t && f.jobCount > 0));
+    $('firmtype-chips').innerHTML = presentFirmTypes.length > 1
+      ? presentFirmTypes.map(t =>
+          `<button class="chip${state.firmTypes.has(t) ? ' on' : ''}" data-firmtype="${t}" style="--chip-color:${FIRM_TYPES[t].color}">${FIRM_TYPES[t].short}</button>`).join('')
+      : '';
+
     const regions = [...new Set(DATA.jobs.flatMap(j => j.regions || []))].sort();
     $('region-select').innerHTML = '<option value="">Toutes régions</option>' +
       regions.map(r => `<option${r === state.region ? ' selected' : ''}>${esc(r)}</option>`).join('');
@@ -220,6 +260,7 @@
     let n = 0;
     if (state.cats.size !== Object.keys(CAT_LABELS).length) n++;
     if (state.types.size !== DEFAULT_TYPES.length || DEFAULT_TYPES.some(t => !state.types.has(t))) n++;
+    if (state.firmTypes.size !== FIRM_TYPE_ORDER.length) n++;
     if (state.region) n++;
     if (state.firm) n++;
     if (state.sort !== 'priority') n++;
@@ -231,6 +272,7 @@
   function resetFilters() {
     state.cats = new Set(Object.keys(CAT_LABELS));
     state.types = new Set(DEFAULT_TYPES);
+    state.firmTypes = new Set(FIRM_TYPE_ORDER);
     state.region = '';
     state.firm = '';
     state.sort = 'priority';
@@ -274,6 +316,14 @@
       const chip = e.target.closest('.chip'); if (!chip) return;
       const t = chip.dataset.type;
       state.types.has(t) ? state.types.delete(t) : state.types.add(t);
+      chip.classList.toggle('on');
+      saveFilters(); updateFilterCount(); resetAndRender();
+    });
+
+    $('firmtype-chips').addEventListener('click', e => {
+      const chip = e.target.closest('.chip'); if (!chip) return;
+      const t = chip.dataset.firmtype;
+      state.firmTypes.has(t) ? state.firmTypes.delete(t) : state.firmTypes.add(t);
       chip.classList.toggle('on');
       saveFilters(); updateFilterCount(); resetAndRender();
     });
@@ -322,6 +372,7 @@
       ]);
       DATA = await jobsRes.json();
       FIRMS = (await firmsRes.json()).firms || [];
+      for (const f of FIRMS) firmTypeOf.set(f.name, f.firmType || 'autre');
     } catch (e) {
       $('loading').textContent = 'Impossible de charger les données 😕 — vérifie ta connexion.';
       return;

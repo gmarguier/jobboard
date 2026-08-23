@@ -23,6 +23,8 @@ Tu exécutes la veille quotidienne du Quant Board. Objectif : détecter les NOUV
 
 6. **Réparations** : si des `fetchErrors` se répètent (board déplacé ou supprimé), retrouve le nouveau board et corrige `apiEndpoints` dans `data/firms.json`. Si une firm publie sur plusieurs boards, ajoute-les tous à `apiEndpoints` — c'est une liste.
 
+6bis. **Nouvelle firm** : si tu ajoutes une firm au suivi, classe son type d'activité dans `data/firm-types.json` (`mm_hft`, `prop`, `hf_syst`, `hf_multistrat`, `hf_disc`, `am`, `crypto`, `autre` — voir CLAUDE.md) puis lance `node scripts/fix-endpoints.mjs`. Sans ça elle apparaîtra en « Autre » dans l'app.
+
 7. **Publication** : `git add -A && git commit -m "scan YYYY-MM-DD: +N nouvelles, -M retirées" && git push`.
 
 8. **Rapport** en français : nombre de nouvelles offres (firm + titre + lieu, **off-cycle en premier**), offres retirées, erreurs de fetch. S'il n'y a rien de nouveau, dis-le en une phrase.
