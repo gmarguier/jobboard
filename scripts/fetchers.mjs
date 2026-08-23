@@ -75,6 +75,47 @@ export const FETCHERS = {
     }
     return out;
   },
+  async workable(ep) {
+    const d = await fetchJson(ep.url);
+    return (d.jobs || []).map(j => ({
+      key: j.shortcode || normUrl(j.url),
+      title: j.title,
+      url: j.url || j.shortlink,
+      locations: [j.city, j.state, j.country].filter(Boolean).join(', '),
+    }));
+  },
+  async breezy(ep) {
+    const d = await fetchJson(ep.url);
+    return (Array.isArray(d) ? d : []).map(j => ({
+      key: j.id || normUrl(j.url),
+      title: j.name,
+      url: j.url,
+      locations: [j.location?.city, j.location?.country?.name].filter(Boolean).join(', '),
+    }));
+  },
+  async pinpoint(ep) {
+    const d = await fetchJson(ep.url);
+    const items = d.data || (Array.isArray(d) ? d : []);
+    return items.map(j => {
+      const a = j.attributes || j;
+      return {
+        key: String(j.id ?? a.id ?? normUrl(a.url)),
+        title: a.title,
+        url: a.url || a.apply_url,
+        locations: a.location?.name || [a.location?.city, a.location?.country].filter(Boolean).join(', '),
+      };
+    });
+  },
+  async wordpress(ep) {
+    // API REST WordPress : /wp-json/wp/v2/<type>?per_page=100
+    const d = await fetchJson(ep.url);
+    return (Array.isArray(d) ? d : []).map(j => ({
+      key: String(j.id ?? normUrl(j.link)),
+      title: (j.title?.rendered || j.title || '').replace(/&#(\d+);/g, (_, c) => String.fromCharCode(c)).replace(/&amp;/g, '&'),
+      url: j.link,
+      locations: '',
+    }));
+  },
 };
 
 /** Interroge tous les boards d'une firm et fusionne les postings. */

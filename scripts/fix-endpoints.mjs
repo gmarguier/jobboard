@@ -2,7 +2,7 @@
 // One-shot: passe data/firms.json au modèle `apiEndpoints` (liste) et complète les boards
 // ATS manquants en les déduisant des URLs d'offres réellement collectées.
 // Usage: node scripts/fix-endpoints.mjs
-import { readFileSync, writeFileSync } from 'node:fs';
+import { readFileSync, writeFileSync, existsSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -16,6 +16,25 @@ const jobsByFirm = new Map();
 for (const j of jobsData.jobs) {
   if (!jobsByFirm.has(j.firm)) jobsByFirm.set(j.firm, []);
   jobsByFirm.get(j.firm).push(j);
+}
+
+// Reconnaît l'ATS d'un endpoint d'API déjà enregistré. Les agents de scrape ont souvent
+// noté un ats générique ('other', 'custom_html') alors que l'URL identifie une plateforme
+// que le scan sait interroger — sans ça la firm resterait traitée à la main chaque jour.
+function atsFromApiUrl(url) {
+  if (!url) return null;
+  const u = url.toLowerCase();
+  if (u.includes('boards-api.greenhouse.io')) return 'greenhouse';
+  if (u.includes('api.lever.co')) return 'lever';
+  if (u.includes('api.ashbyhq.com')) return 'ashby';
+  if (u.includes('api.smartrecruiters.com')) return 'smartrecruiters';
+  if (u.includes('.recruitee.com/api')) return 'recruitee';
+  if (u.includes('myworkdayjobs.com/wday')) return 'workday';
+  if (u.includes('apply.workable.com/api')) return 'workable';
+  if (/\.breezy\.hr\/json/.test(u)) return 'breezy';
+  if (u.includes('pinpointhq.com') && u.includes('.json')) return 'pinpoint';
+  if (/wp-json\/wp\/v2\//.test(u)) return 'wordpress';
+  return null;
 }
 
 // Déduit l'endpoint API d'une URL d'offre publique, quand c'est possible.
@@ -65,7 +84,7 @@ for (const f of firmsData.firms) {
     if (!seen.has(key)) seen.set(key, { ats: e.ats, url: e.url, method: e.method || 'GET', body: e.body || null });
   };
 
-  if (f.apiEndpoint) add({ ats: f.ats, url: f.apiEndpoint, method: f.apiMethod, body: f.apiBody });
+  if (f.apiEndpoint) add({ ats: atsFromApiUrl(f.apiEndpoint) || f.ats, url: f.apiEndpoint, method: f.apiMethod, body: f.apiBody });
   for (const e of endpointsFromNotes(f.notes)) add(e);
   for (const j of jobsByFirm.get(f.name) || []) add(endpointFromJobUrl(j.url));
 
@@ -80,6 +99,27 @@ for (const f of firmsData.firms) {
     // si toutes les entrées pointent vers le même ATS connu, adopte-le
     const kinds = new Set(list.map(e => e.ats).filter(Boolean));
     if (kinds.size === 1) f.ats = [...kinds][0];
+  }
+}
+
+// Corrections manuelles (data/overrides.json) : elles doivent survivre à chaque
+// re-fusion, sinon une recette réparée à la main serait réécrasée au scrape suivant.
+if (existsSync(p('overrides.json'))) {
+  const ov = JSON.parse(readFileSync(p('overrides.json'), 'utf8')).firms || {};
+  for (const [name, rule] of Object.entries(ov)) {
+    const f = firmsData.firms.find(x => x.name === name);
+    if (!f) { console.warn(`  ⚠ override ignoré, firm absente : ${name}`); continue; }
+    if (rule.clearEndpoints) f.apiEndpoints = [];
+    for (const e of rule.addEndpoints || []) {
+      if (!f.apiEndpoints.some(x => x.url === e.url)) {
+        f.apiEndpoints.push({ ats: e.ats, url: e.url, method: e.method || 'GET', body: e.body || null });
+      }
+    }
+    Object.assign(f, rule.set || {});
+    f.apiEndpoint = f.apiEndpoints[0]?.url || null;
+    f.apiMethod = f.apiEndpoints[0]?.method || 'GET';
+    f.apiBody = f.apiEndpoints[0]?.body || null;
+    console.log(`  ✎ override appliqué : ${name}`);
   }
 }
 

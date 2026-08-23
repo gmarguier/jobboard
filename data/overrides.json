@@ -1,0 +1,19 @@
+{
+ "_comment": "Corrections manuelles appliquées par scripts/fix-endpoints.mjs après chaque fusion. À enrichir quand la veille signale une recette cassée.",
+ "firms": {
+  "Arrowstreet Capital": {
+   "addEndpoints": [
+    { "ats": "workday", "url": "https://arrowstreetcapital.wd5.myworkdayjobs.com/wday/cxs/arrowstreetcapital/Arrowstreet/jobs", "method": "POST" }
+   ],
+   "note": "Second site Workday (professionnels) : les notes du scrape le mentionnaient sous forme de gabarit {site}, non détectable automatiquement."
+  },
+  "Monoceros": {
+   "clearEndpoints": true,
+   "set": {
+    "ats": "none_found",
+    "status": "careers_not_found",
+    "notes": "Board Greenhouse 'monoceros' supprimé (404 confirmé le 2026-08-23, aucun token alternatif trouvé). monoceros.com sans page carrières. À re-tester périodiquement."
+   }
+  }
+ }
+}

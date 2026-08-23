@@ -37,7 +37,7 @@
    "name": "ABC arbitrage",
    "website": "https://www.abc-arbitrage.com",
    "careersUrl": "https://www.abc-arbitrage.com/career/",
-   "ats": "other",
+   "ats": "breezy",
    "apiEndpoint": "https://abc-arbitrage.breezy.hr/json",
    "apiMethod": "GET",
    "apiBody": null,
@@ -46,7 +46,7 @@
    "jobCount": 0,
    "apiEndpoints": [
     {
-     "ats": "other",
+     "ats": "breezy",
      "url": "https://abc-arbitrage.breezy.hr/json",
      "method": "GET",
      "body": null
@@ -117,7 +117,7 @@
    "name": "All Options",
    "website": "https://www.alloptions.nl",
    "careersUrl": "https://www.alloptions-international.com/careers/",
-   "ats": "other",
+   "ats": "wordpress",
    "apiEndpoint": "https://www.alloptions-international.com/wp-json/wp/v2/vacancies?per_page=100",
    "apiMethod": "GET",
    "apiBody": null,
@@ -126,7 +126,7 @@
    "jobCount": 4,
    "apiEndpoints": [
     {
-     "ats": "other",
+     "ats": "wordpress",
      "url": "https://www.alloptions-international.com/wp-json/wp/v2/vacancies?per_page=100",
      "method": "GET",
      "body": null
@@ -668,7 +668,7 @@
    "name": "Capula",
    "website": "https://www.capulaglobal.com",
    "careersUrl": "https://www.capulaglobal.com/working-at-capula/careers/",
-   "ats": "other",
+   "ats": "workable",
    "apiEndpoint": "https://apply.workable.com/api/v1/widget/accounts/capula-investment-management-ltd?details=true",
    "apiMethod": "GET",
    "apiBody": null,
@@ -677,7 +677,7 @@
    "jobCount": 3,
    "apiEndpoints": [
     {
-     "ats": "other",
+     "ats": "workable",
      "url": "https://apply.workable.com/api/v1/widget/accounts/capula-investment-management-ltd?details=true",
      "method": "GET",
      "body": null
@@ -688,7 +688,7 @@
    "name": "Caxton Associates",
    "website": "https://www.caxton.com",
    "careersUrl": "https://www.caxton.com/careers/",
-   "ats": "other",
+   "ats": "workable",
    "apiEndpoint": "https://apply.workable.com/api/v1/widget/accounts/caxton?details=true",
    "apiMethod": "GET",
    "apiBody": null,
@@ -697,7 +697,7 @@
    "jobCount": 0,
    "apiEndpoints": [
     {
-     "ats": "other",
+     "ats": "workable",
      "url": "https://apply.workable.com/api/v1/widget/accounts/caxton?details=true",
      "method": "GET",
      "body": null
@@ -1836,7 +1836,7 @@
    "name": "Mana Partners",
    "website": "https://www.mana-partners.com",
    "careersUrl": "https://apply.workable.com/mana-partners-llc/",
-   "ats": "other",
+   "ats": "workable",
    "apiEndpoint": "https://apply.workable.com/api/v1/widget/accounts/mana-partners-llc?details=true",
    "apiMethod": "GET",
    "apiBody": null,
@@ -1845,7 +1845,7 @@
    "jobCount": 0,
    "apiEndpoints": [
     {
-     "ats": "other",
+     "ats": "workable",
      "url": "https://apply.workable.com/api/v1/widget/accounts/mana-partners-llc?details=true",
      "method": "GET",
      "body": null
@@ -1954,7 +1954,7 @@
    "apiMethod": "GET",
    "apiBody": null,
    "status": "careers_not_found",
-   "notes": "Board Greenhouse monoceros supprimé (404 confirmé le 2026-08-23, aucun token alternatif). Site monoceros.com sans page carrières. À re-tester périodiquement.",
+   "notes": "Board Greenhouse 'monoceros' supprimé (404 confirmé le 2026-08-23, aucun token alternatif trouvé). monoceros.com sans page carrières. À re-tester périodiquement.",
    "jobCount": 0,
    "apiEndpoints": []
   },
@@ -2048,6 +2048,99 @@
      "url": "https://empower.wd12.myworkdayjobs.com/wday/cxs/empower/PanAgora/jobs",
      "method": "POST",
      "body": "{\"appliedFacets\":{},\"limit\":20,\"offset\":0,\"searchText\":\"\"}"
+    }
+   ]
+  },
+  {
+   "name": "Parallax Volatility Advisers",
+   "website": "https://www.parallaxfund.com",
+   "careersUrl": null,
+   "ats": "none_found",
+   "apiEndpoint": null,
+   "apiMethod": "GET",
+   "apiBody": null,
+   "status": "unreachable",
+   "notes": "www.parallaxfund.com resolves to 198.162.225.80 but every HTTPS/HTTP connection is refused/times out (curl exit 000, WebFetch ECONNREFUSED 198.162.225.80:443). Tried https://www.parallaxfund.com, /careers, https://parallaxfund.com, https://www.parallax-fund.com - all dead. No ATS reference discoverable. Third-party listings only (builtin.com/company/parallax-volatility-advisers/jobs showed a 'Junior Developer' 2 months old, not verifiable from the firm). Re-check the origin host periodically; if it returns, try /careers and grep for greenhouse/lever/ashby.",
+   "jobCount": 0,
+   "apiEndpoints": []
+  },
+  {
+   "name": "PDT Partners",
+   "website": "https://pdtpartners.com",
+   "careersUrl": "https://pdtpartners.com/careers",
+   "ats": "greenhouse",
+   "apiEndpoint": "https://boards-api.greenhouse.io/v1/boards/pdtpartners/jobs?content=true",
+   "apiMethod": "GET",
+   "apiBody": null,
+   "status": "ok",
+   "notes": "Greenhouse board token 'pdtpartners'. Single GET returns all postings with full HTML content, no pagination. 10 total live postings on 2026-08-23; 6 kept. Dropped: Head of Fund Accounting (15+ yrs), Trading Operations Analyst Asia (3-10 yrs), Software Engineer NY #3914106 and Software Engineer London #7964007 (both require 3+ yrs professional software development). Note the JD text states PDT does NOT run a quantitative research internship - only SWE/Systems summer internships. Posting URLs are job-boards.greenhouse.io/pdtpartners/jobs/{id}.",
+   "jobCount": 6,
+   "apiEndpoints": [
+    {
+     "ats": "greenhouse",
+     "url": "https://boards-api.greenhouse.io/v1/boards/pdtpartners/jobs?content=true",
+     "method": "GET",
+     "body": null
+    }
+   ]
+  },
+  {
+   "name": "Peak6",
+   "website": "https://peak6.com",
+   "careersUrl": "https://peak6.com/careers/",
+   "ats": "workday",
+   "apiEndpoint": "https://peak6group.wd1.myworkdayjobs.com/wday/cxs/peak6group/PEAK6/jobs",
+   "apiMethod": "POST",
+   "apiBody": "{\"appliedFacets\":{},\"limit\":20,\"offset\":0,\"searchText\":\"\"}",
+   "status": "ok",
+   "notes": "peak6.com/careers and /campus are static Astro marketing pages with NO embedded job data - the real board is Workday tenant 'peak6group', site 'PEAK6'. POST the endpoint with the JSON body; paginate by incrementing offset by 20 until offset>=total (only 12 postings on 2026-08-23, so one page). Job detail + full description: GET https://peak6group.wd1.myworkdayjobs.com/wday/cxs/peak6group/PEAK6/{externalPath} (JSON, field jobPostingInfo). Public URL = https://peak6group.wd1.myworkdayjobs.com/en-US/PEAK6{externalPath}. Other Workday site ids (Campus, External, Careers) 404. Subsidiaries (Apex Fintech, Evil Geniuses, Bruce Markets) recruit on their own boards, not here. Dropped 9 non-quant roles (Chief of Staff, payroll, office/compensation managers, Workday specialist, Data & Analytics Lead, Campus Student Founder/Teacher poker-education role).",
+   "jobCount": 3,
+   "apiEndpoints": [
+    {
+     "ats": "workday",
+     "url": "https://peak6group.wd1.myworkdayjobs.com/wday/cxs/peak6group/PEAK6/jobs",
+     "method": "POST",
+     "body": "{\"appliedFacets\":{},\"limit\":20,\"offset\":0,\"searchText\":\"\"}"
+    }
+   ]
+  },
+  {
+   "name": "PGIM Quant Solutions",
+   "website": "https://www.pgimquantitativesolutions.com",
+   "careersUrl": "https://pru.wd5.myworkdayjobs.com/PGIM_Careers",
+   "ats": "workday",
+   "apiEndpoint": "https://pru.wd5.myworkdayjobs.com/wday/cxs/pru/PGIM_Careers/jobs",
+   "apiMethod": "POST",
+   "apiBody": "{\"appliedFacets\":{},\"limit\":20,\"offset\":0,\"searchText\":\"\"}",
+   "status": "no_relevant_roles",
+   "notes": "www.pgimquantitativesolutions.com 301-redirects to https://www.pgim.com/campaignCountry/en/institutional/businesses/quantitative-solutions (JS SPA, no job data in HTML). All PGIM hiring runs through Prudential's Workday tenant 'pru' (wd5). Two sites work: PGIM_Careers (PGIM-only, 72 postings on 2026-08-23) and Careers (whole Prudential group). Paginate by offset+=20 until offset>=total; NOTE the 'total' field is only returned on the offset=0 call. PGIM Quantitative Solutions roles appear on this board titled 'PGIM Quantitative Solutions - <role>' (e.g. historic R-122353 Investment Operations Associate) but NONE are open today. Only quant-titled posting is R-124655 Executive Director, Fixed Income Quantitative Research (PGIM Fixed Income, senior - dropped). Early-careers marketing site jobs.pgim.com/us-en/early-talent links back to the same Workday board and lists no Quant Solutions programme. Re-scan with searchText 'Quantitative Solutions' as a quick check.",
+   "jobCount": 0,
+   "apiEndpoints": [
+    {
+     "ats": "workday",
+     "url": "https://pru.wd5.myworkdayjobs.com/wday/cxs/pru/PGIM_Careers/jobs",
+     "method": "POST",
+     "body": "{\"appliedFacets\":{},\"limit\":20,\"offset\":0,\"searchText\":\"\"}"
+    }
+   ]
+  },
+  {
+   "name": "Point72 / Cubist",
+   "website": "https://point72.com",
+   "careersUrl": "https://careers.point72.com/",
+   "ats": "greenhouse",
+   "apiEndpoint": "https://boards-api.greenhouse.io/v1/boards/point72/jobs?content=true",
+   "apiMethod": "GET",
+   "apiBody": null,
+   "status": "ok",
+   "notes": "point72.com/careers is a 404; the real careers site is https://careers.point72.com/ (also point72.com/students-early-career/ and /point72-academy/ for campus). It is a Greenhouse embed, board token 'point72'. One GET returns ALL 230 postings with full HTML content - no pagination. Cubist Systematic Strategies and Point72 Academy roles are on the SAME board (titles prefixed 'Cubist' / 'Point72 Academy'). 230 postings on 2026-08-23; 80 kept. Dropped for 3+ yrs experience (e.g. Cubist Quant Dev HK, QR NY/Chicago, Macro QR, Microstructure QR, Low-Latency Market Data Engineer 5+), for senior titles, and for non-relevant functions (compliance, HR, payroll, IT/service desk, network+storage support, corporate access, product strategist). Posting URLs are job-boards.greenhouse.io/point72/jobs/{id}. Warning: several Cubist QR postings share identical titles but are distinct ids/locations - key on id.",
+   "jobCount": 80,
+   "apiEndpoints": [
+    {
+     "ats": "greenhouse",
+     "url": "https://boards-api.greenhouse.io/v1/boards/point72/jobs?content=true",
+     "method": "GET",
+     "body": null
     }
    ]
   },
@@ -2604,7 +2697,7 @@
    "name": "Systematica Investments",
    "website": "https://www.systematica.com",
    "careersUrl": "https://www.systematica.com/careers",
-   "ats": "other",
+   "ats": "pinpoint",
    "apiEndpoint": "https://systematica.pinpointhq.com/postings.json",
    "apiMethod": "GET",
    "apiBody": null,
@@ -2613,7 +2706,7 @@
    "jobCount": 0,
    "apiEndpoints": [
     {
-     "ats": "other",
+     "ats": "pinpoint",
      "url": "https://systematica.pinpointhq.com/postings.json",
      "method": "GET",
      "body": null
@@ -2677,7 +2770,7 @@
    "name": "Tibra",
    "website": "https://www.tibra.com",
    "careersUrl": "https://www.tibra.com/careers/",
-   "ats": "other",
+   "ats": "workable",
    "apiEndpoint": "https://apply.workable.com/api/v1/widget/accounts/tibra-capital-1?details=true",
    "apiMethod": "GET",
    "apiBody": null,
@@ -2686,7 +2779,7 @@
    "jobCount": 0,
    "apiEndpoints": [
     {
-     "ats": "other",
+     "ats": "workable",
      "url": "https://apply.workable.com/api/v1/widget/accounts/tibra-capital-1?details=true",
      "method": "GET",
      "body": null
@@ -2768,6 +2861,99 @@
     {
      "ats": "custom_html",
      "url": "https://tradelinkllc.com/careers/",
+     "method": "GET",
+     "body": null
+    }
+   ]
+  },
+  {
+   "name": "TransMarket Group",
+   "website": "https://www.transmarketgroup.com",
+   "careersUrl": "https://www.transmarketgroup.com/careers",
+   "ats": "greenhouse",
+   "apiEndpoint": "https://boards-api.greenhouse.io/v1/boards/transmarketgroup/jobs?content=true",
+   "apiMethod": "GET",
+   "apiBody": null,
+   "status": "ok",
+   "notes": "Greenhouse board token 'transmarketgroup' (found in careers HTML: boards-api.greenhouse.io/v1/boards/transmarketgroup/departments). Single GET returns all 18 postings with full HTML content, no pagination. All roles are Chicago, IL onsite (no remote). Job URLs are the 'absolute_url' field. Use 'first_published' for posted date. Interns and Junior roles are listed in the same general list - there is no separate campus/students section. Dropped: 8 Senior-titled roles plus Network Engineer ('Seasoned engineer, ideally with a CCIE').",
+   "jobCount": 8,
+   "apiEndpoints": [
+    {
+     "ats": "greenhouse",
+     "url": "https://boards-api.greenhouse.io/v1/boards/transmarketgroup/jobs?content=true",
+     "method": "GET",
+     "body": null
+    }
+   ]
+  },
+  {
+   "name": "Trexquant Investment",
+   "website": "https://trexquant.com",
+   "careersUrl": "https://trexquant.com/careers",
+   "ats": "other",
+   "apiEndpoint": "https://trexquant.com/api/get-jobs",
+   "apiMethod": "GET",
+   "apiBody": null,
+   "status": "ok",
+   "notes": "Next.js SPA; /careers renders 'Loading Jobs Listings...' with no ATS string in the HTML. The listing is fetched client-side from https://trexquant.com/api/get-jobs (GET, returns {\"jobs\":[...]}, all 33 postings in one response, no pagination). Per-job detail incl. description/requirements: https://trexquant.com/api/get-jobs?shortcode={shortcode}. Underlying ATS is Workable (org 'trexquant'); job URLs are https://trexquant.workable.com/jobs/{id} and apply links are https://apply.workable.com/j/{shortcode}. Filter facets at https://trexquant.com/api/get-filters. /university-program is an academic partnership page only - no student job postings. Dropped for 3+ yrs: Linux Systems Engineer, Trading Systems Operations Engineer, Python Engineer-Trade Operations, QR-Execution; QR-Volatility (5+ yrs); plus Head/Co-Head/Senior/Lead/Experienced-Hire titles, recruiting and legal roles.",
+   "jobCount": 13,
+   "apiEndpoints": [
+    {
+     "ats": "other",
+     "url": "https://trexquant.com/api/get-jobs",
+     "method": "GET",
+     "body": null
+    }
+   ]
+  },
+  {
+   "name": "Two Sigma",
+   "website": "https://www.twosigma.com",
+   "careersUrl": "https://www.twosigma.com/careers/",
+   "ats": "other",
+   "apiEndpoint": "https://careers.twosigma.com/careers/OpenRoles?jobRecordsPerPage=10&jobOffset=0",
+   "apiMethod": "GET",
+   "apiBody": null,
+   "status": "ok",
+   "notes": "ATS is Avature (careers.twosigma.com, avature.js/avature.portal.* in the HTML); no public JSON API - scrape the HTML listing. MUST PAGINATE: jobRecordsPerPage is capped at 10 server-side (passing 100 is ignored), so loop jobOffset=0,10,20,... until a page yields no JobDetail links. As of 2026-08-23 that is offsets 0-40 = 50 roles total, listed alphabetically. Each result row carries Title / Location / Function / Experience Level; Experience Level is one of Internship, Early Careers, Experienced - filter on the first two for junior roles. Job links match href=\"https://careers.twosigma.com/careers/JobDetail/{slug}/{id}\". Only 4 of the 50 roles are Internship or Early Careers; the other 46 are tagged Experienced and were dropped. Offices seen: New York and London.",
+   "jobCount": 4,
+   "apiEndpoints": [
+    {
+     "ats": "other",
+     "url": "https://careers.twosigma.com/careers/OpenRoles?jobRecordsPerPage=10&jobOffset=0",
+     "method": "GET",
+     "body": null
+    }
+   ]
+  },
+  {
+   "name": "Valkyrie Trading",
+   "website": "https://www.valkyrietrading.com",
+   "careersUrl": "https://www.valkyrietrading.com/careers/",
+   "ats": "custom_html",
+   "apiEndpoint": null,
+   "apiMethod": "GET",
+   "apiBody": null,
+   "status": "ok",
+   "notes": "Custom WordPress careers page, no ATS and no JSON API - scrape https://www.valkyrietrading.com/careers/ (single page, no pagination, header states the open-position count, 6 as of 2026-08-23). Each role links to https://www.valkyrietrading.com/careers/{slug}/ containing 'What You'll Do' / 'What You'll Need' / salary range. IMPORTANT: the careers page explicitly states 'We will not be offering fall, spring or summer internships in the 2026-2027 academic year' - no internships at all this cycle, only a possible one-week Trading Boot Camp announced via a notify form. All roles are Chicago (425 S. Financial Place, Suite 3200) and require unrestricted US work authorisation with no visa sponsorship. Dropped: Senior Derivatives Trader (Experienced) and Quantitative Researcher (Experienced).",
+   "jobCount": 4,
+   "apiEndpoints": []
+  },
+  {
+   "name": "Vatic Investments",
+   "website": "https://vaticinvestments.com",
+   "careersUrl": "https://www.vaticlabs.ai/careers/",
+   "ats": "greenhouse",
+   "apiEndpoint": "https://boards-api.greenhouse.io/v1/boards/vaticlabs/jobs?content=true",
+   "apiMethod": "GET",
+   "apiBody": null,
+   "status": "ok",
+   "notes": "NOTE: vaticinvestments.com 301-redirects to https://www.vaticlabs.ai - the firm trades as Vatic Labs. Careers page embeds Greenhouse (greenhouse.io/embed/job_board/js?for=vaticlabs), so the board token is 'vaticlabs' (boards 'vaticinvestments' and 'vatic' both 404). Single GET returns all 10 postings with full HTML content, no pagination. Use 'first_published' for posted date - several roles are evergreen and were first published in 2022-2024 but are still open. Offices: New York, Abu Dhabi (UAE) and Singapore; UAE roles are duplicated as separate postings with distinct URLs. Dropped: Systems Engineer (New York) requires at least 3 years low-latency admin experience.",
+   "jobCount": 9,
+   "apiEndpoints": [
+    {
+     "ats": "greenhouse",
+     "url": "https://boards-api.greenhouse.io/v1/boards/vaticlabs/jobs?content=true",
      "method": "GET",
      "body": null
     }
@@ -2949,7 +3135,7 @@
    "name": "Wincent",
    "website": "https://www.wincent.com",
    "careersUrl": "https://www.wincent.com/careers/",
-   "ats": "custom_html",
+   "ats": "wordpress",
    "apiEndpoint": "https://www.wincent.com/wp-json/wp/v2/career?per_page=100&_fields=id,link,title,date,content",
    "apiMethod": "GET",
    "apiBody": null,
@@ -2958,8 +3144,108 @@
    "jobCount": 1,
    "apiEndpoints": [
     {
-     "ats": "custom_html",
+     "ats": "wordpress",
      "url": "https://www.wincent.com/wp-json/wp/v2/career?per_page=100&_fields=id,link,title,date,content",
+     "method": "GET",
+     "body": null
+    }
+   ]
+  },
+  {
+   "name": "Wintermute",
+   "website": "https://www.wintermute.com",
+   "careersUrl": "https://www.wintermute.com/company/careers",
+   "ats": "lever",
+   "apiEndpoint": "https://api.lever.co/v0/postings/wintermute-trading?mode=json",
+   "apiMethod": "GET",
+   "apiBody": null,
+   "status": "ok",
+   "notes": "Lever org token is 'wintermute-trading' (NOT 'wintermute', which 404s). One GET returns all 28 postings, no pagination. Requirement bullets are NOT in the 'description' field - they live in the 'lists' array (each item has 'text' heading and 'content' HTML), so parse lists[] to read experience bars. 'createdAt' is epoch milliseconds -> posted date. www.wintermute.com/careers and /company/careers are ~5MB JS-rendered pages with no ATS reference in the HTML; go straight to the Lever API. Dropped Full Stack Engineer (5+ yrs), Options Trader (3-5+ yrs), Infrastructure Support Engineer (IT desktop support), Product Engineering Team Lead, Product Manager, and 5 Business Development roles.",
+   "jobCount": 16,
+   "apiEndpoints": [
+    {
+     "ats": "lever",
+     "url": "https://api.lever.co/v0/postings/wintermute-trading?mode=json",
+     "method": "GET",
+     "body": null
+    }
+   ]
+  },
+  {
+   "name": "Winton Capital Management",
+   "website": "https://www.winton.com",
+   "careersUrl": "https://www.winton.com/working-at-winton",
+   "ats": "greenhouse",
+   "apiEndpoint": "https://boards-api.greenhouse.io/v1/boards/winton/jobs?content=true",
+   "apiMethod": "GET",
+   "apiBody": null,
+   "status": "ok",
+   "notes": "Board token 'winton' on the EU Greenhouse cluster; posting URLs are job-boards.eu.greenhouse.io/winton/jobs/{id} (www.winton.com/jobs/{id} mirrors the same id). Single API call returns all 10 live jobs, no pagination. www.winton.com/careers 404s; the real careers page is /working-at-winton and the listing at /opportunities is JS-rendered (empty in raw HTML) - use the API instead. No graduate or internship programme is currently posted. Dropped 3 roles for 3+/5+ yrs (Data Analyst Quantitative Platform, MENA Equities QR, Quantitative Developer Commodities), 2 Senior Post-Trade roles, and Register Your Interest: Business Management (non-quant).",
+   "jobCount": 4,
+   "apiEndpoints": [
+    {
+     "ats": "greenhouse",
+     "url": "https://boards-api.greenhouse.io/v1/boards/winton/jobs?content=true",
+     "method": "GET",
+     "body": null
+    }
+   ]
+  },
+  {
+   "name": "Wolverine Trading",
+   "website": "https://www.wolve.com",
+   "careersUrl": "https://www.wolve.com/open-positions",
+   "ats": "pinpoint",
+   "apiEndpoint": "https://wolve.pinpointhq.com/postings.json",
+   "apiMethod": "GET",
+   "apiBody": null,
+   "status": "ok",
+   "notes": "ATS is Pinpoint (pinpointhq.com), discovered via data-pinpoint-subdomain=\"wolve\" on www.wolve.com/open-positions (the page renders through a React widget at dywrfp5ctng3l.cloudfront.net/external-job-postings-table/index.js). Response is {\"data\":[...]} with all 20 live postings; ?page= and ?per_page= are ignored and always return the same 20, so no pagination is needed. Requirement text is split across the 'description', 'key_responsibilities' and 'skills_knowledge_expertise' HTML fields - concatenate all three. No published_at/created_at field, so 'posted' is null for every job. All roles are Chicago on-site. The /careers page describes SWE, Quant Trader and Data Science internship programmes but carries a stale note that no summer internships are offered, and no internship postings exist on the board. Dropped Systematic Options Trader (5+ yrs), FPGA Engineer (4+ yrs), Network Engineer (6 yrs), Information Systems Manager (8+ yrs, IT) and Recruiting Coordinator.",
+   "jobCount": 15,
+   "apiEndpoints": [
+    {
+     "ats": "pinpoint",
+     "url": "https://wolve.pinpointhq.com/postings.json",
+     "method": "GET",
+     "body": null
+    }
+   ]
+  },
+  {
+   "name": "WorldQuant",
+   "website": "https://www.worldquant.com",
+   "careersUrl": "https://www.worldquant.com/career-listing/",
+   "ats": "greenhouse",
+   "apiEndpoint": "https://boards-api.greenhouse.io/v1/boards/worldquant/jobs?content=true",
+   "apiMethod": "GET",
+   "apiBody": null,
+   "status": "ok",
+   "notes": "Board token 'worldquant' on the US Greenhouse cluster. One GET returns all 103 live jobs, no pagination. The firm's own listing mirrors each posting at www.worldquant.com/career-listing/?id={greenhouse_id} if a branded URL is preferred. A single Greenhouse posting can cover several cities: location.name uses ' OR ' as the separator (e.g. 'Hanoi OR Ho Chi Minh City') - split on ' OR ' / ' or '. Several APAC postings are bilingual (Chinese/Korean) and the English text alone can be misleading: the Seoul Quantitative Researcher carries a Korean note routing fresh graduates to an 8-week autumn internship instead of the full-time role, which is why it is typed offcycle_internship here. Dropped 15 roles for 3+ yrs (four 'Quantitative Developer' postings at 3-8 yrs, C++ Developer, Data Engineer, Execution Developer, Full Stack Engineer, Linux Systems Engineer, Python Developer, Quantitative Python Developer, Software Engineer, two Solution Engineer, Software Engineer - Trading Systems, Data Sourcing Specialist), all Senior/Lead titles, all Portfolio Manager titles, and HR/EA/Business Analyst roles.",
+   "jobCount": 43,
+   "apiEndpoints": [
+    {
+     "ats": "greenhouse",
+     "url": "https://boards-api.greenhouse.io/v1/boards/worldquant/jobs?content=true",
+     "method": "GET",
+     "body": null
+    }
+   ]
+  },
+  {
+   "name": "Xantium",
+   "website": "https://www.xantium.com",
+   "careersUrl": "https://www.xantium.com/careers",
+   "ats": "greenhouse",
+   "apiEndpoint": "https://boards-api.greenhouse.io/v1/boards/xantium/jobs?content=true",
+   "apiMethod": "GET",
+   "apiBody": null,
+   "status": "ok",
+   "notes": "Board token 'xantium' on the US Greenhouse cluster. One GET returns all 7 live jobs, no pagination. Trust the API over the website: www.xantium.com/careers hardcodes two extra Greenhouse job ids (4178659009, 4210700009) that both 404 on the API, and it omits the two Summer 2027 internship postings that the API does return. location.name is a free-text comma list mixing formats ('London, NYC, Abu Dhabi, Salt Lake City' vs 'London, England, New York, New York'), so parse it loosely rather than splitting naively on commas. All 7 postings were kept - the whole board is quant/eng and junior-accessible. Compensation figures are stated inline in the job content.",
+   "jobCount": 7,
+   "apiEndpoints": [
+    {
+     "ats": "greenhouse",
+     "url": "https://boards-api.greenhouse.io/v1/boards/xantium/jobs?content=true",
      "method": "GET",
      "body": null
     }

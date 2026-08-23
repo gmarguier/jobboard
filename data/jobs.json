@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-23T08:15:22.865Z",
+ "generated": "2026-08-23T08:23:40.543Z",
  "lastScanId": "baseline",
  "jobs": [
   {
@@ -683,7 +683,7 @@
    "snippet": "Quant team, Austin TX. End-to-end systematic mid/high-frequency Delta One strategies, research to execution. Requires quant bachelor's+ and 2-4 years quantitative experience at a prop firm/hedge fund (min 2 yrs - upper edge of junior); options theory; Python/C++.",
    "firstSeen": "2026-08-23",
    "seenScan": "baseline",
-   "source": "html"
+   "source": "api"
   },
   {
    "id": "71857c1398ac",
@@ -706,7 +706,7 @@
    "snippet": "Graduate programme, Austin TX; cohort starts Feb 2027 and Aug 2027. Six-month training blending options theory and live market making, then desk-aligned research. For students graduating Dec 2026-Jun 2027, bachelor's+ in a quantitative field; Python/C++ proficiency.",
    "firstSeen": "2026-08-23",
    "seenScan": "baseline",
-   "source": "html"
+   "source": "api"
   },
   {
    "id": "e00aeffadb5c",
@@ -729,7 +729,7 @@
    "snippet": "Graduate programme, Austin TX; cohort starts Feb 2027 and Aug 2027. Four-week options-theory bootcamp, then trading on the desk under mentors. For students graduating Dec 2026-Jun 2027, bachelor's+ in a quantitative field; strong numerical skills; learns Python.",
    "firstSeen": "2026-08-23",
    "seenScan": "baseline",
-   "source": "html"
+   "source": "api"
   },
   {
    "id": "a4c5215406fc",
@@ -752,7 +752,7 @@
    "snippet": "Options market-making desk, Austin TX. Own and optimise a trading portfolio and daily PnL. Requires bachelor's+ in a quantitative field, 1-3 years options market-making experience, programming proficiency (Python/C++).",
    "firstSeen": "2026-08-23",
    "seenScan": "baseline",
-   "source": "html"
+   "source": "api"
   },
   {
    "id": "c7c853d166e4",
@@ -3661,7 +3661,7 @@
    "snippet": "10-week summer internship for students targeting a trading career; embedded on a desk with PMs, traders and quant researchers; develop quant strategies/models feeding real trading decisions. Orientation week in London; process includes Python coding challenge and quant interview. Also hires in Tokyo per description.",
    "firstSeen": "2026-08-23",
    "seenScan": "baseline",
-   "source": "html"
+   "source": "api"
   },
   {
    "id": "0756f50b1724",
@@ -3684,7 +3684,7 @@
    "snippet": "Full-time role for recently completed or graduating PhDs in quantitative disciplines (physics, maths, stats, engineering). Backtesting trading models/strategies, financial flows analysis, improving quant decision-making models; Python/C++ experience wanted. Evergreen posting.",
    "firstSeen": "2026-08-23",
    "seenScan": "baseline",
-   "source": "html"
+   "source": "api"
   },
   {
    "id": "dde3a7f7e09f",
@@ -3707,7 +3707,7 @@
    "snippet": "Two-year rotational Technology Graduate Programme building systems powering trading, risk and ops platforms. Degree (BSc/MSc/PhD) in quantitative/technical discipline graduating in 2026 or 2027; Python, C#, and/or JavaScript; permanent team placement at programme end.",
    "firstSeen": "2026-08-23",
    "seenScan": "baseline",
-   "source": "html"
+   "source": "api"
   },
   {
    "id": "0d8db26021a0",
@@ -20582,6 +20582,2197 @@
    "source": "api"
   },
   {
+   "id": "43ff67d8fb6d",
+   "firm": "PDT Partners",
+   "title": "Applied ML Scientist",
+   "url": "https://job-boards.greenhouse.io/pdtpartners/jobs/1473516",
+   "locations": [
+    {
+     "city": "New York",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "fulltime_junior",
+   "category": "ML",
+   "posted": "2026-07-24",
+   "start": null,
+   "snippet": "Solid mathematical and analytical ability; exceptional problem-solving and modeling ability. Research intuition. Experience in programming (Python, R, Matlab, C++). Excellent communication and collaborative white board skills. Meticulous and detail-oriented, and innately driven to understand issue",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "e9529cb8cae4",
+   "firm": "PDT Partners",
+   "title": "Performance Engineer",
+   "url": "https://job-boards.greenhouse.io/pdtpartners/jobs/7807080",
+   "locations": [
+    {
+     "city": "New York",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "fulltime_junior",
+   "category": "ENG",
+   "posted": "2026-04-10",
+   "start": null,
+   "snippet": "Linux internals expertise: kernel subsystems, scheduling, memory management, virtual memory, cgroups, namespaces, and the networking stack. Performance tooling: proficiency with perf, eBPF, Ftrace, strace, sysstat, and related tracing/profiling tools. Ability to develop custom tooling when existin",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "a57cb75e36a8",
+   "firm": "PDT Partners",
+   "title": "Quantitative Researcher",
+   "url": "https://job-boards.greenhouse.io/pdtpartners/jobs/82459",
+   "locations": [
+    {
+     "city": "New York",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "fulltime_junior",
+   "category": "QR",
+   "posted": "2024-10-28",
+   "start": null,
+   "snippet": "Experience Required: Entry-level (PhD Program) or Experienced. Education: PhD in Math, Science, Engineering or other relevant discipline. Hiring new/recent PhD grads to build proprietary trading models. No years-of-experience floor.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "019f957aac98",
+   "firm": "PDT Partners",
+   "title": "Research Engineer",
+   "url": "https://job-boards.greenhouse.io/pdtpartners/jobs/5403145",
+   "locations": [
+    {
+     "city": "New York",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "fulltime_junior",
+   "category": "ENG",
+   "posted": "2024-02-06",
+   "start": null,
+   "snippet": "Experience with building infrastructure for training /fine-tuning large ML models. Intellectual curiosity and a strong interest in solving difficult problems. Exceptional programming skills and proficiency in identifying performance bottlenecks. Experience with the p ython scientific stack and DL ",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "64c52f995248",
+   "firm": "PDT Partners",
+   "title": "Summer 2027 Software Engineering Intern",
+   "url": "https://job-boards.greenhouse.io/pdtpartners/jobs/8077685",
+   "locations": [
+    {
+     "city": "New York",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "summer_internship",
+   "category": "ENG",
+   "posted": "2026-07-24",
+   "start": "Summer 2027 (early June - mid August, 10 weeks)",
+   "snippet": "Eligibility: Current Bachelor's, Master's, or PhD students pursuing degrees in rigorous, highly technical fields (e.g., Computer Science, Computer Engineering) who are eligible for full-time roles starting in 2028 or 2029. Program Length: 10 Weeks (Early June – Mid August). Application Process: Pl",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "30cdbba3d10d",
+   "firm": "PDT Partners",
+   "title": "Summer 2027 Systems Engineering Intern",
+   "url": "https://job-boards.greenhouse.io/pdtpartners/jobs/8083292",
+   "locations": [
+    {
+     "city": "New York",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "summer_internship",
+   "category": "ENG",
+   "posted": "2026-07-24",
+   "start": "Summer 2027 (early June - mid August, 10 weeks)",
+   "snippet": "Eligibility: Current Bachelor's, Master's, or PhD students pursuing degrees in rigorous, highly technical fields (e.g., Computer Science, Computer Engineering) who are eligible for full-time roles starting in 2028. Program Length: 10 Weeks (Early June – Mid August). Application Process: Please app",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "c81c816f8dd7",
+   "firm": "Peak6",
+   "title": "Trading Associate - 2027",
+   "url": "https://peak6group.wd1.myworkdayjobs.com/en-US/PEAK6/job/Chicago-IL/Trading-Associate---2027_JR105060",
+   "locations": [
+    {
+     "city": "Chicago",
+     "country": "USA"
+    },
+    {
+     "city": "Austin",
+     "country": "USA"
+    },
+    {
+     "city": "New York",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "graduate",
+   "category": "QT",
+   "posted": "2026-08-11",
+   "start": "2027",
+   "snippet": "PEAK6 Capital Management (proprietary options trading). Full-time 2027 trading class: 4-phase training programme - basic training, basic trading, long-term rotations, then managing individual portfolios. No prior finance experience required; open to upcoming graduates. Chicago/Austin/New York.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "09fdc0bbd532",
+   "firm": "Peak6",
+   "title": "Trading Bootcamp Micro-Internship - Summer 2027",
+   "url": "https://peak6group.wd1.myworkdayjobs.com/en-US/PEAK6/job/Chicago-IL/Trading-Bootcamp-Micro-Internship---Summer-2027_JR105057-1",
+   "locations": [
+    {
+     "city": "Chicago",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "summer_internship",
+   "category": "QT",
+   "posted": "2026-08-11",
+   "start": "Summer 2027 (one week)",
+   "snippet": "One-week highly engaging options-trading bootcamp at PEAK6 Capital Management, Chicago. Open to all undergraduate juniors. Introduces options trading and lets you deploy strategies; feeder into the full internship/Trading Associate pipeline.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "8738c2f129d2",
+   "firm": "Peak6",
+   "title": "Trading Internship for Women+ Summer 2027",
+   "url": "https://peak6group.wd1.myworkdayjobs.com/en-US/PEAK6/job/Chicago-IL/Trading-Internship-for-Women--Summer-2027_JR105061",
+   "locations": [
+    {
+     "city": "Chicago",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "summer_internship",
+   "category": "QT",
+   "posted": "2026-08-11",
+   "start": "Summer 2027",
+   "snippet": "PEAK6 Capital Management options-trading internship created by co-founder Jenny Just to introduce women+ students to the trading industry. Summer 2027 cohort, Chicago. Undergraduate students; no prior trading experience needed.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "9c9777f87413",
+   "firm": "Point72 / Cubist",
+   "title": "2026 Warsaw MI Data – Web Scraping Internship",
+   "url": "https://boards.greenhouse.io/point72/jobs/8423978002?gh_jid=8423978002",
+   "locations": [
+    {
+     "city": "Warsaw",
+     "country": "Poland"
+    }
+   ],
+   "regions": [
+    "Europe"
+   ],
+   "type": "summer_internship",
+   "category": "ENG",
+   "posted": "2026-02-17",
+   "start": "Summer 2026",
+   "snippet": "2026 Warsaw MI Data – Web Scraping Internship. A career with Point72’s Market Intelligence team. On our proprietary research team— Market Intelligence (MI) —you’ll partner with our investment professionals and Compliance team to work with alternative data to uncover insights about companies, indus",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "c6208da2b01c",
+   "firm": "Point72 / Cubist",
+   "title": "2027 Cubist Quant Academy – Developers",
+   "url": "https://boards.greenhouse.io/point72/jobs/7598678002?gh_jid=7598678002",
+   "locations": [
+    {
+     "city": "New York",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "graduate",
+   "category": "ENG",
+   "posted": "2024-09-09",
+   "start": "2027",
+   "snippet": "Cubist Systematic Strategies developer academy. Software developers building research/trading tech; rotation through at least three trading teams covering market data, research, OMS/execution and post-trade. No prior finance experience required.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "61e9c7170f40",
+   "firm": "Point72 / Cubist",
+   "title": "2027 Point72 Academy Investment Analyst Summer Internship Program - Hong Kong",
+   "url": "https://boards.greenhouse.io/point72/jobs/8491055002?gh_jid=8491055002",
+   "locations": [
+    {
+     "city": "Hong Kong",
+     "country": "Hong Kong"
+    }
+   ],
+   "regions": [
+    "Asie-Pacifique"
+   ],
+   "type": "summer_internship",
+   "category": "OTHER",
+   "posted": "2026-04-02",
+   "start": "June-August 2027 (8 weeks)",
+   "snippet": "who you are as a candidate. Once you complete the online application, we will begin reviewing your profile. Selected candidates will then receive an email invitation to participate in a case study, allowing you to showcase your experiences and demonstrate your business acumen. Following submission",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "7259bc80e328",
+   "firm": "Point72 / Cubist",
+   "title": "2027 Point72 Academy Investment Analyst Summer Internship Program - Japan",
+   "url": "https://boards.greenhouse.io/point72/jobs/8491138002?gh_jid=8491138002",
+   "locations": [
+    {
+     "city": null,
+     "country": "Japan"
+    }
+   ],
+   "regions": [
+    "Asie-Pacifique"
+   ],
+   "type": "summer_internship",
+   "category": "OTHER",
+   "posted": "2026-04-02",
+   "start": "June-August 2027 (8 weeks)",
+   "snippet": "who you are as a candidate. Once you complete the online application, we will begin reviewing your profile. Selected candidates will then receive an email invitation to participate in a case study, allowing you to showcase your experiences and demonstrate your business acumen. Following submission",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "3cc88d38fa0a",
+   "firm": "Point72 / Cubist",
+   "title": "2027 Point72 Academy Investment Analyst Summer Internship Program - Singapore",
+   "url": "https://boards.greenhouse.io/point72/jobs/8491128002?gh_jid=8491128002",
+   "locations": [
+    {
+     "city": "Singapore",
+     "country": "Singapore"
+    }
+   ],
+   "regions": [
+    "Asie-Pacifique"
+   ],
+   "type": "summer_internship",
+   "category": "OTHER",
+   "posted": "2026-04-02",
+   "start": "June-August 2027 (8 weeks)",
+   "snippet": "who you are as a candidate. Once you complete the online application, we will begin reviewing your profile. Selected candidates will then receive an email invitation to participate in a case study, allowing you to showcase your experiences and demonstrate your business acumen. Following submission",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "1388e6f153e7",
+   "firm": "Point72 / Cubist",
+   "title": "AI Product Analyst, Market Intelligence",
+   "url": "https://boards.greenhouse.io/point72/jobs/8511578002?gh_jid=8511578002",
+   "locations": [
+    {
+     "city": "Hong Kong",
+     "country": "Hong Kong"
+    }
+   ],
+   "regions": [
+    "Asie-Pacifique"
+   ],
+   "type": "fulltime_junior",
+   "category": "OTHER",
+   "posted": "2026-04-17",
+   "start": null,
+   "snippet": "requirements and roadmaps. Own the end-to-end product lifecycle from ideation and internal approval processes through testing, deployment, and operational support, with metrics-driven reporting on adoption and business impact. Establish and maintain model governance standards, including testing, m",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "ae4c20becc8b",
+   "firm": "Point72 / Cubist",
+   "title": "AI Product Analyst, Market Intelligence, Singapore",
+   "url": "https://boards.greenhouse.io/point72/jobs/8630027002?gh_jid=8630027002",
+   "locations": [
+    {
+     "city": "Singapore",
+     "country": "Singapore"
+    }
+   ],
+   "regions": [
+    "Asie-Pacifique"
+   ],
+   "type": "fulltime_junior",
+   "category": "OTHER",
+   "posted": "2026-07-30",
+   "start": null,
+   "snippet": "requirements, user stories, workflows, and success measures for artificial intelligence-enabled tools. - Analyze user feedback, adoption patterns, and operational pain points to identify high-impact opportunities for automation and workflow improvement. - Partner with researchers, data professiona",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "a407c71b4b41",
+   "firm": "Point72 / Cubist",
+   "title": "Canvas Fundamental Researcher",
+   "url": "https://boards.greenhouse.io/point72/jobs/8545515002?gh_jid=8545515002",
+   "locations": [
+    {
+     "city": "Singapore",
+     "country": "Singapore"
+    }
+   ],
+   "regions": [
+    "Asie-Pacifique"
+   ],
+   "type": "fulltime_junior",
+   "category": "OTHER",
+   "posted": "2026-05-12",
+   "start": null,
+   "snippet": "ABOUT CANVAS. On our proprietary research team—Market Intelligence—you’ll partner with our Investment Professionals and Compliance team to uncover insights about companies, industries, and the broader economy through deep fundamental research. Canvas is the supply chain research group within Marke",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "d01094934eb5",
+   "firm": "Point72 / Cubist",
+   "title": "Credit Analyst",
+   "url": "https://boards.greenhouse.io/point72/jobs/7707006002?gh_jid=7707006002",
+   "locations": [
+    {
+     "city": null,
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "fulltime_junior",
+   "category": "OTHER",
+   "posted": "2024-10-30",
+   "start": null,
+   "snippet": "QUALIFICATIONS. 2+ years of experience in credit research on the buy-side or sell-side. Outstanding skills in conducting fundamental credit research, including financial modelling and relative value analysis. High degree of familiarity with different credit securities, including bonds and credit d",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "8a44d313d25c",
+   "firm": "Point72 / Cubist",
+   "title": "Cubist Business Analyst",
+   "url": "https://boards.greenhouse.io/point72/jobs/8530310002?gh_jid=8530310002",
+   "locations": [
+    {
+     "city": "Hong Kong",
+     "country": "Hong Kong"
+    }
+   ],
+   "regions": [
+    "Asie-Pacifique"
+   ],
+   "type": "fulltime_junior",
+   "category": "OTHER",
+   "posted": "2026-04-29",
+   "start": null,
+   "snippet": "requirement. Job Requirements:. This is a highly selective position. The ideal candidates will have a combination of software development and communication skills with some experience working in a financial services organization. A BS in finance, statistics, math, and engineering or computer scien",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "84e4f2110623",
+   "firm": "Point72 / Cubist",
+   "title": "Cubist Data Scientist",
+   "url": "https://boards.greenhouse.io/point72/jobs/7045938002?gh_jid=7045938002",
+   "locations": [
+    {
+     "city": "New York",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "fulltime_junior",
+   "category": "QR",
+   "posted": "2023-12-15",
+   "start": null,
+   "snippet": "requirements are met. Perform preliminary analysis and research to be shared with investment teams. REQUIREMENTS. Masters in Financial Engineering, Statistics, Computer Science or other disciplines involving rigorous quantitative analysis. Strong programming skills in Python and SQL. Experience wo",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "12cc972b1f39",
+   "firm": "Point72 / Cubist",
+   "title": "Cubist Data Scientist",
+   "url": "https://boards.greenhouse.io/point72/jobs/7001158002?gh_jid=7001158002",
+   "locations": [
+    {
+     "city": "Singapore",
+     "country": "Singapore"
+    }
+   ],
+   "regions": [
+    "Asie-Pacifique"
+   ],
+   "type": "fulltime_junior",
+   "category": "QR",
+   "posted": "2023-11-20",
+   "start": null,
+   "snippet": "requirements are met. Perform preliminary analysis and research to be shared with investment teams. REQUIREMENTS. Masters in Financial Engineering, Statistics, Computer Science or other disciplines involving rigorous quantitative analysis. Strong programming skills in Python and SQL. Experience wo",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "0bd47c277e40",
+   "firm": "Point72 / Cubist",
+   "title": "Cubist Execution Trader",
+   "url": "https://boards.greenhouse.io/point72/jobs/8603359002?gh_jid=8603359002",
+   "locations": [
+    {
+     "city": "Paris",
+     "country": "France"
+    },
+    {
+     "city": "London",
+     "country": "UK"
+    },
+    {
+     "city": "New York",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Europe",
+    "Amérique du Nord"
+   ],
+   "type": "fulltime_junior",
+   "category": "QT",
+   "posted": "2026-06-22",
+   "start": null,
+   "snippet": "Requirements:. 1-3 years in trading operations, electronic execution, or a similar market‑facing role. Basic understanding of the order lifecycle and interest in deepening execution knowledge. Experience with Python or another programming language. Familiarity with SQL and comfort working with dat",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "f844b67c8894",
+   "firm": "Point72 / Cubist",
+   "title": "Cubist Quantitative Researcher",
+   "url": "https://boards.greenhouse.io/point72/jobs/7046019002?gh_jid=7046019002",
+   "locations": [
+    {
+     "city": "Singapore",
+     "country": "Singapore"
+    }
+   ],
+   "regions": [
+    "Asie-Pacifique"
+   ],
+   "type": "fulltime_junior",
+   "category": "QR",
+   "posted": "2024-08-15",
+   "start": null,
+   "snippet": "DESIRABLE CANDIDATES. 2+ years of research experience in Equities. Ph.D. or M.S. in finance, accounting, economics, mathematics, statistics, physics, computer science, operations research, or another quantitative discipline. Programming in any of the following: R, Python, or C++. Experience with S",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "943dc813bd2c",
+   "firm": "Point72 / Cubist",
+   "title": "Cubist Quantitative Researcher",
+   "url": "https://boards.greenhouse.io/point72/jobs/7666631002?gh_jid=7666631002",
+   "locations": [
+    {
+     "city": "Hong Kong",
+     "country": "Hong Kong"
+    }
+   ],
+   "regions": [
+    "Asie-Pacifique"
+   ],
+   "type": "fulltime_junior",
+   "category": "QR",
+   "posted": "2024-11-04",
+   "start": null,
+   "snippet": "REQUIREMENTS. Bachelors degree or higher in mathematics, statistics, computer science, or other quantitative discipline. 2+ years of experience in quantitative research. Experience in medium frequency equity research is a plus. Strong analytical and quantitative skills; solid knowledge in statisti",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "c3cb4531f391",
+   "firm": "Point72 / Cubist",
+   "title": "Cubist Quantitative Researcher",
+   "url": "https://boards.greenhouse.io/point72/jobs/7045980002?gh_jid=7045980002",
+   "locations": [
+    {
+     "city": "Singapore",
+     "country": "Singapore"
+    }
+   ],
+   "regions": [
+    "Asie-Pacifique"
+   ],
+   "type": "fulltime_junior",
+   "category": "QR",
+   "posted": "2024-08-15",
+   "start": null,
+   "snippet": "ABOUT CUBIST. Cubist Systematic Strategies, an affiliate of Point72, deploys systematic, computer-driven trading strategies across multiple liquid asset classes, including equities, futures and foreign exchange. The core of our effort is rigorous research into a wide range of market anomalies, fue",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "676e2126d9ef",
+   "firm": "Point72 / Cubist",
+   "title": "Cubist Quantitative Researcher",
+   "url": "https://boards.greenhouse.io/point72/jobs/7297555002?gh_jid=7297555002",
+   "locations": [
+    {
+     "city": "Hong Kong",
+     "country": "Hong Kong"
+    }
+   ],
+   "regions": [
+    "Asie-Pacifique"
+   ],
+   "type": "fulltime_junior",
+   "category": "QR",
+   "posted": "2024-08-15",
+   "start": null,
+   "snippet": "DESIRABLE CANDIDATES. 2+ years of research experience in Equities. Ph.D. or M.S. in finance, accounting, economics, mathematics, statistics, physics, computer science, operations research, or another quantitative discipline. Programming in any of the following: R, Python, or C++. Experience with S",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "824783a82d1f",
+   "firm": "Point72 / Cubist",
+   "title": "Cubist Quantitative Researcher",
+   "url": "https://boards.greenhouse.io/point72/jobs/7045936002?gh_jid=7045936002",
+   "locations": [
+    {
+     "city": "Dubai",
+     "country": "UAE"
+    },
+    {
+     "city": "London",
+     "country": "UK"
+    },
+    {
+     "city": "Paris",
+     "country": "France"
+    },
+    {
+     "city": "Hong Kong",
+     "country": "Hong Kong"
+    },
+    {
+     "city": "Sydney",
+     "country": "Australia"
+    },
+    {
+     "city": "Toronto",
+     "country": "Canada"
+    }
+   ],
+   "regions": [
+    "Moyen-Orient",
+    "Europe",
+    "Asie-Pacifique",
+    "Amérique du Nord"
+   ],
+   "type": "fulltime_junior",
+   "category": "QR",
+   "posted": "2024-08-15",
+   "start": null,
+   "snippet": "ABOUT CUBIST. Cubist Systematic Strategies, an affiliate of Point72, deploys systematic, computer-driven trading strategies across multiple liquid asset classes, including equities, futures and foreign exchange. The core of our effort is rigorous research into a wide range of market anomalies, fue",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "03614bfc0b13",
+   "firm": "Point72 / Cubist",
+   "title": "Cubist Quantitative Researcher",
+   "url": "https://boards.greenhouse.io/point72/jobs/7045987002?gh_jid=7045987002",
+   "locations": [
+    {
+     "city": "Chicago",
+     "country": "USA"
+    },
+    {
+     "city": "New York",
+     "country": "USA"
+    },
+    {
+     "city": "Seattle",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "fulltime_junior",
+   "category": "QR",
+   "posted": "2024-08-15",
+   "start": null,
+   "snippet": "ABOUT CUBIST. Cubist Systematic Strategies, an affiliate of Point72, deploys systematic, computer-driven trading strategies across multiple liquid asset classes, including equities, futures and foreign exchange. The core of our effort is rigorous research into a wide range of market anomalies, fue",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "ca822c4f1a8a",
+   "firm": "Point72 / Cubist",
+   "title": "Cubist Quantitative Researcher Intern",
+   "url": "https://boards.greenhouse.io/point72/jobs/7297598002?gh_jid=7297598002",
+   "locations": [
+    {
+     "city": "Singapore",
+     "country": "Singapore"
+    }
+   ],
+   "regions": [
+    "Asie-Pacifique"
+   ],
+   "type": "internship",
+   "category": "QR",
+   "posted": "2024-08-15",
+   "start": null,
+   "snippet": "DESIRABLE CANDIDATES. Ph.D. candidates in finance, economics, mathematics, statistics, physics, computer science, or other quantitative discipline. Programming in any of the following: R, Python, or C++. Experience with SQL. Solid research experience in the field of the candidate’s specialty. Stro",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "f401391ebcb8",
+   "firm": "Point72 / Cubist",
+   "title": "Cubist Quantitative Researcher Intern",
+   "url": "https://boards.greenhouse.io/point72/jobs/7297611002?gh_jid=7297611002",
+   "locations": [
+    {
+     "city": "Hong Kong",
+     "country": "Hong Kong"
+    }
+   ],
+   "regions": [
+    "Asie-Pacifique"
+   ],
+   "type": "internship",
+   "category": "QR",
+   "posted": "2024-08-15",
+   "start": null,
+   "snippet": "DESIRABLE CANDIDATES. Ph.D. candidates in finance, economics, mathematics, statistics, physics, computer science, or other quantitative discipline. Programming in any of the following: R, Python, or C++. Experience with SQL. Solid research experience in the field of the candidate’s specialty. Stro",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "a28fff6103c1",
+   "firm": "Point72 / Cubist",
+   "title": "Data Engineer",
+   "url": "https://boards.greenhouse.io/point72/jobs/7829230002?gh_jid=7829230002",
+   "locations": [
+    {
+     "city": "New York",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "fulltime_junior",
+   "category": "ENG",
+   "posted": "2025-01-23",
+   "start": null,
+   "snippet": "Requirements. Master/PhD degree in math, computer science, engineering, or other related fields. 1-3 years of professional experience in software development or data science/analytics. Strong combination of quantitative skills and programming skills. Proficiency in Python; knowledge of common data",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "988a5d837f26",
+   "firm": "Point72 / Cubist",
+   "title": "Data Scientist, Proprietary Research",
+   "url": "https://boards.greenhouse.io/point72/jobs/7695570002?gh_jid=7695570002",
+   "locations": [
+    {
+     "city": "New York",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "fulltime_junior",
+   "category": "QR",
+   "posted": "2024-11-20",
+   "start": null,
+   "snippet": "ABOUT PROPRIETARY RESEARCH. On our proprietary research team—Market Intelligence—you’ll partner with our investment professionals and Compliance team to uncover insights about companies, industries, and the broader economy through deep fundamental research and applying data science and engineering",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "1a365fe57599",
+   "firm": "Point72 / Cubist",
+   "title": "Data Strategist",
+   "url": "https://boards.greenhouse.io/point72/jobs/8647597002?gh_jid=8647597002",
+   "locations": [
+    {
+     "city": "New York",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "fulltime_junior",
+   "category": "OTHER",
+   "posted": "2026-07-29",
+   "start": null,
+   "snippet": "requirements, managing approvals, and driving timely implementation. Partner with Compliance to evaluate new providers, monitor existing relationships, and support appropriate use of services. Build trusted relationships with investment teams by responding to requests, answering questions, and con",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "3765e379d539",
+   "firm": "Point72 / Cubist",
+   "title": "Equity Quantitative Researcher",
+   "url": "https://boards.greenhouse.io/point72/jobs/7297561002?gh_jid=7297561002",
+   "locations": [
+    {
+     "city": "New York",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "fulltime_junior",
+   "category": "QR",
+   "posted": "2024-08-15",
+   "start": null,
+   "snippet": "REQUIREMENTS. MS or PhD in physics, engineering, statistics, applied math, quantitative finance or other quantitative fields with a strong foundation in statistics. 1+ years of work experience in systematic alpha research in equities. Experience developing short term alpha signals (intraday or a f",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "c35c17033959",
+   "firm": "Point72 / Cubist",
+   "title": "Fund Flow Quantitative Developer",
+   "url": "https://boards.greenhouse.io/point72/jobs/8389369002?gh_jid=8389369002",
+   "locations": [
+    {
+     "city": "New York",
+     "country": "USA"
+    },
+    {
+     "city": "Stamford",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "fulltime_junior",
+   "category": "ENG",
+   "posted": "2026-01-23",
+   "start": null,
+   "snippet": "Requirements:. Undergraduate degree or higher in a technical field. Strong programming skills in Python. Strong orientation towards team success and desire to mentor teammates. Passion for technology and markets. Strong written and verbal communication skills. Intellectual curiosity, exceptional a",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "88763fedf5c4",
+   "firm": "Point72 / Cubist",
+   "title": "Fund Flow Quantitative Researcher",
+   "url": "https://boards.greenhouse.io/point72/jobs/8389431002?gh_jid=8389431002",
+   "locations": [
+    {
+     "city": "New York",
+     "country": "USA"
+    },
+    {
+     "city": "Stamford",
+     "country": "USA"
+    },
+    {
+     "city": "London",
+     "country": "UK"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord",
+    "Europe"
+   ],
+   "type": "fulltime_junior",
+   "category": "QR",
+   "posted": "2026-01-23",
+   "start": null,
+   "snippet": "Requirements:. Undergraduate, Master’s or PhD candidates in a technical field. Demonstrated creativity and rigor in the research process. Technically comfortable handling large datasets stored in AWS using Python. Collaborative mindset. Passion for research and financial markets. Intellectual curi",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "c89c0117161c",
+   "firm": "Point72 / Cubist",
+   "title": "Fundamental Data Researcher",
+   "url": "https://boards.greenhouse.io/point72/jobs/7302589002?gh_jid=7302589002",
+   "locations": [
+    {
+     "city": "Chicago",
+     "country": "USA"
+    },
+    {
+     "city": "New York",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "fulltime_junior",
+   "category": "OTHER",
+   "posted": "2024-08-15",
+   "start": null,
+   "snippet": "REQUIREMENTS. Undergraduate degree or higher in Accounting, Economics, Business, or other related discipline. 2+ years of work experience as an accountant, financial data analyst, industry analyst, or other related role. CPA or CFA is a plus. Coursework in Statistics and Econometrics and skills in",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "34dcc8afa85c",
+   "firm": "Point72 / Cubist",
+   "title": "Fundamental Research Fellow, Canvas",
+   "url": "https://boards.greenhouse.io/point72/jobs/8492784002?gh_jid=8492784002",
+   "locations": [
+    {
+     "city": "New York",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "graduate",
+   "category": "OTHER",
+   "posted": "2026-04-15",
+   "start": null,
+   "snippet": "Canvas supply-chain research group within Point72 Market Intelligence (proprietary research), New York. Requires an undergraduate degree conferred in 2025 or 2026, strong analytical skills and excellent written/verbal communication. Entry-level fellowship.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "8fe35177c99d",
+   "firm": "Point72 / Cubist",
+   "title": "Fundamental Researcher - Canvas",
+   "url": "https://boards.greenhouse.io/point72/jobs/4644225002?gh_jid=4644225002",
+   "locations": [
+    {
+     "city": "New York",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "fulltime_junior",
+   "category": "OTHER",
+   "posted": "2020-02-26",
+   "start": null,
+   "snippet": "ABOUT CANVAS. On our proprietary research team—Market Intelligence—you’ll partner with our Investment Professionals and Compliance team to uncover insights about companies, industries, and the broader economy through deep fundamental research. Canvas is the supply chain research group within Marke",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "fdd293644104",
+   "firm": "Point72 / Cubist",
+   "title": "Fundamental Researcher, MI-Canvas International",
+   "url": "https://boards.greenhouse.io/point72/jobs/8135956002?gh_jid=8135956002",
+   "locations": [
+    {
+     "city": "London",
+     "country": "UK"
+    }
+   ],
+   "regions": [
+    "Europe"
+   ],
+   "type": "fulltime_junior",
+   "category": "OTHER",
+   "posted": "2025-08-25",
+   "start": null,
+   "snippet": "ABOUT CANVAS. On our proprietary research team—Market Intelligence—you’ll partner with our investment professionals and Compliance team to uncover insights about companies, industries, and the broader economy through deep fundamental research. Canvas is the supply chain research group within Marke",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "0981d358385c",
+   "firm": "Point72 / Cubist",
+   "title": "International Sector Analyst, Market Intelligence (MI)-Data Research",
+   "url": "https://boards.greenhouse.io/point72/jobs/8377772002?gh_jid=8377772002",
+   "locations": [
+    {
+     "city": "Singapore",
+     "country": "Singapore"
+    },
+    {
+     "city": "Hong Kong",
+     "country": "Hong Kong"
+    }
+   ],
+   "regions": [
+    "Asie-Pacifique"
+   ],
+   "type": "fulltime_junior",
+   "category": "OTHER",
+   "posted": "2026-01-16",
+   "start": null,
+   "snippet": "ABOUT PROPRIETARY RESEARCH. On our proprietary research team—Market Intelligence—you’ll partner with our investment professionals and Compliance team to uncover insights about companies, industries, and the broader economy through deep fundamental research and applying data science and engineering",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "11df16d53d35",
+   "firm": "Point72 / Cubist",
+   "title": "International Trade Support Associate",
+   "url": "https://boards.greenhouse.io/point72/jobs/8581871002?gh_jid=8581871002",
+   "locations": [
+    {
+     "city": "Hong Kong",
+     "country": "Hong Kong"
+    }
+   ],
+   "regions": [
+    "Asie-Pacifique"
+   ],
+   "type": "fulltime_junior",
+   "category": "OTHER",
+   "posted": "2026-06-16",
+   "start": null,
+   "snippet": "WHAT'S REQUIRED. Bachelor's degree in Accounting, Finance, Business, Economics, Mathematics, or a related field. Have 2-6 years of experience in middle office operations, trade support, or a closely related function within a financial institution. Demonstrated experience handling trade confirmatio",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "8af355ec9aee",
+   "firm": "Point72 / Cubist",
+   "title": "Machine Learning Engineer",
+   "url": "https://boards.greenhouse.io/point72/jobs/8170176002?gh_jid=8170176002",
+   "locations": [
+    {
+     "city": "New York",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "fulltime_junior",
+   "category": "ML",
+   "posted": "2025-09-15",
+   "start": null,
+   "snippet": "Requirements:. PhD or PhD candidate in machine learning, computer science or other AI related research fields. Experience with sequential modeling and time series forecasting using deep learning. Experience with deep neural networks and representation learning. Prior experience working in a data d",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "0bd6d8998905",
+   "firm": "Point72 / Cubist",
+   "title": "Machine Learning Researcher - Intern",
+   "url": "https://boards.greenhouse.io/point72/jobs/7302611002?gh_jid=7302611002",
+   "locations": [
+    {
+     "city": "New York",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "internship",
+   "category": "ML",
+   "posted": "2024-08-15",
+   "start": null,
+   "snippet": "DESIRABLE CANDIDATES. Students enrolled in a PhD program in machine learning, computer science, statistics, or a related field. Superb analytical and quantitative skills, along with a healthy streak of creativity. Demonstrated ability to conduct independent research utilizing large data sets. Pass",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "6c2ba0394ac8",
+   "firm": "Point72 / Cubist",
+   "title": "Macro Quant Researcher",
+   "url": "https://boards.greenhouse.io/point72/jobs/7864033002?gh_jid=7864033002",
+   "locations": [
+    {
+     "city": null,
+     "country": "Taiwan"
+    }
+   ],
+   "regions": [
+    "Asie-Pacifique"
+   ],
+   "type": "fulltime_junior",
+   "category": "QR",
+   "posted": "2025-02-14",
+   "start": null,
+   "snippet": "Requirements. B.S., M.S., or Ph.D. degree in economics, finance, computer science, physics, or other quantitative discipline. 2+ years of experience in quantitative research or systematic trading at a bank, hedge fund, or asset manager. Experience with systematic trading strategies for any seconda",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "ba9f8d305a9e",
+   "firm": "Point72 / Cubist",
+   "title": "Network Engineer",
+   "url": "https://boards.greenhouse.io/point72/jobs/8599907002?gh_jid=8599907002",
+   "locations": [
+    {
+     "city": "New York",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "fulltime_junior",
+   "category": "ENG",
+   "posted": "2026-07-02",
+   "start": null,
+   "snippet": "WHAT'S REQUIRED. Bachelor’s degree in computer science, information technology, a related field, or equivalent practical experience. 5+ years of hands-on network engineering experience in enterprise or financial services environments. Proven experience designing, deploying, and operating data cent",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "977861cbcea7",
+   "firm": "Point72 / Cubist",
+   "title": "NLP / AI Engineer",
+   "url": "https://boards.greenhouse.io/point72/jobs/7661997002?gh_jid=7661997002",
+   "locations": [
+    {
+     "city": "New York",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "fulltime_junior",
+   "category": "ML",
+   "posted": "2025-04-29",
+   "start": null,
+   "snippet": "Requirements:. Bachelor, Master’s or PhD graduate or candidate in computer science or another quantitative discipline. Experience in NLP, particularly LLMs. Proficient in Python, SQL and general software engineering principles (github, testing, etc.). Data science stack familiarity. Interest in fi",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "200cc882c2e0",
+   "firm": "Point72 / Cubist",
+   "title": "NLP Engineer",
+   "url": "https://boards.greenhouse.io/point72/jobs/8018850002?gh_jid=8018850002",
+   "locations": [
+    {
+     "city": "New York",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "fulltime_junior",
+   "category": "ML",
+   "posted": "2025-05-31",
+   "start": null,
+   "snippet": "REQUIREMENTS:. Bachelor, Master’s or PhD degree in computer science or another quantitative discipline. Experience in NLP, particularly LLMs. Proficient in Python, SQL and general software engineering principles (github, testing, etc.). Data science stack familiarity. Interest in financial markets",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "8376f695a8d6",
+   "firm": "Point72 / Cubist",
+   "title": "Observability Engineer",
+   "url": "https://boards.greenhouse.io/point72/jobs/8541455002?gh_jid=8541455002",
+   "locations": [
+    {
+     "city": "Bengaluru",
+     "country": "India"
+    }
+   ],
+   "regions": [
+    "Asie-Pacifique"
+   ],
+   "type": "fulltime_junior",
+   "category": "ENG",
+   "posted": "2026-08-06",
+   "start": null,
+   "snippet": "JOB TITLE. Observability Engineer. A CAREER WITH POINT72'S TECHNOLOGY TEAM. As Point72 reimagines the future of investing, our Technology team is constantly evolving our firm’s IT infrastructure and engineering capabilities, positioning us at the forefront of a rapidly evolving technology landscap",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "8533a4b2a80d",
+   "firm": "Point72 / Cubist",
+   "title": "Point72 Academy Investment Analyst Program for Upcoming Graduates (2027 – HK)",
+   "url": "https://boards.greenhouse.io/point72/jobs/8572402002?gh_jid=8572402002",
+   "locations": [
+    {
+     "city": "Hong Kong",
+     "country": "Hong Kong"
+    }
+   ],
+   "regions": [
+    "Asie-Pacifique"
+   ],
+   "type": "graduate",
+   "category": "OTHER",
+   "posted": "2026-06-03",
+   "start": "2027 (10-month programme)",
+   "snippet": "who you are as a candidate. Once submitted, we will begin reviewing your profile. Selected candidates will receive an email invitation to participate in a case study, allowing you to showcase your experiences and demonstrate your business acumen. Following submission and review of your case study,",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "e9dbd45d65fd",
+   "firm": "Point72 / Cubist",
+   "title": "Point72 Academy Investment Analyst Program for Upcoming Graduates (2027 – JP)",
+   "url": "https://boards.greenhouse.io/point72/jobs/8572400002?gh_jid=8572400002",
+   "locations": [
+    {
+     "city": null,
+     "country": "Japan"
+    }
+   ],
+   "regions": [
+    "Asie-Pacifique"
+   ],
+   "type": "graduate",
+   "category": "OTHER",
+   "posted": "2026-06-03",
+   "start": "2027 (10-month programme)",
+   "snippet": "who you are as a candidate. Once submitted, we will begin reviewing your profile. Selected candidates will receive an email invitation to participate in a case study, allowing you to showcase your experiences and demonstrate your business acumen. Following submission and review of your case study,",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "a093538c3f18",
+   "firm": "Point72 / Cubist",
+   "title": "Point72 Academy Investment Analyst Program for Upcoming Graduates (2027 – SG)",
+   "url": "https://boards.greenhouse.io/point72/jobs/8572401002?gh_jid=8572401002",
+   "locations": [
+    {
+     "city": "Singapore",
+     "country": "Singapore"
+    }
+   ],
+   "regions": [
+    "Asie-Pacifique"
+   ],
+   "type": "graduate",
+   "category": "OTHER",
+   "posted": "2026-06-03",
+   "start": "2027 (10-month programme)",
+   "snippet": "who you are as a candidate. Once submitted, we will begin reviewing your profile. Selected candidates will receive an email invitation to participate in a case study, allowing you to showcase your experiences and demonstrate your business acumen. Following submission and review of your case study,",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "19cd59853c83",
+   "firm": "Point72 / Cubist",
+   "title": "Point72 Academy Investment Analyst Program for Upcoming Graduates (2027 – US)",
+   "url": "https://boards.greenhouse.io/point72/jobs/8541241002?gh_jid=8541241002",
+   "locations": [
+    {
+     "city": "Chicago",
+     "country": "USA"
+    },
+    {
+     "city": null,
+     "country": "USA"
+    },
+    {
+     "city": "New York",
+     "country": "USA"
+    },
+    {
+     "city": "San Francisco",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "graduate",
+   "category": "OTHER",
+   "posted": "2026-05-08",
+   "start": "2027 (10-month programme)",
+   "snippet": "who you are as a candidate. Once submitted, we will begin reviewing your profile. Selected candidates will receive an email invitation to participate in a case study, allowing you to showcase your experiences and demonstrate your business acumen. Following submission and review of your case study,",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "5ea02d0a13ff",
+   "firm": "Point72 / Cubist",
+   "title": "Point72 Fund Flow Analyst",
+   "url": "https://boards.greenhouse.io/point72/jobs/8003977002?gh_jid=8003977002",
+   "locations": [
+    {
+     "city": "New York",
+     "country": "USA"
+    },
+    {
+     "city": "Stamford",
+     "country": "USA"
+    },
+    {
+     "city": "London",
+     "country": "UK"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord",
+    "Europe"
+   ],
+   "type": "fulltime_junior",
+   "category": "OTHER",
+   "posted": "2025-06-02",
+   "start": null,
+   "snippet": "REQUIREMENTS. Undergraduate degree or higher in a technical field. Quant research or development experience at a financial institution. Experience working with time series and point in time data. Strong programming skills in Python and SQL. Strong written and verbal communication skills. Passion f",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "950ab637d2fc",
+   "firm": "Point72 / Cubist",
+   "title": "Point72 Fund Flow Strategist",
+   "url": "https://boards.greenhouse.io/point72/jobs/8187982002?gh_jid=8187982002",
+   "locations": [
+    {
+     "city": "New York",
+     "country": "USA"
+    },
+    {
+     "city": "Stamford",
+     "country": "USA"
+    },
+    {
+     "city": "London",
+     "country": "UK"
+    },
+    {
+     "city": "Hong Kong",
+     "country": "Hong Kong"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord",
+    "Europe",
+    "Asie-Pacifique"
+   ],
+   "type": "fulltime_junior",
+   "category": "OTHER",
+   "posted": "2025-09-26",
+   "start": null,
+   "snippet": "Requirements:. Undergraduate degree or higher in a technical field. Passion for research, markets, and problem solving. Strong written and verbal communication skills. Strategy, data science, or quant research experience at a financial institution. Experience working with time series and point in ",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "01dd455778b2",
+   "firm": "Point72 / Cubist",
+   "title": "Quantitative Analyst - CIO Office",
+   "url": "https://boards.greenhouse.io/point72/jobs/7297616002?gh_jid=7297616002",
+   "locations": [
+    {
+     "city": "New York",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "fulltime_junior",
+   "category": "QR",
+   "posted": "2024-08-15",
+   "start": null,
+   "snippet": "DESIRABLE CANDIDATES. 2 or more years of experience in a quantitative research, portfolio management, or risk management role dealing with equities or equities investments. Undergraduate, MS or Ph.D. in Finance, Computer Science, Mathematics, Engineering, or Physics, or other quantitative discipli",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "0751d30cbef6",
+   "firm": "Point72 / Cubist",
+   "title": "Quantitative Analyst / Software Developer",
+   "url": "https://boards.greenhouse.io/point72/jobs/7297622002?gh_jid=7297622002",
+   "locations": [
+    {
+     "city": "New York",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "fulltime_junior",
+   "category": "ENG",
+   "posted": "2024-08-15",
+   "start": null,
+   "snippet": "Requirements:. Master or PhD degree in math, physics, computer science, engineering, or other related discipline. 1-3 years of professional experience in software development or quantitative research. Strong combination of quantitative skills and programming skills. Proficiency in Python 3 and eit",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "bf1a6f5053e4",
+   "firm": "Point72 / Cubist",
+   "title": "Quantitative Developer",
+   "url": "https://boards.greenhouse.io/point72/jobs/7297511002?gh_jid=7297511002",
+   "locations": [
+    {
+     "city": "Chicago",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "fulltime_junior",
+   "category": "ENG",
+   "posted": "2024-08-15",
+   "start": null,
+   "snippet": "Requirements:. Undergraduate or graduate degree in Computer Science. 2+ years of experience developing research and trading infrastructure at a financial institution, or demonstrated excellent skills required for the role. Prior experience with execution/order management systems, real-time data se",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "4d3d5c348c83",
+   "firm": "Point72 / Cubist",
+   "title": "Quantitative Developer",
+   "url": "https://boards.greenhouse.io/point72/jobs/8191564002?gh_jid=8191564002",
+   "locations": [
+    {
+     "city": "London",
+     "country": "UK"
+    }
+   ],
+   "regions": [
+    "Europe"
+   ],
+   "type": "fulltime_junior",
+   "category": "ENG",
+   "posted": "2025-09-30",
+   "start": null,
+   "snippet": "Requirements:. - Bachelor’s degree or equivalent in computer science or other STEM discipline. - 2+ years commercial experience with Python and its data science libraries on Linux. - Pragmatic balance between attention to detail and delivery focus. - Ability to work with ambiguous requirements. - ",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "311f17e26f4c",
+   "firm": "Point72 / Cubist",
+   "title": "Quantitative Developer Intern",
+   "url": "https://boards.greenhouse.io/point72/jobs/8721562002?gh_jid=8721562002",
+   "locations": [
+    {
+     "city": "New York",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "offcycle_internship",
+   "category": "ENG",
+   "posted": "2026-08-17",
+   "start": "Winter 2027 (January to April 2027)",
+   "snippet": "Point72 Internal Alpha Capture (IAC), New York. Quantitative developer interns for Winter 2027 (January-April). Must be available to work full-time onsite in New York Jan-Apr 2027. Off-cycle, non-summer internship.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "0abcca1e04c4",
+   "firm": "Point72 / Cubist",
+   "title": "Quantitative Finance Researcher",
+   "url": "https://boards.greenhouse.io/point72/jobs/7046014002?gh_jid=7046014002",
+   "locations": [
+    {
+     "city": null,
+     "country": "Taiwan"
+    }
+   ],
+   "regions": [
+    "Asie-Pacifique"
+   ],
+   "type": "fulltime_junior",
+   "category": "QR",
+   "posted": "2024-08-15",
+   "start": null,
+   "snippet": "Desirable Candidates. M.S., Ph.D., or Ph.D. candidates in finance, computer science, mathematics, physics, or other quantitative discipline. Programming in any of the following: C++, C#, Java, or Python. Strong analytical and quantitative skills. Keen interest in quantitative research and metrics ",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "bdf2c63fe73d",
+   "firm": "Point72 / Cubist",
+   "title": "Quantitative Portfolio Analyst – 2026 Grad",
+   "url": "https://boards.greenhouse.io/point72/jobs/8169967002?gh_jid=8169967002",
+   "locations": [
+    {
+     "city": "New York",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "graduate",
+   "category": "OTHER",
+   "posted": "2025-09-15",
+   "start": null,
+   "snippet": "Entry-level Quantitative Portfolio Analyst, Portfolio Construction & Analytics Team (PCAT) in the Office of the CIO, New York. Requires a degree (Bachelors, Masters or PhD) in Finance or a STEM field conferred Fall 2025 or Spring 2026, plus intermediate/advanced Python.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "0b0bf87a79b9",
+   "firm": "Point72 / Cubist",
+   "title": "Quantitative Research Intern",
+   "url": "https://boards.greenhouse.io/point72/jobs/7297667002?gh_jid=7297667002",
+   "locations": [
+    {
+     "city": "New York",
+     "country": "USA"
+    },
+    {
+     "city": "Seattle",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "internship",
+   "category": "QR",
+   "posted": "2024-08-15",
+   "start": null,
+   "snippet": "DESIRABLE CANDIDATES. MS, or PhD candidates in finance, computer science, mathematics, physics, or other quantitative discipline. Programming in any of the following: C++, Java, C#, MATLAB, R, Python, or Perl. Strong analytical and quantitative skills. Demonstrated interest in financial markets an",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "27d53473690d",
+   "firm": "Point72 / Cubist",
+   "title": "Quantitative Research Intern (NLP)",
+   "url": "https://boards.greenhouse.io/point72/jobs/8018862002?gh_jid=8018862002",
+   "locations": [
+    {
+     "city": "New York",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "internship",
+   "category": "ML",
+   "posted": "2025-05-31",
+   "start": null,
+   "snippet": "REQUIREMENTS:. Bachelor’s, Master’s or PhD candidate in computer science or other quantitative discipline. Proficient in Python and general software engineering principles (github, testing, dev workflow). Strong understanding of machine learning and statistics. Prior research experience preferred.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "9740ae6930d3",
+   "firm": "Point72 / Cubist",
+   "title": "Quantitative Researcher",
+   "url": "https://boards.greenhouse.io/point72/jobs/7587888002?gh_jid=7587888002",
+   "locations": [
+    {
+     "city": "London",
+     "country": "UK"
+    }
+   ],
+   "regions": [
+    "Europe"
+   ],
+   "type": "fulltime_junior",
+   "category": "QR",
+   "posted": "2024-08-15",
+   "start": null,
+   "snippet": "REQUIREMENTS. Background in mathematics, statistics, machine learning, computer science, engineering, quantitative finance, or economics. 2-6 years of signal research experience in macro trading as part of a trading team. Specialization in swaps, fixed income, or commodities trading a plus. Prior ",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "8020406eaf9b",
+   "firm": "Point72 / Cubist",
+   "title": "Quantitative Researcher",
+   "url": "https://boards.greenhouse.io/point72/jobs/7752293002?gh_jid=7752293002",
+   "locations": [
+    {
+     "city": "London",
+     "country": "UK"
+    }
+   ],
+   "regions": [
+    "Europe"
+   ],
+   "type": "fulltime_junior",
+   "category": "QR",
+   "posted": "2024-12-02",
+   "start": null,
+   "snippet": "Requirements:. MS or PhD in a quantitative discipline. 0-2 years of professional work experience. A background in financial markets is not necessary, but an interest in the field is essential. Proven expertise in Python and handling large datasets. Fluency in data science practices, e.g., feature ",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "08b71fd547bb",
+   "firm": "Point72 / Cubist",
+   "title": "Quantitative Researcher - Intern",
+   "url": "https://boards.greenhouse.io/point72/jobs/7297657002?gh_jid=7297657002",
+   "locations": [
+    {
+     "city": "London",
+     "country": "UK"
+    },
+    {
+     "city": "Paris",
+     "country": "France"
+    },
+    {
+     "city": "Hong Kong",
+     "country": "Hong Kong"
+    },
+    {
+     "city": "Tokyo",
+     "country": "Japan"
+    }
+   ],
+   "regions": [
+    "Europe",
+    "Asie-Pacifique"
+   ],
+   "type": "internship",
+   "category": "QR",
+   "posted": "2024-08-15",
+   "start": null,
+   "snippet": "Desirable Candidates. Undergraduate, MS, or PhD candidates in finance, computer science, mathematics, physics, or other quantitative discipline. Programming in any of the following: C++, Java, C#, MATLAB, R, Python, or Perl. Strong analytical and quantitative skills. Demonstrated interest in finan",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "00f25ab61a96",
+   "firm": "Point72 / Cubist",
+   "title": "Quantitative Researcher - Machine Learning",
+   "url": "https://boards.greenhouse.io/point72/jobs/8023550002?gh_jid=8023550002",
+   "locations": [
+    {
+     "city": "New York",
+     "country": "USA"
+    },
+    {
+     "city": "London",
+     "country": "UK"
+    },
+    {
+     "city": "Hong Kong",
+     "country": "Hong Kong"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord",
+    "Europe",
+    "Asie-Pacifique"
+   ],
+   "type": "fulltime_junior",
+   "category": "ML",
+   "posted": "2025-06-04",
+   "start": null,
+   "snippet": "DESIRABLE CANDIDATES:. Master’s or PhD in machine learning, computer science, statistics, or related fields. Knowledge and experience in any of the following areas are strongly preferred: modern sequence models, graph neutral nets, reinforcement learning, LLMs. Prior research experience utilizing ",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "192b1f0753d9",
+   "firm": "Point72 / Cubist",
+   "title": "Quantitative Researcher - Machine Learning",
+   "url": "https://boards.greenhouse.io/point72/jobs/7297513002?gh_jid=7297513002",
+   "locations": [
+    {
+     "city": "New York",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "fulltime_junior",
+   "category": "ML",
+   "posted": "2024-08-15",
+   "start": null,
+   "snippet": "Requirements:. PhD or PhD candidate in machine learning, computer science, statistics, or a related field. Experience with sequential modeling and time series forecasting using deep learning. Experience with deep neural networks and representation learning. Prior experience working in a data drive",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "a37c2b7b275c",
+   "firm": "Point72 / Cubist",
+   "title": "Quantitative Researcher - Macro",
+   "url": "https://boards.greenhouse.io/point72/jobs/7297612002?gh_jid=7297612002",
+   "locations": [
+    {
+     "city": "New York",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "fulltime_junior",
+   "category": "QR",
+   "posted": "2024-08-15",
+   "start": null,
+   "snippet": "Desirable Candidates. Masters or PhD in mathematics, statistics, physics or other quantitative discipline. PhD in statistics or machine learning is a plus. Experience in quantitative trading, ideally in FX or futures. Experience with alpha research, portfolio construction and optimization. Experie",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "a2058862e787",
+   "firm": "Point72 / Cubist",
+   "title": "Quantitative Researcher - Systematic Credit",
+   "url": "https://boards.greenhouse.io/point72/jobs/7297625002?gh_jid=7297625002",
+   "locations": [
+    {
+     "city": "Chicago",
+     "country": "USA"
+    },
+    {
+     "city": "New York",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "fulltime_junior",
+   "category": "QR",
+   "posted": "2024-08-15",
+   "start": null,
+   "snippet": "Requirements. PhD or Master’s degree in Economics, Finance, Statistics, Mathematics, Physics, or other quantitative discipline. 2+ years of experience developing statistical and fundamental alpha signals, risk factors for single name credit, equities, or options. Demonstrated ability to conduct re",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "e0e4b24bffa6",
+   "firm": "Point72 / Cubist",
+   "title": "Quantitative Researcher Intern",
+   "url": "https://boards.greenhouse.io/point72/jobs/7586061002?gh_jid=7586061002",
+   "locations": [
+    {
+     "city": "New York",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "offcycle_internship",
+   "category": "QR",
+   "posted": "2024-08-15",
+   "start": "Fall 2026, Spring 2027 or Summer 2027",
+   "snippet": "Point72 Internal Alpha Capture (IAC) team, New York. Seeking students as quantitative researcher interns for Fall 2026, Spring 2027 AND Summer 2027 - builds scalable quantitative equity trading signals using ML and public/proprietary data. Off-cycle starts available.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "03e1dcda6218",
+   "firm": "Point72 / Cubist",
+   "title": "Quantitative Researcher, Trading Research",
+   "url": "https://boards.greenhouse.io/point72/jobs/7297643002?gh_jid=7297643002",
+   "locations": [
+    {
+     "city": "New York",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "fulltime_junior",
+   "category": "QR",
+   "posted": "2024-08-15",
+   "start": null,
+   "snippet": "Requirements. Master's degree or higher in a quantitative field such as Finance, Mathematics, Statistics, Computer Science, or a related discipline. A minimum of 2 years of experience in quantitative research, building statistical models for intraday study. Solid understanding of market impact. Pr",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "da7549081fb9",
+   "firm": "Point72 / Cubist",
+   "title": "Quantitative Software Developer",
+   "url": "https://boards.greenhouse.io/point72/jobs/8032153002?gh_jid=8032153002",
+   "locations": [
+    {
+     "city": "New York",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "fulltime_junior",
+   "category": "ENG",
+   "posted": "2025-06-10",
+   "start": null,
+   "snippet": "REQUIREMENTS:. Bachelor’s degree or higher in computer science or other STEM discipline. Advanced proficiency in Python and its ecosystem (numpy, pandas, polars, scikit-learn), with an understanding of Python and library internals. Experience contributing to core Python numerical libraries is a hu",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "2f13ff5134cd",
+   "firm": "Point72 / Cubist",
+   "title": "Quantitative Software Developer",
+   "url": "https://boards.greenhouse.io/point72/jobs/7825863002?gh_jid=7825863002",
+   "locations": [
+    {
+     "city": "New York",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "fulltime_junior",
+   "category": "ENG",
+   "posted": "2025-01-22",
+   "start": null,
+   "snippet": "Requirements. Master/PhD degree in math, computer science, engineering, or other related fields. 1-3 years of professional experience in software development or data science/analytics. Strong combination of quantitative skills and programming skills. Proficiency in Python; knowledge of common data",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "b697c24e2739",
+   "firm": "Point72 / Cubist",
+   "title": "Quantitative Software Developer",
+   "url": "https://boards.greenhouse.io/point72/jobs/8036928002?gh_jid=8036928002",
+   "locations": [
+    {
+     "city": "New York",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "fulltime_junior",
+   "category": "ENG",
+   "posted": "2025-06-16",
+   "start": null,
+   "snippet": "Requirements:. B.S. or higher in computer science, engineering or a relevant quantitative field such as Mathematics, Statistics, Physics. Proficiency in Python and its ecosystem (numpy, pandas, polars, scikit-learn), with an understanding of Python and library internals. Proficiency with Go and/or",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "ee1d06c316b4",
+   "firm": "Point72 / Cubist",
+   "title": "Quantitative Software Developer Intern",
+   "url": "https://boards.greenhouse.io/point72/jobs/7297666002?gh_jid=7297666002",
+   "locations": [
+    {
+     "city": "New York",
+     "country": "USA"
+    },
+    {
+     "city": "London",
+     "country": "UK"
+    },
+    {
+     "city": "Paris",
+     "country": "France"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord",
+    "Europe"
+   ],
+   "type": "internship",
+   "category": "ENG",
+   "posted": "2024-08-15",
+   "start": null,
+   "snippet": "Desirable Candidates. Undergraduate or graduate candidates in computer science or engineering. Significant experience in Python, C++, C, or Java. Serious interest in systems programming (e.g. Linux kernel development, compilers, embedded systems, networking, file systems, debuggers). In-depth unde",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "5e08e8f524b1",
+   "firm": "Point72 / Cubist",
+   "title": "Sector Analyst, MI-Data",
+   "url": "https://boards.greenhouse.io/point72/jobs/7820104002?gh_jid=7820104002",
+   "locations": [
+    {
+     "city": "New York",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "fulltime_junior",
+   "category": "OTHER",
+   "posted": "2025-01-17",
+   "start": null,
+   "snippet": "A CAREER WITH POINT72’S MARKET INTELLIGENCE TEAM. On our proprietary research team—Market Intelligence—you’ll partner with our investment professionals and Compliance team to work with alternative data to uncover insights about companies, industries, and the broader economy through deep fundamenta",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "e493cf1f9825",
+   "firm": "Point72 / Cubist",
+   "title": "Sector Analyst, Proprietary Research",
+   "url": "https://boards.greenhouse.io/point72/jobs/8056172002?gh_jid=8056172002",
+   "locations": [
+    {
+     "city": "London",
+     "country": "UK"
+    }
+   ],
+   "regions": [
+    "Europe"
+   ],
+   "type": "fulltime_junior",
+   "category": "OTHER",
+   "posted": "2025-06-30",
+   "start": null,
+   "snippet": "ABOUT PROPRIETARY RESEARCH. On our proprietary research team—Market Intelligence— you will uncover insights about companies, industries, and the broader economy through deep compliant fundamental research and applying data science and engineering techniques to alternative data sets. In partnership",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "e6d65559127f",
+   "firm": "Point72 / Cubist",
+   "title": "Software Engineer (.NET), Macro Middle Office",
+   "url": "https://boards.greenhouse.io/point72/jobs/8428205002?gh_jid=8428205002",
+   "locations": [
+    {
+     "city": "Bengaluru",
+     "country": "India"
+    }
+   ],
+   "regions": [
+    "Asie-Pacifique"
+   ],
+   "type": "fulltime_junior",
+   "category": "ENG",
+   "posted": "2026-05-21",
+   "start": null,
+   "snippet": "Senior Software Engineer",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "72329ef53bd8",
+   "firm": "Point72 / Cubist",
+   "title": "Software Engineer, Bpm",
+   "url": "https://boards.greenhouse.io/point72/jobs/8389781002?gh_jid=8389781002",
+   "locations": [
+    {
+     "city": "Bengaluru",
+     "country": "India"
+    }
+   ],
+   "regions": [
+    "Asie-Pacifique"
+   ],
+   "type": "fulltime_junior",
+   "category": "ENG",
+   "posted": "2026-02-03",
+   "start": null,
+   "snippet": "Software Engineer, Bpm",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "2c00542ac61c",
+   "firm": "Point72 / Cubist",
+   "title": "Software Engineer, Investor and Fund Administration",
+   "url": "https://boards.greenhouse.io/point72/jobs/8372903002?gh_jid=8372903002",
+   "locations": [
+    {
+     "city": null,
+     "country": "India"
+    }
+   ],
+   "regions": [
+    "Asie-Pacifique"
+   ],
+   "type": "fulltime_junior",
+   "category": "ENG",
+   "posted": "2026-02-19",
+   "start": null,
+   "snippet": "Software Engineer, Investor and Fund Administration Technology",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "45733d79427c",
+   "firm": "Point72 / Cubist",
+   "title": "Software Engineer, Investor and Fund Administration Technology",
+   "url": "https://boards.greenhouse.io/point72/jobs/8372893002?gh_jid=8372893002",
+   "locations": [
+    {
+     "city": null,
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "fulltime_junior",
+   "category": "ENG",
+   "posted": "2026-03-24",
+   "start": null,
+   "snippet": "Software Engineer, Investor and Fund Administration Technology",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "2871220e579b",
+   "firm": "Point72 / Cubist",
+   "title": "Software Engineer, Macro Middle Office",
+   "url": "https://boards.greenhouse.io/point72/jobs/8377024002?gh_jid=8377024002",
+   "locations": [
+    {
+     "city": "Bengaluru",
+     "country": "India"
+    }
+   ],
+   "regions": [
+    "Asie-Pacifique"
+   ],
+   "type": "fulltime_junior",
+   "category": "ENG",
+   "posted": "2026-01-20",
+   "start": null,
+   "snippet": "Senior Software Engineer",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "a338e2c16721",
+   "firm": "Point72 / Cubist",
+   "title": "Software Engineer, Technology",
+   "url": "https://boards.greenhouse.io/point72/jobs/8372908002?gh_jid=8372908002",
+   "locations": [
+    {
+     "city": "Bengaluru",
+     "country": "India"
+    }
+   ],
+   "regions": [
+    "Asie-Pacifique"
+   ],
+   "type": "fulltime_junior",
+   "category": "ENG",
+   "posted": "2026-04-21",
+   "start": null,
+   "snippet": "WHAT'S REQUIRED. 2–8 years of professional software development experience with solid experience with Java and Java-based technologies. Solid knowledge of financial products including fixed income, credit, equities, and derivatives, along with related accounting, settlement, affirmation processing",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "c48338b42679",
+   "firm": "Point72 / Cubist",
+   "title": "Software Engineer, Treasury Technology",
+   "url": "https://boards.greenhouse.io/point72/jobs/8576950002?gh_jid=8576950002",
+   "locations": [
+    {
+     "city": "Warsaw",
+     "country": "Poland"
+    }
+   ],
+   "regions": [
+    "Europe"
+   ],
+   "type": "fulltime_junior",
+   "category": "ENG",
+   "posted": "2026-06-05",
+   "start": null,
+   "snippet": "WHAT'S REQUIRED. Hands-on experience engineering production software with C# or F# across the.NET ecosystem. Ability and desire to learn the.NET Framework deeply enough to support and evolve role-specific applications. Experience building single-page applications in JavaScript using established fr",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "3bfa46e311e5",
+   "firm": "Point72 / Cubist",
+   "title": "Software Engineer, Treasury Technology",
+   "url": "https://boards.greenhouse.io/point72/jobs/8576949002?gh_jid=8576949002",
+   "locations": [
+    {
+     "city": "Warsaw",
+     "country": "Poland"
+    }
+   ],
+   "regions": [
+    "Europe"
+   ],
+   "type": "fulltime_junior",
+   "category": "ENG",
+   "posted": "2026-08-04",
+   "start": null,
+   "snippet": "requirements into reliable, testable technical solutions. Contribute reusable components, libraries, and engineering practices to the team’s collective technology assets to accelerate delivery and reduce technical debt. Troubleshoot and resolve production incidents, improve system observability, a",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "107d3d6831d7",
+   "firm": "Point72 / Cubist",
+   "title": "Summer 2027 Quantitative Research Internship",
+   "url": "https://boards.greenhouse.io/point72/jobs/7297642002?gh_jid=7297642002",
+   "locations": [
+    {
+     "city": "New York",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "summer_internship",
+   "category": "QR",
+   "posted": "2024-08-15",
+   "start": "Summer 2027",
+   "snippet": "Cubist Systematic Strategies (KEPL). Quantitative researcher interns for summer 2027; full-time offers considered after the internship. NOTE: apply by emailing CV to KEPL-talent@cubistsystematic.com with subject '2027 QR Summer Internship Application', not via the Greenhouse form.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "171fe691f47f",
+   "firm": "Point72 / Cubist",
+   "title": "Trader",
+   "url": "https://boards.greenhouse.io/point72/jobs/8470606002?gh_jid=8470606002",
+   "locations": [
+    {
+     "city": "London",
+     "country": "UK"
+    }
+   ],
+   "regions": [
+    "Europe"
+   ],
+   "type": "fulltime_junior",
+   "category": "QT",
+   "posted": "2026-03-20",
+   "start": null,
+   "snippet": "Requirements:. 2+ years of work experience in algorithmic trading and exposure to systematic macro strategies, ideally with experience in futures, fixed income, FX, and exchange-traded global equities. Undergraduate or higher degree in computer science, statistics, applied mathematics, engineering",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
    "id": "83cddd0f4175",
    "firm": "Polaris7",
    "title": "Option Trader (TRADER-007)",
@@ -29109,6 +31300,900 @@
    "source": "html"
   },
   {
+   "id": "4cef9f756b35",
+   "firm": "TransMarket Group",
+   "title": "Algorithmic Trader Intern",
+   "url": "https://job-boards.greenhouse.io/transmarketgroup/jobs/5151581007?gh_jid=5151581007",
+   "locations": [
+    {
+     "city": "Chicago",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "internship",
+   "category": "QT",
+   "posted": "2026-08-03",
+   "start": null,
+   "snippet": "Pursuing BSc/MSc/PhD in STEM or Finance, graduation Dec 2027-Spring 2028. Relative-value arbitrage desk. Needs data structures, probability, statistics, linear algebra; min 3.5/4 major GPA; C++/Python/Java. Onsite Chicago.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "35bc1462e327",
+   "firm": "TransMarket Group",
+   "title": "DevOps/SRE Intern",
+   "url": "https://job-boards.greenhouse.io/transmarketgroup/jobs/5151577007?gh_jid=5151577007",
+   "locations": [
+    {
+     "city": "Chicago",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "internship",
+   "category": "ENG",
+   "posted": "2026-06-02",
+   "start": null,
+   "snippet": "Pursuing BA/BS/MS in CS, Engineering or IT. Automates build/test/deploy of latency-sensitive trading apps. Needs Python, git, Docker, Ansible/Puppet, CI/CD, Prometheus/Grafana basics. Onsite Chicago.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "ba6f36122b52",
+   "firm": "TransMarket Group",
+   "title": "Infrastructure Engineer",
+   "url": "https://job-boards.greenhouse.io/transmarketgroup/jobs/5151576007?gh_jid=5151576007",
+   "locations": [
+    {
+     "city": "Chicago",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "fulltime_junior",
+   "category": "ENG",
+   "posted": "2026-06-02",
+   "start": null,
+   "snippet": "BA/BS/MS in CS or Computer Engineering, 2+ years in related field. Owns data-centre infrastructure: racking/cabling servers, Linux admin, Ansible/Puppet, Netbox, monitoring. Low-latency (Solarflare, PTP) a plus. Onsite Chicago.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "07f35068d437",
+   "firm": "TransMarket Group",
+   "title": "Junior Algorithmic Trader",
+   "url": "https://job-boards.greenhouse.io/transmarketgroup/jobs/5151575007?gh_jid=5151575007",
+   "locations": [
+    {
+     "city": "Chicago",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "graduate",
+   "category": "QT",
+   "posted": "2026-08-03",
+   "start": "Graduation between December 2026 and Spring 2027",
+   "snippet": "BSc/MSc/PhD in STEM or Finance graduating Dec 2026-Spring 2027, or 1-2 years industry experience. Relative-value arbitrage trading with senior traders. Min 3.5/4 major GPA; C++/Python/Java preferred. Onsite Chicago.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "5d760f439c70",
+   "firm": "TransMarket Group",
+   "title": "Junior Quantitative Trader",
+   "url": "https://job-boards.greenhouse.io/transmarketgroup/jobs/5151574007?gh_jid=5151574007",
+   "locations": [
+    {
+     "city": "Chicago",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "graduate",
+   "category": "QT",
+   "posted": "2026-06-02",
+   "start": "Graduation between December 2026 and Spring 2027",
+   "snippet": "Bachelor's/Master's/PhD in maths, statistics or mathematical finance graduating Dec 2026-Spring 2027. Formalised education programme with senior traders. Requires differential equations, linear algebra, probability; Python. Onsite Chicago.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "3f43c22d2712",
+   "firm": "TransMarket Group",
+   "title": "Junior Software Engineer",
+   "url": "https://job-boards.greenhouse.io/transmarketgroup/jobs/5151549007?gh_jid=5151549007",
+   "locations": [
+    {
+     "city": "Chicago",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "fulltime_junior",
+   "category": "ENG",
+   "posted": "2026-06-02",
+   "start": null,
+   "snippet": "Bachelor's in a quantitative/technical field, no years-of-experience requirement. Builds low-latency trading systems alongside senior developers. C++ and Python; Linux scripting a plus. Onsite Chicago, no remote.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "765bc9f0569b",
+   "firm": "TransMarket Group",
+   "title": "Quantitative Trader Intern",
+   "url": "https://job-boards.greenhouse.io/transmarketgroup/jobs/5151569007?gh_jid=5151569007",
+   "locations": [
+    {
+     "city": "Chicago",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "internship",
+   "category": "QT",
+   "posted": "2026-06-02",
+   "start": null,
+   "snippet": "Pursuing BSc/MSc/PhD in maths, statistics or financial engineering, graduating Dec 2027-Spring 2028. Python (1-2 yrs), differential equations, linear algebra, advanced statistics; min 3.5/4 major GPA. Onsite Chicago.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "c575733b6663",
+   "firm": "TransMarket Group",
+   "title": "Software Engineering Intern",
+   "url": "https://job-boards.greenhouse.io/transmarketgroup/jobs/5212335007?gh_jid=5212335007",
+   "locations": [
+    {
+     "city": "Chicago",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "internship",
+   "category": "ENG",
+   "posted": "2026-08-14",
+   "start": null,
+   "snippet": "Pursuing a Bachelor's or higher in a quantitative/technical field. Works with junior and senior developers on low-latency trading systems. C++ and Python; Linux scripting a plus. Onsite Chicago, no remote.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "5a4fedc40400",
+   "firm": "Trexquant Investment",
+   "title": "AI Engineer (CHINA)",
+   "url": "https://trexquant.workable.com/jobs/5074505",
+   "locations": [
+    {
+     "city": "Beijing",
+     "country": "China"
+    }
+   ],
+   "regions": [
+    "Asie-Pacifique"
+   ],
+   "type": "fulltime_junior",
+   "category": "ML",
+   "posted": "2025-08-13",
+   "start": null,
+   "snippet": "Minimum 2 years hands-on with LLMs, AI or deep learning. Builds LLM/vector-database systems for quant research (literature review, data search, code generation) and deploys AI models to production. Beijing, China.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "html"
+  },
+  {
+   "id": "40471eb2e4aa",
+   "firm": "Trexquant Investment",
+   "title": "C++ Trading & Simulator Engineer (USA)",
+   "url": "https://trexquant.workable.com/jobs/5772734",
+   "locations": [
+    {
+     "city": "Stamford",
+     "country": "USA"
+    },
+    {
+     "city": "New York",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "fulltime_junior",
+   "category": "ENG",
+   "posted": "2026-04-28",
+   "start": null,
+   "snippet": "Degree in CS, Engineering or Maths plus 2+ years. Builds core infrastructure for trading simulations, data pipelines and low-latency execution platforms with researchers and traders. Stamford or New York.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "html"
+  },
+  {
+   "id": "0a31354b77fa",
+   "firm": "Trexquant Investment",
+   "title": "Data Operations Engineer (USA)",
+   "url": "https://trexquant.workable.com/jobs/5772765",
+   "locations": [
+    {
+     "city": "Stamford",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "fulltime_junior",
+   "category": "ENG",
+   "posted": "2026-04-28",
+   "start": null,
+   "snippet": "Background in CS or Engineering; no years-of-experience requirement stated. Monitoring and alerting for the trading process, incident troubleshooting, workflow optimisation. Python and Linux essential, SQL an advantage. Stamford.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "html"
+  },
+  {
+   "id": "4b306b294dda",
+   "firm": "Trexquant Investment",
+   "title": "DevOps Engineer (USA)",
+   "url": "https://trexquant.workable.com/jobs/6036293",
+   "locations": [
+    {
+     "city": "Stamford",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "fulltime_junior",
+   "category": "ENG",
+   "posted": "2026-08-17",
+   "start": null,
+   "snippet": "2+ years in DevOps, Infrastructure or SRE in a Linux-centric environment. Kubernetes orchestration, CI/CD pipeline engineering and internal tooling for research and trading platforms. Stamford.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "html"
+  },
+  {
+   "id": "7bbf20b08003",
+   "firm": "Trexquant Investment",
+   "title": "Global Alpha Researcher (GLOBAL)",
+   "url": "https://trexquant.workable.com/jobs/1391837",
+   "locations": [
+    {
+     "city": "Remote",
+     "country": "Worldwide"
+    }
+   ],
+   "regions": [
+    "Remote / Monde"
+   ],
+   "type": "fulltime_junior",
+   "category": "QR",
+   "posted": "2020-07-13",
+   "start": null,
+   "snippet": "Fully remote contract role, explicitly open worldwide. Global Alpha Research Program aimed at academically strong scientists/mathematicians/engineers entering quant finance; no stated experience requirement. Develops profitable trading signals.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "html"
+  },
+  {
+   "id": "552e43f66494",
+   "firm": "Trexquant Investment",
+   "title": "Global Alpha Trader (GLOBAL)",
+   "url": "https://trexquant.workable.com/jobs/3812863",
+   "locations": [
+    {
+     "city": "Remote",
+     "country": "Worldwide"
+    }
+   ],
+   "regions": [
+    "Remote / Monde"
+   ],
+   "type": "fulltime_junior",
+   "category": "QT",
+   "posted": "2024-02-27",
+   "start": null,
+   "snippet": "Remote contract role open worldwide. Bachelor's/Master's/PhD in Maths, Engineering or Statistics. Prefers a 1-year live track record but explicitly open to simulation-based experience. Run systematic strategies on Trexquant's platform.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "html"
+  },
+  {
+   "id": "add9e53a071f",
+   "firm": "Trexquant Investment",
+   "title": "Infrastructure Engineer (C++ ) (INDIA)",
+   "url": "https://trexquant.workable.com/jobs/5698064",
+   "locations": [
+    {
+     "city": "Gurugram",
+     "country": "India"
+    }
+   ],
+   "regions": [
+    "Asie-Pacifique"
+   ],
+   "type": "fulltime_junior",
+   "category": "ENG",
+   "posted": "2026-04-01",
+   "start": null,
+   "snippet": "Bachelor's/Master's/PhD in CS or STEM plus minimum 2 years C++ in real-time environments. C++ Trading Engineer and C++ Simulation Engineer tracks: high-throughput low-latency systems, modern C++17/20, Linux. Gurugram, India.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "html"
+  },
+  {
+   "id": "888cda58b64a",
+   "firm": "Trexquant Investment",
+   "title": "Quantitative Developer (USA)",
+   "url": "https://trexquant.workable.com/jobs/5892913",
+   "locations": [
+    {
+     "city": "New York",
+     "country": "USA"
+    },
+    {
+     "city": "Stamford",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "fulltime_junior",
+   "category": "ENG",
+   "posted": "2026-06-15",
+   "start": null,
+   "snippet": "BS/MS/PhD in a STEM field; no years-of-experience requirement stated. Strong C++ is the key requirement. Builds analytics/market-data platform, backtesting and risk tooling; options pricing and implied vol surfaces preferred. New York or Stamford.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "html"
+  },
+  {
+   "id": "d869c0a3f141",
+   "firm": "Trexquant Investment",
+   "title": "Quantitative Researcher - Early Career (INDIA)",
+   "url": "https://trexquant.workable.com/jobs/4746530",
+   "locations": [
+    {
+     "city": "Gurugram",
+     "country": "India"
+    }
+   ],
+   "regions": [
+    "Asie-Pacifique"
+   ],
+   "type": "fulltime_junior",
+   "category": "QR",
+   "posted": "2025-03-24",
+   "start": null,
+   "snippet": "Graduate degree (Bachelor's, Master's or PhD) in any STEM discipline from a prestigious institution; no experience requirement. Alpha Researcher / Data Science teams developing market-neutral ML signals. Gurugram, India.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "html"
+  },
+  {
+   "id": "7a7322655f97",
+   "firm": "Trexquant Investment",
+   "title": "Quantitative Researcher - Early Career (USA)",
+   "url": "https://trexquant.workable.com/jobs/5955902",
+   "locations": [
+    {
+     "city": "New York",
+     "country": "USA"
+    },
+    {
+     "city": "Stamford",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "fulltime_junior",
+   "category": "QR",
+   "posted": "2026-07-13",
+   "start": null,
+   "snippet": "BS/MS in any STEM field, no experience requirement. Alpha Researcher / Data Science / Strategy Research teams building market-neutral ML signals. Wants passion for machine learning and fluent programming. New York or Stamford.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "html"
+  },
+  {
+   "id": "360e42e5936d",
+   "firm": "Trexquant Investment",
+   "title": "Quantitative Researcher - Futures (USA)",
+   "url": "https://trexquant.workable.com/jobs/4805227",
+   "locations": [
+    {
+     "city": "Stamford",
+     "country": "USA"
+    },
+    {
+     "city": "New York",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "fulltime_junior",
+   "category": "QR",
+   "posted": "2025-04-17",
+   "start": null,
+   "snippet": "BS/MS/PhD in a STEM field plus 2+ years in quantitative research. Futures team: designing trading strategies and alpha signals from large financial datasets. Stamford or New York.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "html"
+  },
+  {
+   "id": "875c3f8b6472",
+   "firm": "Trexquant Investment",
+   "title": "Quantitative Researcher - PhD (USA)",
+   "url": "https://trexquant.workable.com/jobs/5932198",
+   "locations": [
+    {
+     "city": "New York",
+     "country": "USA"
+    },
+    {
+     "city": "Stamford",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "fulltime_junior",
+   "category": "QR",
+   "posted": "2026-07-01",
+   "start": null,
+   "snippet": "PhD in CS, Physics, Maths, Statistics, Engineering or Economics. Explicitly states no prior finance experience required. ML, statistics and large-scale data analysis on global markets, deployed to live trading. New York or Stamford.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "html"
+  },
+  {
+   "id": "160228d01323",
+   "firm": "Trexquant Investment",
+   "title": "Quantitative Researcher (CHINA)",
+   "url": "https://trexquant.workable.com/jobs/2158895",
+   "locations": [
+    {
+     "city": "Beijing",
+     "country": "China"
+    }
+   ],
+   "regions": [
+    "Asie-Pacifique"
+   ],
+   "type": "fulltime_junior",
+   "category": "QR",
+   "posted": "2022-01-20",
+   "start": null,
+   "snippet": "BS/MS/PhD in any STEM field, no years-of-experience requirement. Alpha Researcher and Strategy Research teams; machine learning on large datasets to build market-neutral portfolios. Beijing, China.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "html"
+  },
+  {
+   "id": "71584174adf0",
+   "firm": "Two Sigma",
+   "title": "AI Research Scientist - Campus Full-Time",
+   "url": "https://careers.twosigma.com/careers/JobDetail/New-York-New-York-United-States-AI-Research-Scientist-Campus-Full-Time/13671",
+   "locations": [
+    {
+     "city": "New York",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "graduate",
+   "category": "ML",
+   "posted": null,
+   "start": null,
+   "snippet": "Open only to MS-with-work-experience and PhD candidates in their FINAL year of study. Applies deep learning, LLMs and reinforcement learning to alpha modelling; idea to prototype to production. New York.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "html"
+  },
+  {
+   "id": "08f7568769b6",
+   "firm": "Two Sigma",
+   "title": "AI Research Scientist - Intern [2027 Summer]",
+   "url": "https://careers.twosigma.com/careers/JobDetail/New-York-New-York-United-States-AI-Research-Scientist-Intern-2027-Summer/14096",
+   "locations": [
+    {
+     "city": "New York",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "summer_internship",
+   "category": "ML",
+   "posted": null,
+   "start": "Summer 2027 (approx. 10 weeks)",
+   "snippet": "Open only to MS-with-work-experience and PhD candidates in their PENULTIMATE year. Deep learning, LLMs and reinforcement learning on noisy financial data; ~10-week summer project under an experienced mentor. New York.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "html"
+  },
+  {
+   "id": "24508103b43e",
+   "firm": "Two Sigma",
+   "title": "Quantitative Researcher - Full-Time Campus Hire",
+   "url": "https://careers.twosigma.com/careers/JobDetail/New-York-New-York-United-States-Quantitative-Researcher-Full-Time-Campus-Hire/13946",
+   "locations": [
+    {
+     "city": "New York",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "graduate",
+   "category": "QR",
+   "posted": null,
+   "start": null,
+   "snippet": "Avature Experience Level: Early Careers. Campus full-time quantitative research role: develops investment models with rigorous scientific method, applies machine learning across large datasets, partners with engineers. New York.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "html"
+  },
+  {
+   "id": "0b3e554740c3",
+   "firm": "Two Sigma",
+   "title": "Quantitative Researcher - Intern [2027 Summer]",
+   "url": "https://careers.twosigma.com/careers/JobDetail/New-York-New-York-United-States-Quantitative-Researcher-Intern-2027-Summer/13945",
+   "locations": [
+    {
+     "city": "New York",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "summer_internship",
+   "category": "QR",
+   "posted": null,
+   "start": "Summer 2027",
+   "snippet": "Avature Experience Level: Internship. Quantitative Research function, Investment Management. Uses the scientific method to build investment models and applies ML to large datasets; interns stay engaged with the academic community. New York.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "html"
+  },
+  {
+   "id": "00dd676c9086",
+   "firm": "Valkyrie Trading",
+   "title": "Derivatives Trader (European Hours)",
+   "url": "https://www.valkyrietrading.com/careers/derivatives-trader-european-hours/",
+   "locations": [
+    {
+     "city": "Chicago",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "fulltime_junior",
+   "category": "QT",
+   "posted": null,
+   "start": null,
+   "snippet": "Needs 1 year on a trading desk in options market making, plus availability 12:00am-8:00am. Owns risk and inventory for products on the desk. Salary $150,000-160,000 plus discretionary bonus. Chicago.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "html"
+  },
+  {
+   "id": "a851ddc442f7",
+   "firm": "Valkyrie Trading",
+   "title": "Junior Derivatives Trader",
+   "url": "https://www.valkyrietrading.com/careers/junior-derivatives-trader/",
+   "locations": [
+    {
+     "city": "Chicago",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "graduate",
+   "category": "QT",
+   "posted": null,
+   "start": "Must be able to start full-time between January 2027 and August 2027",
+   "snippet": "Degree in maths, physics, engineering or CS. Rigorous training programme then live trading under a senior trader, owning day-to-day PnL and risk. Python or R. Salary from $140,000. Requires unrestricted US work authorisation, no sponsorship.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "html"
+  },
+  {
+   "id": "54dfc29a2ee0",
+   "firm": "Valkyrie Trading",
+   "title": "Junior Software Engineer",
+   "url": "https://www.valkyrietrading.com/careers/junior-software-engineer/",
+   "locations": [
+    {
+     "city": "Chicago",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "graduate",
+   "category": "ENG",
+   "posted": null,
+   "start": "Must be able to start full-time between January 2027 and August 2027",
+   "snippet": "Bachelor's or strong programming foundation. Builds trading applications in C++ or C#; multi-threaded server-client systems, Windows and Linux. Full ownership from design to deploy. Requires unrestricted US work authorisation, no sponsorship.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "html"
+  },
+  {
+   "id": "38981984ac10",
+   "firm": "Valkyrie Trading",
+   "title": "Trade Support Engineer",
+   "url": "https://www.valkyrietrading.com/careers/trade-support-engineer/",
+   "locations": [
+    {
+     "city": "Chicago",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "fulltime_junior",
+   "category": "OTHER",
+   "posted": null,
+   "start": null,
+   "snippet": "2+ years in trade support, trade operations or application support. Monitors the production trading environment, L1/L2 incident triage, trade break investigation. Windows/Linux, Python/PowerShell/Bash, SQL. On-call rotation. Chicago.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "html"
+  },
+  {
+   "id": "43bf48ba7c7a",
+   "firm": "Vatic Investments",
+   "title": "AI Engineer",
+   "url": "https://job-boards.greenhouse.io/vaticlabs/jobs/5414236",
+   "locations": [
+    {
+     "city": "New York",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "fulltime_junior",
+   "category": "ML",
+   "posted": "2023-10-05",
+   "start": null,
+   "snippet": "No degree or years-of-experience requirement stated. Foundational model training, evaluation and innovation across language, vision and multimodal data. Python on Linux, multi-GPU training, parallel computing. New York.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "9deef1b8c7c2",
+   "firm": "Vatic Investments",
+   "title": "AI Engineer (UAE)",
+   "url": "https://job-boards.greenhouse.io/vaticlabs/jobs/7235544",
+   "locations": [
+    {
+     "city": "Abu Dhabi",
+     "country": "UAE"
+    }
+   ],
+   "regions": [
+    "Moyen-Orient"
+   ],
+   "type": "fulltime_junior",
+   "category": "ML",
+   "posted": "2025-09-09",
+   "start": null,
+   "snippet": "No degree or years-of-experience requirement stated. Foundational model training and evaluation across multiple data modalities. Python on Linux, multi-GPU model training, performance tuning, parallel computing. Abu Dhabi.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "182b95064d0f",
+   "firm": "Vatic Investments",
+   "title": "AI Research Internship (UAE)",
+   "url": "https://job-boards.greenhouse.io/vaticlabs/jobs/7268318",
+   "locations": [
+    {
+     "city": "Abu Dhabi",
+     "country": "UAE"
+    }
+   ],
+   "regions": [
+    "Moyen-Orient"
+   ],
+   "type": "internship",
+   "category": "ML",
+   "posted": "2025-09-22",
+   "start": null,
+   "snippet": "Earned or will earn a PhD or Master's in CS, Statistics, Maths, EE or Physics. Contributes to fully autonomous trading agents: explores market data and researches AI approaches. C++ or Python on Linux; deep learning fundamentals. Abu Dhabi.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "40afc5e79dc3",
+   "firm": "Vatic Investments",
+   "title": "AI Researcher",
+   "url": "https://job-boards.greenhouse.io/vaticlabs/jobs/5114560",
+   "locations": [
+    {
+     "city": "New York",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "fulltime_junior",
+   "category": "ML",
+   "posted": "2023-06-15",
+   "start": null,
+   "snippet": "Earned or WILL EARN a PhD in a quantitative field (CS, ECE, Applied Maths, Statistics, Physics). No years-of-experience requirement. Researches AI-driven quantitative trading strategies over market and alternative data. New York.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "a6b504c13854",
+   "firm": "Vatic Investments",
+   "title": "AI Researcher (UAE)",
+   "url": "https://job-boards.greenhouse.io/vaticlabs/jobs/7235730",
+   "locations": [
+    {
+     "city": "Abu Dhabi",
+     "country": "UAE"
+    }
+   ],
+   "regions": [
+    "Moyen-Orient"
+   ],
+   "type": "fulltime_junior",
+   "category": "ML",
+   "posted": "2025-09-09",
+   "start": null,
+   "snippet": "Earned or will earn a Master's or PhD in a quantitative field. No years-of-experience requirement. Researches AI-driven quantitative trading strategies; statistical and ML analysis of large datasets. Abu Dhabi.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "f1d4ce5a6815",
+   "firm": "Vatic Investments",
+   "title": "Low Latency C++ Engineer",
+   "url": "https://job-boards.greenhouse.io/vaticlabs/jobs/52953",
+   "locations": [
+    {
+     "city": "New York",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "fulltime_junior",
+   "category": "ENG",
+   "posted": "2022-07-28",
+   "start": null,
+   "snippet": "No years-of-experience requirement stated. Builds latency-sensitive trading and research platforms. Advanced C/C++ on Linux, performance tuning, network protocols, OS internals and Linux kernel; x86 assembly desirable. New York.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "3cf6aaee6566",
+   "firm": "Vatic Investments",
+   "title": "Low Latency C++ Engineer (UAE)",
+   "url": "https://job-boards.greenhouse.io/vaticlabs/jobs/7862930",
+   "locations": [
+    {
+     "city": "Abu Dhabi",
+     "country": "UAE"
+    }
+   ],
+   "regions": [
+    "Moyen-Orient"
+   ],
+   "type": "fulltime_junior",
+   "category": "ENG",
+   "posted": "2026-04-28",
+   "start": null,
+   "snippet": "No years-of-experience requirement stated. Builds latency-sensitive trading and research platforms. Advanced C/C++ on Linux, low-level systems and network development, hardware/latency architecture. Abu Dhabi.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "439ea7b25b99",
+   "firm": "Vatic Investments",
+   "title": "Quantitative Developer",
+   "url": "https://job-boards.greenhouse.io/vaticlabs/jobs/598228",
+   "locations": [
+    {
+     "city": "New York",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "fulltime_junior",
+   "category": "ENG",
+   "posted": "2024-11-07",
+   "start": null,
+   "snippet": "Earned or will earn a Bachelor's in CS, EE or Maths, plus 2+ years building high-performance distributed software. Works at the intersection of AI research, quant trading and engineering to scale algorithmic trading systems. C++ and Python. New York.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "cb25a466944b",
+   "firm": "Vatic Investments",
+   "title": "Trading Operations Specialist",
+   "url": "https://job-boards.greenhouse.io/vaticlabs/jobs/8083551",
+   "locations": [
+    {
+     "city": "Singapore",
+     "country": "Singapore"
+    }
+   ],
+   "regions": [
+    "Asie-Pacifique"
+   ],
+   "type": "fulltime_junior",
+   "category": "OTHER",
+   "posted": "2026-07-24",
+   "start": null,
+   "snippet": "Borderline junior: asks 2-5 years in an execution trading role and states candidates with under 2 years of HFT/electronic trading experience will not be considered. Trading Operations team, algorithmic trading systems. Singapore.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
    "id": "5b51b9efc4ba",
    "firm": "Verition Fund Management",
    "title": "2027 Investment Internship (US)",
@@ -31034,7 +34119,2127 @@
    "snippet": "7-week on-site summer 2027 internship in Bratislava, relocation provided, EUR 5,000/month; crypto quant research/trading: quantitative analysis, algorithm development, mock and live manual trading with experienced quants.",
    "firstSeen": "2026-08-23",
    "seenScan": "baseline",
-   "source": "html"
+   "source": "api"
+  },
+  {
+   "id": "84e79ddcd67e",
+   "firm": "Wintermute",
+   "title": "Algorithmic Trader",
+   "url": "https://jobs.lever.co/wintermute-trading/8119b21c-aa47-4113-bd25-f785f8fc44c1",
+   "locations": [
+    {
+     "city": "New York",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "fulltime_junior",
+   "category": "QT",
+   "posted": "2026-01-07",
+   "start": null,
+   "snippet": "Crypto market-making desk, NYC. Wants 1-3 yrs Python (work, study or personal projects count) and excellent quantitative skills; trading knowledge explicitly not required. Tested on quant skills and trading intuition.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "ddf643507b7f",
+   "firm": "Wintermute",
+   "title": "Algorithmic Trader",
+   "url": "https://jobs.lever.co/wintermute-trading/b14e6e12-1f39-41b8-a3ed-8b02ac8b1464",
+   "locations": [
+    {
+     "city": "London",
+     "country": "UK"
+    }
+   ],
+   "regions": [
+    "Europe"
+   ],
+   "type": "fulltime_junior",
+   "category": "QT",
+   "posted": "2025-04-04",
+   "start": null,
+   "snippet": "London desk. 1-3 yrs in a relevant role, but explicitly welcomes recent graduates who have done internships at other HFT firms. Strong Python plus interest in crypto/DeFi. Numerical and trading-intuition tests.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "c44a1ba6daa2",
+   "firm": "Wintermute",
+   "title": "Algorithmic Trader",
+   "url": "https://jobs.lever.co/wintermute-trading/c0ce4a33-d749-447b-aa79-78a69ce48c6f",
+   "locations": [
+    {
+     "city": "Singapore",
+     "country": "Singapore"
+    }
+   ],
+   "regions": [
+    "Asie-Pacifique"
+   ],
+   "type": "fulltime_junior",
+   "category": "QT",
+   "posted": "2024-12-05",
+   "start": null,
+   "snippet": "Singapore desk. 1-3 yrs Python from work, study or personal projects; excellent quantitative and analytical skills; trading knowledge not required. Interest in blockchain and DeFi expected.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "ff6f27eb3306",
+   "firm": "Wintermute",
+   "title": "C++ Quant Developer",
+   "url": "https://jobs.lever.co/wintermute-trading/4cab7a75-4304-4590-90c5-6755dbd97d36",
+   "locations": [
+    {
+     "city": "London",
+     "country": "UK"
+    }
+   ],
+   "regions": [
+    "Europe"
+   ],
+   "type": "fulltime_junior",
+   "category": "ENG",
+   "posted": "2021-05-01",
+   "start": null,
+   "snippet": "London technology team. At least 2 yrs C++ (tested), networking and client-server implementation, understanding of how C++ standard libraries work internally. Strong analytical skills.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "82b93276c5a8",
+   "firm": "Wintermute",
+   "title": "C++ Quant Developer - Options",
+   "url": "https://jobs.lever.co/wintermute-trading/89c2714e-7748-42ab-a03c-36fc821f7362",
+   "locations": [
+    {
+     "city": "London",
+     "country": "UK"
+    }
+   ],
+   "regions": [
+    "Europe"
+   ],
+   "type": "fulltime_junior",
+   "category": "ENG",
+   "posted": "2023-11-28",
+   "start": null,
+   "snippet": "Crypto options trading systems, London. Bachelor's or higher; no years bar stated. Low-latency C++, multi-threading and concurrency, market data feeds and exchange connectivity. Options/crypto knowledge is a plus, not required.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "1d8c0feebad7",
+   "firm": "Wintermute",
+   "title": "C++ Trading Platform Developer",
+   "url": "https://jobs.lever.co/wintermute-trading/8c31337e-9989-4cf2-9cab-e876cbc96f10",
+   "locations": [
+    {
+     "city": "London",
+     "country": "UK"
+    }
+   ],
+   "regions": [
+    "Europe"
+   ],
+   "type": "fulltime_junior",
+   "category": "ENG",
+   "posted": "2021-01-19",
+   "start": null,
+   "snippet": "London technology team. No years-of-experience bar stated. Strong C++ (tested), knowledge of C++ standard library internals, strong analytical skills; networking, CPU/memory model and assembly desirable.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "69e6fedf5d6a",
+   "firm": "Wintermute",
+   "title": "Core Developer (Python)",
+   "url": "https://jobs.lever.co/wintermute-trading/d059ea72-e3d2-42ce-bbb3-d47531e0c933",
+   "locations": [
+    {
+     "city": "London",
+     "country": "UK"
+    }
+   ],
+   "regions": [
+    "Europe"
+   ],
+   "type": "fulltime_junior",
+   "category": "ENG",
+   "posted": "2024-04-01",
+   "start": null,
+   "snippet": "Core systems team, London: reconciliation, settlement, trader GUI, quant ML feature store. At least 2 yrs Python, SQL databases, Linux; C++ an advantage. Interest in crypto or finance required.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "63591b94ede1",
+   "firm": "Wintermute",
+   "title": "DeFi Algorithmic Trader",
+   "url": "https://jobs.lever.co/wintermute-trading/26c45d48-38d0-43a0-a85f-8591753f392d",
+   "locations": [
+    {
+     "city": "New York",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "fulltime_junior",
+   "category": "QT",
+   "posted": "2024-12-09",
+   "start": null,
+   "snippet": "DeFi desk, NYC. No years bar stated. Rust or Python, Linux and Git, statistical analysis, high-level grasp of HFT market making, EVM/blockchain fundamentals and Foundry. Not remote.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "e3aafb81bf4b",
+   "firm": "Wintermute",
+   "title": "DeFi Algorithmic Trader",
+   "url": "https://jobs.lever.co/wintermute-trading/5cccf004-c190-487d-84d8-e4d8fee97b77",
+   "locations": [
+    {
+     "city": "London",
+     "country": "UK"
+    }
+   ],
+   "regions": [
+    "Europe"
+   ],
+   "type": "fulltime_junior",
+   "category": "QT",
+   "posted": "2025-12-05",
+   "start": null,
+   "snippet": "DeFi desk, London. No years bar stated. Python, Rust or Go, Linux and Git, statistical analysis, high-level grasp of HFT market making, EVM fundamentals and Foundry smart-contract tooling. Not remote.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "e4a878b24d9d",
+   "firm": "Wintermute",
+   "title": "Graduate DeFi Algorithmic Trader",
+   "url": "https://jobs.lever.co/wintermute-trading/ab93223c-daee-4b0c-8797-cb9a77f32391",
+   "locations": [
+    {
+     "city": "Singapore",
+     "country": "Singapore"
+    }
+   ],
+   "regions": [
+    "Asie-Pacifique"
+   ],
+   "type": "graduate",
+   "category": "QT",
+   "posted": "2024-12-04",
+   "start": null,
+   "snippet": "Explicit graduate entry to the DeFi desk in Singapore. Python, Rust or Go, Linux and Git, statistical/quantitative skills, EVM and Foundry familiarity. Employment Pass sponsorship possible; Singapore PR preferred.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "d62fd121b000",
+   "firm": "Wintermute",
+   "title": "Machine Learning Researcher",
+   "url": "https://jobs.lever.co/wintermute-trading/a37ce8fb-afc7-4ede-ae93-ca1395228cda",
+   "locations": [
+    {
+     "city": "London",
+     "country": "UK"
+    }
+   ],
+   "regions": [
+    "Europe"
+   ],
+   "type": "fulltime_junior",
+   "category": "ML",
+   "posted": "2025-11-18",
+   "start": null,
+   "snippet": "ML alpha generation on high-frequency order book data, London. Degree in CS, ML, applied maths or similar quantitative discipline; no years bar stated. Python and ML libraries, deep learning for short-horizon forecasting.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "4d4e90c02798",
+   "firm": "Wintermute",
+   "title": "Prediction Markets Trader",
+   "url": "https://jobs.lever.co/wintermute-trading/13a2e3df-cf2d-4eae-8b10-d7138d42c916",
+   "locations": [
+    {
+     "city": "Hong Kong",
+     "country": "Hong Kong"
+    }
+   ],
+   "regions": [
+    "Asie-Pacifique"
+   ],
+   "type": "fulltime_junior",
+   "category": "QT",
+   "posted": "2026-07-30",
+   "start": null,
+   "snippet": "New prediction-markets desk, Hong Kong. 1-3 yrs Python from work, study or personal projects (tested), excellent quantitative skills, and demonstrated personal engagement with prediction markets.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "f9629b1d012a",
+   "firm": "Wintermute",
+   "title": "Prediction Markets Trader",
+   "url": "https://jobs.lever.co/wintermute-trading/96e3b955-d088-4e0a-9c91-866efc0f29fd",
+   "locations": [
+    {
+     "city": "New York",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "fulltime_junior",
+   "category": "QT",
+   "posted": "2026-07-30",
+   "start": null,
+   "snippet": "New prediction-markets desk, NYC. 1-3 yrs Python from work, study or personal projects (tested), excellent quantitative skills, and demonstrated personal engagement with prediction markets.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "a988dbbae415",
+   "firm": "Wintermute",
+   "title": "Quant Researcher (MFT Focus)",
+   "url": "https://jobs.lever.co/wintermute-trading/0874ca9b-7c02-4364-bb78-b7b04272351e",
+   "locations": [
+    {
+     "city": "London",
+     "country": "UK"
+    }
+   ],
+   "regions": [
+    "Europe"
+   ],
+   "type": "fulltime_junior",
+   "category": "QR",
+   "posted": "2024-12-04",
+   "start": null,
+   "snippet": "Mid-frequency crypto strategies (>10s to days), London. No years bar stated but asks for demonstrable production MFT performance, so realistically not for a first job. Quant background, advanced Python, C++ a plus.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "676c6b3b1156",
+   "firm": "Wintermute",
+   "title": "Trading Analyst",
+   "url": "https://jobs.lever.co/wintermute-trading/11823665-128e-452e-afbb-ce855f22ed86",
+   "locations": [
+    {
+     "city": "London",
+     "country": "UK"
+    }
+   ],
+   "regions": [
+    "Europe"
+   ],
+   "type": "graduate",
+   "category": "OTHER",
+   "posted": "2024-10-04",
+   "start": null,
+   "snippet": "Desk-support and tooling role, London: automate trading processes, debug live systems, build dashboards, trade reconciliation. Explicitly 'seeking talented graduates' though open to experienced candidates. Strong Python, tested.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "1ad51ce5d187",
+   "firm": "Wintermute",
+   "title": "Trading Analyst",
+   "url": "https://jobs.lever.co/wintermute-trading/81f14b93-9b5b-42c1-96d9-56c0cfa9e44e",
+   "locations": [
+    {
+     "city": "New York",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "graduate",
+   "category": "OTHER",
+   "posted": "2026-08-20",
+   "start": null,
+   "snippet": "Desk-support and tooling role, NYC: automate trading processes, debug live systems, build dashboards, trade reconciliation. Explicitly 'seeking talented graduates' though open to experienced candidates. Strong Python, tested.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "7f96b0dc5f3e",
+   "firm": "Winton Capital Management",
+   "title": "Cloud Engineer",
+   "url": "https://job-boards.eu.greenhouse.io/winton/jobs/4495461101",
+   "locations": [
+    {
+     "city": "London",
+     "country": "UK"
+    }
+   ],
+   "regions": [
+    "Europe"
+   ],
+   "type": "fulltime_junior",
+   "category": "ENG",
+   "posted": "2024-12-16",
+   "start": null,
+   "snippet": "Technology team, London. Asks 2+ yrs hands-on AWS/Kubernetes plus Terraform, Argo CD, Kyverno, Prometheus, GitHub Actions. Builds cloud for execution systems, quant research platform and data pipelines. No degree level stated.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "c7815025874a",
+   "firm": "Winton Capital Management",
+   "title": "Data Engineer, Quantitative Platform",
+   "url": "https://job-boards.eu.greenhouse.io/winton/jobs/4574638101",
+   "locations": [
+    {
+     "city": "London",
+     "country": "UK"
+    }
+   ],
+   "regions": [
+    "Europe"
+   ],
+   "type": "fulltime_junior",
+   "category": "ENG",
+   "posted": "2025-04-15",
+   "start": null,
+   "snippet": "Quantitative Platform team, London. No years-of-experience bar stated: wants Python in a business-critical setting, S3/Kafka/Airflow/Iceberg, large financial vendor datasets and real-time market data streams.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "ede0c4c2279f",
+   "firm": "Winton Capital Management",
+   "title": "Register Your Interest: Investment Management",
+   "url": "https://job-boards.eu.greenhouse.io/winton/jobs/4207622101",
+   "locations": [
+    {
+     "city": "London",
+     "country": "UK"
+    }
+   ],
+   "regions": [
+    "Europe"
+   ],
+   "type": "fulltime_junior",
+   "category": "QR",
+   "posted": "2023-08-24",
+   "start": null,
+   "snippet": "Open talent-pool registration (not a specific vacancy) for Winton's Investment Management & Research group in London. No degree or experience requirement stated; CV is kept on file for future quant research roles.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "a25bd600792d",
+   "firm": "Winton Capital Management",
+   "title": "Register Your Interest: Technology",
+   "url": "https://job-boards.eu.greenhouse.io/winton/jobs/4207625101",
+   "locations": [
+    {
+     "city": "London",
+     "country": "UK"
+    }
+   ],
+   "regions": [
+    "Europe"
+   ],
+   "type": "fulltime_junior",
+   "category": "ENG",
+   "posted": "2023-08-24",
+   "start": null,
+   "snippet": "Open talent-pool registration (not a specific vacancy) for Winton's Technology group in London. No degree or experience requirement stated; CV is kept on file for future engineering roles.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "dfa466ac59da",
+   "firm": "Wolverine Trading",
+   "title": "Business Intelligence Engineer",
+   "url": "https://careers.wolve.com/en/postings/2899b352-1448-427e-be82-5cbb60385256",
+   "locations": [
+    {
+     "city": "Chicago",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "fulltime_junior",
+   "category": "ENG",
+   "posted": null,
+   "start": null,
+   "snippet": "Data infrastructure and reporting for the execution business, Chicago. Bachelor's in a quantitative field (engineering, CS); no years bar stated. Builds pipelines and algo performance benchmarks with sales, traders and researchers.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "7b7a0bd75acc",
+   "firm": "Wolverine Trading",
+   "title": "C# Software Engineer",
+   "url": "https://careers.wolve.com/en/postings/2f3011ce-8d1a-4531-a809-6aad2c309a6e",
+   "locations": [
+    {
+     "city": "Chicago",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "fulltime_junior",
+   "category": "ENG",
+   "posted": null,
+   "start": null,
+   "snippet": "Options valuation and risk infrastructure, Chicago. No years-of-experience or degree bar stated: wants motivated, self-directed developers with a strong quantitative background. Full-cycle development alongside traders and quants.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "e17da690c1b7",
+   "firm": "Wolverine Trading",
+   "title": "C++ Software Engineer",
+   "url": "https://careers.wolve.com/en/postings/856f5215-88c8-4c1b-bd47-5106b33ed37f",
+   "locations": [
+    {
+     "city": "Chicago",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "fulltime_junior",
+   "category": "ENG",
+   "posted": null,
+   "start": null,
+   "snippet": "Chicago HQ, on-site. Bachelor's in CS/Computer Engineering or equivalent plus 2+ yrs professional C++ focused on high-performance systems. Works alongside traders on latency-sensitive trading applications.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "ebc5b57f81ae",
+   "firm": "Wolverine Trading",
+   "title": "C++ Software Engineer – Latency-Critical Systems",
+   "url": "https://careers.wolve.com/en/postings/2fc10fcf-4043-4b73-9648-203d5cba418d",
+   "locations": [
+    {
+     "city": "Chicago",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "fulltime_junior",
+   "category": "ENG",
+   "posted": null,
+   "start": null,
+   "snippet": "Latency-critical systems, Chicago. Bachelor's in CS/Computer Engineering or equivalent plus 2+ yrs professional C++ with a genuine performance focus. Modern C++ applied to hard real-world low-latency problems.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "a0f7a2b023d5",
+   "firm": "Wolverine Trading",
+   "title": "C++ Software Engineer, Trading Platform",
+   "url": "https://careers.wolve.com/en/postings/c14659a9-52a3-4f09-8ebb-763899dee310",
+   "locations": [
+    {
+     "city": "Chicago",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "fulltime_junior",
+   "category": "ENG",
+   "posted": null,
+   "start": null,
+   "snippet": "Trading platform team, Chicago. Bachelor's in CS/Computer Engineering or equivalent plus 2+ yrs professional software development. Focus on reliability in production trading environments.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "826b1d96952a",
+   "firm": "Wolverine Trading",
+   "title": "Electronic Options Trader",
+   "url": "https://careers.wolve.com/en/postings/700e9e9a-c38c-4ab9-9fcb-844bf894deb1",
+   "locations": [
+    {
+     "city": "Chicago",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "fulltime_junior",
+   "category": "QT",
+   "posted": null,
+   "start": null,
+   "snippet": "Electronic options market making, Chicago. 2+ yrs managing risk on an electronic market-making desk. Must work in the Chicago Loop office 5 days a week.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "febec4bf03ac",
+   "firm": "Wolverine Trading",
+   "title": "Entry Level C++ Software Engineer (December 2026 Graduates)",
+   "url": "https://careers.wolve.com/en/postings/1f33c89b-2592-498d-b45a-1b2092cf944e",
+   "locations": [
+    {
+     "city": "Chicago",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "graduate",
+   "category": "ENG",
+   "posted": null,
+   "start": "Early 2027",
+   "snippet": "Explicit new-grad posting for candidates graduating Fall/Winter 2026, start date early 2027, on-site Chicago HQ. C++ trading technology; the firm teaches the markets side. Apply to only one of the two Entry Level postings.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "6efa35c06874",
+   "firm": "Wolverine Trading",
+   "title": "Entry Level C++ Software Engineer (Spring 2027 Graduates)",
+   "url": "https://careers.wolve.com/en/postings/e03d9864-a128-40ff-91b5-dfc9fd1b59d6",
+   "locations": [
+    {
+     "city": "Chicago",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "graduate",
+   "category": "ENG",
+   "posted": null,
+   "start": "Summer 2027",
+   "snippet": "Explicit new-grad posting for candidates graduating Spring 2027 (April-June), start date Summer 2027, on-site Chicago HQ. C++ trading technology; the firm teaches the markets side. Apply to only one of the two Entry Level postings.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "42904a9fbdee",
+   "firm": "Wolverine Trading",
+   "title": "ETF Trading Support Analyst",
+   "url": "https://careers.wolve.com/en/postings/e75bd016-2131-408f-9557-69c6e1cb2686",
+   "locations": [
+    {
+     "city": "Chicago",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "fulltime_junior",
+   "category": "OTHER",
+   "posted": null,
+   "start": null,
+   "snippet": "Works directly with the Chicago ETF market-making desk and technology teams. No years bar stated. Configure, analyse and validate trading business logic, build practical tools; sits between trading support and data analysis.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "4eb623bbab94",
+   "firm": "Wolverine Trading",
+   "title": "Quantitative Trader - High Frequency Futures",
+   "url": "https://careers.wolve.com/en/postings/23967d53-ee55-4f60-81c6-9a7ab3f8eb16",
+   "locations": [
+    {
+     "city": "Chicago",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "fulltime_junior",
+   "category": "QT",
+   "posted": null,
+   "start": null,
+   "snippet": "HF futures desk, Chicago. Degree in a quantitative discipline (statistics, CS, maths) plus 2+ yrs generating or implementing short-term trading signals and demonstrated tick-data experience. Contributes to futures tech stack architecture.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "20da1aa41554",
+   "firm": "Wolverine Trading",
+   "title": "Quantitative Trading Analyst",
+   "url": "https://careers.wolve.com/en/postings/eeca5bb4-977f-4a1e-ac1b-db56de416a8c",
+   "locations": [
+    {
+     "city": "Chicago",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "fulltime_junior",
+   "category": "QT",
+   "posted": null,
+   "start": null,
+   "snippet": "Sits on a Chicago market-making desk learning Wolverine's systematic approach, taking ownership of part of the portfolio plus contained quantitative projects. Bachelor's in an analytical/quantitative field; no years bar stated. Options pricing theory.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "4565ba540ddc",
+   "firm": "Wolverine Trading",
+   "title": "Software Engineer – N-Tiered Software Developer",
+   "url": "https://careers.wolve.com/en/postings/ce3f9cb7-4219-4676-8241-5c8b7903d4c6",
+   "locations": [
+    {
+     "city": "Chicago",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "fulltime_junior",
+   "category": "ENG",
+   "posted": null,
+   "start": null,
+   "snippet": "Chicago. Bachelor's in computer science/engineering or equivalent practical experience; no years bar stated. Builds n-tiered internal applications under firm software engineering policies.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "71f59ea04c6a",
+   "firm": "Wolverine Trading",
+   "title": "Software Engineer – Trading Systems",
+   "url": "https://careers.wolve.com/en/postings/6f4dd54f-4a22-44e4-8f3b-a2ca99459f1b",
+   "locations": [
+    {
+     "city": "Chicago",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "fulltime_junior",
+   "category": "ENG",
+   "posted": null,
+   "start": null,
+   "snippet": "Trading systems team, Chicago. Bachelor's in CS/Computer Engineering or equivalent plus 2+ yrs professional software development. Learns and applies performance optimisation techniques.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "034bf90c0117",
+   "firm": "Wolverine Trading",
+   "title": "Trading Operations Associate",
+   "url": "https://careers.wolve.com/en/postings/4a69ee05-e621-450b-b647-c5eee4691264",
+   "locations": [
+    {
+     "city": "Chicago",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "fulltime_junior",
+   "category": "OTHER",
+   "posted": null,
+   "start": null,
+   "snippet": "Trading operations, Chicago. Bachelor's degree and strong Excel; no years bar stated. Issue escalation and resolution, corporate actions, position and trade lifecycle work, process standardisation and automation.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "304245c88689",
+   "firm": "Wolverine Trading",
+   "title": "Trading Operations Engineer",
+   "url": "https://careers.wolve.com/en/postings/a7e44332-6f8f-4281-a280-48937e70a5e9",
+   "locations": [
+    {
+     "city": "Chicago",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "fulltime_junior",
+   "category": "ENG",
+   "posted": null,
+   "start": null,
+   "snippet": "Operational health of Wolverine Execution Services (WEX) trading systems, Chicago. Bachelor's in an engineering discipline preferred; no years bar stated. Real-time monitoring, intraday production troubleshooting, scripting and tool building.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "ac3e1bd33dcd",
+   "firm": "WorldQuant",
+   "title": "AI Scientist",
+   "url": "https://job-boards.greenhouse.io/worldquant/jobs/4687291006",
+   "locations": [
+    {
+     "city": "New York",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "fulltime_junior",
+   "category": "ML",
+   "posted": "2026-06-10",
+   "start": null,
+   "snippet": "NYC. Degree in CS, physics, maths, statistics or related plus 2+ yrs research or work experience applying machine learning. Wants candidates who graduated at the top of their programme.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "d15bba401f6c",
+   "firm": "WorldQuant",
+   "title": "AI Software Developer",
+   "url": "https://job-boards.greenhouse.io/worldquant/jobs/4671240006",
+   "locations": [
+    {
+     "city": "London",
+     "country": "UK"
+    }
+   ],
+   "regions": [
+    "Europe"
+   ],
+   "type": "fulltime_junior",
+   "category": "ML",
+   "posted": "2026-04-08",
+   "start": null,
+   "snippet": "London. No years-of-experience bar stated in the posting. Builds AI/LLM tooling supporting WorldQuant's alpha research platform.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "fa5d7005c67d",
+   "firm": "WorldQuant",
+   "title": "AI Software Developer",
+   "url": "https://job-boards.greenhouse.io/worldquant/jobs/4652035006",
+   "locations": [
+    {
+     "city": "Yerevan",
+     "country": "Armenia"
+    }
+   ],
+   "regions": [
+    "Autre"
+   ],
+   "type": "fulltime_junior",
+   "category": "ML",
+   "posted": "2026-02-06",
+   "start": null,
+   "snippet": "Yerevan. No years-of-experience bar stated in the posting. Builds AI/LLM tooling supporting WorldQuant's alpha research platform.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "325c53f77aaf",
+   "firm": "WorldQuant",
+   "title": "AI Software Developer",
+   "url": "https://job-boards.greenhouse.io/worldquant/jobs/4668859006",
+   "locations": [
+    {
+     "city": "Budapest",
+     "country": "Hungary"
+    }
+   ],
+   "regions": [
+    "Europe"
+   ],
+   "type": "fulltime_junior",
+   "category": "ML",
+   "posted": "2026-04-01",
+   "start": null,
+   "snippet": "Budapest. No years-of-experience bar stated in the posting. Builds AI/LLM tooling supporting WorldQuant's alpha research platform.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "1864c4b3778c",
+   "firm": "WorldQuant",
+   "title": "BRAIN Researcher",
+   "url": "https://job-boards.greenhouse.io/worldquant/jobs/4250853006",
+   "locations": [
+    {
+     "city": "Singapore",
+     "country": "Singapore"
+    }
+   ],
+   "regions": [
+    "Asie-Pacifique"
+   ],
+   "type": "fulltime_junior",
+   "category": "QR",
+   "posted": "2026-06-07",
+   "start": null,
+   "snippet": "Singapore. Alpha research on the WorldQuant BRAIN platform. No years-of-experience bar stated in the posting.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "9ed9c6788e41",
+   "firm": "WorldQuant",
+   "title": "C++ Software Engineer",
+   "url": "https://job-boards.greenhouse.io/worldquant/jobs/4648493006",
+   "locations": [
+    {
+     "city": "Budapest",
+     "country": "Hungary"
+    }
+   ],
+   "regions": [
+    "Europe"
+   ],
+   "type": "fulltime_junior",
+   "category": "ENG",
+   "posted": "2026-01-29",
+   "start": null,
+   "snippet": "Budapest. No years-of-experience bar stated in the posting. High-performance C++ for WorldQuant's systematic trading infrastructure.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "dca1645cb586",
+   "firm": "WorldQuant",
+   "title": "C++ Software Engineer - Data Platform",
+   "url": "https://job-boards.greenhouse.io/worldquant/jobs/4701096006",
+   "locations": [
+    {
+     "city": "Singapore",
+     "country": "Singapore"
+    }
+   ],
+   "regions": [
+    "Asie-Pacifique"
+   ],
+   "type": "fulltime_junior",
+   "category": "ENG",
+   "posted": "2026-08-02",
+   "start": null,
+   "snippet": "Data Platform team, Singapore. Degree in CS or related plus 2+ yrs professional software engineering. Works on sharding/replication and partners with research and engineering teams.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "1a8cd07c537b",
+   "firm": "WorldQuant",
+   "title": "C++ Software Engineer - Data Platform",
+   "url": "https://job-boards.greenhouse.io/worldquant/jobs/4694000006",
+   "locations": [
+    {
+     "city": "London",
+     "country": "UK"
+    }
+   ],
+   "regions": [
+    "Europe"
+   ],
+   "type": "fulltime_junior",
+   "category": "ENG",
+   "posted": "2026-07-24",
+   "start": null,
+   "snippet": "Data Platform team, London. Degree in CS or related plus 2+ yrs professional software engineering. Works on sharding/replication and partners with research and engineering teams.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "7eb0d30c6703",
+   "firm": "WorldQuant",
+   "title": "Data Science Intern",
+   "url": "https://job-boards.greenhouse.io/worldquant/jobs/4069460006",
+   "locations": [
+    {
+     "city": "Beijing",
+     "country": "China"
+    },
+    {
+     "city": "Shanghai",
+     "country": "China"
+    }
+   ],
+   "regions": [
+    "Asie-Pacifique"
+   ],
+   "type": "internship",
+   "category": "QR",
+   "posted": "2023-08-22",
+   "start": null,
+   "snippet": "Beijing/Shanghai internship, bilingual posting. Prior finance experience explicitly not required; mentored one-to-one by a senior advisor during the internship. Competitive internship compensation. Season not stated.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "a605770b1b18",
+   "firm": "WorldQuant",
+   "title": "Data Scientist",
+   "url": "https://job-boards.greenhouse.io/worldquant/jobs/4069487006",
+   "locations": [
+    {
+     "city": "Beijing",
+     "country": "China"
+    },
+    {
+     "city": "Shanghai",
+     "country": "China"
+    }
+   ],
+   "regions": [
+    "Asie-Pacifique"
+   ],
+   "type": "graduate",
+   "category": "QR",
+   "posted": "2023-08-22",
+   "start": null,
+   "snippet": "Beijing/Shanghai campus hire, bilingual posting. Explicitly for candidates graduating in 2026 or 2027, in CS, engineering, big data or similar.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "d58d15f43154",
+   "firm": "WorldQuant",
+   "title": "Data Scientist",
+   "url": "https://job-boards.greenhouse.io/worldquant/jobs/4069485006",
+   "locations": [
+    {
+     "city": "Taipei",
+     "country": "Taiwan"
+    }
+   ],
+   "regions": [
+    "Asie-Pacifique"
+   ],
+   "type": "fulltime_junior",
+   "category": "QR",
+   "posted": "2023-06-26",
+   "start": null,
+   "snippet": "Taipei. Master's degree or higher from a leading university in CS, EE or related; no years bar stated. Machine/deep learning algorithms, C++ and Python, research-scientist mindset.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "a908cf15bbf3",
+   "firm": "WorldQuant",
+   "title": "Deep Researcher",
+   "url": "https://job-boards.greenhouse.io/worldquant/jobs/4676146006",
+   "locations": [
+    {
+     "city": "Mumbai",
+     "country": "India"
+    }
+   ],
+   "regions": [
+    "Asie-Pacifique"
+   ],
+   "type": "fulltime_junior",
+   "category": "QR",
+   "posted": "2026-04-28",
+   "start": null,
+   "snippet": "Mumbai. Excellent academic record strongly preferred plus at least 2 yrs relevant financial research experience.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "78c12f5982c3",
+   "firm": "WorldQuant",
+   "title": "Deep Researcher",
+   "url": "https://job-boards.greenhouse.io/worldquant/jobs/4309110006",
+   "locations": [
+    {
+     "city": "Yerevan",
+     "country": "Armenia"
+    }
+   ],
+   "regions": [
+    "Autre"
+   ],
+   "type": "fulltime_junior",
+   "category": "QR",
+   "posted": "2025-01-23",
+   "start": null,
+   "snippet": "Yerevan. At least 2 yrs relevant financial research experience. Benefits include sabbatical after 5 yrs of service and business travel.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "1e7719b511c8",
+   "firm": "WorldQuant",
+   "title": "Full Stack Developer",
+   "url": "https://job-boards.greenhouse.io/worldquant/jobs/4704076006",
+   "locations": [
+    {
+     "city": "New York",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "fulltime_junior",
+   "category": "ENG",
+   "posted": "2026-08-11",
+   "start": null,
+   "snippet": "NYC. 2-5+ yrs in web development or analytics. Builds internal analytical tools and dashboard applications supporting portfolio management; focus on scalable, user-friendly internal apps.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "777131ec572a",
+   "firm": "WorldQuant",
+   "title": "Full Stack Engineer",
+   "url": "https://job-boards.greenhouse.io/worldquant/jobs/4383564006",
+   "locations": [
+    {
+     "city": "Hanoi",
+     "country": "Vietnam"
+    },
+    {
+     "city": "Ho Chi Minh City",
+     "country": "Vietnam"
+    }
+   ],
+   "regions": [
+    "Asie-Pacifique"
+   ],
+   "type": "fulltime_junior",
+   "category": "ENG",
+   "posted": "2025-01-22",
+   "start": null,
+   "snippet": "Hanoi or Ho Chi Minh City. No years bar stated. Python/Java web frameworks (FastAPI, Flask, Django), React/TypeScript, PostgreSQL/MySQL, Unix/Linux, CI/CD and Docker, for internal firm-critical services.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "6649506fdf19",
+   "firm": "WorldQuant",
+   "title": "Junior Execution Trader",
+   "url": "https://job-boards.greenhouse.io/worldquant/jobs/4705539006",
+   "locations": [
+    {
+     "city": "New York",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "fulltime_junior",
+   "category": "QT",
+   "posted": "2026-08-14",
+   "start": null,
+   "snippet": "Explicitly junior execution trading seat in NYC. Quantitative or technical degree from a top-tier institution plus 1+ yrs work experience gained buy-side or sell-side.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "6705dc8b027f",
+   "firm": "WorldQuant",
+   "title": "Low Latency C++ Developer",
+   "url": "https://job-boards.greenhouse.io/worldquant/jobs/4649328006",
+   "locations": [
+    {
+     "city": "Budapest",
+     "country": "Hungary"
+    }
+   ],
+   "regions": [
+    "Europe"
+   ],
+   "type": "fulltime_junior",
+   "category": "ENG",
+   "posted": "2026-01-29",
+   "start": null,
+   "snippet": "Budapest. Minimum 2 yrs writing high-performance C++, modern C++ standards. Low-latency trading systems.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "47123b31ac07",
+   "firm": "WorldQuant",
+   "title": "Python Engineer",
+   "url": "https://job-boards.greenhouse.io/worldquant/jobs/4669597006",
+   "locations": [
+    {
+     "city": "Ho Chi Minh City",
+     "country": "Vietnam"
+    }
+   ],
+   "regions": [
+    "Asie-Pacifique"
+   ],
+   "type": "fulltime_junior",
+   "category": "ENG",
+   "posted": "2026-04-08",
+   "start": null,
+   "snippet": "Ho Chi Minh City. 2+ yrs demonstrated experience developing scalable and robust software.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "c6504abdeb68",
+   "firm": "WorldQuant",
+   "title": "Python Software Engineer",
+   "url": "https://job-boards.greenhouse.io/worldquant/jobs/4570052006",
+   "locations": [
+    {
+     "city": "Budapest",
+     "country": "Hungary"
+    }
+   ],
+   "regions": [
+    "Europe"
+   ],
+   "type": "fulltime_junior",
+   "category": "ENG",
+   "posted": "2025-06-04",
+   "start": null,
+   "snippet": "Budapest. 2+ yrs demonstrated experience developing scalable and robust software.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "a1ac993bc84f",
+   "firm": "WorldQuant",
+   "title": "Quant Developer Intern",
+   "url": "https://job-boards.greenhouse.io/worldquant/jobs/4572988006",
+   "locations": [
+    {
+     "city": "Singapore",
+     "country": "Singapore"
+    }
+   ],
+   "regions": [
+    "Asie-Pacifique"
+   ],
+   "type": "internship",
+   "category": "ENG",
+   "posted": "2025-06-03",
+   "start": null,
+   "snippet": "Book Platform and Operations team, Singapore. Currently pursuing a Bachelor's or Master's in CS or engineering; coursework or project-level Python and/or C++, Bash, Linux and Git. Season not stated.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "ed3090973419",
+   "firm": "WorldQuant",
+   "title": "Quantitative Developer",
+   "url": "https://job-boards.greenhouse.io/worldquant/jobs/4649674006",
+   "locations": [
+    {
+     "city": "Montevideo",
+     "country": "Uruguay"
+    }
+   ],
+   "regions": [
+    "Amérique latine"
+   ],
+   "type": "fulltime_junior",
+   "category": "ENG",
+   "posted": "2026-01-30",
+   "start": null,
+   "snippet": "Montevideo. Background in CS or engineering; no years bar stated. Strong CS fundamentals (data structures, algorithms, threading), mastery of any language with Python or C++ preferred; Linux a big plus.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "80d8d6027424",
+   "firm": "WorldQuant",
+   "title": "Quantitative Developer",
+   "url": "https://job-boards.greenhouse.io/worldquant/jobs/4703213006",
+   "locations": [
+    {
+     "city": "Hanoi",
+     "country": "Vietnam"
+    },
+    {
+     "city": "Ho Chi Minh City",
+     "country": "Vietnam"
+    }
+   ],
+   "regions": [
+    "Asie-Pacifique"
+   ],
+   "type": "fulltime_junior",
+   "category": "ENG",
+   "posted": "2026-08-14",
+   "start": null,
+   "snippet": "Hanoi or Ho Chi Minh City. Bachelor's/Master's in CS or engineering or equivalent; no years bar stated. Python and/or C++, Bash, Linux, Git; interest in automation, production systems and operational tooling.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "9860bcfb8ea7",
+   "firm": "WorldQuant",
+   "title": "Quantitative Developer",
+   "url": "https://job-boards.greenhouse.io/worldquant/jobs/4686743006",
+   "locations": [
+    {
+     "city": "Singapore",
+     "country": "Singapore"
+    }
+   ],
+   "regions": [
+    "Asie-Pacifique"
+   ],
+   "type": "fulltime_junior",
+   "category": "ENG",
+   "posted": "2026-06-04",
+   "start": null,
+   "snippet": "Singapore. Bachelor's or Master's in CS or engineering; no years bar stated. Solid practical Python and/or C++, Bash scripting, Linux and Git.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "e485e5f84cb4",
+   "firm": "WorldQuant",
+   "title": "Quantitative Developer",
+   "url": "https://job-boards.greenhouse.io/worldquant/jobs/4700347006",
+   "locations": [
+    {
+     "city": "Old Greenwich",
+     "country": "USA"
+    },
+    {
+     "city": "New York",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "fulltime_junior",
+   "category": "ENG",
+   "posted": "2026-08-13",
+   "start": null,
+   "snippet": "Old Greenwich or NYC. Bachelor's or Master's in CS or engineering; no years bar stated. Solid practical Python and/or C++, Bash scripting, Linux and Git.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "82dc9be2242d",
+   "firm": "WorldQuant",
+   "title": "Quantitative Execution Strategist",
+   "url": "https://job-boards.greenhouse.io/worldquant/jobs/4665468006",
+   "locations": [
+    {
+     "city": "Singapore",
+     "country": "Singapore"
+    }
+   ],
+   "regions": [
+    "Asie-Pacifique"
+   ],
+   "type": "fulltime_junior",
+   "category": "QT",
+   "posted": "2026-03-23",
+   "start": null,
+   "snippet": "Singapore. Degree in a quantitative field (maths, physics, CS, engineering, quant finance) from a top university with 0-4 yrs experience in quantitative research and/or development - explicitly open to new graduates.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "2a0304eaae27",
+   "firm": "WorldQuant",
+   "title": "Quantitative Research Intern",
+   "url": "https://job-boards.greenhouse.io/worldquant/jobs/4084570006",
+   "locations": [
+    {
+     "city": "Beijing",
+     "country": "China"
+    },
+    {
+     "city": "Shanghai",
+     "country": "China"
+    }
+   ],
+   "regions": [
+    "Asie-Pacifique"
+   ],
+   "type": "internship",
+   "category": "QR",
+   "posted": "2023-08-22",
+   "start": null,
+   "snippet": "Beijing/Shanghai internship, bilingual posting. Prior finance experience explicitly not required; top performers may be eligible for a full-time offer. Season not stated.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "b95aa1496e30",
+   "firm": "WorldQuant",
+   "title": "Quantitative Research Intern (LLMs & AI Agents)",
+   "url": "https://job-boards.greenhouse.io/worldquant/jobs/4434997006",
+   "locations": [
+    {
+     "city": "Hanoi",
+     "country": "Vietnam"
+    },
+    {
+     "city": "Ho Chi Minh City",
+     "country": "Vietnam"
+    }
+   ],
+   "regions": [
+    "Asie-Pacifique"
+   ],
+   "type": "internship",
+   "category": "ML",
+   "posted": "2025-01-21",
+   "start": null,
+   "snippet": "LLM and AI agent research internship, Hanoi or Ho Chi Minh City. Holding or pursuing a BS (Hons), MS or PhD in CS, AI, ML, data science or maths preferred; exceptional candidates without an advanced degree considered. Season not stated.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "f38bfc5ecb47",
+   "firm": "WorldQuant",
+   "title": "Quantitative Researcher",
+   "url": "https://job-boards.greenhouse.io/worldquant/jobs/4069499006",
+   "locations": [
+    {
+     "city": "Seoul",
+     "country": "South Korea"
+    }
+   ],
+   "regions": [
+    "Asie-Pacifique"
+   ],
+   "type": "offcycle_internship",
+   "category": "QR",
+   "posted": "2023-04-06",
+   "start": null,
+   "snippet": "Seoul. Korean note on the posting: for 2026 the full-time route is experienced-hire only, and fresh graduates are instead routed into an 8-week Quantitative Research Internship running in the autumn semester (Oct-Nov) with possible conversion. Flag internship intent at first interview.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "9c26c9e127e0",
+   "firm": "WorldQuant",
+   "title": "Quantitative Researcher",
+   "url": "https://job-boards.greenhouse.io/worldquant/jobs/4069466006",
+   "locations": [
+    {
+     "city": "Beijing",
+     "country": "China"
+    },
+    {
+     "city": "Shanghai",
+     "country": "China"
+    }
+   ],
+   "regions": [
+    "Asie-Pacifique"
+   ],
+   "type": "graduate",
+   "category": "QR",
+   "posted": "2023-08-22",
+   "start": null,
+   "snippet": "Beijing/Shanghai campus hire, bilingual posting. Explicitly for candidates graduating in 2026 or 2027.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "d9f4a5192e59",
+   "firm": "WorldQuant",
+   "title": "Quantitative Researcher",
+   "url": "https://job-boards.greenhouse.io/worldquant/jobs/4069478006",
+   "locations": [
+    {
+     "city": "Hanoi",
+     "country": "Vietnam"
+    },
+    {
+     "city": "Ho Chi Minh City",
+     "country": "Vietnam"
+    }
+   ],
+   "regions": [
+    "Asie-Pacifique"
+   ],
+   "type": "fulltime_junior",
+   "category": "QR",
+   "posted": "2023-04-06",
+   "start": null,
+   "snippet": "Hanoi or Ho Chi Minh City. PhD or MSc from a leading university in a quantitative field, ranked in the top 10% of the bachelor's class; no years of work experience required. C/C++ on Unix/Linux.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "63f66d691ecf",
+   "firm": "WorldQuant",
+   "title": "Quantitative Researcher",
+   "url": "https://job-boards.greenhouse.io/worldquant/jobs/4069484006",
+   "locations": [
+    {
+     "city": "Taipei",
+     "country": "Taiwan"
+    }
+   ],
+   "regions": [
+    "Asie-Pacifique"
+   ],
+   "type": "fulltime_junior",
+   "category": "QR",
+   "posted": "2023-04-06",
+   "start": null,
+   "snippet": "Taipei. BEng, MSc or PhD from a top university in maths, CS, physics or EE with high GPA; no years of work experience required. C++ and Python, research mentality, strong English.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "d5f83a556556",
+   "firm": "WorldQuant",
+   "title": "Quantitative Researcher",
+   "url": "https://job-boards.greenhouse.io/worldquant/jobs/4069492006",
+   "locations": [
+    {
+     "city": "Yerevan",
+     "country": "Armenia"
+    }
+   ],
+   "regions": [
+    "Autre"
+   ],
+   "type": "fulltime_junior",
+   "category": "QR",
+   "posted": "2023-04-06",
+   "start": null,
+   "snippet": "Yerevan. Wants international or regional Maths/Programming/Physics Olympiad medals and a strong academic record (PhD or equivalent, publications, awards); no years bar stated. AI, ML and LLM hands-on experience.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "52f2a4a28ee1",
+   "firm": "WorldQuant",
+   "title": "Quantitative Researcher",
+   "url": "https://job-boards.greenhouse.io/worldquant/jobs/4673030006",
+   "locations": [
+    {
+     "city": "Mumbai",
+     "country": "India"
+    }
+   ],
+   "regions": [
+    "Asie-Pacifique"
+   ],
+   "type": "fulltime_junior",
+   "category": "QR",
+   "posted": "2026-04-15",
+   "start": null,
+   "snippet": "Mumbai. No years-of-experience bar stated in the posting. Alpha research across global markets.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "0f4aedcb3e3e",
+   "firm": "WorldQuant",
+   "title": "Quantitative Researcher",
+   "url": "https://job-boards.greenhouse.io/worldquant/jobs/4070746006",
+   "locations": [
+    {
+     "city": "Singapore",
+     "country": "Singapore"
+    }
+   ],
+   "regions": [
+    "Asie-Pacifique"
+   ],
+   "type": "fulltime_junior",
+   "category": "QR",
+   "posted": "2023-04-11",
+   "start": null,
+   "snippet": "Singapore. Explicitly open to candidates holding OR pursuing a Bachelor's (Hons), Master's or PhD in a highly quantitative field with excellent academic records. Linear algebra, statistics, ML and AI.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "6ca646715234",
+   "firm": "WorldQuant",
+   "title": "Quantitative Researcher, Quant Macro",
+   "url": "https://job-boards.greenhouse.io/worldquant/jobs/4372598006",
+   "locations": [
+    {
+     "city": "Taipei",
+     "country": "Taiwan"
+    }
+   ],
+   "regions": [
+    "Asie-Pacifique"
+   ],
+   "type": "fulltime_junior",
+   "category": "QR",
+   "posted": "2024-12-30",
+   "start": null,
+   "snippet": "Quant Macro desk, Taipei. BEng, MSc or PhD from a top university in a highly analytical field with high GPA; no years bar stated. Python, R or C++ toolkit. Futures/macro asset class experience a plus, not required.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "3eb7bd864567",
+   "firm": "WorldQuant",
+   "title": "Reference Data Operations Analyst",
+   "url": "https://job-boards.greenhouse.io/worldquant/jobs/4697238006",
+   "locations": [
+    {
+     "city": "Montevideo",
+     "country": "Uruguay"
+    }
+   ],
+   "regions": [
+    "Amérique latine"
+   ],
+   "type": "fulltime_junior",
+   "category": "OTHER",
+   "posted": "2026-07-21",
+   "start": null,
+   "snippet": "Montevideo. No years-of-experience bar stated. Investigates raised and internal tickets for data issues and manages their lifecycle to resolution across WorldQuant's reference data.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "2e2b65609c2d",
+   "firm": "WorldQuant",
+   "title": "Software Engineer (C/C++)",
+   "url": "https://job-boards.greenhouse.io/worldquant/jobs/4699962006",
+   "locations": [
+    {
+     "city": "Hanoi",
+     "country": "Vietnam"
+    },
+    {
+     "city": "Ho Chi Minh City",
+     "country": "Vietnam"
+    }
+   ],
+   "regions": [
+    "Asie-Pacifique"
+   ],
+   "type": "fulltime_junior",
+   "category": "ENG",
+   "posted": "2026-07-27",
+   "start": null,
+   "snippet": "Hanoi or Ho Chi Minh City. Degree in CS or a related field plus 2+ yrs professional software engineering experience.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "88fc140649a9",
+   "firm": "WorldQuant",
+   "title": "Software Engineer Intern",
+   "url": "https://job-boards.greenhouse.io/worldquant/jobs/4652485006",
+   "locations": [
+    {
+     "city": "Hanoi",
+     "country": "Vietnam"
+    }
+   ],
+   "regions": [
+    "Asie-Pacifique"
+   ],
+   "type": "internship",
+   "category": "ENG",
+   "posted": "2026-02-22",
+   "start": null,
+   "snippet": "Hanoi internship on a business-facing team. Currently pursuing a Bachelor's or Master's in CS, engineering or data science; Python proficiency, data structures and algorithms. Interest in quant trading a plus. Season not stated.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "80a66bb77130",
+   "firm": "WorldQuant",
+   "title": "Software Engineer Intern",
+   "url": "https://job-boards.greenhouse.io/worldquant/jobs/4655484006",
+   "locations": [
+    {
+     "city": "Budapest",
+     "country": "Hungary"
+    }
+   ],
+   "regions": [
+    "Europe"
+   ],
+   "type": "internship",
+   "category": "ENG",
+   "posted": "2026-02-24",
+   "start": null,
+   "snippet": "Budapest internship building high-performance systems. Currently pursuing a degree in a quantitative or technical field with strong academic performance; C++ or Python. Evidence of high achievement (awards, Olympiads, projects). Season not stated.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "166d15d06f34",
+   "firm": "WorldQuant",
+   "title": "WorldQuant Technology Talent Network",
+   "url": "https://job-boards.greenhouse.io/worldquant/jobs/4565984006",
+   "locations": [
+    {
+     "city": "West Palm Beach",
+     "country": "USA"
+    },
+    {
+     "city": "San Francisco",
+     "country": "USA"
+    },
+    {
+     "city": "Austin",
+     "country": "USA"
+    },
+    {
+     "city": "Chicago",
+     "country": "USA"
+    },
+    {
+     "city": "Miami",
+     "country": "USA"
+    },
+    {
+     "city": "New York",
+     "country": "USA"
+    },
+    {
+     "city": "Old Greenwich",
+     "country": "USA"
+    },
+    {
+     "city": "Montevideo",
+     "country": "Uruguay"
+    },
+    {
+     "city": "London",
+     "country": "UK"
+    },
+    {
+     "city": "Budapest",
+     "country": "Hungary"
+    },
+    {
+     "city": "Yerevan",
+     "country": "Armenia"
+    },
+    {
+     "city": "Ramat Gan",
+     "country": "Israel"
+    },
+    {
+     "city": "Singapore",
+     "country": "Singapore"
+    },
+    {
+     "city": "Zug",
+     "country": "Switzerland"
+    },
+    {
+     "city": "Ho Chi Minh City",
+     "country": "Vietnam"
+    },
+    {
+     "city": "Hanoi",
+     "country": "Vietnam"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord",
+    "Amérique latine",
+    "Europe",
+    "Autre",
+    "Moyen-Orient",
+    "Asie-Pacifique"
+   ],
+   "type": "fulltime_junior",
+   "category": "ENG",
+   "posted": "2025-07-09",
+   "start": null,
+   "snippet": "Open talent-pool registration (not a specific vacancy) covering every WorldQuant technology office worldwide. No degree or experience requirement stated; CV is held for future engineering openings.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "673bcd0a1ce9",
+   "firm": "WorldQuant",
+   "title": "WQBRAIN AI Researcher",
+   "url": "https://job-boards.greenhouse.io/worldquant/jobs/4686030006",
+   "locations": [
+    {
+     "city": "Hanoi",
+     "country": "Vietnam"
+    },
+    {
+     "city": "Ho Chi Minh City",
+     "country": "Vietnam"
+    }
+   ],
+   "regions": [
+    "Asie-Pacifique"
+   ],
+   "type": "fulltime_junior",
+   "category": "ML",
+   "posted": "2026-06-04",
+   "start": null,
+   "snippet": "WQ BRAIN team, Hanoi or Ho Chi Minh City. Bachelor's or advanced degree in CS, AI, maths or financial engineering from a leading university; no years bar stated. AI/ML/LLM hands-on, Python and C++, PyTorch or TensorFlow.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "b19aba8146de",
+   "firm": "WorldQuant",
+   "title": "WQBRAIN Researcher",
+   "url": "https://job-boards.greenhouse.io/worldquant/jobs/4248901006",
+   "locations": [
+    {
+     "city": "London",
+     "country": "UK"
+    }
+   ],
+   "regions": [
+    "Europe"
+   ],
+   "type": "fulltime_junior",
+   "category": "QR",
+   "posted": "2023-08-07",
+   "start": null,
+   "snippet": "WQ BRAIN alpha research, London. No years-of-experience bar stated in the posting.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "63dab8a4b8a0",
+   "firm": "WorldQuant",
+   "title": "WQBRAIN Researcher",
+   "url": "https://job-boards.greenhouse.io/worldquant/jobs/4686007006",
+   "locations": [
+    {
+     "city": "Hanoi",
+     "country": "Vietnam"
+    },
+    {
+     "city": "Ho Chi Minh City",
+     "country": "Vietnam"
+    }
+   ],
+   "regions": [
+    "Asie-Pacifique"
+   ],
+   "type": "fulltime_junior",
+   "category": "QR",
+   "posted": "2026-06-04",
+   "start": null,
+   "snippet": "WQ BRAIN alpha research, Hanoi or Ho Chi Minh City. No years-of-experience bar stated in the posting.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "11fad1989717",
+   "firm": "Xantium",
+   "title": "Exploratory",
+   "url": "https://job-boards.greenhouse.io/xantium/jobs/4178187009",
+   "locations": [
+    {
+     "city": "London",
+     "country": "UK"
+    },
+    {
+     "city": "New York",
+     "country": "USA"
+    },
+    {
+     "city": "Abu Dhabi",
+     "country": "UAE"
+    },
+    {
+     "city": "Salt Lake City",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Europe",
+    "Amérique du Nord",
+    "Moyen-Orient"
+   ],
+   "type": "fulltime_junior",
+   "category": "OTHER",
+   "posted": "2026-04-24",
+   "start": null,
+   "snippet": "Open exploratory application for candidates who do not see a matching role. Global multi-strategy team of quantitative researchers, developers and traders. No degree or experience requirement stated.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "59747f26d273",
+   "firm": "Xantium",
+   "title": "Infrastructure Generalist",
+   "url": "https://job-boards.greenhouse.io/xantium/jobs/4227552009",
+   "locations": [
+    {
+     "city": "London",
+     "country": "UK"
+    },
+    {
+     "city": "New York",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Europe",
+    "Amérique du Nord"
+   ],
+   "type": "fulltime_junior",
+   "category": "ENG",
+   "posted": "2026-04-27",
+   "start": null,
+   "snippet": "Core infrastructure across compute, storage, networking and cloud, London or NYC. Track record of academic and professional achievement plus 2+ yrs in infrastructure or systems engineering. Greenfield, high-performance environment.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "4e7b73ab86f5",
+   "firm": "Xantium",
+   "title": "Quantitative Developer",
+   "url": "https://job-boards.greenhouse.io/xantium/jobs/4179765009",
+   "locations": [
+    {
+     "city": "London",
+     "country": "UK"
+    },
+    {
+     "city": "New York",
+     "country": "USA"
+    },
+    {
+     "city": "Salt Lake City",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Europe",
+    "Amérique du Nord"
+   ],
+   "type": "fulltime_junior",
+   "category": "ENG",
+   "posted": "2026-03-31",
+   "start": null,
+   "snippet": "Builds software and frameworks powering quantitative trading; elsewhere titled Research Engineer or Software Developer. No years bar or degree level stated. Python and C++ stack, on-prem and cloud. NYC base $175k-$225k+ plus guaranteed year-one bonus.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "08c311a53f3c",
+   "firm": "Xantium",
+   "title": "Quantitative Developer Intern",
+   "url": "https://job-boards.greenhouse.io/xantium/jobs/4360768009",
+   "locations": [
+    {
+     "city": "London",
+     "country": "UK"
+    },
+    {
+     "city": "New York",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Europe",
+    "Amérique du Nord"
+   ],
+   "type": "summer_internship",
+   "category": "ENG",
+   "posted": "2026-08-17",
+   "start": "Summer 2027",
+   "snippet": "Summer 2027 internship, New York and London. Candidates must be in their penultimate year studying Computer Science. Works with Quantitative Developers and Researchers on Python/C++ projects. NYC pay $16k-$19k+ per month plus relocation.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "e09e99d9a03d",
+   "firm": "Xantium",
+   "title": "Quantitative Researcher",
+   "url": "https://job-boards.greenhouse.io/xantium/jobs/4178738009",
+   "locations": [
+    {
+     "city": "London",
+     "country": "UK"
+    },
+    {
+     "city": "New York",
+     "country": "USA"
+    },
+    {
+     "city": "Salt Lake City",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Europe",
+    "Amérique du Nord"
+   ],
+   "type": "fulltime_junior",
+   "category": "QR",
+   "posted": "2026-03-31",
+   "start": null,
+   "snippet": "Models for trading signals across global markets, with direct guidance from senior quant PMs. Applicants should have a PhD (or equivalent) involving intense maths or statistics; non-PhDs considered with strong competitive maths backgrounds. NYC base $175k-$225k+.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "50bc02567f33",
+   "firm": "Xantium",
+   "title": "Quantitative Researcher Internship",
+   "url": "https://job-boards.greenhouse.io/xantium/jobs/4371217009",
+   "locations": [
+    {
+     "city": "London",
+     "country": "UK"
+    },
+    {
+     "city": "New York",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Europe",
+    "Amérique du Nord"
+   ],
+   "type": "summer_internship",
+   "category": "QR",
+   "posted": "2026-08-17",
+   "start": "Summer 2027",
+   "snippet": "Summer 2027 internship, New York and London. Ideally penultimate-year PhD in a highly quantitative field; bachelor's and master's candidates considered with strong competitive maths backgrounds. NYC pay $16k-$19k+ per month plus relocation.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
+  },
+  {
+   "id": "46eebef2b779",
+   "firm": "Xantium",
+   "title": "Quantitative Volatility Trader",
+   "url": "https://job-boards.greenhouse.io/xantium/jobs/4179559009",
+   "locations": [
+    {
+     "city": "London",
+     "country": "UK"
+    },
+    {
+     "city": "New York",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Europe",
+    "Amérique du Nord"
+   ],
+   "type": "fulltime_junior",
+   "category": "QT",
+   "posted": "2026-03-31",
+   "start": null,
+   "snippet": "Derivatives strategies, London or NYC. 1-3+ yrs full-time experience trading derivatives or building options trading systems, plus a bachelor's or higher in a hard science. Strong Python and mental maths; equities, commodities or fixed income derivatives preferred.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "api"
   },
   {
    "id": "6206ce6d4d2d",
