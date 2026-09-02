@@ -1762,16 +1762,16 @@
    "name": "DE Shaw",
    "website": "https://www.deshaw.com",
    "careersUrl": "https://www.deshaw.com/careers",
-   "ats": "custom_html",
+   "ats": "deshaw",
    "apiEndpoint": "https://www.deshaw.com/careers",
    "apiMethod": "GET",
    "apiBody": null,
    "status": "ok",
    "notes": "Custom Next.js careers site; full job data is embedded server-side in the /careers page: parse <script id=\"__NEXT_DATA__\"> JSON -> props.pageProps.regularJobs (74) + props.pageProps.internships (12), no pagination. Job page URL = https://www.deshaw.com/careers/<lowercased jobUrl>. Send a browser User-Agent. No posted dates exposed. Catch-all postings exist (all-positions-in-quantitative-strategies-3456, all-positions-in-systems-3480) not listed as jobs here. India arm hires separately at deshawindia.com (not scraped). Dropped roles requiring 3+/extensive experience (Applied AI Engineer, Cloud Engineer, etc.) and non-relevant depts.",
-   "jobCount": 23,
+   "jobCount": 31,
    "apiEndpoints": [
     {
-     "ats": "custom_html",
+     "ats": "deshaw",
      "url": "https://www.deshaw.com/careers",
      "method": "GET",
      "body": null
@@ -2966,16 +2966,16 @@
    "name": "GTS",
    "website": "https://gtsx.com",
    "careersUrl": "https://gtsx.com/careers/",
-   "ats": "other",
+   "ats": "icims",
    "apiEndpoint": "https://careers-gtsx.icims.com/jobs/search?ss=1&in_iframe=1",
    "apiMethod": "GET",
    "apiBody": null,
    "status": "ok",
    "notes": "ATS is iCIMS, tenant careers-gtsx.icims.com. Search page is server-rendered HTML: parse hrefs matching /jobs/<id>/<slug>/job; paginate with &pr=0,1,... (currently 12 postings on one page; pr=1 empty). Job pages render title+location in <title>. Dropped: Senior SWE C++, Network Engineering Lead, both FPGA Developer roles (5+ yrs), Sales Rep, QT/Portfolio Manager x2 (PM/experienced), Operations Analyst (fund-of-funds back office, Montevideo). Careers page advertises student programs (graduate co-ops, 3-6 month internships, 6-week summer internships) but no internship postings exist on the board — contact via careers page.",
-   "jobCount": 4,
+   "jobCount": 5,
    "apiEndpoints": [
     {
-     "ats": "other",
+     "ats": "icims",
      "url": "https://careers-gtsx.icims.com/jobs/search?ss=1&in_iframe=1",
      "method": "GET",
      "body": null
@@ -3257,7 +3257,7 @@
    "name": "Jane Street",
    "website": "https://www.janestreet.com",
    "careersUrl": "https://www.janestreet.com/join-jane-street/open-roles/",
-   "ats": "custom_html",
+   "ats": "janestreet",
    "apiEndpoint": "https://www.janestreet.com/jobs/main.json",
    "apiMethod": "GET",
    "apiBody": null,
@@ -3266,7 +3266,7 @@
    "jobCount": 60,
    "apiEndpoints": [
     {
-     "ats": "custom_html",
+     "ats": "janestreet",
      "url": "https://www.janestreet.com/jobs/main.json",
      "method": "GET",
      "body": null
@@ -3990,7 +3990,7 @@
    "name": "Optiver",
    "website": "https://optiver.com",
    "careersUrl": "https://www.optiver.com/join-us/jobs/",
-   "ats": "custom_html",
+   "ats": "optiver",
    "apiEndpoint": "https://www.optiver.com/en/api/v1/jobs?from=0",
    "apiMethod": "GET",
    "apiBody": null,
@@ -3999,8 +3999,8 @@
    "jobCount": 39,
    "apiEndpoints": [
     {
-     "ats": "custom_html",
-     "url": "https://www.optiver.com/en/api/v1/jobs?from=0",
+     "ats": "optiver",
+     "url": "https://www.optiver.com/en/api/v1/jobs",
      "method": "GET",
      "body": null
     }
@@ -5342,17 +5342,17 @@
    "name": "Susquehanna International Group",
    "website": "https://sig.com",
    "careersUrl": "https://careers.sig.com/jobs",
-   "ats": "other",
+   "ats": "phenom",
    "apiEndpoint": "https://careers.sig.com/api/jobs?page=1&limit=20",
    "apiMethod": "GET",
    "apiBody": null,
    "status": "ok",
    "notes": "iCIMS Talent Cloud career site (Jibe/ATTRACT). GET /api/jobs?page=N&limit=20 and paginate page until totalCount (249 jobs on 2026-08-23) is covered; each item under jobs[].data with req_id/title/city/country_code/posted_date/description/categories. Job URL = https://careers.sig.com/jobs/{req_id}. Categories: Interns + Co-ops (52), New Graduates (38), Experienced Professionals (151), Student Discovery Program (8). Kept all quant-relevant intern/new-grad roles plus junior-accessible (<=2 yrs or no stated yrs) experienced roles. Excluded: fundamental analyst tracks (equity/macro/credit/equity research/ETF sales), accounting/tax/marketing/ops-recruiting/security-governance roles, Discovery Program event postings (short insight events, not jobs), and experienced roles requiring 3+ yrs.",
-   "jobCount": 87,
+   "jobCount": 89,
    "apiEndpoints": [
     {
-     "ats": "other",
-     "url": "https://careers.sig.com/api/jobs?page=1&limit=20",
+     "ats": "phenom",
+     "url": "https://careers.sig.com/api/jobs",
      "method": "GET",
      "body": null
     }

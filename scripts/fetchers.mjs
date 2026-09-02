@@ -3,6 +3,17 @@
 // [{key, title, url, locations: "texte brut"}].
 import { normUrl } from './lib.mjs';
 
+// Homoglyphes → ASCII. Lisu (U+A4D0–U+A4F4), cyrillique et grec majuscules.
+const HOMOGLYPHS = {
+  'ꓐ': 'B', 'ꓑ': 'P', 'ꓓ': 'D', 'ꓔ': 'T', 'ꓖ': 'G', 'ꓗ': 'K', 'ꓙ': 'J', 'ꓚ': 'C',
+  'ꓝ': 'F', 'ꓟ': 'M', 'ꓠ': 'N', 'ꓡ': 'L', 'ꓢ': 'S', 'ꓣ': 'R', 'ꓤ': 'Z', 'ꓦ': 'V',
+  'ꓧ': 'H', 'ꓫ': 'X', 'ꓪ': 'W', 'ꓬ': 'Y', 'ꓮ': 'A', 'ꓰ': 'E', 'ꓲ': 'I', 'ꓳ': 'O', 'ꓴ': 'U',
+  'А': 'A', 'В': 'B', 'Е': 'E', 'К': 'K', 'М': 'M', 'Н': 'H', 'О': 'O', 'Р': 'P', 'С': 'C', 'Т': 'T', 'Х': 'X',
+  'Α': 'A', 'Β': 'B', 'Ε': 'E', 'Ζ': 'Z', 'Η': 'H', 'Ι': 'I', 'Κ': 'K', 'Μ': 'M', 'Ν': 'N',
+  'Ο': 'O', 'Ρ': 'P', 'Τ': 'T', 'Υ': 'Y', 'Χ': 'X',
+};
+const deobfuscate = s => String(s || '').replace(/[Ͱ-ϿЀ-ӿꓐ-꓿]/g, c => HOMOGLYPHS[c] ?? c);
+
 async function fetchJson(url, opts = {}, timeoutMs = 25000) {
   for (let attempt = 0; attempt < 2; attempt++) {
     const ctl = new AbortController();
@@ -115,6 +126,101 @@ export const FETCHERS = {
       url: j.link,
       locations: '',
     }));
+  },
+
+  // --- Recettes maison : firms sans ATS tiers, dont l'endpoint JSON a été
+  // --- retrouvé en observant les requêtes de leur propre page carrières.
+  //
+  // Jane Street remplace parfois des lettres par des homoglyphes Unicode (Lisu,
+  // cyrillique, grec) pour casser les scrapers : « ꓟachine ꓡearning ꓣesearcher ».
+  // On rétablit les seules correspondances visuellement certaines ; tout glyphe
+  // inconnu est laissé tel quel, pour qu'une nouvelle astuce se voie au lieu
+  // d'être silencieusement transformée en n'importe quoi.
+
+  async optiver(ep) {
+    // https://www.optiver.com/en/api/v1/jobs?from=N&size=16 — `size` est plafonné à 16.
+    const out = [];
+    let total = null;
+    for (let from = 0; total === null || from < total; from += 16) {
+      const sep = ep.url.includes('?') ? '&' : '?';
+      const d = await fetchJson(`${ep.url}${sep}from=${from}&size=16`);
+      total = d.totalCount ?? 0;
+      const items = d.items || [];
+      if (!items.length) break;
+      for (const j of items) {
+        const url = new URL(j.href, 'https://www.optiver.com').toString();
+        out.push({ key: normUrl(url), title: j.title, url, locations: j.location || '' });
+      }
+    }
+    return out;
+  },
+
+  async janestreet(ep) {
+    // https://www.janestreet.com/jobs/main.json — inclut stages ET postes permanents.
+    const d = await fetchJson(ep.url);
+    return (Array.isArray(d) ? d : []).map(j => {
+      const url = `https://www.janestreet.com/join-jane-street/position/${j.id}/`;
+      return { key: normUrl(url), title: deobfuscate(j.position), url, locations: j.city || '' };
+    });
+  },
+
+  async phenom(ep) {
+    // Plateforme Phenom People (ex. careers.sig.com/api/jobs).
+    const out = [];
+    const origin = new URL(ep.url).origin;
+    let total = null;
+    for (let page = 1; total === null || out.length < total; page++) {
+      const sep = ep.url.includes('?') ? '&' : '?';
+      const d = await fetchJson(`${ep.url}${sep}page=${page}&limit=100`);
+      total = d.totalCount ?? 0;
+      const items = d.jobs || [];
+      if (!items.length) break;
+      for (const j of items) {
+        const a = j.data || j;
+        const id = a.req_id || a.slug;
+        const url = `${origin}/jobs/${id}`;
+        const locs = [a.full_location || a.location_name, ...(a.multipleLocations || [])].filter(Boolean);
+        out.push({ key: normUrl(url), title: a.title, url, locations: [...new Set(locs)].join('; ') });
+      }
+      if (page > 50) break;
+    }
+    return out;
+  },
+
+  async deshaw(ep) {
+    // Pas d'API : la liste complète est sérialisée dans le __NEXT_DATA__ de la page.
+    const res = await fetch(ep.url, { headers: { 'User-Agent': 'Mozilla/5.0 (jobboard-scan)' } });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const m = (await res.text()).match(/<script id="__NEXT_DATA__"[^>]*>([\s\S]*?)<\/script>/);
+    if (!m) throw new Error('__NEXT_DATA__ introuvable');
+    const props = JSON.parse(m[1])?.props?.pageProps || {};
+    const out = [];
+    for (const j of [...(props.regularJobs || []), ...(props.internships || [])]) {
+      const a = j.data || {};
+      if (!a.jobUrl || a.activeOnJobsListing === false) continue;
+      const url = `https://www.deshaw.com/careers/${String(a.jobUrl).toLowerCase()}`;
+      const offices = (Array.isArray(j.office) ? j.office : [j.office]).filter(Boolean)
+        .map(o => (typeof o === 'string' ? o : o.name || o.abbreviation)).filter(Boolean);
+      out.push({ key: normUrl(url), title: a.displayName || j.displayName, url, locations: [...new Set(offices)].join('; ') });
+    }
+    return out;
+  },
+
+  async icims(ep) {
+    // iCIMS ne sert pas de JSON public : on lit les liens de la page de résultats.
+    const res = await fetch(ep.url, { headers: { 'User-Agent': 'Mozilla/5.0 (jobboard-scan)' } });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const html = await res.text();
+    const origin = new URL(ep.url).origin;
+    const out = new Map();
+    const re = /<a[^>]+href="([^"]*\/jobs\/\d+\/[^"]*\/job[^"]*)"[^>]*>([\s\S]*?)<\/a>/gi;
+    let m;
+    while ((m = re.exec(html))) {
+      const url = new URL(m[1].split('?')[0], origin).toString();
+      const title = m[2].replace(/<[^>]+>/g, ' ').replace(/^\s*Job Title\s*/i, '').replace(/&amp;/g, '&').replace(/&#(\d+);/g, (_, c) => String.fromCharCode(c)).replace(/\s+/g, ' ').trim();
+      if (title && !out.has(normUrl(url))) out.set(normUrl(url), { key: normUrl(url), title, url, locations: '' });
+    }
+    return [...out.values()];
   },
 };
 

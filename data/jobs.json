@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-02T11:44:29.345Z",
+ "generated": "2026-09-02T12:21:31.606Z",
  "lastScanId": "2026-09-02T11:41:56.765Z",
  "jobs": [
   {
@@ -48183,6 +48183,319 @@
    "startCandidates": [],
    "gradYears": [],
    "fit": "rolling"
+  },
+  {
+   "id": "df4ed76bf9aa",
+   "firm": "Susquehanna International Group",
+   "title": "Technology Co-op with Drexel University",
+   "url": "https://careers.sig.com/jobs/11422",
+   "locations": [
+    {
+     "city": "Bala Cynwyd",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "internship",
+   "category": "ENG",
+   "posted": null,
+   "start": null,
+   "snippet": "Co-op en partenariat avec Drexel University.",
+   "source": "api",
+   "firstSeen": "2026-09-02",
+   "seenScan": "2026-09-02T11:41:56.765Z",
+   "startYear": null,
+   "startMonth": null,
+   "startCandidates": [],
+   "gradYears": [],
+   "fit": "unknown"
+  },
+  {
+   "id": "08fb4840a4ef",
+   "firm": "Susquehanna International Group",
+   "title": "AI Co-op with Drexel University",
+   "url": "https://careers.sig.com/jobs/11368",
+   "locations": [
+    {
+     "city": "Bala Cynwyd",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "internship",
+   "category": "ML",
+   "posted": null,
+   "start": null,
+   "snippet": "Co-op IA en partenariat avec Drexel University.",
+   "source": "api",
+   "firstSeen": "2026-09-02",
+   "seenScan": "2026-09-02T11:41:56.765Z",
+   "startYear": null,
+   "startMonth": null,
+   "startCandidates": [],
+   "gradYears": [],
+   "fit": "unknown"
+  },
+  {
+   "id": "d91afe70e9d3",
+   "firm": "DE Shaw",
+   "title": "Data Center Engineer (North/Central New Jersey)",
+   "url": "https://www.deshaw.com/careers/data-center-engineer-north-central-new-jersey-5990",
+   "locations": [
+    {
+     "city": "Piscataway",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "fulltime_junior",
+   "category": "ENG",
+   "posted": null,
+   "start": null,
+   "snippet": "",
+   "source": "api",
+   "firstSeen": "2026-09-02",
+   "seenScan": "2026-09-02T11:41:56.765Z",
+   "startYear": null,
+   "startMonth": null,
+   "startCandidates": [],
+   "gradYears": [],
+   "fit": "rolling"
+  },
+  {
+   "id": "5f5d8ccb11c7",
+   "firm": "DE Shaw",
+   "title": "All Positions in Quantitative Strategies",
+   "url": "https://www.deshaw.com/careers/all-positions-in-quantitative-strategies-3456",
+   "locations": [
+    {
+     "city": "New York",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "fulltime_junior",
+   "category": "QR",
+   "posted": null,
+   "start": null,
+   "snippet": "Candidature générale à l'ensemble des postes de Quantitative Strategies.",
+   "source": "api",
+   "firstSeen": "2026-09-02",
+   "seenScan": "2026-09-02T11:41:56.765Z",
+   "startYear": null,
+   "startMonth": null,
+   "startCandidates": [],
+   "gradYears": [],
+   "fit": "rolling"
+  },
+  {
+   "id": "7f390d3f03f6",
+   "firm": "DE Shaw",
+   "title": "Software Developer: Developer Experience",
+   "url": "https://www.deshaw.com/careers/software-developer-developer-experience-5866",
+   "locations": [
+    {
+     "city": "New York",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "fulltime_junior",
+   "category": "ENG",
+   "posted": null,
+   "start": null,
+   "snippet": "",
+   "source": "api",
+   "firstSeen": "2026-09-02",
+   "seenScan": "2026-09-02T11:41:56.765Z",
+   "startYear": null,
+   "startMonth": null,
+   "startCandidates": [],
+   "gradYears": [],
+   "fit": "rolling"
+  },
+  {
+   "id": "8e2c452fbb2b",
+   "firm": "DE Shaw",
+   "title": "Rotational Associates Program",
+   "url": "https://www.deshaw.com/careers/rotational-associates-program-6020",
+   "locations": [
+    {
+     "city": "New York",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "graduate",
+   "category": "OTHER",
+   "posted": null,
+   "start": null,
+   "snippet": "Programme de rotations pour profils en début de carrière.",
+   "source": "api",
+   "firstSeen": "2026-09-02",
+   "seenScan": "2026-09-02T11:41:56.765Z",
+   "startYear": null,
+   "startMonth": null,
+   "startCandidates": [],
+   "gradYears": [],
+   "fit": "unknown"
+  },
+  {
+   "id": "394a65421d64",
+   "firm": "DE Shaw",
+   "title": "Data Center Infrastructure Engineer, Liquid Cooling - North/Central New Jersey",
+   "url": "https://www.deshaw.com/careers/data-center-infrastructure-engineer-liquid-cooling-north-central-new-jersey-5857",
+   "locations": [
+    {
+     "city": "Totowa",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "fulltime_junior",
+   "category": "ENG",
+   "posted": null,
+   "start": null,
+   "snippet": "",
+   "source": "api",
+   "firstSeen": "2026-09-02",
+   "seenScan": "2026-09-02T11:41:56.765Z",
+   "startYear": null,
+   "startMonth": null,
+   "startCandidates": [],
+   "gradYears": [],
+   "fit": "rolling"
+  },
+  {
+   "id": "6e6d3f84eed6",
+   "firm": "DE Shaw",
+   "title": "Infrastructure Software Engineer: Application Engineering",
+   "url": "https://www.deshaw.com/careers/infrastructure-software-engineer-application-engineering-5829",
+   "locations": [
+    {
+     "city": "New York",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "fulltime_junior",
+   "category": "ENG",
+   "posted": null,
+   "start": null,
+   "snippet": "",
+   "source": "api",
+   "firstSeen": "2026-09-02",
+   "seenScan": "2026-09-02T11:41:56.765Z",
+   "startYear": null,
+   "startMonth": null,
+   "startCandidates": [],
+   "gradYears": [],
+   "fit": "rolling"
+  },
+  {
+   "id": "476c5e943a6f",
+   "firm": "DE Shaw",
+   "title": "Full-Stack Software Engineer: Application Engineering",
+   "url": "https://www.deshaw.com/careers/full-stack-software-engineer-application-engineering-5828",
+   "locations": [
+    {
+     "city": "New York",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "fulltime_junior",
+   "category": "ENG",
+   "posted": null,
+   "start": null,
+   "snippet": "",
+   "source": "api",
+   "firstSeen": "2026-09-02",
+   "seenScan": "2026-09-02T11:41:56.765Z",
+   "startYear": null,
+   "startMonth": null,
+   "startCandidates": [],
+   "gradYears": [],
+   "fit": "rolling"
+  },
+  {
+   "id": "0c94b7814cbd",
+   "firm": "DE Shaw",
+   "title": "AI Product Engineer – Venture Studio (Startup Incubator)",
+   "url": "https://www.deshaw.com/careers/ai-product-engineer-venture-studio-startup-incubator-5545",
+   "locations": [
+    {
+     "city": "New York",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "fulltime_junior",
+   "category": "ENG",
+   "posted": null,
+   "start": null,
+   "snippet": "Venture Studio (incubateur interne).",
+   "source": "api",
+   "firstSeen": "2026-09-02",
+   "seenScan": "2026-09-02T11:41:56.765Z",
+   "startYear": null,
+   "startMonth": null,
+   "startCandidates": [],
+   "gradYears": [],
+   "fit": "rolling"
+  },
+  {
+   "id": "8c2a27e36509",
+   "firm": "GTS",
+   "title": "Quantitative Trader - 2027 Graduates",
+   "url": "https://careers-gtsx.icims.com/jobs/1608/quantitative-trader---2027-graduates/job",
+   "locations": [
+    {
+     "city": "New York",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "graduate",
+   "category": "QT",
+   "posted": null,
+   "start": "2027",
+   "snippet": "Programme Quantitative Trader du groupe ETF, pour les diplômés 2027.",
+   "source": "api",
+   "firstSeen": "2026-09-02",
+   "seenScan": "2026-09-02T11:41:56.765Z",
+   "startYear": 2027,
+   "startMonth": null,
+   "startCandidates": [
+    {
+     "year": 2027,
+     "month": null
+    }
+   ],
+   "gradYears": [],
+   "fit": "uncertain"
   }
  ]
 }

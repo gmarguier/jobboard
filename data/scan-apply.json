@@ -2,383 +2,60 @@
  "scanId": "2026-09-02T11:41:56.765Z",
  "add": [
   {
-   "firm": "ABC arbitrage",
-   "title": "03. Développeur Trading Platform C#/.NET (H/F)",
-   "url": "https://abc-arbitrage.breezy.hr/p/93c39eb1e670-03-developpeur-trading-platform-c--net-h-f",
-   "locations": [
-    {
-     "city": "Paris",
-     "country": "France"
-    }
-   ],
-   "type": "fulltime_junior",
-   "category": "ENG",
-   "posted": null,
-   "start": null,
-   "snippet": null,
-   "source": "api"
-  },
-  {
-   "firm": "ABC arbitrage",
-   "title": "04. Ingénieur DevOps (H/F)",
-   "url": "https://abc-arbitrage.breezy.hr/p/e10fc45e57f8-04-ingenieur-devops-h-f",
-   "locations": [
-    {
-     "city": "Paris",
-     "country": "France"
-    }
-   ],
-   "type": "fulltime_junior",
-   "category": "ENG",
-   "posted": null,
-   "start": null,
-   "snippet": null,
-   "source": "api"
-  },
-  {
-   "firm": "AlphaGrep",
-   "title": "2027 Campus Program",
-   "url": "https://job-boards.greenhouse.io/alphagrepsecurities/jobs/8720225002",
-   "locations": [
-    {
-     "city": "Shanghai",
-     "country": "China"
-    }
-   ],
-   "type": "graduate",
-   "category": "QR",
-   "posted": "2026-08-26",
-   "start": "2027",
-   "snippet": "Recrutement d'internships et de postes full-time pour diplômés, sur plusieurs spécialités : machine learning, factor research, portfolio optimization, applications IA.",
-   "source": "api"
-  },
-  {
-   "firm": "Akuna Capital",
-   "title": "Trade Support Engineer",
-   "url": "https://www.akunacapital.com/careers/job/8166528/?gh_jid=8166528",
-   "locations": [
-    {
-     "city": "Singapore",
-     "country": "Singapore"
-    }
-   ],
-   "type": "fulltime_junior",
-   "category": "ENG",
-   "posted": "2026-09-01",
-   "start": null,
-   "snippet": "Diplôme STEM (Bachelor, Master ou PhD) en informatique, ingénierie ou IT. Bureau de Singapour ouvert en 2024.",
-   "source": "api"
-  },
-  {
-   "firm": "Akuna Capital",
-   "title": "Trade Support Engineer",
-   "url": "https://www.akunacapital.com/careers/job/8166538/?gh_jid=8166538",
-   "locations": [
-    {
-     "city": "Sydney",
-     "country": "Australia"
-    }
-   ],
-   "type": "fulltime_junior",
-   "category": "ENG",
-   "posted": "2026-09-01",
-   "start": null,
-   "snippet": "Diplôme STEM (Bachelor, Master ou PhD) en informatique, ingénierie ou IT.",
-   "source": "api"
-  },
-  {
-   "firm": "AQR Capital Management",
-   "title": "2027 Portfolio Finance Summer Analyst",
-   "url": "https://careers.aqr.com/jobs?gh_jid=8161563&gh_jid=8161563",
-   "locations": [
-    {
-     "city": "Greenwich",
-     "country": "USA"
-    }
-   ],
-   "type": "summer_internship",
-   "category": "OTHER",
-   "posted": "2026-08-27",
-   "start": "Summer 2027",
-   "snippet": "Programme d'été de 10 semaines, avec le cursus Quanta Academy Summer Term. Projets sur le financement, la compensation et la gestion de trésorerie.",
-   "source": "api"
-  },
-  {
-   "firm": "AQR Capital Management",
-   "title": "2027 Portfolio Implementation Analyst",
-   "url": "https://careers.aqr.com/jobs?gh_jid=8143913&gh_jid=8143913",
-   "locations": [
-    {
-     "city": "Greenwich",
-     "country": "USA"
-    }
-   ],
-   "type": "graduate",
-   "category": "QT",
-   "posted": "2026-08-25",
-   "start": "2027",
-   "snippet": "Pour les diplômés de décembre 2026 ou du printemps 2027 dans une filière quantitative.",
-   "source": "api"
-  },
-  {
-   "firm": "AQR Capital Management",
-   "title": "2027 Trading Analyst",
-   "url": "https://careers.aqr.com/jobs?gh_jid=8156709&gh_jid=8156709",
-   "locations": [
-    {
-     "city": "Greenwich",
-     "country": "USA"
-    }
-   ],
-   "type": "graduate",
-   "category": "QT",
-   "posted": "2026-08-25",
-   "start": "2027",
-   "snippet": null,
-   "source": "api"
-  },
-  {
-   "firm": "AQR Capital Management",
-   "title": "AQR Arbitrage - 2027 Research Summer Analyst",
-   "url": "https://careers.aqr.com/jobs?gh_jid=8156993&gh_jid=8156993",
-   "locations": [
-    {
-     "city": "Greenwich",
-     "country": "USA"
-    }
-   ],
-   "type": "summer_internship",
-   "category": "QR",
-   "posted": "2026-08-25",
-   "start": "Summer 2027",
-   "snippet": "Stage d'été pour étudiants undergraduate ou graduate au sein de l'équipe AQR Arbitrage.",
-   "source": "api"
-  },
-  {
-   "firm": "AQR Capital Management",
-   "title": "Data Scientist, Machine Learning",
-   "url": "https://careers.aqr.com/jobs?gh_jid=8088184&gh_jid=8088184",
-   "locations": [
-    {
-     "city": "Greenwich",
-     "country": "USA"
-    }
-   ],
-   "type": "fulltime_junior",
-   "category": "ML",
-   "posted": "2026-08-31",
-   "start": null,
-   "snippet": null,
-   "source": "api"
-  },
-  {
-   "firm": "AQR Capital Management",
-   "title": "Engineering - Quant Research Development - GSS - Analyst",
-   "url": "https://careers.aqr.com/jobs?gh_jid=8112238&gh_jid=8112238",
-   "locations": [
-    {
-     "city": "Bengaluru",
-     "country": "India"
-    }
-   ],
-   "type": "fulltime_junior",
-   "category": "ENG",
-   "posted": "2026-08-26",
-   "start": null,
-   "snippet": null,
-   "source": "api"
-  },
-  {
-   "firm": "AQR Capital Management",
-   "title": "Managed Futures & Commodities Research Analyst",
-   "url": "https://careers.aqr.com/jobs?gh_jid=8161372&gh_jid=8161372",
-   "locations": [
-    {
-     "city": "Greenwich",
-     "country": "USA"
-    }
-   ],
-   "type": "fulltime_junior",
-   "category": "QR",
-   "posted": "2026-08-28",
-   "start": null,
-   "snippet": null,
-   "source": "api"
-  },
-  {
-   "firm": "AXQ Capital",
-   "title": "Production Engineer",
-   "url": "https://job-boards.greenhouse.io/axq/jobs/6164290004",
-   "locations": [
-    {
-     "city": "New York",
-     "country": "USA"
-    }
-   ],
-   "type": "fulltime_junior",
-   "category": "ENG",
-   "posted": "2026-08-28",
-   "start": null,
-   "snippet": "Couverture des sessions asiatiques et européennes, en lien avec les équipes dev, recherche et trading.",
-   "source": "api"
-  },
-  {
-   "firm": "AXQ Capital",
-   "title": "Quantitative Researcher (Execution Research)",
-   "url": "https://job-boards.greenhouse.io/axq/jobs/6149705004",
-   "locations": [
-    {
-     "city": "New York",
-     "country": "USA"
-    }
-   ],
-   "type": "fulltime_junior",
-   "category": "QR",
-   "posted": "2026-08-23",
-   "start": null,
-   "snippet": null,
-   "source": "api"
-  },
-  {
-   "firm": "B2C2",
-   "title": "Trading - OTC Trader (Junior/Mid Level) - Brazil",
-   "url": "https://job-boards.eu.greenhouse.io/b2c2/jobs/4922889101",
-   "locations": [
-    {
-     "city": "São Paulo",
-     "country": "Brazil"
-    }
-   ],
-   "type": "fulltime_junior",
-   "category": "QT",
-   "posted": "2026-07-09",
-   "start": null,
-   "snippet": "Poste explicitement junior/mid sur le trading OTC d'actifs numériques.",
-   "source": "api"
-  },
-  {
-   "firm": "All Options",
-   "title": "Quantitative Intern",
-   "url": "https://www.alloptions-international.com/vacancies/quantitative-intern/",
-   "locations": [
-    {
-     "city": "Austin",
-     "country": "USA"
-    }
-   ],
-   "type": "summer_internship",
-   "category": "QR",
-   "posted": null,
-   "start": "June 2027",
-   "snippet": "Stage de 10 semaines avec rotations trading et research. Diplôme attendu entre décembre 2027 et juin 2028 ; autorisation de travail aux États-Unis requise.",
-   "source": "api"
-  },
-  {
-   "firm": "BlueCrest Capital Management",
-   "title": "AI DevOps Engineer",
-   "url": "https://job-boards.greenhouse.io/bluecrestcapitalmanagement/jobs/7972490003",
+   "firm": "Jane Street",
+   "title": "IT Operations Engineer",
+   "url": "https://www.janestreet.com/join-jane-street/position/8651274002/",
    "locations": [
     {
      "city": "London",
      "country": "UK"
     }
    ],
-   "type": "fulltime_junior",
+   "type": "summer_internship",
    "category": "ENG",
-   "posted": "2026-08-25",
-   "start": null,
+   "posted": null,
+   "start": "June-September",
    "snippet": null,
    "source": "api"
   },
   {
-   "firm": "BlueCrest Capital Management",
-   "title": "DevOps Engineer (FTC)",
-   "url": "https://job-boards.greenhouse.io/bluecrestcapitalmanagement/jobs/7972620003",
-   "locations": [
-    {
-     "city": "London",
-     "country": "UK"
-    }
-   ],
-   "type": "fulltime_junior",
-   "category": "ENG",
-   "posted": "2026-08-25",
-   "start": null,
-   "snippet": "CDD de 12 mois, rôle très technique sur la livraison et l'exploitation des environnements DevOps.",
-   "source": "api"
-  },
-  {
-   "firm": "Bridgewater Associates",
-   "title": "Portfolio Engineer",
-   "url": "https://job-boards.greenhouse.io/bridgewater89/jobs/8750665002",
-   "locations": [
-    {
-     "city": "New York",
-     "country": "USA"
-    }
-   ],
-   "type": "fulltime_junior",
-   "category": "ENG",
-   "posted": "2026-08-26",
-   "start": null,
-   "snippet": "2+ ans d'expérience en ingénierie, data science ou environnement d'investissement quantitatif.",
-   "source": "api"
-  },
-  {
-   "firm": "Bridgewater Associates",
-   "title": "Trading Associate",
-   "url": "https://job-boards.greenhouse.io/bridgewater89/jobs/8750718002",
-   "locations": [
-    {
-     "city": "Westport",
-     "country": "USA"
-    }
-   ],
-   "type": "graduate",
-   "category": "QT",
-   "posted": "2026-08-26",
-   "start": null,
-   "snippet": "BA/BS obtenu ou en cours d'obtention en 2025-2026. Shifts couvrant les horaires de marché asiatiques, européens ou new-yorkais.",
-   "source": "api"
-  },
-  {
-   "firm": "Capstone",
-   "title": "Associate, Trader - #293",
-   "url": "https://job-boards.greenhouse.io/capstoneinvestmentadvisors/jobs/8765644002",
-   "locations": [
-    {
-     "city": "New York",
-     "country": "USA"
-    }
-   ],
-   "type": "fulltime_junior",
-   "category": "QT",
-   "posted": "2026-08-31",
-   "start": null,
-   "snippet": "Master en financial engineering et 2 ans d'expérience en modélisation statistique (décomposition factorielle PCA, régression, séries temporelles).",
-   "source": "api"
-  },
-  {
-   "firm": "DV Trading",
-   "title": "Client Platforms Engineer",
-   "url": "https://job-boards.greenhouse.io/dvtrading/jobs/4727563005",
+   "firm": "Jane Street",
+   "title": "IT Operations Engineer",
+   "url": "https://www.janestreet.com/join-jane-street/position/8641377002/",
    "locations": [
     {
      "city": "Hong Kong",
      "country": "Hong Kong"
     }
    ],
-   "type": "fulltime_junior",
+   "type": "summer_internship",
    "category": "ENG",
-   "posted": "2026-08-25",
-   "start": null,
+   "posted": null,
+   "start": "May-August",
    "snippet": null,
    "source": "api"
   },
   {
-   "firm": "DV Trading",
-   "title": "Futures & Options Trading Analyst Intern - Summer 2027",
-   "url": "https://job-boards.greenhouse.io/dvtrading/jobs/4722749005",
+   "firm": "Jane Street",
+   "title": "IT Operations Engineer",
+   "url": "https://www.janestreet.com/join-jane-street/position/8377831002/",
+   "locations": [
+    {
+     "city": "Hong Kong",
+     "country": "Hong Kong"
+    }
+   ],
+   "type": "offcycle_internship",
+   "category": "ENG",
+   "posted": null,
+   "start": "December-February",
+   "snippet": "Stage off-cycle décembre-février de l'équipe Technology.",
+   "source": "api"
+  },
+  {
+   "firm": "Jane Street",
+   "title": "IT Operations Engineer",
+   "url": "https://www.janestreet.com/join-jane-street/position/8641280002/",
    "locations": [
     {
      "city": "New York",
@@ -386,1397 +63,292 @@
     }
    ],
    "type": "summer_internship",
-   "category": "QT",
-   "posted": "2026-08-25",
-   "start": "Summer 2027",
-   "snippet": "Stage de 4 semaines au sein du Liquid Products Group de DV Securities : marchés futures et options, modélisation quantitative, opérations de trading. Ouvert aux Bachelor, Master et PhD.",
+   "category": "ENG",
+   "posted": null,
+   "start": "May-August",
+   "snippet": null,
    "source": "api"
   },
   {
-   "firm": "DV Trading",
-   "title": "Trade Support Engineer",
-   "url": "https://job-boards.greenhouse.io/dvtrading/jobs/4727919005",
+   "firm": "Susquehanna International Group",
+   "title": "Technology Co-op with Drexel University",
+   "url": "https://careers.sig.com/jobs/11422",
+   "locations": [
+    {
+     "city": "Bala Cynwyd",
+     "country": "USA"
+    }
+   ],
+   "type": "internship",
+   "category": "ENG",
+   "posted": null,
+   "start": null,
+   "snippet": "Co-op en partenariat avec Drexel University.",
+   "source": "api"
+  },
+  {
+   "firm": "Susquehanna International Group",
+   "title": "AI Co-op with Drexel University",
+   "url": "https://careers.sig.com/jobs/11368",
+   "locations": [
+    {
+     "city": "Bala Cynwyd",
+     "country": "USA"
+    }
+   ],
+   "type": "internship",
+   "category": "ML",
+   "posted": null,
+   "start": null,
+   "snippet": "Co-op IA en partenariat avec Drexel University.",
+   "source": "api"
+  },
+  {
+   "firm": "Susquehanna International Group",
+   "title": "Macro Analyst Internship: Summer 2027",
+   "url": "https://careers.sig.com/jobs/11362",
    "locations": [
     {
      "city": "Hong Kong",
      "country": "Hong Kong"
-    },
-    {
-     "city": "Singapore",
-     "country": "Singapore"
     }
    ],
-   "type": "fulltime_junior",
-   "category": "ENG",
-   "posted": "2026-08-27",
-   "start": null,
-   "snippet": null,
-   "source": "api"
-  },
-  {
-   "firm": "Graviton Research Capital",
-   "title": "Quantitative Researcher (2027 Graduate)",
-   "url": "https://boards.greenhouse.io/gravitonresearchcapital/jobs/8768396002?gh_jid=8768396002",
-   "locations": [
-    {
-     "city": "Gurugram",
-     "country": "India"
-    }
-   ],
-   "type": "graduate",
+   "type": "summer_internship",
    "category": "QR",
-   "posted": "2026-09-01",
-   "start": "2027",
+   "posted": null,
+   "start": "Summer 2027",
    "snippet": null,
    "source": "api"
   },
   {
-   "firm": "Graviton Research Capital",
-   "title": "Software Engineer (2027 Graduate)",
-   "url": "https://boards.greenhouse.io/gravitonresearchcapital/jobs/8764240002?gh_jid=8764240002",
+   "firm": "Susquehanna International Group",
+   "title": "Equity Analyst Internship: Summer 2027",
+   "url": "https://careers.sig.com/jobs/11361",
    "locations": [
     {
-     "city": "Gurugram",
-     "country": "India"
+     "city": "Hong Kong",
+     "country": "Hong Kong"
     }
    ],
-   "type": "graduate",
-   "category": "ENG",
-   "posted": "2026-09-01",
-   "start": "2027",
-   "snippet": "Systèmes à très faible latence, plateformes internes et outils de recherche.",
+   "type": "summer_internship",
+   "category": "QR",
+   "posted": null,
+   "start": "Summer 2027",
+   "snippet": null,
    "source": "api"
   },
   {
-   "firm": "Hudson River Trading",
-   "title": "AI Researcher",
-   "url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8161767",
+   "firm": "Susquehanna International Group",
+   "title": "Equity Analyst Internship: Summer 2027",
+   "url": "https://careers.sig.com/jobs/11216",
+   "locations": [
+    {
+     "city": "Chicago",
+     "country": "USA"
+    }
+   ],
+   "type": "summer_internship",
+   "category": "QR",
+   "posted": null,
+   "start": "Summer 2027",
+   "snippet": null,
+   "source": "api"
+  },
+  {
+   "firm": "Susquehanna International Group",
+   "title": "Equity Research Internship: Summer 2027",
+   "url": "https://careers.sig.com/jobs/11085",
    "locations": [
     {
      "city": "London",
      "country": "UK"
-    },
-    {
-     "city": "New York",
-     "country": "USA"
     }
    ],
-   "type": "fulltime_junior",
-   "category": "ML",
-   "posted": "2026-08-28",
-   "start": null,
-   "snippet": "Équipe HAIL (HRT AI Labs), modèles utilisés par les équipes de trading.",
+   "type": "summer_internship",
+   "category": "QR",
+   "posted": null,
+   "start": "Summer 2027",
+   "snippet": null,
    "source": "api"
   },
   {
-   "firm": "Hudson River Trading",
-   "title": "AI Researcher, LLMs",
-   "url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8161770",
-   "locations": [
-    {
-     "city": "London",
-     "country": "UK"
-    },
-    {
-     "city": "New York",
-     "country": "USA"
-    }
-   ],
-   "type": "fulltime_junior",
-   "category": "ML",
-   "posted": "2026-08-28",
-   "start": null,
-   "snippet": "Équipe LLM au sein de HAIL (HRT AI Labs). Salaire de base estimé entre 200 000 et 300 000 USD.",
-   "source": "api"
-  },
-  {
-   "firm": "Hudson River Trading",
-   "title": "Design Verification (DV) Engineer - 2027 Grads",
-   "url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8167806",
-   "locations": [
-    {
-     "city": "New York",
-     "country": "USA"
-    }
-   ],
-   "type": "graduate",
-   "category": "ENG",
-   "posted": "2026-08-31",
-   "start": "2027",
-   "snippet": "Équipe Hardware : moteurs de calcul FPGA et ASIC pour le trading à faible latence.",
-   "source": "api"
-  },
-  {
-   "firm": "Hudson River Trading",
-   "title": "Electronic Trading Support Engineer - 2026/2027 Grads",
-   "url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8159996",
+   "firm": "Susquehanna International Group",
+   "title": "Equity Research Analyst Internship: Summer 2027",
+   "url": "https://careers.sig.com/jobs/10876",
    "locations": [
     {
      "city": "Dublin",
      "country": "Ireland"
     }
    ],
-   "type": "graduate",
-   "category": "ENG",
-   "posted": "2026-08-28",
-   "start": "2026 or 2027",
-   "snippet": "Poste de jeune diplômé au sein de l'équipe Trade Operations (TradeOps) de Dublin.",
-   "source": "api"
-  },
-  {
-   "firm": "Hudson River Trading",
-   "title": "Hardware Design Engineer - 2027 Grads",
-   "url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8167807",
-   "locations": [
-    {
-     "city": "New York",
-     "country": "USA"
-    }
-   ],
-   "type": "graduate",
-   "category": "ENG",
-   "posted": "2026-08-31",
-   "start": "2027",
-   "snippet": "Équipe Hardware : conception FPGA et ASIC.",
-   "source": "api"
-  },
-  {
-   "firm": "Hudson River Trading",
-   "title": "Hardware Engineer Internship - Summer 2027",
-   "url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=7899574",
-   "locations": [
-    {
-     "city": "New York",
-     "country": "USA"
-    }
-   ],
    "type": "summer_internship",
-   "category": "ENG",
-   "posted": "2026-08-31",
-   "start": "Summer 2027",
-   "snippet": "Stage explorant les rôles Design (SystemVerilog) et Verification (Python) de l'équipe Hardware.",
-   "source": "api"
-  },
-  {
-   "firm": "Hudson River Trading",
-   "title": "Junior Electronic Trading Support Engineer",
-   "url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=7900186",
-   "locations": [
-    {
-     "city": "Austin",
-     "country": "USA"
-    },
-    {
-     "city": "Chicago",
-     "country": "USA"
-    },
-    {
-     "city": "Dublin",
-     "country": "Ireland"
-    },
-    {
-     "city": "London",
-     "country": "UK"
-    },
-    {
-     "city": "New York",
-     "country": "USA"
-    }
-   ],
-   "type": "fulltime_junior",
-   "category": "ENG",
-   "posted": "2026-09-01",
-   "start": null,
-   "snippet": "Équipe Trade Operations (TradeOps) : supervision de l'environnement de trading en production.",
-   "source": "api"
-  },
-  {
-   "firm": "Hudson River Trading",
-   "title": "Junior Electronic Trading Support Engineer",
-   "url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8170975",
-   "locations": [
-    {
-     "city": "Singapore",
-     "country": "Singapore"
-    }
-   ],
-   "type": "fulltime_junior",
-   "category": "ENG",
-   "posted": "2026-09-01",
-   "start": null,
-   "snippet": "Équipe Trade Operations (TradeOps).",
-   "source": "api"
-  },
-  {
-   "firm": "IMC Trading",
-   "title": "Data Quality Engineer",
-   "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4879217101",
-   "locations": [
-    {
-     "city": "Amsterdam",
-     "country": "Netherlands"
-    }
-   ],
-   "type": "fulltime_junior",
-   "category": "ENG",
-   "posted": "2026-09-01",
-   "start": null,
-   "snippet": "Méthodes statistiques de détection d'anomalies sur les jeux de données utilisés par les quants et les traders.",
-   "source": "api"
-  },
-  {
-   "firm": "IMC Trading",
-   "title": "Graduate Performance Engineer",
-   "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4823836101",
-   "locations": [
-    {
-     "city": "Chicago",
-     "country": "USA"
-    }
-   ],
-   "type": "graduate",
-   "category": "ENG",
-   "posted": "2026-08-27",
-   "start": "February or August 2027",
-   "snippet": "Diplôme entre septembre 2026 et juillet 2027 ; démarrage à temps plein en février ou août 2027. Aucune connaissance préalable requise.",
-   "source": "api"
-  },
-  {
-   "firm": "IMC Trading",
-   "title": "Machine Learning Research Intern - Summer 2027 - Sydney",
-   "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4956547101",
-   "locations": [
-    {
-     "city": "Sydney",
-     "country": "Australia"
-    }
-   ],
-   "type": "summer_internship",
-   "category": "ML",
-   "posted": "2026-08-24",
-   "start": "Summer 2027",
-   "snippet": "Stage de 10 à 12 semaines. Les meilleurs stagiaires peuvent être considérés pour un poste de Graduate Researcher. Publications NeurIPS/ICML/ICLR appréciées.",
-   "source": "api"
-  },
-  {
-   "firm": "IMC Trading",
-   "title": "Performance Engineer Intern - Summer 2027",
-   "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4842595101",
-   "locations": [
-    {
-     "city": "Chicago",
-     "country": "USA"
-    }
-   ],
-   "type": "summer_internship",
-   "category": "ENG",
-   "posted": "2026-08-27",
-   "start": "June 7, 2027",
-   "snippet": "Diplôme entre septembre 2027 et juillet 2028. Aucune connaissance préalable requise.",
-   "source": "api"
-  },
-  {
-   "firm": "IMC Trading",
-   "title": "Site Reliability Engineer - Data Engineering",
-   "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4697639101",
-   "locations": [
-    {
-     "city": "Sydney",
-     "country": "Australia"
-    }
-   ],
-   "type": "fulltime_junior",
-   "category": "ENG",
-   "posted": "2025-11-24",
-   "start": null,
-   "snippet": "2+ ans d'expérience sur des infrastructures data multi-pétaoctets.",
-   "source": "api"
-  },
-  {
-   "firm": "Jump Trading",
-   "title": "Campus AI/ML Researcher (Intern)",
-   "url": "https://www.jumptrading.com/hr/job?gh_jid=8027938",
-   "locations": [
-    {
-     "city": "Hong Kong",
-     "country": "Hong Kong"
-    },
-    {
-     "city": "Shanghai",
-     "country": "China"
-    },
-    {
-     "city": "Singapore",
-     "country": "Singapore"
-    }
-   ],
-   "type": "internship",
-   "category": "ML",
-   "posted": "2026-08-24",
-   "start": null,
-   "snippet": "Candidats souhaitant travailler en Asie en full-time après leur diplôme. Projets sur toute la chaîne de recherche quantitative.",
-   "source": "api"
-  },
-  {
-   "firm": "Jump Trading",
-   "title": "Campus Quantitative Researcher (Intern)",
-   "url": "https://www.jumptrading.com/hr/job?gh_jid=8027900",
-   "locations": [
-    {
-     "city": "Hong Kong",
-     "country": "Hong Kong"
-    },
-    {
-     "city": "Shanghai",
-     "country": "China"
-    }
-   ],
-   "type": "internship",
    "category": "QR",
-   "posted": "2026-08-24",
-   "start": null,
-   "snippet": "Programme de 10 semaines démarrant par une formation en trading, programmation et recherche quantitative. Candidats visant Hong Kong ou Shanghai en full-time.",
-   "source": "api"
-  },
-  {
-   "firm": "Jump Trading",
-   "title": "Campus Quantitative Researcher (Off-Cycle - Winter/Spring 2027 Intern)",
-   "url": "https://www.jumptrading.com/hr/job?gh_jid=8027898",
-   "locations": [
-    {
-     "city": "Hong Kong",
-     "country": "Hong Kong"
-    },
-    {
-     "city": "Shanghai",
-     "country": "China"
-    }
-   ],
-   "type": "offcycle_internship",
-   "category": "QR",
-   "posted": "2026-08-25",
-   "start": "Winter/Spring 2027",
-   "snippet": "Stage off-cycle réservé aux diplômés 2027 souhaitant ensuite travailler à Hong Kong ou Shanghai.",
-   "source": "api"
-  },
-  {
-   "firm": "Jump Trading",
-   "title": "Campus Quantitative Researcher, PhD (Full-Time)",
-   "url": "https://www.jumptrading.com/hr/job?gh_jid=8125888",
-   "locations": [
-    {
-     "city": "Chicago",
-     "country": "USA"
-    },
-    {
-     "city": "New York",
-     "country": "USA"
-    }
-   ],
-   "type": "graduate",
-   "category": "QR",
-   "posted": "2026-08-24",
-   "start": null,
-   "snippet": "Poste full-time destiné aux doctorants.",
-   "source": "api"
-  },
-  {
-   "firm": "Jump Trading",
-   "title": "Campus Quantitative Trader (Intern)",
-   "url": "https://www.jumptrading.com/hr/job?gh_jid=8027922",
-   "locations": [
-    {
-     "city": "Hong Kong",
-     "country": "Hong Kong"
-    },
-    {
-     "city": "Shanghai",
-     "country": "China"
-    }
-   ],
-   "type": "internship",
-   "category": "QT",
-   "posted": "2026-08-24",
-   "start": null,
-   "snippet": "Programme intensif de 10 semaines centré sur l'aptitude au trading et la compréhension des marchés.",
-   "source": "api"
-  },
-  {
-   "firm": "Jump Trading",
-   "title": "Data Engineer",
-   "url": "https://www.jumptrading.com/hr/job?gh_jid=8171060",
-   "locations": [
-    {
-     "city": "New York",
-     "country": "USA"
-    },
-    {
-     "city": "Chicago",
-     "country": "USA"
-    }
-   ],
-   "type": "fulltime_junior",
-   "category": "ENG",
-   "posted": "2026-09-01",
-   "start": null,
-   "snippet": null,
-   "source": "api"
-  },
-  {
-   "firm": "Jump Trading",
-   "title": "Derived Data Engineer",
-   "url": "https://www.jumptrading.com/hr/job?gh_jid=8171513",
-   "locations": [
-    {
-     "city": "Chicago",
-     "country": "USA"
-    },
-    {
-     "city": "New York",
-     "country": "USA"
-    }
-   ],
-   "type": "fulltime_junior",
-   "category": "ENG",
-   "posted": "2026-09-01",
-   "start": null,
-   "snippet": null,
-   "source": "api"
-  },
-  {
-   "firm": "Jump Trading",
-   "title": "Quantitative Developer | Trading Team",
-   "url": "https://www.jumptrading.com/hr/job?gh_jid=8105914",
-   "locations": [
-    {
-     "city": "Singapore",
-     "country": "Singapore"
-    },
-    {
-     "city": "Hong Kong",
-     "country": "Hong Kong"
-    }
-   ],
-   "type": "fulltime_junior",
-   "category": "ENG",
-   "posted": "2026-08-24",
-   "start": null,
-   "snippet": "Équipe trading de Jump, bureaux asiatiques.",
-   "source": "api"
-  },
-  {
-   "firm": "Jump Trading",
-   "title": "Trading Production Engineer",
-   "url": "https://www.jumptrading.com/hr/job?gh_jid=8092531",
-   "locations": [
-    {
-     "city": "New York",
-     "country": "USA"
-    }
-   ],
-   "type": "fulltime_junior",
-   "category": "ENG",
-   "posted": "2026-07-28",
-   "start": null,
-   "snippet": null,
-   "source": "api"
-  },
-  {
-   "firm": "Mako",
-   "title": "Graduate Software Engineer, Sydney",
-   "url": "https://www.mako.com/opportunities/job-listing/8654611002?gh_jid=8654611002",
-   "locations": [
-    {
-     "city": "Sydney",
-     "country": "Australia"
-    }
-   ],
-   "type": "graduate",
-   "category": "ENG",
-   "posted": "2026-09-01",
-   "start": null,
-   "snippet": "Programme graduate structuré avec mentorat et travail direct sur le système de trading.",
-   "source": "api"
-  },
-  {
-   "firm": "Mako",
-   "title": "Graduate Trader",
-   "url": "https://www.mako.com/opportunities/job-listing/8654613002?gh_jid=8654613002",
-   "locations": [
-    {
-     "city": "Sydney",
-     "country": "Australia"
-    }
-   ],
-   "type": "graduate",
-   "category": "QT",
-   "posted": "2026-08-31",
-   "start": null,
-   "snippet": "Programme graduate structuré, rotations sur plusieurs desks de market making d'options.",
-   "source": "api"
-  },
-  {
-   "firm": "Maven Securities",
-   "title": "Amsterdam Trader Summer Internship 2027",
-   "url": "https://job-boards.greenhouse.io/mavensecuritiesholdingltd/jobs/8048591",
-   "locations": [
-    {
-     "city": "Amsterdam",
-     "country": "Netherlands"
-    }
-   ],
-   "type": "summer_internship",
-   "category": "QT",
-   "posted": "2026-09-01",
-   "start": "21 June - 20 August 2027",
-   "snippet": "Stage de neuf semaines en market making d'options. Date limite de candidature : 20 octobre 2026. Les meilleurs stagiaires peuvent rejoindre le Graduate Trader Programme l'année suivante.",
-   "source": "api"
-  },
-  {
-   "firm": "Maven Securities",
-   "title": "C++ Developer - Options Market Making (CHI)",
-   "url": "https://job-boards.greenhouse.io/mavensecuritiesholdingltd/jobs/6049671",
-   "locations": [
-    {
-     "city": "Chicago",
-     "country": "USA"
-    }
-   ],
-   "type": "fulltime_junior",
-   "category": "ENG",
-   "posted": "2024-09-18",
-   "start": null,
-   "snippet": null,
-   "source": "api"
-  },
-  {
-   "firm": "Maven Securities",
-   "title": "Graduate Trader Programme Amsterdam 2027",
-   "url": "https://job-boards.greenhouse.io/mavensecuritiesholdingltd/jobs/8098645",
-   "locations": [
-    {
-     "city": "Amsterdam",
-     "country": "Netherlands"
-    }
-   ],
-   "type": "graduate",
-   "category": "QT",
-   "posted": "2026-09-01",
-   "start": "6 September 2027",
-   "snippet": "Démarrage du programme le lundi 6 septembre 2027 : 11 semaines de formation à Londres puis placements sur desk à Amsterdam. Date limite de candidature : 20 octobre 2026.",
-   "source": "api"
-  },
-  {
-   "firm": "Maven Securities",
-   "title": "Software Developer Summer Internship London 2027",
-   "url": "https://job-boards.greenhouse.io/mavensecuritiesholdingltd/jobs/7806987",
-   "locations": [
-    {
-     "city": "London",
-     "country": "UK"
-    }
-   ],
-   "type": "summer_internship",
-   "category": "ENG",
-   "posted": "2026-09-01",
-   "start": "21 June - 20 August 2027",
-   "snippet": "Stage avec deux semaines de formation puis projets dans une équipe Technology. Étudiant en avant-dernière année (undergraduate ou master). Date limite : 21 octobre 2026.",
-   "source": "api"
-  },
-  {
-   "firm": "Man Group",
-   "title": "Risk & Performance Analyst",
-   "url": "https://job-boards.eu.greenhouse.io/mangroup/jobs/4957895101",
-   "locations": [
-    {
-     "city": "Sofia",
-     "country": "Bulgaria"
-    }
-   ],
-   "type": "fulltime_junior",
-   "category": "OTHER",
-   "posted": "2026-08-25",
-   "start": null,
-   "snippet": "Équipe Risk & Performance Analysis au sein de Global Investment Analytics. CFA/FRM en cours apprécié.",
-   "source": "api"
-  },
-  {
-   "firm": "Man Group",
-   "title": "Risk & Performance Analyst",
-   "url": "https://job-boards.eu.greenhouse.io/mangroup/jobs/4958874101",
-   "locations": [
-    {
-     "city": "Boston",
-     "country": "USA"
-    }
-   ],
-   "type": "fulltime_junior",
-   "category": "OTHER",
-   "posted": "2026-08-27",
-   "start": null,
-   "snippet": "Équipe Risk & Performance Analysis au sein de Global Investment Analytics. CFA/FRM en cours apprécié.",
-   "source": "api"
-  },
-  {
-   "firm": "Man Group",
-   "title": "Trade Support Analyst",
-   "url": "https://job-boards.eu.greenhouse.io/mangroup/jobs/4965210101",
-   "locations": [
-    {
-     "city": "New York",
-     "country": "USA"
-    }
-   ],
-   "type": "fulltime_junior",
-   "category": "OTHER",
-   "posted": "2026-09-01",
-   "start": null,
-   "snippet": "Traitement des breaks de trades et positions, résolution des incidents opérationnels quotidiens.",
-   "source": "api"
-  },
-  {
-   "firm": "Point72 / Cubist",
-   "title": "2027 Point72 Academy Investment Analyst Summer Internship Program - Japan (BCF)",
-   "url": "https://boards.greenhouse.io/point72/jobs/8729717002?gh_jid=8729717002",
-   "locations": [
-    {
-     "city": "Tokyo",
-     "country": "Japan"
-    }
-   ],
-   "type": "summer_internship",
-   "category": "OTHER",
-   "posted": "2026-08-23",
-   "start": "June - August 2027",
-   "snippet": "Stage d'été de 8 semaines (juin à août 2027) de la Point72 Academy : cours, cas de portefeuille et mentorat. Pour les étudiants diplômés entre décembre 2027 et juillet 2028.",
-   "source": "api"
-  },
-  {
-   "firm": "Point72 / Cubist",
-   "title": "Cloud Computing Engineer",
-   "url": "https://boards.greenhouse.io/point72/jobs/8729687002?gh_jid=8729687002",
-   "locations": [
-    {
-     "city": "Bengaluru",
-     "country": "India"
-    }
-   ],
-   "type": "fulltime_junior",
-   "category": "ENG",
-   "posted": "2026-08-28",
-   "start": null,
-   "snippet": "Gestion et optimisation de l'infrastructure de calcul EC2.",
-   "source": "api"
-  },
-  {
-   "firm": "Point72 / Cubist",
-   "title": "Equities Trade Support Analyst",
-   "url": "https://boards.greenhouse.io/point72/jobs/8729509002?gh_jid=8729509002",
-   "locations": [
-    {
-     "city": "Stamford",
-     "country": "USA"
-    }
-   ],
-   "type": "fulltime_junior",
-   "category": "OTHER",
-   "posted": "2026-08-25",
-   "start": null,
-   "snippet": "Équipe Operations : traitement des trades, réconciliation, financement et reporting.",
-   "source": "api"
-  },
-  {
-   "firm": "Point72 / Cubist",
-   "title": "It Operations Engineer, Trading Application Support",
-   "url": "https://boards.greenhouse.io/point72/jobs/8731025002?gh_jid=8731025002",
-   "locations": [
-    {
-     "city": "New York",
-     "country": "USA"
-    }
-   ],
-   "type": "fulltime_junior",
-   "category": "ENG",
-   "posted": "2026-08-24",
-   "start": null,
-   "snippet": null,
-   "source": "api"
-  },
-  {
-   "firm": "Point72 / Cubist",
-   "title": "Point72 Academy Investment Analyst Program for Upcoming Graduates (2027 – JP) (BCF)",
-   "url": "https://boards.greenhouse.io/point72/jobs/8729765002?gh_jid=8729765002",
-   "locations": [
-    {
-     "city": "Tokyo",
-     "country": "Japan"
-    }
-   ],
-   "type": "graduate",
-   "category": "OTHER",
-   "posted": "2026-08-23",
-   "start": "2027",
-   "snippet": "Programme rémunéré de dix mois (huit mois de formation puis deux mois de rotations) pour les étudiants diplômés entre décembre 2026 et juillet 2027.",
-   "source": "api"
-  },
-  {
-   "firm": "Point72 / Cubist",
-   "title": "Quantitative Analyst, Structured Products Investment Team",
-   "url": "https://boards.greenhouse.io/point72/jobs/8745810002?gh_jid=8745810002",
-   "locations": [
-    {
-     "city": "New York",
-     "country": "USA"
-    }
-   ],
-   "type": "fulltime_junior",
-   "category": "QR",
-   "posted": "2026-08-25",
-   "start": null,
-   "snippet": "Poste Quant/Developer Analyst pour l'équipe Global Macro (produits structurés). Licence ou plus en informatique, économie, ingénierie, mathématiques, physique ou statistiques.",
-   "source": "api"
-  },
-  {
-   "firm": "Point72 / Cubist",
-   "title": "Quant Library Developer, Macro Technology",
-   "url": "https://boards.greenhouse.io/point72/jobs/8408288002?gh_jid=8408288002",
-   "locations": [
-    {
-     "city": "New York",
-     "country": "USA"
-    },
-    {
-     "city": "London",
-     "country": "UK"
-    }
-   ],
-   "type": "fulltime_junior",
-   "category": "ENG",
-   "posted": "2026-09-01",
-   "start": null,
-   "snippet": "Équipe Macro Technology.",
-   "source": "api"
-  },
-  {
-   "firm": "Qube Research & Technologies",
-   "title": "2027 Internship/Graduate - Data Engineer",
-   "url": "https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8749947002",
-   "locations": [
-    {
-     "city": "Hong Kong",
-     "country": "Hong Kong"
-    }
-   ],
-   "type": "offcycle_internship",
-   "category": "ENG",
-   "posted": "2026-08-26",
-   "start": "2027",
-   "snippet": "Durée de 3 à 6 mois, démarrage en 2027. Étudiants en avant-dernière ou dernière année (Bachelor, Master, PhD). Possibilité de poste graduate à l'issue.",
-   "source": "api"
-  },
-  {
-   "firm": "Qube Research & Technologies",
-   "title": "2027 Internship/Graduate - FPGA Engineer",
-   "url": "https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8742098002",
-   "locations": [
-    {
-     "city": "Hong Kong",
-     "country": "Hong Kong"
-    }
-   ],
-   "type": "offcycle_internship",
-   "category": "ENG",
-   "posted": "2026-08-26",
-   "start": "2027",
-   "snippet": "Durée de 3 à 6 mois, démarrage en 2027. Étudiants en avant-dernière ou dernière année (Bachelor, Master, PhD).",
-   "source": "api"
-  },
-  {
-   "firm": "Qube Research & Technologies",
-   "title": "2027 Internship/Graduate - Infrastructure / Cloud Engineer",
-   "url": "https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8749918002",
-   "locations": [
-    {
-     "city": "Hong Kong",
-     "country": "Hong Kong"
-    },
-    {
-     "city": "Singapore",
-     "country": "Singapore"
-    },
-    {
-     "city": "Shanghai",
-     "country": "China"
-    }
-   ],
-   "type": "offcycle_internship",
-   "category": "ENG",
-   "posted": "2026-08-26",
-   "start": "2027",
-   "snippet": "Durée de 3 à 6 mois, démarrage en 2027. Étudiants en avant-dernière ou dernière année (Bachelor, Master, PhD).",
-   "source": "api"
-  },
-  {
-   "firm": "Qube Research & Technologies",
-   "title": "2027 Internship/Graduate - Quantitative Developer / Software Engineer",
-   "url": "https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8617401002",
-   "locations": [
-    {
-     "city": "Hong Kong",
-     "country": "Hong Kong"
-    },
-    {
-     "city": "Singapore",
-     "country": "Singapore"
-    },
-    {
-     "city": "Shanghai",
-     "country": "China"
-    }
-   ],
-   "type": "offcycle_internship",
-   "category": "ENG",
-   "posted": "2026-08-24",
-   "start": "2027",
-   "snippet": "Durée de 3 à 6 mois, démarrage en 2027. Étudiants en avant-dernière ou dernière année (Bachelor, Master, PhD).",
-   "source": "api"
-  },
-  {
-   "firm": "Qube Research & Technologies",
-   "title": "2027 Internship/Graduate - Quantitative Research/Trading",
-   "url": "https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8581570002",
-   "locations": [
-    {
-     "city": "Hong Kong",
-     "country": "Hong Kong"
-    },
-    {
-     "city": "Singapore",
-     "country": "Singapore"
-    },
-    {
-     "city": "Shanghai",
-     "country": "China"
-    },
-    {
-     "city": "Beijing",
-     "country": "China"
-    }
-   ],
-   "type": "offcycle_internship",
-   "category": "QR",
-   "posted": "2026-08-24",
-   "start": "2027",
-   "snippet": "Durée de 3 à 6 mois, démarrage en 2027. Recherche systématique haute, moyenne et basse fréquence. Étudiants en avant-dernière ou dernière année (Bachelor, Master, PhD).",
-   "source": "api"
-  },
-  {
-   "firm": "Qube Research & Technologies",
-   "title": "2027 Internship/Graduate - Security Engineer",
-   "url": "https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8749942002",
-   "locations": [
-    {
-     "city": "Hong Kong",
-     "country": "Hong Kong"
-    }
-   ],
-   "type": "offcycle_internship",
-   "category": "ENG",
-   "posted": "2026-08-26",
-   "start": "2027",
-   "snippet": "Durée de 3 à 6 mois, démarrage en 2027. Étudiants en avant-dernière ou dernière année (Bachelor, Master, PhD).",
-   "source": "api"
-  },
-  {
-   "firm": "Qube Research & Technologies",
-   "title": "Operations Analyst – Energy Trading",
-   "url": "https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8732338002",
-   "locations": [
-    {
-     "city": "Sydney",
-     "country": "Australia"
-    }
-   ],
-   "type": "fulltime_junior",
-   "category": "OTHER",
-   "posted": "2026-08-28",
-   "start": null,
-   "snippet": "Point de contact opérationnel pour le desk énergie.",
-   "source": "api"
-  },
-  {
-   "firm": "Qube Research & Technologies",
-   "title": "Production Support Engineer — LLM Platform",
-   "url": "https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8759003002",
-   "locations": [
-    {
-     "city": "Hong Kong",
-     "country": "Hong Kong"
-    }
-   ],
-   "type": "fulltime_junior",
-   "category": "ENG",
-   "posted": "2026-08-28",
-   "start": null,
-   "snippet": null,
-   "source": "api"
-  },
-  {
-   "firm": "Qube Research & Technologies",
-   "title": "Production Trading Services – Electronic Trading",
-   "url": "https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8771206002",
-   "locations": [
-    {
-     "city": "Sydney",
-     "country": "Australia"
-    }
-   ],
-   "type": "fulltime_junior",
-   "category": "ENG",
-   "posted": "2026-09-01",
-   "start": null,
-   "snippet": null,
-   "source": "api"
-  },
-  {
-   "firm": "Qube Research & Technologies",
-   "title": "Software Engineer",
-   "url": "https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/7505622002",
-   "locations": [
-    {
-     "city": "Paris",
-     "country": "France"
-    }
-   ],
-   "type": "fulltime_junior",
-   "category": "ENG",
-   "posted": "2024-06-20",
-   "start": null,
-   "snippet": null,
-   "source": "api"
-  },
-  {
-   "firm": "Qube Research & Technologies",
-   "title": "Software Engineer - Data Platform",
-   "url": "https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8755601002",
-   "locations": [
-    {
-     "city": "London",
-     "country": "UK"
-    }
-   ],
-   "type": "fulltime_junior",
-   "category": "ENG",
-   "posted": "2026-08-27",
-   "start": null,
-   "snippet": null,
-   "source": "api"
-  },
-  {
-   "firm": "Qube Research & Technologies",
-   "title": "Software Engineer - Data Platform",
-   "url": "https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/7967740002",
-   "locations": [
-    {
-     "city": "Zurich",
-     "country": "Switzerland"
-    }
-   ],
-   "type": "fulltime_junior",
-   "category": "ENG",
-   "posted": "2025-08-21",
-   "start": null,
-   "snippet": null,
-   "source": "api"
-  },
-  {
-   "firm": "Qube Research & Technologies",
-   "title": "TechOps Engineer",
-   "url": "https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8750277002",
-   "locations": [
-    {
-     "city": "Chicago",
-     "country": "USA"
-    }
-   ],
-   "type": "fulltime_junior",
-   "category": "ENG",
-   "posted": "2026-08-26",
-   "start": null,
-   "snippet": null,
-   "source": "api"
-  },
-  {
-   "firm": "Qube Research & Technologies",
-   "title": "Trading Operations Analyst",
-   "url": "https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8735904002",
-   "locations": [
-    {
-     "city": "Hong Kong",
-     "country": "Hong Kong"
-    }
-   ],
-   "type": "fulltime_junior",
-   "category": "OTHER",
-   "posted": "2026-08-24",
-   "start": null,
-   "snippet": null,
-   "source": "api"
-  },
-  {
-   "firm": "PGIM Quant Solutions",
-   "title": "2027 Technology, Internship Program",
-   "url": "https://pru.wd5.myworkdayjobs.com/en-US/PGIM_Careers/job/Newark-NJ-USA/XMLNAME-2027-Technology--Internship-Program_R-124923-1",
-   "locations": [
-    {
-     "city": "Newark",
-     "country": "USA"
-    },
-    {
-     "city": "Tampa",
-     "country": "USA"
-    }
-   ],
-   "type": "summer_internship",
-   "category": "ENG",
-   "posted": null,
-   "start": "June 7 - August 13, 2027",
-   "snippet": "Programme du 7 juin au 13 août 2027. Candidatures ouvertes du 31 août au 7 septembre 2026.",
-   "source": "api"
-  },
-  {
-   "firm": "Tower Research Capital",
-   "title": "Network Engineer",
-   "url": "https://www.tower-research.com/open-positions/?gh_jid=8156147",
-   "locations": [
-    {
-     "city": "Singapore",
-     "country": "Singapore"
-    }
-   ],
-   "type": "fulltime_junior",
-   "category": "ENG",
-   "posted": "2026-08-25",
-   "start": null,
-   "snippet": null,
-   "source": "api"
-  },
-  {
-   "firm": "Tower Research Capital",
-   "title": "Quantitative Developer Intern",
-   "url": "https://www.tower-research.com/open-positions/?gh_jid=7011493",
-   "locations": [
-    {
-     "city": "Paris",
-     "country": "France"
-    }
-   ],
-   "type": "offcycle_internship",
-   "category": "ENG",
-   "posted": "2025-06-25",
-   "start": "February 2027",
-   "snippet": "Stage de six mois à partir de février 2027. Étudiants en dernière année de Master (informatique, ingénierie, maths appliquées). Outils Python pour la recherche de stratégies et le backtest.",
-   "source": "api"
-  },
-  {
-   "firm": "Tower Research Capital",
-   "title": "Quantitative Researcher Intern, Bachelor's or Master's",
-   "url": "https://www.tower-research.com/open-positions/?gh_jid=8168750",
-   "locations": [
-    {
-     "city": "Singapore",
-     "country": "Singapore"
-    },
-    {
-     "city": "Hong Kong",
-     "country": "Hong Kong"
-    },
-    {
-     "city": "Shanghai",
-     "country": "China"
-    },
-    {
-     "city": "Sydney",
-     "country": "Australia"
-    }
-   ],
-   "type": "internship",
-   "category": "QR",
-   "posted": "2026-09-01",
-   "start": null,
-   "snippet": "Étudiants Bachelor ou Master en avant-dernière ou dernière année. Stratégies mid/high frequency, microstructure, simulateurs d'exchange.",
-   "source": "api"
-  },
-  {
-   "firm": "Tower Research Capital",
-   "title": "Quantitative Researcher Intern, PhD or Postdoc",
-   "url": "https://www.tower-research.com/open-positions/?gh_jid=8168634",
-   "locations": [
-    {
-     "city": "Singapore",
-     "country": "Singapore"
-    },
-    {
-     "city": "Hong Kong",
-     "country": "Hong Kong"
-    },
-    {
-     "city": "Shanghai",
-     "country": "China"
-    },
-    {
-     "city": "Sydney",
-     "country": "Australia"
-    }
-   ],
-   "type": "internship",
-   "category": "QR",
-   "posted": "2026-08-31",
-   "start": null,
-   "snippet": "Doctorants ou post-doctorants en avant-dernière ou dernière année. Stratégies mid/high frequency, microstructure, simulateurs d'exchange.",
-   "source": "api"
-  },
-  {
-   "firm": "Tower Research Capital",
-   "title": "Quantitative Trader/Researcher Graduate Programme 2027",
-   "url": "https://www.tower-research.com/open-positions/?gh_jid=8037824",
-   "locations": [
-    {
-     "city": "London",
-     "country": "UK"
-    }
-   ],
-   "type": "graduate",
-   "category": "QT",
-   "posted": "2026-09-01",
-   "start": "2027",
-   "snippet": "Programme graduate de six mois mené par une des équipes de trading, pour les diplômés 2027.",
-   "source": "api"
-  },
-  {
-   "firm": "Tower Research Capital",
-   "title": "Quantitative Trader/Researcher Summer Internship 2027 (2028 Graduates)",
-   "url": "https://www.tower-research.com/open-positions/?gh_jid=8037860",
-   "locations": [
-    {
-     "city": "London",
-     "country": "UK"
-    }
-   ],
-   "type": "summer_internship",
-   "category": "QT",
-   "posted": "2026-09-01",
-   "start": "Summer 2027",
-   "snippet": "Stage d'été 2027 réservé aux étudiants en avant-dernière année (diplômés 2028).",
-   "source": "api"
-  },
-  {
-   "firm": "Virtu Financial",
-   "title": "2027 Summer Internship - Client Support",
-   "url": "https://job-boards.greenhouse.io/virtu/jobs/8746197002",
-   "locations": [
-    {
-     "city": "London",
-     "country": "UK"
-    }
-   ],
-   "type": "summer_internship",
-   "category": "OTHER",
-   "posted": "2026-08-26",
-   "start": "21 June 2027 - 27 August 2027",
-   "snippet": "Programme de 10 semaines du 21 juin au 27 août 2027.",
-   "source": "api"
-  },
-  {
-   "firm": "Virtu Financial",
-   "title": "2027 Summer Internship - Technical",
-   "url": "https://job-boards.greenhouse.io/virtu/jobs/8745933002",
-   "locations": [
-    {
-     "city": "London",
-     "country": "UK"
-    }
-   ],
-   "type": "summer_internship",
-   "category": "ENG",
-   "posted": "2026-08-26",
-   "start": "21 June 2027 - 27 August 2027",
-   "snippet": "Programme de 10 semaines du 21 juin au 27 août 2027. Test de programmation HackerRank après le screening CV.",
-   "source": "api"
-  },
-  {
-   "firm": "Voleon Group",
-   "title": "Software Engineer - University Hire 2027",
-   "url": "https://jobs.ashbyhq.com/voleon/d732fd5a-ac98-4985-9e60-d1d59f02a66c",
-   "locations": [
-    {
-     "city": "Berkeley",
-     "country": "USA"
-    },
-    {
-     "city": "New York",
-     "country": "USA"
-    }
-   ],
-   "type": "graduate",
-   "category": "ENG",
-   "posted": null,
-   "start": "2027",
-   "snippet": "Recrutement universitaire 2027.",
-   "source": "api"
-  },
-  {
-   "firm": "Voleon Group",
-   "title": "Software Engineer Intern - (Summer 2027)",
-   "url": "https://jobs.ashbyhq.com/voleon/57f1b666-2f4b-4bad-aac0-fa42a1c8fdf6",
-   "locations": [
-    {
-     "city": "Berkeley",
-     "country": "USA"
-    },
-    {
-     "city": "New York",
-     "country": "USA"
-    }
-   ],
-   "type": "summer_internship",
-   "category": "ENG",
    "posted": null,
    "start": "Summer 2027",
    "snippet": null,
    "source": "api"
   },
   {
-   "firm": "WorldQuant",
-   "title": "AI Software Engineer",
-   "url": "https://job-boards.greenhouse.io/worldquant/jobs/4443948006",
+   "firm": "Susquehanna International Group",
+   "title": "Analytics Internship: Fall 2026",
+   "url": "https://careers.sig.com/jobs/11099",
    "locations": [
     {
-     "city": "Ramat Gan",
-     "country": "Israel"
-    }
-   ],
-   "type": "fulltime_junior",
-   "category": "ENG",
-   "posted": "2025-02-26",
-   "start": null,
-   "snippet": null,
-   "source": "api"
-  },
-  {
-   "firm": "Walleye Capital",
-   "title": "Fixed Income Execution Trader",
-   "url": "https://job-boards.greenhouse.io/walleyecapital-external-fulltime/jobs/4709391006",
-   "locations": [
-    {
-     "city": "New York",
+     "city": "Richmond",
      "country": "USA"
     }
    ],
-   "type": "fulltime_junior",
-   "category": "QT",
+   "type": "offcycle_internship",
+   "category": "OTHER",
    "posted": null,
-   "start": null,
+   "start": "Fall 2026",
    "snippet": null,
    "source": "api"
   },
   {
-   "firm": "Xantium",
-   "title": "Xantium Academy Fellow",
-   "url": "https://job-boards.greenhouse.io/xantium/jobs/4388398009",
+   "firm": "Susquehanna International Group",
+   "title": "Credit Analyst Internship: Summer 2027",
+   "url": "https://careers.sig.com/jobs/10794",
    "locations": [
     {
-     "city": "London",
-     "country": "UK"
-    },
-    {
-     "city": "New York",
+     "city": "Bala Cynwyd",
      "country": "USA"
     }
    ],
-   "type": "graduate",
-   "category": "QT",
-   "posted": "2026-08-31",
+   "type": "summer_internship",
+   "category": "OTHER",
+   "posted": null,
    "start": "Summer 2027",
-   "snippet": "Fellowship inaugural de six mois démarrant à l'été 2027, pistes Trading ou Analysis, pour profils en début de carrière. Mentorat par un Advisor sur toute la durée.",
+   "snippet": null,
    "source": "api"
   },
   {
-   "firm": "Wintermute",
-   "title": "Graduate Algorithmic Trader 2027",
-   "url": "https://jobs.lever.co/wintermute-trading/d962dc39-8839-4e13-a37a-baba49e52b44",
+   "firm": "Susquehanna International Group",
+   "title": "Growth Equity Portfolio Value Creation Analyst Internship: Summer 2027",
+   "url": "https://careers.sig.com/jobs/10716",
+   "locations": [
+    {
+     "city": "Bala Cynwyd",
+     "country": "USA"
+    }
+   ],
+   "type": "summer_internship",
+   "category": "OTHER",
+   "posted": null,
+   "start": "Summer 2027",
+   "snippet": null,
+   "source": "api"
+  },
+  {
+   "firm": "Susquehanna International Group",
+   "title": "Equity Analyst Internship: Summer 2027",
+   "url": "https://careers.sig.com/jobs/10723",
+   "locations": [
+    {
+     "city": "Bala Cynwyd",
+     "country": "USA"
+    }
+   ],
+   "type": "summer_internship",
+   "category": "QR",
+   "posted": null,
+   "start": "Summer 2027",
+   "snippet": null,
+   "source": "api"
+  },
+  {
+   "firm": "Susquehanna International Group",
+   "title": "Macro Analyst Internship: Summer 2027",
+   "url": "https://careers.sig.com/jobs/10724",
+   "locations": [
+    {
+     "city": "Bala Cynwyd",
+     "country": "USA"
+    }
+   ],
+   "type": "summer_internship",
+   "category": "QR",
+   "posted": null,
+   "start": "Summer 2027",
+   "snippet": null,
+   "source": "api"
+  },
+  {
+   "firm": "Susquehanna International Group",
+   "title": "Macro Analyst Internship: Summer 2027",
+   "url": "https://careers.sig.com/jobs/10725",
    "locations": [
     {
      "city": "New York",
      "country": "USA"
     }
    ],
-   "type": "graduate",
-   "category": "QT",
+   "type": "summer_internship",
+   "category": "QR",
    "posted": null,
-   "start": "2027",
-   "snippet": "Bureau américain de Wintermute (ouvert début 2025). Courte formation avec l'équipe globale puis projets impactant le P&L des stratégies US.",
+   "start": "Summer 2027",
+   "snippet": null,
    "source": "api"
   },
   {
-   "firm": "Flow Traders",
-   "title": "Junior Quantitative Researcher",
-   "url": "https://job-boards.greenhouse.io/flowtraders/jobs/8156203",
+   "firm": "Susquehanna International Group",
+   "title": "Equity Analyst Internship: Summer 2027",
+   "url": "https://careers.sig.com/jobs/10573",
    "locations": [
     {
-     "city": "Amsterdam",
-     "country": "Netherlands"
+     "city": "New York",
+     "country": "USA"
+    }
+   ],
+   "type": "summer_internship",
+   "category": "QR",
+   "posted": null,
+   "start": "Summer 2027",
+   "snippet": null,
+   "source": "api"
+  },
+  {
+   "firm": "DE Shaw",
+   "title": "Fundamental Analyst – Convertible Arbitrage Strategy (Singapore)",
+   "url": "https://www.deshaw.com/careers/fundamental-analyst-convertible-arbitrage-strategy-singapore-5786",
+   "locations": [
+    {
+     "city": "Singapore",
+     "country": "Singapore"
     }
    ],
    "type": "fulltime_junior",
    "category": "QR",
-   "posted": "2026-08-25",
+   "posted": null,
    "start": null,
-   "snippet": "Doctorat en mathématiques, physique, informatique ou domaine quantitatif proche.",
+   "snippet": "Stratégie Convertible Arbitrage.",
    "source": "api"
   },
   {
-   "firm": "G-Research",
+   "firm": "DE Shaw",
    "title": "Applied AI Engineer",
-   "url": "https://www.gresearch.com/vacancies/ai-engineer/",
+   "url": "https://www.deshaw.com/careers/applied-ai-engineer-5375",
    "locations": [
     {
-     "city": "London",
-     "country": "UK"
+     "city": "New York",
+     "country": "USA"
     }
    ],
    "type": "fulltime_junior",
    "category": "ML",
    "posted": null,
    "start": null,
-   "snippet": null,
-   "source": "html"
+   "snippet": "Équipe Quantitative Strategies.",
+   "source": "api"
   },
   {
-   "firm": "G-Research",
-   "title": "Core AI Engineer",
-   "url": "https://www.gresearch.com/vacancies/software-engineer-ai/",
+   "firm": "DE Shaw",
+   "title": "Data Center Engineer (North/Central New Jersey)",
+   "url": "https://www.deshaw.com/careers/data-center-engineer-north-central-new-jersey-5990",
    "locations": [
     {
-     "city": "London",
-     "country": "UK"
-    }
-   ],
-   "type": "fulltime_junior",
-   "category": "ML",
-   "posted": null,
-   "start": null,
-   "snippet": null,
-   "source": "html"
-  },
-  {
-   "firm": "G-Research",
-   "title": "C++ Software Engineer",
-   "url": "https://www.gresearch.com/vacancies/c-software-engineer-2/",
-   "locations": [
-    {
-     "city": "London",
-     "country": "UK"
+     "city": "Piscataway",
+     "country": "USA"
     }
    ],
    "type": "fulltime_junior",
@@ -1784,84 +356,50 @@
    "posted": null,
    "start": null,
    "snippet": null,
-   "source": "html"
+   "source": "api"
   },
   {
-   "firm": "G-Research",
-   "title": "Machine Learning Performance Engineer",
-   "url": "https://www.gresearch.com/vacancies/machine-learning-performance-engineer/",
+   "firm": "DE Shaw",
+   "title": "Systems: Cloud Engineer",
+   "url": "https://www.deshaw.com/careers/systems-cloud-engineer-5983",
    "locations": [
     {
-     "city": "London",
-     "country": "UK"
+     "city": "New York",
+     "country": "USA"
     }
    ],
    "type": "fulltime_junior",
-   "category": "ML",
+   "category": "ENG",
    "posted": null,
    "start": null,
-   "snippet": null,
-   "source": "html"
+   "snippet": "Équipe Quantitative Strategies.",
+   "source": "api"
   },
   {
-   "firm": "G-Research",
-   "title": "NLP Performance Engineer",
-   "url": "https://www.gresearch.com/vacancies/nlp-performance-engineer/",
+   "firm": "DE Shaw",
+   "title": "All Positions in Quantitative Strategies",
+   "url": "https://www.deshaw.com/careers/all-positions-in-quantitative-strategies-3456",
    "locations": [
     {
-     "city": "London",
-     "country": "UK"
-    }
-   ],
-   "type": "fulltime_junior",
-   "category": "ML",
-   "posted": null,
-   "start": null,
-   "snippet": null,
-   "source": "html"
-  },
-  {
-   "firm": "G-Research",
-   "title": "Quantitative Analyst",
-   "url": "https://www.gresearch.com/vacancies/quantitative-analyst-2/",
-   "locations": [
-    {
-     "city": "London",
-     "country": "UK"
+     "city": "New York",
+     "country": "USA"
     }
    ],
    "type": "fulltime_junior",
    "category": "QR",
    "posted": null,
    "start": null,
-   "snippet": null,
-   "source": "html"
+   "snippet": "Candidature générale à l'ensemble des postes de Quantitative Strategies.",
+   "source": "api"
   },
   {
-   "firm": "G-Research",
-   "title": "Quantitative Researcher – Fundamental Equity Research",
-   "url": "https://www.gresearch.com/vacancies/quantitative-researcher-fundamental-equity-research/",
+   "firm": "DE Shaw",
+   "title": "Software Developer: Developer Experience",
+   "url": "https://www.deshaw.com/careers/software-developer-developer-experience-5866",
    "locations": [
     {
-     "city": "London",
-     "country": "UK"
-    }
-   ],
-   "type": "fulltime_junior",
-   "category": "QR",
-   "posted": null,
-   "start": null,
-   "snippet": null,
-   "source": "html"
-  },
-  {
-   "firm": "G-Research",
-   "title": "Functional Programmer",
-   "url": "https://www.gresearch.com/vacancies/software-engineer-realtime-quant-frameworks/",
-   "locations": [
-    {
-     "city": "London",
-     "country": "UK"
+     "city": "New York",
+     "country": "USA"
     }
    ],
    "type": "fulltime_junior",
@@ -1869,16 +407,33 @@
    "posted": null,
    "start": null,
    "snippet": null,
-   "source": "html"
+   "source": "api"
   },
   {
-   "firm": "G-Research",
-   "title": "Software Engineer – Trade Technology",
-   "url": "https://www.gresearch.com/vacancies/production-software-engineer/",
+   "firm": "DE Shaw",
+   "title": "Rotational Associates Program",
+   "url": "https://www.deshaw.com/careers/rotational-associates-program-6020",
    "locations": [
     {
-     "city": "London",
-     "country": "UK"
+     "city": "New York",
+     "country": "USA"
+    }
+   ],
+   "type": "graduate",
+   "category": "OTHER",
+   "posted": null,
+   "start": null,
+   "snippet": "Programme de rotations pour profils en début de carrière.",
+   "source": "api"
+  },
+  {
+   "firm": "DE Shaw",
+   "title": "Data Center Infrastructure Engineer, Liquid Cooling - North/Central New Jersey",
+   "url": "https://www.deshaw.com/careers/data-center-infrastructure-engineer-liquid-cooling-north-central-new-jersey-5857",
+   "locations": [
+    {
+     "city": "Totowa",
+     "country": "USA"
     }
    ],
    "type": "fulltime_junior",
@@ -1886,16 +441,16 @@
    "posted": null,
    "start": null,
    "snippet": null,
-   "source": "html"
+   "source": "api"
   },
   {
-   "firm": "G-Research",
-   "title": "Software Engineer – Engineering Tools",
-   "url": "https://www.gresearch.com/vacancies/software-engineer-engineering-tools/",
+   "firm": "DE Shaw",
+   "title": "Infrastructure Software Engineer: Application Engineering",
+   "url": "https://www.deshaw.com/careers/infrastructure-software-engineer-application-engineering-5829",
    "locations": [
     {
-     "city": "London",
-     "country": "UK"
+     "city": "New York",
+     "country": "USA"
     }
    ],
    "type": "fulltime_junior",
@@ -1903,50 +458,76 @@
    "posted": null,
    "start": null,
    "snippet": null,
-   "source": "html"
+   "source": "api"
+  },
+  {
+   "firm": "DE Shaw",
+   "title": "Full-Stack Software Engineer: Application Engineering",
+   "url": "https://www.deshaw.com/careers/full-stack-software-engineer-application-engineering-5828",
+   "locations": [
+    {
+     "city": "New York",
+     "country": "USA"
+    }
+   ],
+   "type": "fulltime_junior",
+   "category": "ENG",
+   "posted": null,
+   "start": null,
+   "snippet": null,
+   "source": "api"
+  },
+  {
+   "firm": "DE Shaw",
+   "title": "AI Product Engineer – Venture Studio (Startup Incubator)",
+   "url": "https://www.deshaw.com/careers/ai-product-engineer-venture-studio-startup-incubator-5545",
+   "locations": [
+    {
+     "city": "New York",
+     "country": "USA"
+    }
+   ],
+   "type": "fulltime_junior",
+   "category": "ENG",
+   "posted": null,
+   "start": null,
+   "snippet": "Venture Studio (incubateur interne).",
+   "source": "api"
+  },
+  {
+   "firm": "GTS",
+   "title": "Quantitative Trader - 2027 Graduates",
+   "url": "https://careers-gtsx.icims.com/jobs/1608/quantitative-trader---2027-graduates/job",
+   "locations": [
+    {
+     "city": "New York",
+     "country": "USA"
+    }
+   ],
+   "type": "graduate",
+   "category": "QT",
+   "posted": null,
+   "start": "2027",
+   "snippet": "Programme Quantitative Trader du groupe ETF, pour les diplômés 2027.",
+   "source": "api"
+  },
+  {
+   "firm": "GTS",
+   "title": "Operations Analyst",
+   "url": "https://careers-gtsx.icims.com/jobs/1603/operations-analyst/job",
+   "locations": [
+    {
+     "city": "Montevideo",
+     "country": "Uruguay"
+    }
+   ],
+   "type": "fulltime_junior",
+   "category": "OTHER",
+   "posted": null,
+   "start": null,
+   "snippet": "GTS Asset Management, opérations quotidiennes.",
+   "source": "api"
   }
  ],
- "removeIds": [
-  "daa7f458b14c",
-  "0ac4b4cb8f7f",
-  "481d41c183e0",
-  "db22f1851123",
-  "1fc1e611c034",
-  "4c6f53895d7c",
-  "aa6dad28a99c",
-  "9ea5936ed261",
-  "d36c51dda6a3",
-  "cb366e6831f7",
-  "1f4560558ca1",
-  "45a9394cdf21",
-  "a4dd2ee85bec",
-  "129527bc738f",
-  "fb2adbd1bb8a",
-  "ee5279fb9c29",
-  "28f0818f1d97",
-  "8a723d6a9bf6",
-  "410e9737d36d",
-  "1349ed2b9e4a",
-  "316282f39a7d",
-  "ad6fc8aae035",
-  "cd4d4ad2cb15",
-  "90c5777a0221",
-  "7af71f3f5d42",
-  "cf1a60d19f5c",
-  "44ccdd32065a",
-  "9c9777f87413",
-  "72c101d01d1a",
-  "519e0913ec96",
-  "0e75e84b63f8",
-  "9f2f0aa09790",
-  "0f48e09512b7",
-  "07e2aa327dba",
-  "aed046494029",
-  "375030125e1e",
-  "56cf9e54f288",
-  "b10b0a6736da",
-  "89c1d6ddd694",
-  "b8a3b2091a49",
-  "b7b6e8b804bd"
- ]
+ "removeIds": []
 }
