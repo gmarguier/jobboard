@@ -1,5 +1,7 @@
 /* Quant Board — logique de l'app */
 (() => {
+  const APP_VERSION = 'v13';
+
   const TYPE_LABELS = {
     offcycle_internship: 'Off-cycle',
     internship: 'Stage',
@@ -757,7 +759,7 @@
     $('meta-info').innerHTML = d
       ? `${DATA.jobs.length} offres<br>maj ${d.toLocaleDateString('fr-FR', { day: 'numeric', month: 'short' })} ${d.toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' })}`
       : `${DATA.jobs.length} offres`;
-    $('footer').textContent = `Quant Board · ${FIRMS.length} firms sous veille · données mises à jour via Claude Code`;
+    $('footer').textContent = `Quant Board ${APP_VERSION} · ${FIRMS.length} firms sous veille · données mises à jour via Claude Code`;
 
     // Si aucune nouvelle offre, ouvrir directement l'onglet "Offres"
     if (!DATA.jobs.some(isNew)) state.tab = 'all';
@@ -771,8 +773,38 @@
     render();
   }
 
+  // ---------- Mise à jour de l'app ----------
+  // Une PWA installée peut rester bloquée sur une version ancienne : son index.html
+  // en cache référence d'anciens assets versionnés, que le navigateur ne redemande
+  // jamais. On force donc une vérification à chaque ouverture et à chaque retour au
+  // premier plan, et on recharge dès qu'un nouveau service worker prend la main.
   if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('sw.js').catch(() => {});
+    let reloading = false;
+    navigator.serviceWorker.addEventListener('controllerchange', () => {
+      if (reloading) return;      // garde-fou : sans elle, la page bouclerait
+      reloading = true;
+      location.reload();
+    });
+
+    navigator.serviceWorker.register('sw.js', { updateViaCache: 'none' })
+      .then(reg => {
+        const check = () => reg.update().catch(() => {});
+        check();
+        document.addEventListener('visibilitychange', () => {
+          if (document.visibilityState === 'visible') check();
+        });
+        // Un worker déjà installé et en attente doit prendre la main tout de suite.
+        if (reg.waiting) reg.waiting.postMessage('skip-waiting');
+        reg.addEventListener('updatefound', () => {
+          const sw = reg.installing;
+          sw?.addEventListener('statechange', () => {
+            if (sw.state === 'installed' && navigator.serviceWorker.controller) {
+              sw.postMessage('skip-waiting');
+            }
+          });
+        });
+      })
+      .catch(() => {});
   }
 
   load();
