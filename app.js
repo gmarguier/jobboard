@@ -36,6 +36,14 @@
     too_early: { short: 'Trop tôt',     long: 'Démarre avant sa disponibilité',          color: 'var(--danger)' },
   };
   const FIT_ORDER = ['ok', 'recurring', 'uncertain', 'unknown', 'rolling', 'too_early'];
+
+  const TIERS = {
+    S: { label: 'S', long: 'Élite mondiale', color: 'var(--tier-s)' },
+    A: { label: 'A', long: 'Très réputée', color: 'var(--tier-a)' },
+    B: { label: 'B', long: 'Solide et reconnue', color: 'var(--tier-b)' },
+    C: { label: 'C', long: 'Boutique / peu visible', color: 'var(--tier-c)' },
+  };
+  const TIER_ORDER = ['S', 'A', 'B', 'C'];
   const MONTH_LABELS = ['', 'janv.', 'févr.', 'mars', 'avr.', 'mai', 'juin', 'juil.', 'août', 'sept.', 'oct.', 'nov.', 'déc.'];
 
   // Priorité de tri « Pertinence » : off-cycle d'abord (seuls compatibles avec
@@ -52,6 +60,7 @@
     types: new Set(TYPE_ORDER.filter(t => t !== 'summer_internship')), // summers masqués par défaut
     firmTypes: new Set(FIRM_TYPE_ORDER),
     fits: new Set(FIT_ORDER.filter(f => f !== 'too_early')), // les offres déjà passées sont masquées
+    tiers: new Set(TIER_ORDER),
     region: '',
     firm: '',
     sort: 'priority',
@@ -59,8 +68,9 @@
     shown: PAGE_SIZE, // rendu incrémental : nombre de cartes affichées
   };
 
-  /** Type d'activité d'une firm, résolu depuis firms.json (rempli au chargement). */
+  /** Type d'activité et tier d'une firm, résolus depuis firms.json (remplis au chargement). */
   const firmTypeOf = new Map();
+  const firmTierOf = new Map();
 
   const store = {
     get(key, fallback) { try { return JSON.parse(localStorage.getItem(key)) ?? fallback; } catch { return fallback; } },
@@ -75,6 +85,7 @@
     state.types = new Set(savedFilters.types || [...state.types]);
     state.firmTypes = new Set(savedFilters.firmTypes || [...state.firmTypes]);
     state.fits = new Set(savedFilters.fits || [...state.fits]);
+    state.tiers = new Set(savedFilters.tiers || [...state.tiers]);
     state.region = savedFilters.region || '';
     state.sort = savedFilters.sort || 'priority';
   }
@@ -85,7 +96,7 @@
   const $ = id => document.getElementById(id);
 
   function saveFilters() {
-    store.set('qb-filters', { cats: [...state.cats], types: [...state.types], firmTypes: [...state.firmTypes], fits: [...state.fits], region: state.region, sort: state.sort });
+    store.set('qb-filters', { cats: [...state.cats], types: [...state.types], firmTypes: [...state.firmTypes], fits: [...state.fits], tiers: [...state.tiers], region: state.region, sort: state.sort });
   }
 
   function isNew(j) {
@@ -108,6 +119,10 @@
     if (!state.types.has(j.type)) return false;
     if (!state.firmTypes.has(firmTypeOf.get(j.firm) || 'autre')) return false;
     if (!state.fits.has(j.fit || 'unknown')) return false;
+    // Une firm ajoutée par la veille n'a pas encore de tier : elle reste visible
+    // quel que soit le filtre, plutôt que de disparaître silencieusement.
+    const tier = firmTierOf.get(j.firm);
+    if (tier && !state.tiers.has(tier)) return false;
     if (state.region && !(j.regions || []).includes(state.region)) return false;
     if (state.firm && j.firm !== state.firm) return false;
     if (state.search) {
@@ -422,6 +437,12 @@
     typeChips.innerHTML = TYPE_ORDER.map(t =>
       `<button class="chip${state.types.has(t) ? ' on' : ''}" data-type="${t}">${TYPE_LABELS[t]}</button>`).join('');
 
+    const presentTiers = TIER_ORDER.filter(t => FIRMS.some(f => f.tier === t && f.jobCount > 0));
+    $('tier-chips').innerHTML = presentTiers.length > 1
+      ? presentTiers.map(t =>
+          `<button class="chip chip-tier${state.tiers.has(t) ? ' on' : ''}" data-tier="${t}" style="--chip-color:${TIERS[t].color}" title="${esc(TIERS[t].long)}">${TIERS[t].label} · ${esc(TIERS[t].long)}</button>`).join('')
+      : '';
+
     $('fit-chips').innerHTML = FIT_ORDER.map(f =>
       `<button class="chip${state.fits.has(f) ? ' on' : ''}" data-fit="${f}" style="--chip-color:${FITS[f].color}" title="${esc(FITS[f].long)}">${esc(FITS[f].short)}</button>`).join('');
 
@@ -453,6 +474,7 @@
     if (state.cats.size !== Object.keys(CAT_LABELS).length) n++;
     if (state.types.size !== DEFAULT_TYPES.length || DEFAULT_TYPES.some(t => !state.types.has(t))) n++;
     if (state.firmTypes.size !== FIRM_TYPE_ORDER.length) n++;
+    if (state.tiers.size !== TIER_ORDER.length) n++;
     if (state.fits.size !== FIT_ORDER.length - 1 || state.fits.has('too_early')) n++;
     if (state.region) n++;
     if (state.firm) n++;
@@ -466,6 +488,7 @@
     state.cats = new Set(Object.keys(CAT_LABELS));
     state.types = new Set(DEFAULT_TYPES);
     state.firmTypes = new Set(FIRM_TYPE_ORDER);
+    state.tiers = new Set(TIER_ORDER);
     state.fits = new Set(FIT_ORDER.filter(f => f !== 'too_early'));
     state.region = '';
     state.firm = '';
@@ -510,6 +533,14 @@
       const chip = e.target.closest('.chip'); if (!chip) return;
       const t = chip.dataset.type;
       state.types.has(t) ? state.types.delete(t) : state.types.add(t);
+      chip.classList.toggle('on');
+      saveFilters(); updateFilterCount(); resetAndRender();
+    });
+
+    $('tier-chips').addEventListener('click', e => {
+      const chip = e.target.closest('.chip'); if (!chip) return;
+      const t = chip.dataset.tier;
+      state.tiers.has(t) ? state.tiers.delete(t) : state.tiers.add(t);
       chip.classList.toggle('on');
       saveFilters(); updateFilterCount(); resetAndRender();
     });
@@ -599,7 +630,10 @@
       ]);
       DATA = await jobsRes.json();
       FIRMS = (await firmsRes.json()).firms || [];
-      for (const f of FIRMS) firmTypeOf.set(f.name, f.firmType || 'autre');
+      for (const f of FIRMS) {
+        firmTypeOf.set(f.name, f.firmType || 'autre');
+        if (f.tier) firmTierOf.set(f.name, f.tier);
+      }
     } catch (e) {
       $('loading').textContent = 'Impossible de charger les données 😕 — vérifie ta connexion.';
       return;

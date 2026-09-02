@@ -194,6 +194,17 @@ h1 span { color: var(--accent); }
 
 .chip.on { border-color: var(--chip-color, var(--accent)); color: var(--chip-color, var(--accent)); background: color-mix(in srgb, var(--chip-color, var(--accent)) 12%, transparent); }
 
+/* Le tier tient dans une pastille colorée, le libellé reste lisible à côté. */
+.chip-tier::before {
+  content: '';
+  display: inline-block;
+  width: 6px; height: 6px;
+  border-radius: 50%;
+  background: var(--chip-color);
+  margin-right: 5px;
+  vertical-align: 1px;
+}
+
 .select-row { display: flex; gap: 6px; flex-wrap: wrap; }
 
 select {
