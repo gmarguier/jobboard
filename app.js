@@ -210,9 +210,11 @@
     const jobs = DATA.jobs.filter(j => j.firm === firmName && !hidden.has(j.id));
     const usable = jobs.filter(j => j.fit !== 'too_early');
 
-    // Où se situe la firm parmi celles de son type, par sélectivité.
-    const ranked = [...peers].sort((a, b) => (b.selectivity || 0) - (a.selectivity || 0));
-    const rank = ranked.findIndex(x => x.name === firmName) + 1;
+    // Position relative dans son domaine. Un rang chiffré serait trompeur : beaucoup
+    // de firms partagent la même note, l'ordre entre elles n'aurait aucun sens.
+    const sel = f.selectivity;
+    const above = sel != null ? peers.filter(x => (x.selectivity || 0) > sel).length : null;
+    const tied = sel != null ? peers.filter(x => x.selectivity === sel && x.name !== firmName).length : null;
 
     const sameTier = FIRMS.filter(x => x.tier === f.tier && x.firmType === f.firmType && x.name !== firmName)
       .slice(0, 6).map(x => x.name);
@@ -245,7 +247,9 @@
         <p class="modal-hint">Le repère vertical est la médiane des firms du même type. Estimations à partir de la réputation publique, pas de données officielles.</p>
       </div>` : ''}
 
-      ${rank > 0 ? `<p class="modal-rank">Parmi les ${peers.length} firms de type « ${esc(ft?.long || '')} » du board, elle se classe <b>${rank}<sup>e</sup></b> en sélectivité.</p>` : ''}
+      ${above != null ? `<p class="modal-rank">Dans son domaine (${peers.length} firms suivies), ${above === 0
+        ? `<b>aucune n'est plus sélective</b>${tied ? `, ${tied} sont au même niveau` : ''}`
+        : `<b>${above}</b> ${above > 1 ? 'sont plus sélectives' : 'est plus sélective'}${tied ? ` et ${tied} ${tied > 1 ? 'sont' : 'est'} au même niveau` : ''}`}.</p>` : ''}
 
       ${f.juniorPath ? `<div class="modal-block"><h3>Entrée junior</h3><p>${esc(f.juniorPath)}</p></div>` : ''}
       ${f.interview ? `<div class="modal-block"><h3>Processus</h3><p>${esc(f.interview)}</p></div>` : ''}

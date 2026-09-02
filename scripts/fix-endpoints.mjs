@@ -136,6 +136,22 @@ if (existsSync(p('firm-types.json'))) {
   if (missing.length) console.log(`     non classées → "autre" : ${missing.join(', ')}`);
 }
 
+// Fiches de positionnement (tier, sélectivité, rémunération, description).
+// Même raison que ci-dessus : firms.json est régénéré, la recherche ne doit pas l'être.
+if (existsSync(p('firm-profiles.json'))) {
+  const profiles = JSON.parse(readFileSync(p('firm-profiles.json'), 'utf8')).profiles || {};
+  const KEEP = ['tier', 'selectivity', 'compensation', 'sizeBand', 'headcount', 'founded', 'hq',
+    'positioning', 'knownFor', 'juniorPath', 'interview', 'profileConfidence'];
+  let n = 0;
+  for (const f of firmsData.firms) {
+    const prof = profiles[f.name];
+    if (!prof) continue;
+    for (const k of KEEP) if (prof[k] != null) f[k] = prof[k];
+    n++;
+  }
+  console.log(`  ⊙ fiches de positionnement : ${n}/${firmsData.firms.length} firms documentées`);
+}
+
 writeFileSync(p('firms.json'), JSON.stringify(firmsData, null, 1));
 const withApi = firmsData.firms.filter(f => f.apiEndpoints?.length).length;
 console.log(`${firmsData.firms.length} firms · ${withApi} avec API · ${changed} avec plusieurs boards`);
