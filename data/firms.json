@@ -79,7 +79,7 @@
    "apiBody": null,
    "status": "no_relevant_roles",
    "notes": "ATS is Breezy HR (board 'abc-arbitrage', embedded on /career/ via https://abc-arbitrage.breezy.hr/embed/js). GET https://abc-arbitrage.breezy.hr/json returns all postings (no pagination); posting URLs are of form https://abc-arbitrage.breezy.hr/p/{id}-{slug}. 4 postings on 2026-08-22, none junior-relevant: Senior Quantitative Portfolio Manager and Senior Python Developer (Senior), Financial Operator - Trading support (requires 4+ years experience, Paris, French), and 'Candidature spontanee' (generic spontaneous application, no category). Site also mentions Welcome to the Jungle but the Breezy board is the canonical source. French firm - internships ('stages') appear on this board when open; re-check for titles containing 'stage'/'intern'.",
-   "jobCount": 0,
+   "jobCount": 2,
    "apiEndpoints": [
     {
      "ats": "breezy",
@@ -232,7 +232,7 @@
    "apiBody": null,
    "status": "ok",
    "notes": "alloptions.nl 301s to alloptions-international.com. WordPress site; 'vacancies' custom post type exposed via WP REST API (endpoint returns all postings with title/link/date; add &page=2 if >100). Fetch each vacancy page HTML for description. BambooHR plugin only powers the application form. 8 postings on 2026-08-22; dropped Financial Reporting, HR BP, Risk Manager, Trading Systems Support Lead.",
-   "jobCount": 4,
+   "jobCount": 5,
    "apiEndpoints": [
     {
      "ats": "wordpress",
@@ -270,7 +270,7 @@
    "apiBody": null,
    "status": "ok",
    "notes": "Greenhouse board token 'alphagrepsecurities' (board: https://job-boards.greenhouse.io/alphagrepsecurities). Site proxies GH via GET https://www.alpha-grep.com/api/greenhouse-jobs.php (same JSON). Single response, no pagination (14 postings on 2026-08-22). No campus/interns section. Some postings use location 'Multiple Location'; Shanghai roles are AlphaGrep China. Dropped: Business Ops (2+ yrs fund ops), Risk Management (5+ yrs), 3x Regional Sales Head, Sales Support, Senior Trader.",
-   "jobCount": 7,
+   "jobCount": 8,
    "apiEndpoints": [
     {
      "ats": "greenhouse",
@@ -456,7 +456,7 @@
    "apiBody": null,
    "status": "ok",
    "notes": "Board token 'aqr'. careers.aqr.com is a Greenhouse-embedded portal; university roles live in department 'University - Open Positions' (also https://careers.aqr.com/jobs/category/university-jobs). Single GET returns all 47 jobs, no pagination. Dropped: BD/compliance/legal/finance/ops/IT-support roles, Senior/VP titles, and roles requiring 3+ years (several Bengaluru 'Associate' engineering roles). '2027 Research Product Specialist Summer Analyst' excluded as business-development/marketing-adjacent.",
-   "jobCount": 15,
+   "jobCount": 21,
    "apiEndpoints": [
     {
      "ats": "greenhouse",
@@ -688,7 +688,7 @@
    "apiBody": null,
    "status": "ok",
    "notes": "axqcap.com #join section links to Greenhouse board token 'axq'. Single GET, no pagination (23 postings on 2026-08-22). Many postings are Chinese-language; campus roles titled '2027 Graduate|...' and '2027 QiYuan summer internship|...'. Use first_published for posted date. Dropped: Head of ML Infrastructure, Lead Financial Data Engineer, 3x Portfolio Manager, 2x Senior Quantitative Researcher, Investor Relations Intern. Kept Algorithmic Trading Researcher despite 2+ yrs requirement (not 3+).",
-   "jobCount": 14,
+   "jobCount": 15,
    "apiEndpoints": [
     {
      "ats": "greenhouse",
@@ -874,7 +874,7 @@
    "apiBody": null,
    "status": "ok",
    "notes": "blackedge.com has no /careers page; homepage 'Join our team' section links straight to Greenhouse board blackedgecapital (7 postings on 2026-08-22, single response, no pagination). Posted = first_published from API. Intern postings do not state a season (grad-2028 requirement; the General Interest - Campus post targets Summer 2027). Excluded: General Interest - Experienced Hires (explicitly 2+ years). All roles Chicago; Trading Strategy SWE supports remote.",
-   "jobCount": 6,
+   "jobCount": 5,
    "apiEndpoints": [
     {
      "ats": "greenhouse",
@@ -912,7 +912,7 @@
    "apiBody": null,
    "status": "ok",
    "notes": "bluecrestcapital.com is now a bare FCA redress-scheme notice page with no careers section (/careers 404s); jobs live only on Greenhouse board bluecrestcapitalmanagement, found via web search (5 postings on 2026-08-22, single response, no pagination). No campus/graduate programme. Excluded as experienced/irrelevant: Quant Researcher Singapore (front-office trading experience is a stated minimum), RAD Developer (at least 4 years), AI Cloud Platform Engineer (deep/proven experience required), Facilities Manager. Kept Trading Assistant (junior desk-support role; requires some unquantified sell-side/buy-side experience - flagged in snippet).",
-   "jobCount": 1,
+   "jobCount": 3,
    "apiEndpoints": [
     {
      "ats": "greenhouse",
@@ -1135,7 +1135,7 @@
    "apiBody": null,
    "status": "ok",
    "notes": "Greenhouse board token 'bridgewater89'; single GET returns all jobs (17 at scrape) with HTML content, no pagination. Same data proxied at https://www.bridgewater.com/jobboard. Most postings are experienced hires; summer internship appears as '2027 Investment Associate Intern'. Their .rss feed is empty/stale - ignore it.",
-   "jobCount": 6,
+   "jobCount": 7,
    "apiEndpoints": [
     {
      "ats": "greenhouse",
@@ -1284,7 +1284,7 @@
    "apiBody": null,
    "status": "ok",
    "notes": "Capstone Investment Advisors. Greenhouse board token 'capstoneinvestmentadvisors' embedded on /careers; single GET returns all jobs (12 at scrape), no pagination. Most engineering roles require 3-5+ yrs; no internship/campus postings on the board as of 2026-08-22 (internships appear seasonally).",
-   "jobCount": 2,
+   "jobCount": 3,
    "apiEndpoints": [
     {
      "ats": "greenhouse",
@@ -1845,7 +1845,7 @@
    "apiBody": null,
    "status": "ok",
    "notes": "drw.com listing pages are Next.js wrappers around Greenhouse board \"drweng\" (apply links: job-boards.greenhouse.io/drweng/jobs/<id>). Single GET returns all 165 postings with content, no pagination. Campus roles live in departments named Campus*; summer 2027 internships target Dec 2027-2028 graduates, campus full-time targets Dec 2026-mid 2027 graduates. Dropped Senior/Head/Lead titles, roles with 3+ years required, \"proven experience\" trader seats, and non-relevant depts (compliance, legal, HR, accounting, VC, corporate strategy, security engineering, workplace/facilities).",
-   "jobCount": 70,
+   "jobCount": 69,
    "apiEndpoints": [
     {
      "ats": "greenhouse",
@@ -2544,7 +2544,7 @@
    "apiBody": null,
    "status": "ok",
    "notes": "Custom WordPress site, server-rendered. Scrape https://www.gresearch.com/vacancies/ with a browser User-Agent and extract unique hrefs matching gresearch.com/vacancies/{slug}/ - the FULL vacancy list (63 slugs on 2026-08-22) is embedded in every listing page, so pagination (/vacancies/page/N/) need not be followed. Fetch each job page for details; location shown as 'Location: London' (all roles London; firm also has Dallas office). No JSON API, no posted dates. Summer internships are a fixed cohort: 21 Jun - 27 Aug 2027, 10 weeks, London. Dropped: security/pen-test/IAM/CSIRT roles, managers/leads/heads, 'Quantitative Researcher - Experienced', and full-time roles whose requirements demand deep/proven professional experience (C++ SWE, platform/infra/network engineers, performance engineers, Core AI Engineer, Applied AI Engineer, Functional Programmer, Trade Technology SWE, Quantitative Analyst #2 posting, QR Fundamental Equity, analytics/insight roles).",
-   "jobCount": 15,
+   "jobCount": 25,
    "apiEndpoints": [
     {
      "ats": "custom_html",
@@ -2816,7 +2816,7 @@
    "apiBody": null,
    "status": "ok",
    "notes": "Greenhouse board token 'gravitonresearchcapital'. Site careers page embeds a locally mirrored board (nightly JSON at https://www.gravitontrading.com/data/greenhouse_jobs.json) but the live Greenhouse API is authoritative and complete (21 postings, no pagination). Dropped roles requiring 3+ yrs (Network Engineer, QA-Risk, SW Dev Quant Tools, Software Engineer, SWE C++ 3-5yrs), senior/manager titles, and back-office/admin. 'Quantitative Trader - Singapore' body says 'seeking a Senior Quantitative Trader' so treated as senior and dropped. No internship/campus postings on the board.",
-   "jobCount": 10,
+   "jobCount": 11,
    "apiEndpoints": [
     {
      "ats": "greenhouse",
@@ -3114,7 +3114,7 @@
    "apiBody": null,
    "status": "ok",
    "notes": "Greenhouse board token \"wehrtyou\" (the careers site also references a secondary board \"hrttalentcommunity\" for talent-community forms). Single GET returns all 69 postings, no pagination. Multi-office roles are one posting with semicolon-separated location.name. posted = first_published. Campus postings (Summer 2027 internships, 2027 grads) refresh yearly around Aug. Experienced SWE postings direct current undergrads to Campus/New Grad roles; they are kept here when no 3+ years requirement is stated. Dropped: recruiting/HR/comms/warehouse/IT-support/security roles and anything requiring 3+ years.",
-   "jobCount": 37,
+   "jobCount": 44,
    "apiEndpoints": [
     {
      "ats": "greenhouse",
@@ -3153,7 +3153,7 @@
    "apiBody": null,
    "status": "ok",
    "notes": "Custom careers site (imc.com/us|eu/search-careers) backed by Greenhouse EU board token \"imc\" (job URLs on job-boards.eu.greenhouse.io/imc/jobs/{id}). Single GET returns all 166 postings, no pagination. posted = first_published. Board mixes real jobs with events/talent communities (ICLR, Tech Race, Trading Sim, ISCA, Prosperity role-interest form, \"2027 EU Campus Programme Talent Community\", \"US PhD Talent Community\") - excluded here. Amsterdam/Chicago intern postings are summer cohorts; HK \"Intern 2027\" postings start May/June 2027; Aarhus has working-student and work-integrated master roles. Dropped roles requiring 3+ years and all HR/legal/compliance/finance/IT-support/admin/sales postings.",
-   "jobCount": 72,
+   "jobCount": 75,
    "apiEndpoints": [
     {
      "ats": "greenhouse",
@@ -3341,7 +3341,7 @@
    "apiBody": null,
    "status": "ok",
    "notes": "Greenhouse board token 'jumptrading' (106 postings, no pagination needed). Posting URLs are https://www.jumptrading.com/hr/job?gh_jid={id}. Campus roles are titled 'Campus ... (Intern)/(Full-Time)'; several London/Bristol internships explicitly allow non-summer (winter/spring/fall) terms — good off-cycle targets. Experienced-hire roles requiring 3+ yrs or 'extensive/proven' experience were dropped; kept standing roles with <=2yrs or no explicit requirement. first_published used as posted date. 'Campus AI/ML Researcher (Fall 2026)' has no (Intern)/(Full-Time) tag; treated as fall off-cycle campus internship.",
-   "jobCount": 54,
+   "jobCount": 59,
    "apiEndpoints": [
     {
      "ats": "greenhouse",
@@ -3594,7 +3594,7 @@
    "apiBody": null,
    "status": "ok",
    "notes": "Greenhouse board token \"mako\", embedded on /opportunities; no pagination needed (8 postings total). Early-careers info at https://www.mako.com/early-careers: summer internships (penultimate-year), Graduate Trader and 12-month Graduate Software Engineer programmes starting late September; applications appear on the Greenhouse board / opportunities page when open (none open as of 2026-08-22). Dropped: compliance, financial controller, IT ops, 2x Senior roles.",
-   "jobCount": 3,
+   "jobCount": 5,
    "apiEndpoints": [
     {
      "ats": "greenhouse",
@@ -3632,7 +3632,7 @@
    "apiBody": null,
    "status": "ok",
    "notes": "Greenhouse EU board token \"mangroup\" linked from https://www.man.com/careers (www.man.com blocks plain curl; use browser UA or WebFetch). 53 postings, no pagination needed. Campus programmes (AHL Quant, Technology, IDI summer internships + graduate programmes) described at https://www.man.com/students-and-graduates and post to the same Greenhouse board when application windows open - none open as of 2026-08-22; re-check in autumn. Location \"Massachusetts\" = Boston (Man Numeric). Kept borderline roles requiring 1-2/2+ years with notes in snippets.",
-   "jobCount": 19,
+   "jobCount": 15,
    "apiEndpoints": [
     {
      "ats": "greenhouse",
@@ -3785,7 +3785,7 @@
    "apiBody": null,
    "status": "ok",
    "notes": "Careers page is /jobs/ (not /careers) with embedded Greenhouse board 'mavensecuritiesholdingltd'; API returns all 39 postings in one call, no pagination. Early-career roles are titled 'Graduate ... 2027', '... Internship 2027'; London Trader Summer Internship applications open 7 Sep (per Quant Trader Internship posting) - rescan for new London/Amsterdam intern postings. Dropped: Senior*, PM roles, compliance/legal/HR/accounting, roles requiring 3+ years (Trading Operations Analyst 3-5y, Japan Analyst 4+y, European Options Market Maker 3y) and 'proven track record' market-maker roles.",
-   "jobCount": 15,
+   "jobCount": 18,
    "apiEndpoints": [
     {
      "ats": "greenhouse",
@@ -4074,7 +4074,7 @@
    "apiBody": "{\"appliedFacets\":{},\"limit\":20,\"offset\":0,\"searchText\":\"\"}",
    "status": "ok",
    "notes": "Workday tenant 'empower' (Empower/Great-West parent), wd12, site 'PanAgora'. POST returns {total,jobPostings}; paginate offset by 20 until total (only 4 postings at scrape time). Job detail JSON at /wday/cxs/empower/PanAgora/job/{externalPath}. Dropped: Portfolio Manager Multi Asset (senior), Sr Analyst Investment Compliance (senior+compliance).",
-   "jobCount": 2,
+   "jobCount": 1,
    "apiEndpoints": [
     {
      "ats": "workday",
@@ -4222,7 +4222,7 @@
    "apiBody": "{\"appliedFacets\":{},\"limit\":20,\"offset\":0,\"searchText\":\"\"}",
    "status": "no_relevant_roles",
    "notes": "www.pgimquantitativesolutions.com 301-redirects to https://www.pgim.com/campaignCountry/en/institutional/businesses/quantitative-solutions (JS SPA, no job data in HTML). All PGIM hiring runs through Prudential's Workday tenant 'pru' (wd5). Two sites work: PGIM_Careers (PGIM-only, 72 postings on 2026-08-23) and Careers (whole Prudential group). Paginate by offset+=20 until offset>=total; NOTE the 'total' field is only returned on the offset=0 call. PGIM Quantitative Solutions roles appear on this board titled 'PGIM Quantitative Solutions - <role>' (e.g. historic R-122353 Investment Operations Associate) but NONE are open today. Only quant-titled posting is R-124655 Executive Director, Fixed Income Quantitative Research (PGIM Fixed Income, senior - dropped). Early-careers marketing site jobs.pgim.com/us-en/early-talent links back to the same Workday board and lists no Quant Solutions programme. Re-scan with searchText 'Quantitative Solutions' as a quick check.",
-   "jobCount": 0,
+   "jobCount": 1,
    "apiEndpoints": [
     {
      "ats": "workday",
@@ -4260,7 +4260,7 @@
    "apiBody": null,
    "status": "ok",
    "notes": "point72.com/careers is a 404; the real careers site is https://careers.point72.com/ (also point72.com/students-early-career/ and /point72-academy/ for campus). It is a Greenhouse embed, board token 'point72'. One GET returns ALL 230 postings with full HTML content - no pagination. Cubist Systematic Strategies and Point72 Academy roles are on the SAME board (titles prefixed 'Cubist' / 'Point72 Academy'). 230 postings on 2026-08-23; 80 kept. Dropped for 3+ yrs experience (e.g. Cubist Quant Dev HK, QR NY/Chicago, Macro QR, Microstructure QR, Low-Latency Market Data Engineer 5+), for senior titles, and for non-relevant functions (compliance, HR, payroll, IT/service desk, network+storage support, corporate access, product strategist). Posting URLs are job-boards.greenhouse.io/point72/jobs/{id}. Warning: several Cubist QR postings share identical titles but are distinct ids/locations - key on id.",
-   "jobCount": 80,
+   "jobCount": 86,
    "apiEndpoints": [
     {
      "ats": "greenhouse",
@@ -4515,7 +4515,7 @@
    "apiBody": null,
    "status": "ok",
    "notes": "Greenhouse embed board 'quantbot-technologies' on WordPress careers page; 8 postings total, all 2027 summer internships, all kept (no pagination needed). Separate posting per location (distinct URLs kept separate). absolute_url format: https://www.quantbot.com/careers/{gh_id}?gh_jid={gh_id}. All programs run June-Aug; successful interns may get FT offers.",
-   "jobCount": 8,
+   "jobCount": 6,
    "apiEndpoints": [
     {
      "ats": "greenhouse",
@@ -4696,7 +4696,7 @@
    "apiBody": null,
    "status": "ok",
    "notes": "Greenhouse board token quberesearchandtechnologies; careers page renders jobs client-side via gh_jid links. Single GET returns all ~187 postings, no pagination. Kept internships (Qube runs 3-6 month flexible-start programmes, not summer cohorts), VIE, and standing QR/QT/ENG/support roles with no stated experience requirement or min <=2 yrs; dropped Senior/Lead/Manager/Architect titles, roles requiring 3+ yrs, infosec, HR/TA, procurement, back-office. Re-filter on each scan: check content for \"N+ years\" minimums.",
-   "jobCount": 77,
+   "jobCount": 88,
    "apiEndpoints": [
     {
      "ats": "greenhouse",
@@ -5164,7 +5164,7 @@
    "apiBody": null,
    "status": "ok",
    "notes": "Next.js site; /open-opportunities renders client-side (needs JS) from Greenhouse board token \"squarepointcapital\" — hit the boards API directly instead; single GET returns all postings (90 on 2026-08-23), no pagination. Dedicated /early-careers page describes Investment (Intern Quant Researcher) and Technology internships; intern postings appear on the same board. Site job pages are /opportunity-details?gh_jid={id}; canonical URLs are absolute_url on job-boards.greenhouse.io. Filter: many \"Software Developer -\", \"Platform\", \"Network\" roles require 4-8+ yrs (dropped); \"Junior\"/\"Graduate\"/\"Intern\" prefixed roles are junior-capped (\"up to 4 years\"). posted = first_published.",
-   "jobCount": 35,
+   "jobCount": 33,
    "apiEndpoints": [
     {
      "ats": "greenhouse",
@@ -5652,7 +5652,7 @@
    "apiBody": null,
    "status": "ok",
    "notes": "Greenhouse board token: towerresearchcapital. Single GET returns all postings (86 on 2026-08-23), no pagination needed. Job URLs are https://www.tower-research.com/open-positions/?gh_jid={id}. posted = first_published date. Kept 40 junior-accessible roles (interns, 2027 campus, and full-time roles requiring <=2 years or no explicit experience); dropped Senior/Manager/Experienced titles, roles requiring 3+ years, and corporate functions (finance, payroll, business management, infosec, procurement).",
-   "jobCount": 40,
+   "jobCount": 43,
    "apiEndpoints": [
     {
      "ats": "greenhouse",
@@ -6034,7 +6034,7 @@
    "apiBody": null,
    "status": "ok",
    "notes": "Greenhouse board token 'virtu' embedded on /careers/. Single GET returns all jobs (46 as of 2026-08-23), no pagination; posting URLs at job-boards.greenhouse.io/virtu/jobs/<id>. 2027 internships are 10-week summer programs (US/SG start Jun 7, Dublin Jun 21); Women's Winternships are 1-week January 2027 insight programs (SG/Dublin deadline Oct 2026). Dropped: Senior/Lead titles, 3+ yr roles (ML Engineer 5+, Options Quant Strategist 3-5, SE Web App 5+, Systems Engineer 3-5, ETF Trader 3+, SE Client Trading Infra 3+), infosec, client services, VES sales.",
-   "jobCount": 36,
+   "jobCount": 37,
    "apiEndpoints": [
     {
      "ats": "greenhouse",
@@ -6112,7 +6112,7 @@
    "apiBody": null,
    "status": "ok",
    "notes": "Ashby board 'voleon' embedded on /jobs (ashbyhq.com/voleon/embed?version=2). Single GET returns all postings (57 as of 2026-08-23) with descriptionHtml, location + secondaryLocations, publishedAt, jobUrl. No internships posted; ML-focused quant fund hiring is mostly PhD-new-grad-friendly 'Member of Research Staff' roles plus an Operations Associate (University Hire) rotational graduate program. Dropped: Senior/Staff/Lead/Manager/Director titles, 3+ yr roles (SE Data Infra, SE Strategy Research Analytics, Quantitative Trading Strategist, Fixed Income Ops Analyst 5-10), recruiting, IT support, compliance, accounting, IRBD, editors.",
-   "jobCount": 12,
+   "jobCount": 14,
    "apiEndpoints": [
     {
      "ats": "ashby",
@@ -6219,7 +6219,7 @@
    "apiBody": null,
    "status": "ok",
    "notes": "TWO Greenhouse boards, both linked from /careers: students board 'walleyecapital-external-students' (apiEndpoint) AND full-time board 'walleyecapital-external-fulltime' -> GET https://boards-api.greenhouse.io/v1/boards/walleyecapital-external-fulltime/jobs?content=true. Scrape both; the bare 'walleyecapital' board exists but is empty. No pagination needed. Full-time board is mostly evergreen department-level general-interest postings (first published 2025-06-02) plus occasional specific roles. Dropped: Finance & Accounting Intern, Finance/Treasury/Ops, HR/Marketing, Legal & Compliance, Fundamental Equities (non-quant), Quantitative Analyst Equity Volatility (8+ yrs).",
-   "jobCount": 9,
+   "jobCount": 10,
    "apiEndpoints": [
     {
      "ats": "greenhouse",
@@ -6333,7 +6333,7 @@
    "apiBody": null,
    "status": "ok",
    "notes": "Lever org token is 'wintermute-trading' (NOT 'wintermute', which 404s). One GET returns all 28 postings, no pagination. Requirement bullets are NOT in the 'description' field - they live in the 'lists' array (each item has 'text' heading and 'content' HTML), so parse lists[] to read experience bars. 'createdAt' is epoch milliseconds -> posted date. www.wintermute.com/careers and /company/careers are ~5MB JS-rendered pages with no ATS reference in the HTML; go straight to the Lever API. Dropped Full Stack Engineer (5+ yrs), Options Trader (3-5+ yrs), Infrastructure Support Engineer (IT desktop support), Product Engineering Team Lead, Product Manager, and 5 Business Development roles.",
-   "jobCount": 16,
+   "jobCount": 17,
    "apiEndpoints": [
     {
      "ats": "lever",
@@ -6450,7 +6450,7 @@
    "apiBody": null,
    "status": "ok",
    "notes": "Board token 'worldquant' on the US Greenhouse cluster. One GET returns all 103 live jobs, no pagination. The firm's own listing mirrors each posting at www.worldquant.com/career-listing/?id={greenhouse_id} if a branded URL is preferred. A single Greenhouse posting can cover several cities: location.name uses ' OR ' as the separator (e.g. 'Hanoi OR Ho Chi Minh City') - split on ' OR ' / ' or '. Several APAC postings are bilingual (Chinese/Korean) and the English text alone can be misleading: the Seoul Quantitative Researcher carries a Korean note routing fresh graduates to an 8-week autumn internship instead of the full-time role, which is why it is typed offcycle_internship here. Dropped 15 roles for 3+ yrs (four 'Quantitative Developer' postings at 3-8 yrs, C++ Developer, Data Engineer, Execution Developer, Full Stack Engineer, Linux Systems Engineer, Python Developer, Quantitative Python Developer, Software Engineer, two Solution Engineer, Software Engineer - Trading Systems, Data Sourcing Specialist), all Senior/Lead titles, all Portfolio Manager titles, and HR/EA/Business Analyst roles.",
-   "jobCount": 43,
+   "jobCount": 44,
    "apiEndpoints": [
     {
      "ats": "greenhouse",
@@ -6489,7 +6489,7 @@
    "apiBody": null,
    "status": "ok",
    "notes": "Board token 'xantium' on the US Greenhouse cluster. One GET returns all 7 live jobs, no pagination. Trust the API over the website: www.xantium.com/careers hardcodes two extra Greenhouse job ids (4178659009, 4210700009) that both 404 on the API, and it omits the two Summer 2027 internship postings that the API does return. location.name is a free-text comma list mixing formats ('London, NYC, Abu Dhabi, Salt Lake City' vs 'London, England, New York, New York'), so parse it loosely rather than splitting naively on commas. All 7 postings were kept - the whole board is quant/eng and junior-accessible. Compensation figures are stated inline in the job content.",
-   "jobCount": 7,
+   "jobCount": 8,
    "apiEndpoints": [
     {
      "ats": "greenhouse",

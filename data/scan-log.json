@@ -2,6 +2,13 @@
  "_comment": "Journal des scans, alimenté par apply-scan.mjs. Sert la carte d'état de l'onglet Nouvelles.",
  "scans": [
   {
+   "scanId": "2026-09-02T11:41:56.765Z",
+   "at": "2026-09-02T11:44:29.345Z",
+   "added": 104,
+   "removed": 41,
+   "total": 1545
+  },
+  {
    "scanId": "baseline",
    "at": "2026-08-23T10:29:05.875Z",
    "added": 1482,

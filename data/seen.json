@@ -95,6 +95,10 @@
   "https://job-boards.greenhouse.io/alphagrepsecurities/jobs/5125095002": {
    "title": "Senior Trader",
    "firstSeen": "2026-08-23"
+  },
+  "https://job-boards.greenhouse.io/alphagrepsecurities/jobs/8720225002": {
+   "title": "2027 Campus Program",
+   "firstSeen": "2026-09-02"
   }
  },
  "AQR Capital Management": {
@@ -285,6 +289,46 @@
   "https://careers.aqr.com/jobs?gh_jid=7984690&gh_jid=7984690": {
    "title": "Vice President Business Development - Hong Kong",
    "firstSeen": "2026-08-23"
+  },
+  "https://careers.aqr.com/jobs?gh_jid=8161563&gh_jid=8161563": {
+   "title": "2027 Portfolio Finance Summer Analyst",
+   "firstSeen": "2026-09-02"
+  },
+  "https://careers.aqr.com/jobs?gh_jid=8143913&gh_jid=8143913": {
+   "title": "2027 Portfolio Implementation Analyst",
+   "firstSeen": "2026-09-02"
+  },
+  "https://careers.aqr.com/jobs?gh_jid=8156709&gh_jid=8156709": {
+   "title": "2027 Trading Analyst",
+   "firstSeen": "2026-09-02"
+  },
+  "https://careers.aqr.com/jobs?gh_jid=8156993&gh_jid=8156993": {
+   "title": "AQR Arbitrage - 2027 Research Summer Analyst ",
+   "firstSeen": "2026-09-02"
+  },
+  "https://careers.aqr.com/jobs?gh_jid=8088184&gh_jid=8088184": {
+   "title": "Data Scientist, Machine Learning",
+   "firstSeen": "2026-09-02"
+  },
+  "https://careers.aqr.com/jobs?gh_jid=8112238&gh_jid=8112238": {
+   "title": "Engineering - Quant Research Development - GSS - Analyst",
+   "firstSeen": "2026-09-02"
+  },
+  "https://careers.aqr.com/jobs?gh_jid=8156183&gh_jid=8156183": {
+   "title": "Global Payroll Lead",
+   "firstSeen": "2026-09-02"
+  },
+  "https://careers.aqr.com/jobs?gh_jid=7852417&gh_jid=7852417": {
+   "title": "Global Regulatory Reporting & Compliance Associate / VP",
+   "firstSeen": "2026-09-02"
+  },
+  "https://careers.aqr.com/jobs?gh_jid=8161372&gh_jid=8161372": {
+   "title": "Managed Futures & Commodities Research Analyst",
+   "firstSeen": "2026-09-02"
+  },
+  "https://careers.aqr.com/jobs?gh_jid=8112443&gh_jid=8112443": {
+   "title": "Salesforce Portal Support",
+   "firstSeen": "2026-09-02"
   }
  },
  "Akuna Capital": {
@@ -320,16 +364,8 @@
    "title": "Junior Quantitative Developer & Strategist",
    "firstSeen": "2026-08-23"
   },
-  "https://www.akunacapital.com/careers/job/8036541/?gh_jid=8036541": {
-   "title": "Junior Quantitative Researcher",
-   "firstSeen": "2026-08-23"
-  },
   "https://www.akunacapital.com/careers/job/8035515/?gh_jid=8035515": {
    "title": "Junior Quantitative Risk Analyst",
-   "firstSeen": "2026-08-23"
-  },
-  "https://www.akunacapital.com/careers/job/7773141/?gh_jid=7773141": {
-   "title": "Junior Trader",
    "firstSeen": "2026-08-23"
   },
   "https://www.akunacapital.com/careers/job/8108733/?gh_jid=8108733": {
@@ -419,6 +455,22 @@
   "https://www.akunacapital.com/careers/job/8114410/?gh_jid=8114410": {
    "title": "Tax Manager - APAC",
    "firstSeen": "2026-08-23"
+  },
+  "https://www.akunacapital.com/careers/job/8163512/?gh_jid=8163512": {
+   "title": "Software Engineer C++",
+   "firstSeen": "2026-09-02"
+  },
+  "https://www.akunacapital.com/careers/job/7496408/?gh_jid=7496408": {
+   "title": "Software Engineer - C++, Trading Strategies",
+   "firstSeen": "2026-09-02"
+  },
+  "https://www.akunacapital.com/careers/job/8166528/?gh_jid=8166528": {
+   "title": "Trade Support Engineer",
+   "firstSeen": "2026-09-02"
+  },
+  "https://www.akunacapital.com/careers/job/8166538/?gh_jid=8166538": {
+   "title": "Trade Support Engineer",
+   "firstSeen": "2026-09-02"
   }
  },
  "Acadian Asset Management": {
@@ -536,9 +588,9 @@
    "title": "Sales - Derivatives Sales, New Jersey",
    "firstSeen": "2026-08-23"
   },
-  "https://job-boards.eu.greenhouse.io/b2c2/jobs/4900159101": {
-   "title": "Trading - Options Trader - London",
-   "firstSeen": "2026-08-23"
+  "https://job-boards.eu.greenhouse.io/b2c2/jobs/4922889101": {
+   "title": "Trading - OTC Trader (Junior/Mid Level) - Brazil",
+   "firstSeen": "2026-09-02"
   }
  },
  "AXQ Capital": {
@@ -580,10 +632,6 @@
   },
   "https://job-boards.greenhouse.io/axq/jobs/6135944004": {
    "title": "Low Latency Engineer",
-   "firstSeen": "2026-08-23"
-  },
-  "https://job-boards.greenhouse.io/axq/jobs/5636445004": {
-   "title": "Machine Learning Researcher",
    "firstSeen": "2026-08-23"
   },
   "https://job-boards.greenhouse.io/axq/jobs/5695402004": {
@@ -633,13 +681,21 @@
   "https://job-boards.greenhouse.io/axq/jobs/5826399004": {
    "title": "Software Engineer",
    "firstSeen": "2026-08-23"
+  },
+  "https://job-boards.greenhouse.io/axq/jobs/6164290004": {
+   "title": "Production Engineer",
+   "firstSeen": "2026-09-02"
+  },
+  "https://job-boards.greenhouse.io/axq/jobs/6149705004": {
+   "title": "Quantitative Researcher (Execution Research)",
+   "firstSeen": "2026-09-02"
+  },
+  "https://job-boards.greenhouse.io/axq/jobs/6149704004": {
+   "title": "Senior Talent Acquisition Manager",
+   "firstSeen": "2026-09-02"
   }
  },
  "BlackEdge Capital": {
-  "https://job-boards.greenhouse.io/blackedgecapital/jobs/4705571005": {
-   "title": "General Interest - Campus",
-   "firstSeen": "2026-08-23"
-  },
   "https://job-boards.greenhouse.io/blackedgecapital/jobs/4705546005": {
    "title": "General Interest - Experienced Hires",
    "firstSeen": "2026-08-23"
@@ -685,6 +741,22 @@
   "https://job-boards.greenhouse.io/bluecrestcapitalmanagement/jobs/7544700003": {
    "title": "Trading Assistant (Emerging Markets)",
    "firstSeen": "2026-08-23"
+  },
+  "https://job-boards.greenhouse.io/bluecrestcapitalmanagement/jobs/7972490003": {
+   "title": "AI DevOps Engineer",
+   "firstSeen": "2026-09-02"
+  },
+  "https://job-boards.greenhouse.io/bluecrestcapitalmanagement/jobs/7972620003": {
+   "title": "DevOps Engineer (FTC)",
+   "firstSeen": "2026-09-02"
+  },
+  "https://job-boards.greenhouse.io/bluecrestcapitalmanagement/jobs/7820164003": {
+   "title": "Infrastructure Platform Engineer ",
+   "firstSeen": "2026-09-02"
+  },
+  "https://job-boards.greenhouse.io/bluecrestcapitalmanagement/jobs/7820174003": {
+   "title": "Platform Engineer ",
+   "firstSeen": "2026-09-02"
   }
  },
  "Bridgewater Associates": {
@@ -702,10 +774,6 @@
   },
   "https://job-boards.greenhouse.io/bridgewater89/jobs/8334259002": {
    "title": "Campus Talent Associate",
-   "firstSeen": "2026-08-23"
-  },
-  "https://job-boards.greenhouse.io/bridgewater89/jobs/8294673002": {
-   "title": "Client Investment Research Associate",
    "firstSeen": "2026-08-23"
   },
   "https://job-boards.greenhouse.io/bridgewater89/jobs/8228699002": {
@@ -755,6 +823,18 @@
   "https://job-boards.greenhouse.io/bridgewater89/jobs/8590223002": {
    "title": "Trade Operations Associate ",
    "firstSeen": "2026-08-23"
+  },
+  "https://job-boards.greenhouse.io/bridgewater89/jobs/8765764002": {
+   "title": "Management Coordinator",
+   "firstSeen": "2026-09-02"
+  },
+  "https://job-boards.greenhouse.io/bridgewater89/jobs/8750665002": {
+   "title": "Portfolio Engineer",
+   "firstSeen": "2026-09-02"
+  },
+  "https://job-boards.greenhouse.io/bridgewater89/jobs/8750718002": {
+   "title": "Trading Associate",
+   "firstSeen": "2026-09-02"
   }
  },
  "Capstone": {
@@ -805,6 +885,18 @@
   "https://job-boards.greenhouse.io/capstoneinvestmentadvisors/jobs/8628040002": {
    "title": "Trading Assistant",
    "firstSeen": "2026-08-23"
+  },
+  "https://job-boards.greenhouse.io/capstoneinvestmentadvisors/jobs/8765644002": {
+   "title": "Associate, Trader - #293",
+   "firstSeen": "2026-09-02"
+  },
+  "https://job-boards.greenhouse.io/capstoneinvestmentadvisors/jobs/8757422002": {
+   "title": "Senior Risk Engineer",
+   "firstSeen": "2026-09-02"
+  },
+  "https://job-boards.greenhouse.io/capstoneinvestmentadvisors/jobs/8760849002": {
+   "title": "Senior Risk Engineer",
+   "firstSeen": "2026-09-02"
   }
  },
  "Da Vinci Derivatives": {
@@ -913,6 +1005,22 @@
   "/job/Los-Angeles-CA/Equity-Research-Analyst---US-Small---Mid-Cap-Quality-Strategy--KAR_R783": {
    "title": "Equity Research Analyst - U.S. Small & Mid-Cap Quality Strategy, KAR",
    "firstSeen": "2026-08-23"
+  },
+  "/job/Remote/Senior-Regional-Sales-Director--Ohio---Western-Pennsylvania--All-Channel-_R858": {
+   "title": "Senior Regional Sales Director (Ohio & Western Pennsylvania, All Channel)",
+   "firstSeen": "2026-09-02"
+  },
+  "/job/Remote/ETF-Strategist--Equities-and-Multi-Asset_R866": {
+   "title": "ETF Strategist, Equities and Multi-Asset",
+   "firstSeen": "2026-09-02"
+  },
+  "/job/Remote/ETF-Specialist--RIA---Intermediary-Distribution_R864": {
+   "title": "ETF Specialist, RIA & Intermediary Distribution",
+   "firstSeen": "2026-09-02"
+  },
+  "/job/Remote/Managing-Director--ETF-Sales_R862": {
+   "title": "Managing Director, ETF Sales",
+   "firstSeen": "2026-09-02"
   }
  },
  "DRW": {
@@ -1234,10 +1342,6 @@
   },
   "https://job-boards.greenhouse.io/drweng/jobs/8014946": {
    "title": "Quantitative Trading Analyst",
-   "firstSeen": "2026-08-23"
-  },
-  "https://job-boards.greenhouse.io/drweng/jobs/8079406": {
-   "title": "Quantitative Trading Analyst - Equity Options",
    "firstSeen": "2026-08-23"
   },
   "https://job-boards.greenhouse.io/drweng/jobs/8138564": {
@@ -1575,6 +1679,10 @@
   "https://job-boards.greenhouse.io/drweng/jobs/7993004": {
    "title": "Venture Capital Analyst Intern",
    "firstSeen": "2026-08-23"
+  },
+  "https://job-boards.greenhouse.io/drweng/jobs/8162060": {
+   "title": "Senior Project Manager - Infrastructure & Operations",
+   "firstSeen": "2026-09-02"
   }
  },
  "Chicago Trading Company": {
@@ -1701,6 +1809,18 @@
   "https://job-boards.greenhouse.io/chicagotrading/jobs/4690421005": {
    "title": "Windows Server Team Lead",
    "firstSeen": "2026-08-23"
+  },
+  "https://job-boards.greenhouse.io/chicagotrading/jobs/4725292005": {
+   "title": "Campus Relations & Events Associate",
+   "firstSeen": "2026-09-02"
+  },
+  "https://job-boards.greenhouse.io/chicagotrading/jobs/4729270005": {
+   "title": "C++ Engineering Lead – Delta Force",
+   "firstSeen": "2026-09-02"
+  },
+  "https://job-boards.greenhouse.io/chicagotrading/jobs/4726246005": {
+   "title": "Recruiting Coordinator",
+   "firstSeen": "2026-09-02"
   }
  },
  "Brevan Howard": {
@@ -1806,14 +1926,6 @@
   }
  },
  "DV Trading": {
-  "https://job-boards.greenhouse.io/dvtrading/jobs/4709047005": {
-   "title": "2026 Graduate Trader (DV Equities)",
-   "firstSeen": "2026-08-23"
-  },
-  "https://job-boards.greenhouse.io/dvtrading/jobs/4656091005": {
-   "title": "2026 Graduate Trader (DV Equities)",
-   "firstSeen": "2026-08-23"
-  },
   "https://job-boards.greenhouse.io/dvtrading/jobs/4719126005": {
    "title": "2027 Graduate Software Engineer (DV Commodities)",
    "firstSeen": "2026-08-23"
@@ -1884,10 +1996,6 @@
   },
   "https://job-boards.greenhouse.io/dvtrading/jobs/4725689005": {
    "title": "Junior Quantitative Trader ",
-   "firstSeen": "2026-08-23"
-  },
-  "https://job-boards.greenhouse.io/dvtrading/jobs/4663553005": {
-   "title": "Junior Trader (DV Equities) - Mandarin & English Fluency Required",
    "firstSeen": "2026-08-23"
   },
   "https://job-boards.greenhouse.io/dvtrading/jobs/4686253005": {
@@ -2045,6 +2153,26 @@
   "https://job-boards.greenhouse.io/dvtrading/jobs/4656627005": {
    "title": "Vice President/Director - US Futures & Asset Manager Coverage ",
    "firstSeen": "2026-08-23"
+  },
+  "https://job-boards.greenhouse.io/dvtrading/jobs/4729740005": {
+   "title": "Audit & Financial Reporting Manager ",
+   "firstSeen": "2026-09-02"
+  },
+  "https://job-boards.greenhouse.io/dvtrading/jobs/4727563005": {
+   "title": "Client Platforms Engineer",
+   "firstSeen": "2026-09-02"
+  },
+  "https://job-boards.greenhouse.io/dvtrading/jobs/4722749005": {
+   "title": "Futures & Options Trading Analyst Intern - Summer 2027",
+   "firstSeen": "2026-09-02"
+  },
+  "https://job-boards.greenhouse.io/dvtrading/jobs/4725730005": {
+   "title": "Operational Risk Manager",
+   "firstSeen": "2026-09-02"
+  },
+  "https://job-boards.greenhouse.io/dvtrading/jobs/4727919005": {
+   "title": "Trade Support Engineer",
+   "firstSeen": "2026-09-02"
   }
  },
  "Engineers Gate": {
@@ -2269,6 +2397,10 @@
   "https://job-boards.greenhouse.io/fiveringsllc/jobs/5349707008": {
    "title": "Summer Intern 2027 - Software Developer",
    "firstSeen": "2026-08-23"
+  },
+  "https://job-boards.greenhouse.io/fiveringsllc/jobs/5413196008": {
+   "title": "Experienced/Lateral – Legal Associate ",
+   "firstSeen": "2026-09-02"
   }
  },
  "Flow Traders": {
@@ -2330,10 +2462,6 @@
   },
   "https://job-boards.greenhouse.io/flowtraders/jobs/8094581": {
    "title": "Graduate Quantitative Trader",
-   "firstSeen": "2026-08-23"
-  },
-  "https://job-boards.greenhouse.io/flowtraders/jobs/7760610": {
-   "title": "Graduate Quant Trader",
    "firstSeen": "2026-08-23"
   },
   "https://job-boards.greenhouse.io/flowtraders/jobs/4782837": {
@@ -2459,6 +2587,14 @@
   "https://job-boards.greenhouse.io/flowtraders/jobs/6122583": {
    "title": "W3BWAVE: Digital Assets Talent Pool - Powered by Flow Traders, Deribit and Bitvavo",
    "firstSeen": "2026-08-23"
+  },
+  "https://job-boards.greenhouse.io/flowtraders/jobs/8156203": {
+   "title": "Junior Quantitative Researcher ",
+   "firstSeen": "2026-09-02"
+  },
+  "https://job-boards.greenhouse.io/flowtraders/jobs/8168790": {
+   "title": "Risk Manager",
+   "firstSeen": "2026-09-02"
   }
  },
  "Garda Capital Partners": {
@@ -2509,6 +2645,14 @@
   "https://job-boards.greenhouse.io/gardacp/jobs/6131244004": {
    "title": "Technology Project Manager",
    "firstSeen": "2026-08-23"
+  },
+  "https://job-boards.greenhouse.io/gardacp/jobs/6178965004": {
+   "title": "Senior Risk Manager",
+   "firstSeen": "2026-09-02"
+  },
+  "https://job-boards.greenhouse.io/gardacp/jobs/6178961004": {
+   "title": "Senior Risk Manager",
+   "firstSeen": "2026-09-02"
   }
  },
  "Gelber Group": {
@@ -2675,6 +2819,10 @@
   "https://boards.greenhouse.io/grahamcapitalmanagement/jobs/4726492005?gh_jid=4726492005": {
    "title": "Risk Analyst",
    "firstSeen": "2026-08-23"
+  },
+  "https://boards.greenhouse.io/grahamcapitalmanagement/jobs/4723536005?gh_jid=4723536005": {
+   "title": "HR Professional and Office Manager",
+   "firstSeen": "2026-09-02"
   }
  },
  "Graviton Research Capital": {
@@ -2696,10 +2844,6 @@
   },
   "https://boards.greenhouse.io/gravitonresearchcapital/jobs/8156976002?gh_jid=8156976002": {
    "title": "Central Execution Trader",
-   "firstSeen": "2026-08-23"
-  },
-  "https://boards.greenhouse.io/gravitonresearchcapital/jobs/5807502002?gh_jid=5807502002": {
-   "title": "HPC Engineer",
    "firstSeen": "2026-08-23"
   },
   "https://boards.greenhouse.io/gravitonresearchcapital/jobs/8456543002?gh_jid=8456543002": {
@@ -2761,6 +2905,14 @@
   "https://boards.greenhouse.io/gravitonresearchcapital/jobs/8425398002?gh_jid=8425398002": {
    "title": "Technical Program Manager",
    "firstSeen": "2026-08-23"
+  },
+  "https://boards.greenhouse.io/gravitonresearchcapital/jobs/8768396002?gh_jid=8768396002": {
+   "title": "Quantitative Researcher (2027 Graduate)",
+   "firstSeen": "2026-09-02"
+  },
+  "https://boards.greenhouse.io/gravitonresearchcapital/jobs/8764240002?gh_jid=8764240002": {
+   "title": "Software Engineer (2027 Graduate)",
+   "firstSeen": "2026-09-02"
   }
  },
  "GSA Capital Partners": {
@@ -2823,7 +2975,12 @@
    "firstSeen": "2026-08-23"
   }
  },
- "GAM Systematic": {},
+ "GAM Systematic": {
+  "/job/Dublin-Ireland/Senior-Client-Service-Operations-Manager_JR1221": {
+   "title": "Senior Client Service Operations Manager",
+   "firstSeen": "2026-09-02"
+  }
+ },
  "Headlands Technologies": {
   "https://job-boards.greenhouse.io/headlandstechnologiesllc/jobs/4227758009": {
    "title": "C++ Software Developer ",
@@ -2989,10 +3146,6 @@
   },
   "https://job-boards.eu.greenhouse.io/imc/jobs/4914883101": {
    "title": " Graduate Machine Learning Researcher - London",
-   "firstSeen": "2026-08-23"
-  },
-  "https://job-boards.eu.greenhouse.io/imc/jobs/4939821101": {
-   "title": "Graduate Quantitative Researcher",
    "firstSeen": "2026-08-23"
   },
   "https://job-boards.eu.greenhouse.io/imc/jobs/4907368101": {
@@ -3515,9 +3668,65 @@
    "title": "Working Student - Tech",
    "firstSeen": "2026-08-23"
   },
-  "https://job-boards.eu.greenhouse.io/imc/jobs/4869253101": {
-   "title": "Work-Integrated Master's Position",
-   "firstSeen": "2026-08-23"
+  "https://job-boards.eu.greenhouse.io/imc/jobs/4879217101": {
+   "title": "Data Quality Engineer",
+   "firstSeen": "2026-09-02"
+  },
+  "https://job-boards.eu.greenhouse.io/imc/jobs/4960875101": {
+   "title": "EU Campus - Aarhus Hackahton IMCity",
+   "firstSeen": "2026-09-02"
+  },
+  "https://job-boards.eu.greenhouse.io/imc/jobs/4694088101": {
+   "title": "Executive Assistant",
+   "firstSeen": "2026-09-02"
+  },
+  "https://job-boards.eu.greenhouse.io/imc/jobs/4823836101": {
+   "title": "Graduate Performance Engineer",
+   "firstSeen": "2026-09-02"
+  },
+  "https://job-boards.eu.greenhouse.io/imc/jobs/4940343101": {
+   "title": "IMC Emerging Talent Table - Beijing",
+   "firstSeen": "2026-09-02"
+  },
+  "https://job-boards.eu.greenhouse.io/imc/jobs/4942168101": {
+   "title": "IMC Emerging Talent Table - Shanghai / SJTU",
+   "firstSeen": "2026-09-02"
+  },
+  "https://job-boards.eu.greenhouse.io/imc/jobs/4939397101": {
+   "title": "IT Procurement Officer",
+   "firstSeen": "2026-09-02"
+  },
+  "https://job-boards.eu.greenhouse.io/imc/jobs/4956547101": {
+   "title": "Machine Learning Research Intern - Summer 2027 - Sydney",
+   "firstSeen": "2026-09-02"
+  },
+  "https://job-boards.eu.greenhouse.io/imc/jobs/4847623101": {
+   "title": "Operations Trader",
+   "firstSeen": "2026-09-02"
+  },
+  "https://job-boards.eu.greenhouse.io/imc/jobs/4842595101": {
+   "title": "Performance Engineer Intern - Summer 2027",
+   "firstSeen": "2026-09-02"
+  },
+  "https://job-boards.eu.greenhouse.io/imc/jobs/4961681101": {
+   "title": "Representative Director",
+   "firstSeen": "2026-09-02"
+  },
+  "https://job-boards.eu.greenhouse.io/imc/jobs/4900567101": {
+   "title": " Senior Internal Auditor",
+   "firstSeen": "2026-09-02"
+  },
+  "https://job-boards.eu.greenhouse.io/imc/jobs/4697639101": {
+   "title": "Site Reliability Engineer - Data Engineering",
+   "firstSeen": "2026-09-02"
+  },
+  "https://job-boards.eu.greenhouse.io/imc/jobs/4898651101": {
+   "title": "Software Engineer - Development Platform",
+   "firstSeen": "2026-09-02"
+  },
+  "https://job-boards.eu.greenhouse.io/imc/jobs/4918139101": {
+   "title": "Systems Engineer - AI Safety and Tooling",
+   "firstSeen": "2026-09-02"
   }
  },
  "Mako": {
@@ -3552,6 +3761,14 @@
   "https://www.mako.com/opportunities/job-listing/8648283002?gh_jid=8648283002": {
    "title": "Senior Trader, Sydney",
    "firstSeen": "2026-08-23"
+  },
+  "https://www.mako.com/opportunities/job-listing/8654611002?gh_jid=8654611002": {
+   "title": "Graduate Software Engineer, Sydney",
+   "firstSeen": "2026-09-02"
+  },
+  "https://www.mako.com/opportunities/job-listing/8654613002?gh_jid=8654613002": {
+   "title": "Graduate Trader ",
+   "firstSeen": "2026-09-02"
   }
  },
  "Hudson River Trading": {
@@ -3723,10 +3940,6 @@
    "title": "Research Engineer",
    "firstSeen": "2026-08-23"
   },
-  "https://www.hudsonrivertrading.com/careers/job/?gh_jid=7615362": {
-   "title": "Risk Engineer",
-   "firstSeen": "2026-08-23"
-  },
   "https://www.hudsonrivertrading.com/careers/job/?gh_jid=6166737": {
    "title": "Risk Manager - Commodities",
    "firstSeen": "2026-08-23"
@@ -3830,6 +4043,54 @@
   "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8118743": {
    "title": "Warehouse and Inventory Specialist",
    "firstSeen": "2026-08-23"
+  },
+  "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8161767": {
+   "title": "AI Researcher",
+   "firstSeen": "2026-09-02"
+  },
+  "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8161770": {
+   "title": "AI Researcher, LLMs",
+   "firstSeen": "2026-09-02"
+  },
+  "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8158152": {
+   "title": "ASIC Technical Project Manager",
+   "firstSeen": "2026-09-02"
+  },
+  "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8167806": {
+   "title": "Design Verification (DV) Engineer - 2027 Grads",
+   "firstSeen": "2026-09-02"
+  },
+  "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8159996": {
+   "title": "Electronic Trading Support Engineer - 2026/2027 Grads",
+   "firstSeen": "2026-09-02"
+  },
+  "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8075221": {
+   "title": "Global Real Estate Lead",
+   "firstSeen": "2026-09-02"
+  },
+  "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8167807": {
+   "title": "Hardware Design Engineer - 2027 Grads",
+   "firstSeen": "2026-09-02"
+  },
+  "https://www.hudsonrivertrading.com/careers/job/?gh_jid=7899574": {
+   "title": "Hardware Engineer Internship - Summer 2027",
+   "firstSeen": "2026-09-02"
+  },
+  "https://www.hudsonrivertrading.com/careers/job/?gh_jid=7900186": {
+   "title": "Junior Electronic Trading Support Engineer",
+   "firstSeen": "2026-09-02"
+  },
+  "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8170975": {
+   "title": "Junior Electronic Trading Support Engineer",
+   "firstSeen": "2026-09-02"
+  },
+  "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8159529": {
+   "title": "Signal Integrity / Power Integrity Engineer",
+   "firstSeen": "2026-09-02"
+  },
+  "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8160721": {
+   "title": "Site Reliability Engineer - Enterprise Technology",
+   "firstSeen": "2026-09-02"
   }
  },
  "Jump Trading": {
@@ -3843,10 +4104,6 @@
   },
   "https://www.jumptrading.com/hr/job?gh_jid=6622233": {
    "title": "Business Intelligence Researcher",
-   "firstSeen": "2026-08-23"
-  },
-  "https://www.jumptrading.com/hr/job?gh_jid=7282220": {
-   "title": "Campus AI/ML Researcher (Fall 2026) ",
    "firstSeen": "2026-08-23"
   },
   "https://www.jumptrading.com/hr/job?gh_jid=8052343": {
@@ -3863,10 +4120,6 @@
   },
   "https://www.jumptrading.com/hr/job?gh_jid=8052281": {
    "title": "Campus AI Research Engineer (Intern)",
-   "firstSeen": "2026-08-23"
-  },
-  "https://www.jumptrading.com/hr/job?gh_jid=8052356": {
-   "title": "Campus AI Research Engineer – Research Automation (Full-Time)",
    "firstSeen": "2026-08-23"
   },
   "https://www.jumptrading.com/hr/job?gh_jid=8052351": {
@@ -3945,10 +4198,6 @@
    "title": "Campus Quantitative Researcher, PhD (Intern)",
    "firstSeen": "2026-08-23"
   },
-  "https://www.jumptrading.com/hr/job?gh_jid=7728630": {
-   "title": "Campus Quantitative Researcher, UG/MS (Full-Time)",
-   "firstSeen": "2026-08-23"
-  },
   "https://www.jumptrading.com/hr/job?gh_jid=7982648": {
    "title": "Campus Quantitative Researcher, UG/MS (Intern)",
    "firstSeen": "2026-08-23"
@@ -3971,10 +4220,6 @@
   },
   "https://www.jumptrading.com/hr/job?gh_jid=8050772": {
    "title": "Campus Quantitative Trader (Intern)",
-   "firstSeen": "2026-08-23"
-  },
-  "https://www.jumptrading.com/hr/job?gh_jid=8000835": {
-   "title": "Campus Software Engineer (Full-Time)",
    "firstSeen": "2026-08-23"
   },
   "https://www.jumptrading.com/hr/job?gh_jid=7975026": {
@@ -4256,6 +4501,46 @@
   "https://www.jumptrading.com/hr/job?gh_jid=5500453": {
    "title": "UI Developer ",
    "firstSeen": "2026-08-23"
+  },
+  "https://www.jumptrading.com/hr/job?gh_jid=8027938": {
+   "title": "Campus AI/ML Researcher (Intern)",
+   "firstSeen": "2026-09-02"
+  },
+  "https://www.jumptrading.com/hr/job?gh_jid=8027900": {
+   "title": "Campus Quantitative Researcher (Intern)",
+   "firstSeen": "2026-09-02"
+  },
+  "https://www.jumptrading.com/hr/job?gh_jid=8027898": {
+   "title": "Campus Quantitative Researcher (Off-Cycle - Winter/Spring 2027 Intern) ",
+   "firstSeen": "2026-09-02"
+  },
+  "https://www.jumptrading.com/hr/job?gh_jid=8125888": {
+   "title": "Campus Quantitative Researcher, PhD (Full-Time)",
+   "firstSeen": "2026-09-02"
+  },
+  "https://www.jumptrading.com/hr/job?gh_jid=8027922": {
+   "title": "Campus Quantitative Trader (Intern)",
+   "firstSeen": "2026-09-02"
+  },
+  "https://www.jumptrading.com/hr/job?gh_jid=8128771": {
+   "title": "CORE | Data Center Technician",
+   "firstSeen": "2026-09-02"
+  },
+  "https://www.jumptrading.com/hr/job?gh_jid=8171060": {
+   "title": "Data Engineer",
+   "firstSeen": "2026-09-02"
+  },
+  "https://www.jumptrading.com/hr/job?gh_jid=8171513": {
+   "title": "Derived Data Engineer",
+   "firstSeen": "2026-09-02"
+  },
+  "https://www.jumptrading.com/hr/job?gh_jid=8105914": {
+   "title": "Quantitative Developer | Trading Team ",
+   "firstSeen": "2026-09-02"
+  },
+  "https://www.jumptrading.com/hr/job?gh_jid=8092531": {
+   "title": "Trading Production Engineer",
+   "firstSeen": "2026-09-02"
   }
  },
  "Marshall Wace": {
@@ -4470,10 +4755,6 @@
    "title": "Trader Summer Internship Chicago 2027",
    "firstSeen": "2026-08-23"
   },
-  "https://job-boards.greenhouse.io/mavensecuritiesholdingltd/jobs/7669839": {
-   "title": "Trading Analyst (Python)",
-   "firstSeen": "2026-08-23"
-  },
   "https://job-boards.greenhouse.io/mavensecuritiesholdingltd/jobs/7772970": {
    "title": "Trading Operations Analyst",
    "firstSeen": "2026-08-23"
@@ -4485,15 +4766,31 @@
   "https://job-boards.greenhouse.io/mavensecuritiesholdingltd/jobs/7870430": {
    "title": "UI Developer - Options Market Making",
    "firstSeen": "2026-08-23"
+  },
+  "https://job-boards.greenhouse.io/mavensecuritiesholdingltd/jobs/8048591": {
+   "title": "Amsterdam Trader Summer Internship 2027",
+   "firstSeen": "2026-09-02"
+  },
+  "https://job-boards.greenhouse.io/mavensecuritiesholdingltd/jobs/6049671": {
+   "title": "C++ Developer -  Options Market Making (CHI)",
+   "firstSeen": "2026-09-02"
+  },
+  "https://job-boards.greenhouse.io/mavensecuritiesholdingltd/jobs/8098645": {
+   "title": "Graduate Trader Programme Amsterdam 2027",
+   "firstSeen": "2026-09-02"
+  },
+  "https://job-boards.greenhouse.io/mavensecuritiesholdingltd/jobs/8122863": {
+   "title": "Intro to Trading- Chicago ",
+   "firstSeen": "2026-09-02"
+  },
+  "https://job-boards.greenhouse.io/mavensecuritiesholdingltd/jobs/7806987": {
+   "title": "Software Developer Summer Internship London 2027",
+   "firstSeen": "2026-09-02"
   }
  },
  "Man Group": {
   "https://job-boards.eu.greenhouse.io/mangroup/jobs/4921246101": {
    "title": "Application Support Engineer",
-   "firstSeen": "2026-08-23"
-  },
-  "https://job-boards.eu.greenhouse.io/mangroup/jobs/4752907101": {
-   "title": "Associate Cross-Asset Trader",
    "firstSeen": "2026-08-23"
   },
   "https://job-boards.eu.greenhouse.io/mangroup/jobs/4834536101": {
@@ -4536,10 +4833,6 @@
    "title": "Investment / Portfolio Management Analyst ",
    "firstSeen": "2026-08-23"
   },
-  "https://job-boards.eu.greenhouse.io/mangroup/jobs/4882444101": {
-   "title": "Junior Quant - Portfolio Analytics",
-   "firstSeen": "2026-08-23"
-  },
   "https://job-boards.eu.greenhouse.io/mangroup/jobs/4908077101": {
    "title": "Lead Quantitative Developer - Systematic",
    "firstSeen": "2026-08-23"
@@ -4554,14 +4847,6 @@
   },
   "https://job-boards.eu.greenhouse.io/mangroup/jobs/4950564101": {
    "title": "Middle Office and Accounting Analyst",
-   "firstSeen": "2026-08-23"
-  },
-  "https://job-boards.eu.greenhouse.io/mangroup/jobs/4773691101": {
-   "title": "Platform Automation Engineer",
-   "firstSeen": "2026-08-23"
-  },
-  "https://job-boards.eu.greenhouse.io/mangroup/jobs/4943310101": {
-   "title": "Portfolio Analyst",
    "firstSeen": "2026-08-23"
   },
   "https://job-boards.eu.greenhouse.io/mangroup/jobs/4933777101": {
@@ -4584,20 +4869,12 @@
    "title": "Proxy Voting Team Leader/Supervisor",
    "firstSeen": "2026-08-23"
   },
-  "https://job-boards.eu.greenhouse.io/mangroup/jobs/4889919101": {
-   "title": "Quant Developer",
-   "firstSeen": "2026-08-23"
-  },
   "https://job-boards.eu.greenhouse.io/mangroup/jobs/4844843101": {
    "title": "Quantitative Developer - AHL",
    "firstSeen": "2026-08-23"
   },
   "https://job-boards.eu.greenhouse.io/mangroup/jobs/4908078101": {
    "title": "Quantitative Developer - Systematic",
-   "firstSeen": "2026-08-23"
-  },
-  "https://job-boards.eu.greenhouse.io/mangroup/jobs/4890008101": {
-   "title": "Quantitative Portfolio Implementation Analyst",
    "firstSeen": "2026-08-23"
   },
   "https://job-boards.eu.greenhouse.io/mangroup/jobs/4737145101": {
@@ -4684,10 +4961,6 @@
    "title": "Senior System Engineer",
    "firstSeen": "2026-08-23"
   },
-  "https://job-boards.eu.greenhouse.io/mangroup/jobs/4920204101": {
-   "title": "Software Engineer",
-   "firstSeen": "2026-08-23"
-  },
   "https://job-boards.eu.greenhouse.io/mangroup/jobs/4949716101": {
    "title": "Specialist Credit, Discretionary Middle Office",
    "firstSeen": "2026-08-23"
@@ -4699,6 +4972,50 @@
   "https://job-boards.eu.greenhouse.io/mangroup/jobs/4501940101": {
    "title": "US Institutional Sales - Vice President/Director",
    "firstSeen": "2026-08-23"
+  },
+  "https://job-boards.eu.greenhouse.io/mangroup/jobs/4958911101": {
+   "title": "Analyst, Discretionary Middle Office Accounting",
+   "firstSeen": "2026-09-02"
+  },
+  "https://job-boards.eu.greenhouse.io/mangroup/jobs/4958873101": {
+   "title": "Client Relations Associate",
+   "firstSeen": "2026-09-02"
+  },
+  "https://job-boards.eu.greenhouse.io/mangroup/jobs/4958872101": {
+   "title": "Client Relations Associate (Italian Speaker) - 12m FTC ",
+   "firstSeen": "2026-09-02"
+  },
+  "https://job-boards.eu.greenhouse.io/mangroup/jobs/4960244101": {
+   "title": "Client Relations Associate (Italian Speaker) - 12m FTC ",
+   "firstSeen": "2026-09-02"
+  },
+  "https://job-boards.eu.greenhouse.io/mangroup/jobs/4956023101": {
+   "title": "Director, US Finance",
+   "firstSeen": "2026-09-02"
+  },
+  "https://job-boards.eu.greenhouse.io/mangroup/jobs/4965206101": {
+   "title": "Investment Specialists Analyst",
+   "firstSeen": "2026-09-02"
+  },
+  "https://job-boards.eu.greenhouse.io/mangroup/jobs/4957895101": {
+   "title": "Risk & Performance Analyst",
+   "firstSeen": "2026-09-02"
+  },
+  "https://job-boards.eu.greenhouse.io/mangroup/jobs/4958874101": {
+   "title": "Risk & Performance Analyst",
+   "firstSeen": "2026-09-02"
+  },
+  "https://job-boards.eu.greenhouse.io/mangroup/jobs/4960830101": {
+   "title": "Senior Java Engineer - Order Management System",
+   "firstSeen": "2026-09-02"
+  },
+  "https://job-boards.eu.greenhouse.io/mangroup/jobs/4955465101": {
+   "title": " Senior Technical Support Engineer ",
+   "firstSeen": "2026-09-02"
+  },
+  "https://job-boards.eu.greenhouse.io/mangroup/jobs/4965210101": {
+   "title": "Trade Support Analyst",
+   "firstSeen": "2026-09-02"
   }
  },
  "Old Mission Capital": {
@@ -4841,6 +5158,14 @@
   "https://www.oldmissioncapital.com/careers/?gh_jid=7792553003": {
    "title": "Tax Manager/Senior Tax Manager",
    "firstSeen": "2026-08-23"
+  },
+  "https://www.oldmissioncapital.com/careers/?gh_jid=7977298003": {
+   "title": "Senior Software Engineer - Post Trade ",
+   "firstSeen": "2026-09-02"
+  },
+  "https://www.oldmissioncapital.com/careers/?gh_jid=7981702003": {
+   "title": "Technical Sourcer/Jr. Recruiter ",
+   "firstSeen": "2026-09-02"
   }
  },
  "Belvedere Trading": {
@@ -4932,14 +5257,6 @@
    "title": "Data Trading Analyst Summer Internship - 2027 [New York]",
    "firstSeen": "2026-08-23"
   },
-  "https://www.quantbot.com/careers/4340833009?gh_jid=4340833009": {
-   "title": "Machine Learning Research Engineer Internship - 2027 [New York] ",
-   "firstSeen": "2026-08-23"
-  },
-  "https://www.quantbot.com/careers/4341038009?gh_jid=4341038009": {
-   "title": "Quantitative Developer Internship - 2027 [New York] ",
-   "firstSeen": "2026-08-23"
-  },
   "https://www.quantbot.com/careers/4348629009?gh_jid=4348629009": {
    "title": "Quantitative Researcher Internship - 2027 [Hong Kong]",
    "firstSeen": "2026-08-23"
@@ -4986,10 +5303,6 @@
  "Point72 / Cubist": {
   "https://boards.greenhouse.io/point72/jobs/8726366002?gh_jid=8726366002": {
    "title": "2026 Point72 Academy National Case Competition - US",
-   "firstSeen": "2026-08-23"
-  },
-  "https://boards.greenhouse.io/point72/jobs/8423978002?gh_jid=8423978002": {
-   "title": "2026 Warsaw MI Data – Web Scraping Internship ",
    "firstSeen": "2026-08-23"
   },
   "https://boards.greenhouse.io/point72/jobs/7598678002?gh_jid=7598678002": {
@@ -5903,6 +6216,86 @@
   "https://boards.greenhouse.io/point72/jobs/8560134002?gh_jid=8560134002": {
    "title": "User Access Certification Analyst",
    "firstSeen": "2026-08-23"
+  },
+  "https://boards.greenhouse.io/point72/jobs/8729717002?gh_jid=8729717002": {
+   "title": "2027 Point72 Academy Investment Analyst Summer Internship Program - Japan (BCF)",
+   "firstSeen": "2026-09-02"
+  },
+  "https://boards.greenhouse.io/point72/jobs/8729688002?gh_jid=8729688002": {
+   "title": "AI Instructor, Point72 Academy",
+   "firstSeen": "2026-09-02"
+  },
+  "https://boards.greenhouse.io/point72/jobs/8754801002?gh_jid=8754801002": {
+   "title": "Assistant General Counsel, Asia Pacific",
+   "firstSeen": "2026-09-02"
+  },
+  "https://boards.greenhouse.io/point72/jobs/8760806002?gh_jid=8760806002": {
+   "title": "Back Office Operations Senior Associate",
+   "firstSeen": "2026-09-02"
+  },
+  "https://boards.greenhouse.io/point72/jobs/8729687002?gh_jid=8729687002": {
+   "title": "Cloud Computing Engineer",
+   "firstSeen": "2026-09-02"
+  },
+  "https://boards.greenhouse.io/point72/jobs/8729686002?gh_jid=8729686002": {
+   "title": "Cloud Engineer",
+   "firstSeen": "2026-09-02"
+  },
+  "https://boards.greenhouse.io/point72/jobs/8749944002?gh_jid=8749944002": {
+   "title": "Cloud Security Specialist",
+   "firstSeen": "2026-09-02"
+  },
+  "https://boards.greenhouse.io/point72/jobs/8748038002?gh_jid=8748038002": {
+   "title": "Enterprise Applications Engineering Lead",
+   "firstSeen": "2026-09-02"
+  },
+  "https://boards.greenhouse.io/point72/jobs/8729509002?gh_jid=8729509002": {
+   "title": "Equities Trade Support Analyst",
+   "firstSeen": "2026-09-02"
+  },
+  "https://boards.greenhouse.io/point72/jobs/8750591002?gh_jid=8750591002": {
+   "title": "IS Administrative Assistant",
+   "firstSeen": "2026-09-02"
+  },
+  "https://boards.greenhouse.io/point72/jobs/8731025002?gh_jid=8731025002": {
+   "title": "It Operations Engineer, Trading Application Support",
+   "firstSeen": "2026-09-02"
+  },
+  "https://boards.greenhouse.io/point72/jobs/8770359002?gh_jid=8770359002": {
+   "title": "PM Administrative Assistant ",
+   "firstSeen": "2026-09-02"
+  },
+  "https://boards.greenhouse.io/point72/jobs/8729791002?gh_jid=8729791002": {
+   "title": "Point72 Academy 2026 Investment Analyst Program for Experienced Professionals – Japan (BCF)",
+   "firstSeen": "2026-09-02"
+  },
+  "https://boards.greenhouse.io/point72/jobs/8730093002?gh_jid=8730093002": {
+   "title": "Point72 Academy Coffee Chats — Class of 2029 (US)",
+   "firstSeen": "2026-09-02"
+  },
+  "https://boards.greenhouse.io/point72/jobs/8729765002?gh_jid=8729765002": {
+   "title": "Point72 Academy Investment Analyst Program for Upcoming Graduates (2027 – JP) (BCF)",
+   "firstSeen": "2026-09-02"
+  },
+  "https://boards.greenhouse.io/point72/jobs/8755415002?gh_jid=8755415002": {
+   "title": "Procurement Specialist",
+   "firstSeen": "2026-09-02"
+  },
+  "https://boards.greenhouse.io/point72/jobs/8742310002?gh_jid=8742310002": {
+   "title": "Psychologist",
+   "firstSeen": "2026-09-02"
+  },
+  "https://boards.greenhouse.io/point72/jobs/8745810002?gh_jid=8745810002": {
+   "title": "Quantitative Analyst, Structured Products Investment Team",
+   "firstSeen": "2026-09-02"
+  },
+  "https://boards.greenhouse.io/point72/jobs/8408288002?gh_jid=8408288002": {
+   "title": "Quant Library Developer, Macro Technology",
+   "firstSeen": "2026-09-02"
+  },
+  "https://boards.greenhouse.io/point72/jobs/8742312002?gh_jid=8742312002": {
+   "title": "Senior Surveillance Associate",
+   "firstSeen": "2026-09-02"
   }
  },
  "Simplex Trading": {
@@ -6143,6 +6536,18 @@
   "https://job-boards.greenhouse.io/schonfeld/jobs/8089759": {
    "title": "Tax Manager",
    "firstSeen": "2026-08-23"
+  },
+  "https://job-boards.greenhouse.io/schonfeld/jobs/8159872": {
+   "title": "Director of Risk, Fundamental Equity",
+   "firstSeen": "2026-09-02"
+  },
+  "https://job-boards.greenhouse.io/schonfeld/jobs/8164468": {
+   "title": "Principal Software Engineer",
+   "firstSeen": "2026-09-02"
+  },
+  "https://job-boards.greenhouse.io/schonfeld/jobs/7857899": {
+   "title": "Product Controller",
+   "firstSeen": "2026-09-02"
   }
  },
  "Radix Trading": {
@@ -6315,6 +6720,14 @@
   "/job/Boston/Lead-Engineer--Investment-Technology-Platform-Services_R1367": {
    "title": "Senior Engineer, Investment Technology Platform",
    "firstSeen": "2026-08-23"
+  },
+  "/job/Boston/Identity---Access-Management-Platform_R1535-2": {
+   "title": "Identity & Access Management Platform",
+   "firstSeen": "2026-09-02"
+  },
+  "/job/Boston/Senior-Network-Engineer_R1513-1": {
+   "title": "Senior Network Engineer",
+   "firstSeen": "2026-09-02"
   }
  },
  "Teza Technologies": {
@@ -6361,6 +6774,10 @@
   "https://jobs.ashbyhq.com/teza-technologies/7319556d-40bf-442e-bb78-e658e938a7a3": {
    "title": "Quantitative Researcher, PhD",
    "firstSeen": "2026-08-23"
+  },
+  "https://jobs.ashbyhq.com/teza-technologies/36459e94-e1d4-4d11-a499-686bdbc6c55e": {
+   "title": "Junior Recruiter, Technology",
+   "firstSeen": "2026-09-02"
   }
  },
  "Stevens Capital Management": {
@@ -6709,16 +7126,8 @@
    "title": "Quantitative Researcher - Convertible Bonds",
    "firstSeen": "2026-08-23"
   },
-  "https://www.squarepoint-capital.com/open-opportunities?id=8089817&gh_jid=8089817": {
-   "title": "Quantitative Researcher - Data Science",
-   "firstSeen": "2026-08-23"
-  },
   "https://www.squarepoint-capital.com/open-opportunities?id=8122239&gh_jid=8122239": {
    "title": "Quantitative Researcher - Systematic Macro",
-   "firstSeen": "2026-08-23"
-  },
-  "https://www.squarepoint-capital.com/open-opportunities?id=8089821&gh_jid=8089821": {
-   "title": "Quantitative Researcher - Volatility (I)",
    "firstSeen": "2026-08-23"
   },
   "https://www.squarepoint-capital.com/open-opportunities?id=8122132&gh_jid=8122132": {
@@ -6860,6 +7269,26 @@
   "https://www.squarepoint-capital.com/open-opportunities?id=7757021&gh_jid=7757021": {
    "title": "Trading Infrastructure Specialist – Graduate Programme",
    "firstSeen": "2026-08-23"
+  },
+  "https://www.squarepoint-capital.com/open-opportunities?id=8119232&gh_jid=8119232": {
+   "title": "Assistant Controller - Broker Dealer",
+   "firstSeen": "2026-09-02"
+  },
+  "https://www.squarepoint-capital.com/open-opportunities?id=8127909&gh_jid=8127909": {
+   "title": "Assistant Controller - Management Company",
+   "firstSeen": "2026-09-02"
+  },
+  "https://www.squarepoint-capital.com/open-opportunities?id=8091941&gh_jid=8091941": {
+   "title": "Head of HR AMER ",
+   "firstSeen": "2026-09-02"
+  },
+  "https://www.squarepoint-capital.com/open-opportunities?id=8164121&gh_jid=8164121": {
+   "title": "Human Resources Manager ",
+   "firstSeen": "2026-09-02"
+  },
+  "https://www.squarepoint-capital.com/open-opportunities?id=8076647&gh_jid=8076647": {
+   "title": "Infrastructure Developer",
+   "firstSeen": "2026-09-02"
   }
  },
  "TransMarket Group": {
@@ -6984,23 +7413,23 @@
   "/job/Chicago-IL/Payroll-Team-Lead_JR104846": {
    "title": "Payroll Team Lead",
    "firstSeen": "2026-08-23"
+  },
+  "/job/New-York-City-NY/Facilities-Coordinator_JR105154": {
+   "title": "Facilities Coordinator",
+   "firstSeen": "2026-09-02"
+  },
+  "/job/Remote-USA/Property---Casualty-Data-Analytics-Lead_JR105185-1": {
+   "title": "Property & Casualty Data Analytics Lead",
+   "firstSeen": "2026-09-02"
   }
  },
  "Qube Research & Technologies": {
-  "https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8021267002": {
-   "title": "2026 Internship/Graduate - Quantitative Research/Trading",
-   "firstSeen": "2026-08-23"
-  },
   "https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8169041002": {
    "title": "2026 - Internship, Quantitative Developer",
    "firstSeen": "2026-08-23"
   },
   "https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8052341002": {
    "title": "2026 - Internship, Quantitative Research/Trading",
-   "firstSeen": "2026-08-23"
-  },
-  "https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8562105002": {
-   "title": "2026 Internship - Software Engineer",
    "firstSeen": "2026-08-23"
   },
   "https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8682230002": {
@@ -7361,10 +7790,6 @@
   },
   "https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8363135002": {
    "title": "Quantitative Developer - HFT (C++)",
-   "firstSeen": "2026-08-23"
-  },
-  "https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8386092002": {
-   "title": "Quantitative Developer - Production",
    "firstSeen": "2026-08-23"
   },
   "https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8690853002": {
@@ -7734,6 +8159,82 @@
   "https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/7868955002": {
    "title": "Windows Platform Infrastructure Engineer",
    "firstSeen": "2026-08-23"
+  },
+  "https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8749947002": {
+   "title": "2027 Internship/Graduate - Data Engineer",
+   "firstSeen": "2026-09-02"
+  },
+  "https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8742098002": {
+   "title": "2027 Internship/Graduate - FPGA Engineer",
+   "firstSeen": "2026-09-02"
+  },
+  "https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8749918002": {
+   "title": "2027 Internship/Graduate - Infrastructure / Cloud Engineer",
+   "firstSeen": "2026-09-02"
+  },
+  "https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8617401002": {
+   "title": "2027 Internship/Graduate - Quantitative Developer / Software Engineer",
+   "firstSeen": "2026-09-02"
+  },
+  "https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8581570002": {
+   "title": "2027 Internship/Graduate - Quantitative Research/Trading",
+   "firstSeen": "2026-09-02"
+  },
+  "https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8749942002": {
+   "title": "2027 Internship/Graduate - Security Engineer",
+   "firstSeen": "2026-09-02"
+  },
+  "https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8769724002": {
+   "title": "Head of Networks",
+   "firstSeen": "2026-09-02"
+  },
+  "https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8772986002": {
+   "title": "Network Architecture Lead",
+   "firstSeen": "2026-09-02"
+  },
+  "https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8732338002": {
+   "title": "Operations Analyst – Energy Trading",
+   "firstSeen": "2026-09-02"
+  },
+  "https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8772998002": {
+   "title": "Principle Network Engineer",
+   "firstSeen": "2026-09-02"
+  },
+  "https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8759003002": {
+   "title": "Production Support Engineer — LLM Platform",
+   "firstSeen": "2026-09-02"
+  },
+  "https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8771206002": {
+   "title": "Production Trading Services – Electronic Trading",
+   "firstSeen": "2026-09-02"
+  },
+  "https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8750542002": {
+   "title": "Senior Quantitative Developer – Commodities",
+   "firstSeen": "2026-09-02"
+  },
+  "https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/7505622002": {
+   "title": "Software Engineer",
+   "firstSeen": "2026-09-02"
+  },
+  "https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8755601002": {
+   "title": "Software Engineer - Data Platform",
+   "firstSeen": "2026-09-02"
+  },
+  "https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/7967740002": {
+   "title": "Software Engineer - Data Platform",
+   "firstSeen": "2026-09-02"
+  },
+  "https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8736538002": {
+   "title": "Storage Operations Engineer",
+   "firstSeen": "2026-09-02"
+  },
+  "https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8750277002": {
+   "title": "TechOps Engineer",
+   "firstSeen": "2026-09-02"
+  },
+  "https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8735904002": {
+   "title": "Trading Operations Analyst",
+   "firstSeen": "2026-09-02"
   }
  },
  "TGS Management Company": {},
@@ -7846,14 +8347,6 @@
   },
   "https://www.tower-research.com/open-positions/?gh_jid=8143756": {
    "title": "Intern - AI/ML",
-   "firstSeen": "2026-08-23"
-  },
-  "https://www.tower-research.com/open-positions/?gh_jid=8119340": {
-   "title": "Junior Execution Trader",
-   "firstSeen": "2026-08-23"
-  },
-  "https://www.tower-research.com/open-positions/?gh_jid=8091833": {
-   "title": "Junior Execution Trader Intern",
    "firstSeen": "2026-08-23"
   },
   "https://www.tower-research.com/open-positions/?gh_jid=8091777": {
@@ -7996,10 +8489,6 @@
    "title": "Risk Associate",
    "firstSeen": "2026-08-23"
   },
-  "https://www.tower-research.com/open-positions/?gh_jid=7789933": {
-   "title": "Risk Intern - 6 Month Internship Opportunity",
-   "firstSeen": "2026-08-23"
-  },
   "https://www.tower-research.com/open-positions/?gh_jid=7959934": {
    "title": "Senior Associate, Digital Assets",
    "firstSeen": "2026-08-23"
@@ -8123,6 +8612,30 @@
   "https://www.tower-research.com/open-positions/?gh_jid=7722018": {
    "title": "Trading Systems Support Analyst",
    "firstSeen": "2026-08-23"
+  },
+  "https://www.tower-research.com/open-positions/?gh_jid=8156147": {
+   "title": "Network Engineer",
+   "firstSeen": "2026-09-02"
+  },
+  "https://www.tower-research.com/open-positions/?gh_jid=7011493": {
+   "title": "Quantitative Developer Intern",
+   "firstSeen": "2026-09-02"
+  },
+  "https://www.tower-research.com/open-positions/?gh_jid=8168750": {
+   "title": "Quantitative Researcher Intern, Bachelor's or Master's",
+   "firstSeen": "2026-09-02"
+  },
+  "https://www.tower-research.com/open-positions/?gh_jid=8168634": {
+   "title": "Quantitative Researcher Intern, PhD or Postdoc",
+   "firstSeen": "2026-09-02"
+  },
+  "https://www.tower-research.com/open-positions/?gh_jid=8037824": {
+   "title": "Quantitative Trader/Researcher Graduate Programme 2027 ",
+   "firstSeen": "2026-09-02"
+  },
+  "https://www.tower-research.com/open-positions/?gh_jid=8037860": {
+   "title": "Quantitative Trader/Researcher Summer Internship 2027 (2028 Graduates)",
+   "firstSeen": "2026-09-02"
   }
  },
  "Voleon Group": {
@@ -8353,6 +8866,22 @@
   "https://jobs.ashbyhq.com/voleon/76f54d7f-83e9-4af9-a57b-4501fae49a6c": {
    "title": "Administrative Assistant",
    "firstSeen": "2026-08-23"
+  },
+  "https://jobs.ashbyhq.com/voleon/28d4e6da-f103-444b-a23e-ef2fa08fbf01": {
+   "title": "Business Operations Director, Recruiting",
+   "firstSeen": "2026-09-02"
+  },
+  "https://jobs.ashbyhq.com/voleon/d732fd5a-ac98-4985-9e60-d1d59f02a66c": {
+   "title": "Software Engineer - University Hire 2027",
+   "firstSeen": "2026-09-02"
+  },
+  "https://jobs.ashbyhq.com/voleon/57f1b666-2f4b-4bad-aac0-fa42a1c8fdf6": {
+   "title": "Software Engineer Intern - (Summer 2027)",
+   "firstSeen": "2026-09-02"
+  },
+  "https://jobs.ashbyhq.com/voleon/86a44390-8423-45e8-8d3d-e7e08c8e382f": {
+   "title": "Legal Operations Associate",
+   "firstSeen": "2026-09-02"
   }
  },
  "Virtu Financial": {
@@ -8422,10 +8951,6 @@
   },
   "https://job-boards.greenhouse.io/virtu/jobs/4517626002": {
    "title": "Core Operations Engineer",
-   "firstSeen": "2026-08-23"
-  },
-  "https://job-boards.greenhouse.io/virtu/jobs/5443913002": {
-   "title": "ETF Pricing Analyst",
    "firstSeen": "2026-08-23"
   },
   "https://job-boards.greenhouse.io/virtu/jobs/8522534002": {
@@ -8539,6 +9064,14 @@
   "https://job-boards.greenhouse.io/virtu/jobs/8551689002": {
    "title": "Women's Winternship ",
    "firstSeen": "2026-08-23"
+  },
+  "https://job-boards.greenhouse.io/virtu/jobs/8746197002": {
+   "title": "2027 Summer Internship - Client Support",
+   "firstSeen": "2026-09-02"
+  },
+  "https://job-boards.greenhouse.io/virtu/jobs/8745933002": {
+   "title": "2027 Summer Internship - Technical ",
+   "firstSeen": "2026-09-02"
   }
  },
  "Verition Fund Management": {
@@ -8657,6 +9190,22 @@
   "https://www.verition.com/open-positions?gh_jid=5193139007": {
    "title": "US Payroll Associate",
    "firstSeen": "2026-08-23"
+  },
+  "https://www.verition.com/open-positions?gh_jid=5037605007": {
+   "title": "Data Sourcing Associate - Quant",
+   "firstSeen": "2026-09-02"
+  },
+  "https://www.verition.com/open-positions?gh_jid=5221030007": {
+   "title": "Human Resources Business Partner",
+   "firstSeen": "2026-09-02"
+  },
+  "https://www.verition.com/open-positions?gh_jid=5226741007": {
+   "title": "Operations Specialist - TRS Operations",
+   "firstSeen": "2026-09-02"
+  },
+  "https://www.verition.com/open-positions?gh_jid=5220868007": {
+   "title": "Technology Operational Effectiveness Analyst",
+   "firstSeen": "2026-09-02"
   }
  },
  "Winton Capital Management": {
@@ -8729,6 +9278,10 @@
   "https://job-boards.greenhouse.io/xantium/jobs/4179559009": {
    "title": "Quantitative Volatility Trader",
    "firstSeen": "2026-08-23"
+  },
+  "https://job-boards.greenhouse.io/xantium/jobs/4388398009": {
+   "title": "Xantium Academy Fellow",
+   "firstSeen": "2026-09-02"
   }
  },
  "XTX Markets": {
@@ -8767,6 +9320,10 @@
   "https://job-boards.greenhouse.io/xtxmarketstechnologies/jobs/7798502003": {
    "title": "Trading Desk",
    "firstSeen": "2026-08-23"
+  },
+  "https://job-boards.greenhouse.io/xtxmarketstechnologies/jobs/7983181003": {
+   "title": "Accounts Payable Analyst - Fixed Term (Maternity Leave Cover)",
+   "firstSeen": "2026-09-02"
   }
  },
  "WorldQuant": {
@@ -9181,6 +9738,14 @@
   "https://job-boards.greenhouse.io/worldquant/jobs/4686007006": {
    "title": "WQBRAIN Researcher",
    "firstSeen": "2026-08-23"
+  },
+  "https://job-boards.greenhouse.io/worldquant/jobs/4443948006": {
+   "title": "AI Software Engineer",
+   "firstSeen": "2026-09-02"
+  },
+  "https://job-boards.greenhouse.io/worldquant/jobs/4706108006": {
+   "title": "WQBRAIN User Success Specialist ",
+   "firstSeen": "2026-09-02"
   }
  },
  "Voloridge Investment Management": {
@@ -9207,6 +9772,14 @@
   "https://job-boards.greenhouse.io/voloridgeinvestmentmanagement/jobs/4330882009": {
    "title": "Senior System Administrator",
    "firstSeen": "2026-08-23"
+  },
+  "https://job-boards.greenhouse.io/voloridgeinvestmentmanagement/jobs/4389500009": {
+   "title": "Human Resources Generalist",
+   "firstSeen": "2026-09-02"
+  },
+  "https://job-boards.greenhouse.io/voloridgeinvestmentmanagement/jobs/4386578009": {
+   "title": "Recruiting Coordinator",
+   "firstSeen": "2026-09-02"
   }
  },
  "Walleye Capital": {
@@ -9269,6 +9842,10 @@
   "https://job-boards.greenhouse.io/walleyecapital-external-fulltime/jobs/4571803006": {
    "title": "Volatility Strategies ",
    "firstSeen": "2026-08-23"
+  },
+  "https://job-boards.greenhouse.io/walleyecapital-external-fulltime/jobs/4709391006": {
+   "title": "Fixed Income Execution Trader",
+   "firstSeen": "2026-09-02"
   }
  },
  "Wintermute": {
@@ -9383,6 +9960,10 @@
   "https://jobs.lever.co/wintermute-trading/81f14b93-9b5b-42c1-96d9-56c0cfa9e44e": {
    "title": "Trading Analyst",
    "firstSeen": "2026-08-23"
+  },
+  "https://jobs.lever.co/wintermute-trading/d962dc39-8839-4e13-a37a-baba49e52b44": {
+   "title": "Graduate Algorithmic Trader 2027",
+   "firstSeen": "2026-09-02"
   }
  },
  "PGIM Quant Solutions": {
@@ -9545,6 +10126,58 @@
   "/job/Newark-NJ-USA/Senior-Analyst--PGIM-Product-Marketing--Hybrid--Newark--NJ-_R-124681": {
    "title": "Senior Analyst, PGIM Product Marketing (Hybrid,/Newark, NJ)",
    "firstSeen": "2026-08-23"
+  },
+  "/job/Atlanta-GA-USA/PGIM-Real-Estate--Investment-Associate--Atlanta--Georgia-_R-124934": {
+   "title": "PGIM Real Estate, Investment Associate (Atlanta, Georgia)",
+   "firstSeen": "2026-09-02"
+  },
+  "/job/Dallas-TX-USA/PGIM-Real-Estate--Senior-Servicing-Specialist--Hybrid-_R-124652": {
+   "title": "PGIM Real Estate, Senior Servicing Specialist (Hybrid)",
+   "firstSeen": "2026-09-02"
+  },
+  "/job/Newark-NJ-USA/PGIM--2027-Real-Estate--Sophomore-Externship-Program_R-124904": {
+   "title": "PGIM: 2027 Real Estate, Sophomore Externship Program",
+   "firstSeen": "2026-09-02"
+  },
+  "/job/Newark-NJ-USA/PGIM--2027-Public-and-Private-Credit--Sophomore-Externship-Program_R-124932": {
+   "title": "PGIM: 2027 Public and Private Credit, Sophomore Externship Program",
+   "firstSeen": "2026-09-02"
+  },
+  "/job/Newark-NJ-USA/PGIM---Associate--SMA-Investment-Operations_R-124918": {
+   "title": "PGIM - Associate, SMA Investment Operations",
+   "firstSeen": "2026-09-02"
+  },
+  "/job/Letterkenny-Ireland/Manager--Payroll---Benefits_R-124892-2": {
+   "title": "Senior Payroll & Benefits Specialist",
+   "firstSeen": "2026-09-02"
+  },
+  "/job/Newark-NJ-USA/PGIM--2027-Global-Wealth--Sales-Internship-Program_R-124802": {
+   "title": "PGIM: 2027 Global Wealth, Sales Internship Program",
+   "firstSeen": "2026-09-02"
+  },
+  "/job/Newark-NJ-USA/PGIM--2027-Operations--Internship-Program_R-124922-1": {
+   "title": "PGIM: 2027 Operations, Internship Program",
+   "firstSeen": "2026-09-02"
+  },
+  "/job/Newark-NJ-USA/PGIM--2027-Product-and-Institutional-Client--Internship-Program_R-124910-2": {
+   "title": "PGIM: 2027 Product and Institutional Client, Internship Program",
+   "firstSeen": "2026-09-02"
+  },
+  "/job/Newark-NJ-USA/XMLNAME-2027-Technology--Internship-Program_R-124923-1": {
+   "title": "2027 Technology, Internship Program",
+   "firstSeen": "2026-09-02"
+  },
+  "/job/London-United-Kingdom/PGIM---Senior-Associate--Product-Data---Analytics_R-124917": {
+   "title": "PGIM | Senior Associate, Product Data & Analytics",
+   "firstSeen": "2026-09-02"
+  },
+  "/job/Letterkenny-Ireland/Lead--Identity---Access-Management_R-124906-1": {
+   "title": "Lead, Identity & Access Management",
+   "firstSeen": "2026-09-02"
+  },
+  "/job/Newark-NJ-USA/Manager--Compliance---PGIM_R-124846": {
+   "title": "Manager, Compliance - PGIM",
+   "firstSeen": "2026-09-02"
   }
  },
  "ABC arbitrage": {
@@ -9563,6 +10196,18 @@
   "cfdf6dd5ae7e": {
    "title": "08. Candidature spontanée",
    "firstSeen": "2026-08-23"
+  },
+  "93c39eb1e670": {
+   "title": "03. Développeur Trading Platform C#/.NET (H/F)",
+   "firstSeen": "2026-09-02"
+  },
+  "e10fc45e57f8": {
+   "title": "04. Ingénieur DevOps (H/F)",
+   "firstSeen": "2026-09-02"
+  },
+  "1b2258784c83": {
+   "title": "06. Senior Quantitative Trader - Fundamental Alpha",
+   "firstSeen": "2026-09-02"
   }
  },
  "All Options": {
@@ -9597,6 +10242,10 @@
   "3971": {
    "title": "HR Business Partner",
    "firstSeen": "2026-08-23"
+  },
+  "3974": {
+   "title": "Quantitative Intern",
+   "firstSeen": "2026-09-02"
   }
  },
  "Capula": {
