@@ -8,6 +8,7 @@ import { readFileSync, writeFileSync, existsSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { region, jobId, normLocations, TYPES, CATEGORIES } from './lib.mjs';
+import { parseDates } from './dates.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const p = f => join(ROOT, 'data', f);
@@ -28,7 +29,7 @@ for (const j of apply.add || []) {
   if (existing.has(id)) continue;
   const locations = normLocations(j.locations);
   const regions = [...new Set(locations.map(l => region(l.country)))];
-  jobsData.jobs.push({
+  const job = {
     id,
     firm: j.firm,
     title: String(j.title).trim(),
@@ -40,9 +41,13 @@ for (const j of apply.add || []) {
     posted: j.posted || null,
     start: j.start || null,
     snippet: (j.snippet || '').slice(0, 400),
+    source: j.source === 'html' ? 'html' : 'api',
     firstSeen: TODAY,
     seenScan: scanId,
-  });
+  };
+  // Date de début et compatibilité avec la disponibilité de Grégoire.
+  Object.assign(job, parseDates(job));
+  jobsData.jobs.push(job);
   existing.add(id);
   added++;
 }

@@ -12,7 +12,7 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="apple-mobile-web-app-title" content="Quant Board">
-  <link rel="stylesheet" href="style.css?v=4">
+  <link rel="stylesheet" href="style.css?v=5">
 </head>
 <body>
   <header class="app-header">
@@ -24,6 +24,7 @@
       <button class="tab active" data-tab="new">Nouvelles <span class="badge" id="badge-new">0</span></button>
       <button class="tab" data-tab="all">Offres <span class="badge" id="badge-all">0</span></button>
       <button class="tab" data-tab="firms">Firms</button>
+      <button class="tab" data-tab="tiers">Paysage</button>
     </nav>
   </header>
 
@@ -39,6 +40,7 @@
       <div class="chip-row" id="cat-chips" aria-label="Catégories"></div>
       <div class="chip-row" id="type-chips" aria-label="Types de poste"></div>
       <div class="chip-row" id="firmtype-chips" aria-label="Types de firm"></div>
+      <div class="chip-row" id="fit-chips" aria-label="Compatibilité de calendrier"></div>
       <div class="select-row">
         <select id="region-select"><option value="">Toutes régions</option></select>
         <select id="firm-select"><option value="">Toutes les firms</option></select>
@@ -56,11 +58,16 @@
     <div class="loading" id="loading">Chargement des offres…</div>
     <div id="job-list" class="job-list"></div>
     <div id="firm-list" class="firm-list" hidden></div>
+    <div id="tier-view" class="tier-view" hidden></div>
     <div id="empty" class="empty" hidden></div>
   </main>
 
+  <dialog id="firm-modal" class="firm-modal">
+    <div class="modal-inner" id="firm-modal-body"></div>
+  </dialog>
+
   <footer class="app-footer" id="footer"></footer>
 
-  <script src="app.js?v=4"></script>
+  <script src="app.js?v=5"></script>
 </body>
 </html>

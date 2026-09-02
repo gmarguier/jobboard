@@ -22,6 +22,11 @@
   --ft-disc: #facc15;
   --ft-am: #2dd4bf;
   --ft-crypto: #fbbf24;
+  --fit-maybe: #fbbf24;
+  --tier-s: #f472b6;
+  --tier-a: #a78bfa;
+  --tier-b: #38bdf8;
+  --tier-c: #64748b;
   --radius: 12px;
 }
 
@@ -358,4 +363,109 @@ main { padding: 10px 16px; max-width: 760px; margin: 0 auto; }
 @media (min-width: 640px) {
   .app-header { padding-left: 24px; padding-right: 24px; }
   .filters { max-width: 760px; margin: 0 auto; width: 100%; }
+}
+
+
+/* ---------- Fiche firm (modale) ---------- */
+.firm-modal {
+  border: none;
+  padding: 0;
+  background: transparent;
+  max-width: 560px;
+  width: calc(100% - 24px);
+  max-height: 88dvh;
+  color: var(--text);
+}
+
+.firm-modal::backdrop { background: rgba(4, 8, 16, 0.72); backdrop-filter: blur(3px); }
+
+.modal-inner {
+  position: relative;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 20px 18px;
+  max-height: 88dvh;
+  overflow-y: auto;
+}
+
+.modal-close {
+  position: absolute; top: 12px; right: 12px;
+  appearance: none; border: 1px solid var(--border); background: var(--bg-raised);
+  color: var(--text-dim); border-radius: 8px; width: 30px; height: 30px;
+  font-size: 0.85rem; cursor: pointer;
+}
+
+.modal-head { display: flex; gap: 12px; align-items: flex-start; margin-bottom: 12px; padding-right: 34px; }
+.modal-head h2 { font-size: 1.15rem; font-weight: 750; line-height: 1.2; }
+.modal-sub { display: flex; align-items: center; gap: 8px; margin-top: 5px; flex-wrap: wrap; }
+.modal-tierlabel { font-size: 0.75rem; color: var(--text-faint); }
+
+.tier-pill {
+  flex-shrink: 0;
+  width: 42px; height: 42px;
+  border-radius: 11px;
+  display: grid; place-items: center;
+  font-size: 1.2rem; font-weight: 800;
+  color: #0b1220;
+}
+.tier-S { background: var(--tier-s); }
+.tier-A { background: var(--tier-a); }
+.tier-B { background: var(--tier-b); }
+.tier-C { background: var(--tier-c); color: var(--text); }
+
+.modal-positioning { font-size: 0.88rem; line-height: 1.55; color: var(--text-dim); margin-bottom: 12px; }
+.modal-muted { font-style: italic; color: var(--text-faint); }
+
+.modal-facts { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; margin: 14px 0; }
+.modal-facts div { background: var(--bg-raised); border: 1px solid var(--border); border-radius: 9px; padding: 8px 10px; }
+.modal-facts dt { font-size: 0.66rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-faint); }
+.modal-facts dd { font-size: 0.85rem; font-weight: 600; margin-top: 2px; }
+
+.modal-scores { margin: 16px 0; display: flex; flex-direction: column; gap: 12px; }
+.score-head { display: flex; justify-content: space-between; font-size: 0.78rem; color: var(--text-dim); margin-bottom: 5px; }
+.score-head b { color: var(--text); }
+.score-track { position: relative; height: 8px; background: var(--bg-raised); border: 1px solid var(--border); border-radius: 999px; }
+.score-fill { height: 100%; background: linear-gradient(90deg, var(--qr), var(--accent)); border-radius: 999px; }
+.score-median { position: absolute; top: -3px; width: 2px; height: 14px; background: var(--text-faint); }
+.modal-hint { font-size: 0.7rem; color: var(--text-faint); line-height: 1.4; }
+
+.modal-rank { font-size: 0.82rem; color: var(--text-dim); background: var(--bg-raised); border: 1px solid var(--border); border-radius: 9px; padding: 9px 11px; }
+.modal-block { margin-top: 14px; }
+.modal-block h3 { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-faint); margin-bottom: 4px; }
+.modal-block p { font-size: 0.85rem; color: var(--text-dim); line-height: 1.5; }
+.modal-peers { color: var(--text-dim); }
+.modal-actions { display: flex; gap: 8px; align-items: center; margin-top: 18px; flex-wrap: wrap; }
+
+/* ---------- Onglet Paysage ---------- */
+.tier-view { display: flex; flex-direction: column; gap: 18px; }
+.tier-view[hidden] { display: none; }
+.tier-intro, .tier-legend { font-size: 0.76rem; color: var(--text-faint); line-height: 1.5; }
+.tier-legend b { color: var(--text-dim); }
+
+.tier-group h2 {
+  font-size: 0.8rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em;
+  color: var(--ft-color, var(--text)); padding-bottom: 5px; margin-bottom: 8px;
+  border-bottom: 1px solid color-mix(in srgb, var(--ft-color, var(--border)) 35%, transparent);
+  display: flex; justify-content: space-between; align-items: baseline;
+}
+.tier-group h2 span { font-size: 0.7rem; font-weight: 500; color: var(--text-faint); text-transform: none; }
+
+.tier-row { display: flex; gap: 9px; align-items: flex-start; margin-bottom: 7px; }
+.tier-badge {
+  flex-shrink: 0; width: 30px; height: 30px; border-radius: 8px;
+  display: grid; place-items: center; font-weight: 800; font-size: 0.9rem; color: #0b1220;
+}
+.tier-firms { display: flex; flex-wrap: wrap; gap: 5px; }
+
+.tier-chip {
+  appearance: none; font: inherit; font-size: 0.76rem; font-weight: 600;
+  background: var(--bg-card); border: 1px solid var(--border); color: var(--text-dim);
+  border-radius: 7px; padding: 5px 9px; cursor: pointer;
+  display: inline-flex; align-items: center; gap: 5px; text-align: left;
+}
+.tier-chip:active { border-color: var(--accent); color: var(--accent); }
+.tier-chip span {
+  background: var(--bg-raised); border-radius: 999px; padding: 0 5px;
+  font-size: 0.66rem; color: var(--text-faint);
 }

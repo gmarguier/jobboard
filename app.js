@@ -25,6 +25,18 @@
   };
   const FIRM_TYPE_ORDER = ['mm_hft', 'prop', 'hf_syst', 'hf_multistrat', 'hf_disc', 'am', 'crypto', 'autre'];
 
+  // Compatibilité d'une offre avec la disponibilité de Grégoire (sept. 2027).
+  // Calculée par scripts/dates.mjs et stockée dans le champ `fit`.
+  const FITS = {
+    ok:        { short: 'Compatible',   long: 'Démarre après septembre 2027',            color: 'var(--accent)' },
+    uncertain: { short: '2027 ?',       long: 'Bonne année, mois non précisé',           color: 'var(--fit-maybe)' },
+    unknown:   { short: 'Date ?',       long: 'Aucune date de début annoncée',           color: 'var(--other)' },
+    rolling:   { short: 'Au fil de l\'eau', long: 'Poste permanent, sans session datée', color: 'var(--other)' },
+    too_early: { short: 'Trop tôt',     long: 'Démarre avant sa disponibilité',          color: 'var(--danger)' },
+  };
+  const FIT_ORDER = ['ok', 'uncertain', 'unknown', 'rolling', 'too_early'];
+  const MONTH_LABELS = ['', 'janv.', 'févr.', 'mars', 'avr.', 'mai', 'juin', 'juil.', 'août', 'sept.', 'oct.', 'nov.', 'déc.'];
+
   // Priorité de tri « Pertinence » : off-cycle d'abord (seuls compatibles avec
   // une sortie d'Oxford en sept. 2027), summers en dernier.
   const TYPE_PRIORITY = { offcycle_internship: 0, internship: 1, graduate: 2, fulltime_junior: 3, summer_internship: 4 };
@@ -36,6 +48,7 @@
     cats: new Set(Object.keys(CAT_LABELS)),
     types: new Set(TYPE_ORDER.filter(t => t !== 'summer_internship')), // summers masqués par défaut
     firmTypes: new Set(FIRM_TYPE_ORDER),
+    fits: new Set(FIT_ORDER.filter(f => f !== 'too_early')), // les offres déjà passées sont masquées
     region: '',
     firm: '',
     sort: 'priority',
@@ -58,6 +71,7 @@
     state.cats = new Set(savedFilters.cats || [...state.cats]);
     state.types = new Set(savedFilters.types || [...state.types]);
     state.firmTypes = new Set(savedFilters.firmTypes || [...state.firmTypes]);
+    state.fits = new Set(savedFilters.fits || [...state.fits]);
     state.region = savedFilters.region || '';
     state.sort = savedFilters.sort || 'priority';
   }
@@ -68,7 +82,7 @@
   const $ = id => document.getElementById(id);
 
   function saveFilters() {
-    store.set('qb-filters', { cats: [...state.cats], types: [...state.types], firmTypes: [...state.firmTypes], region: state.region, sort: state.sort });
+    store.set('qb-filters', { cats: [...state.cats], types: [...state.types], firmTypes: [...state.firmTypes], fits: [...state.fits], region: state.region, sort: state.sort });
   }
 
   function isNew(j) {
@@ -90,6 +104,7 @@
     if (!state.cats.has(j.category)) return false;
     if (!state.types.has(j.type)) return false;
     if (!state.firmTypes.has(firmTypeOf.get(j.firm) || 'autre')) return false;
+    if (!state.fits.has(j.fit || 'unknown')) return false;
     if (state.region && !(j.regions || []).includes(state.region)) return false;
     if (state.firm && j.firm !== state.firm) return false;
     if (state.search) {
@@ -115,13 +130,23 @@
     return copy;
   }
 
+  /** Libellé court et lisible de la date de début, dérivé du parsing. */
+  function startLabel(j) {
+    const fit = FITS[j.fit] || FITS.unknown;
+    if (j.fit === 'rolling' || j.fit === 'unknown') return fit.short;
+    if (j.startYear && j.startMonth) return `${MONTH_LABELS[j.startMonth]} ${j.startYear}`;
+    if (j.startYear) return String(j.startYear);
+    return fit.short;
+  }
+
   function jobCard(j) {
     const isFav = favs.has(j.id);
     const tags = [
       `<span class="tag" style="--tag-color:${CAT_COLORS[j.category] || 'var(--other)'}">${esc(CAT_LABELS[j.category] || j.category)}</span>`,
       `<span class="tag" style="--tag-color:${j.type === 'offcycle_internship' ? 'var(--accent)' : 'var(--other)'}">${esc(TYPE_LABELS[j.type] || j.type)}</span>`,
     ];
-    if (j.start) tags.push(`<span class="tag">Début : ${esc(j.start)}</span>`);
+    const fit = FITS[j.fit] || FITS.unknown;
+    tags.push(`<span class="tag" style="--tag-color:${fit.color}" title="${esc(fit.long)}">${esc(startLabel(j))}</span>`);
     // Pas de badge pour "autre" : il n'apprend rien et alourdit chaque carte.
     const ftKey = firmTypeOf.get(j.firm);
     const ft = ftKey && ftKey !== 'autre' ? FIRM_TYPES[ftKey] : null;
@@ -133,11 +158,152 @@
       ${j.snippet ? `<div class="job-snippet">${esc(j.snippet)}</div>` : ''}
       <div class="job-actions">
         <a class="apply-btn" href="${esc(j.url)}" target="_blank" rel="noopener">Postuler ↗</a>
+        <button class="card-btn" data-act="firm" title="Fiche de la firm">La firm ⓘ</button>
         <button class="card-btn fav${isFav ? ' on' : ''}" data-act="fav" title="Favori">★</button>
         <button class="card-btn" data-act="hide" title="Masquer">✕</button>
         <span class="job-date">vue le ${esc(j.firstSeen || '?')}</span>
       </div>
     </article>`;
+  }
+
+
+  // ---------- Fiche firm : situer une firm dans le paysage quant ----------
+
+  const TIER_LABELS = {
+    S: 'Élite mondiale', A: 'Très réputée', B: 'Solide et reconnue', C: 'Boutique / peu visible',
+  };
+  const SIZE_LABELS = {
+    mega: 'plus de 2000 personnes', grande: '500 à 2000 personnes', moyenne: '100 à 500 personnes',
+    petite: '20 à 100 personnes', boutique: 'moins de 20 personnes',
+  };
+
+  /** Barre de score 1-5 comparée à la médiane des firms du même type. */
+  function scoreBar(label, value, peerMedian) {
+    if (value == null) return '';
+    const pct = (value / 5) * 100;
+    const medPct = peerMedian != null ? (peerMedian / 5) * 100 : null;
+    return `<div class="score">
+      <div class="score-head"><span>${esc(label)}</span><b>${value}/5</b></div>
+      <div class="score-track">
+        <div class="score-fill" style="width:${pct}%"></div>
+        ${medPct != null ? `<div class="score-median" style="left:${medPct}%" title="médiane des firms du même type : ${peerMedian}"></div>` : ''}
+      </div>
+    </div>`;
+  }
+
+  const median = arr => {
+    const v = arr.filter(x => x != null).sort((a, b) => a - b);
+    if (!v.length) return null;
+    const m = Math.floor(v.length / 2);
+    return v.length % 2 ? v[m] : Math.round((v[m - 1] + v[m]) * 10 / 2) / 10;
+  };
+
+  function openFirmModal(firmName) {
+    const f = FIRMS.find(x => x.name === firmName);
+    if (!f) return;
+    const body = $('firm-modal-body');
+    const ft = FIRM_TYPES[f.firmType || 'autre'];
+    const peers = FIRMS.filter(x => x.firmType === f.firmType && x.tier);
+    const medSel = median(peers.map(x => x.selectivity));
+    const medComp = median(peers.map(x => x.compensation));
+
+    const jobs = DATA.jobs.filter(j => j.firm === firmName && !hidden.has(j.id));
+    const usable = jobs.filter(j => j.fit !== 'too_early');
+
+    // Où se situe la firm parmi celles de son type, par sélectivité.
+    const ranked = [...peers].sort((a, b) => (b.selectivity || 0) - (a.selectivity || 0));
+    const rank = ranked.findIndex(x => x.name === firmName) + 1;
+
+    const sameTier = FIRMS.filter(x => x.tier === f.tier && x.firmType === f.firmType && x.name !== firmName)
+      .slice(0, 6).map(x => x.name);
+
+    body.innerHTML = `
+      <button class="modal-close" id="modal-close" aria-label="Fermer">✕</button>
+      <div class="modal-head">
+        ${f.tier ? `<span class="tier-pill tier-${f.tier}">${f.tier}</span>` : ''}
+        <div>
+          <h2>${esc(f.name)}</h2>
+          <div class="modal-sub">${ft ? `<span class="firm-type" style="--ft-color:${ft.color}">${esc(ft.short)}</span>` : ''}
+            ${f.tier ? `<span class="modal-tierlabel">${esc(TIER_LABELS[f.tier] || '')}</span>` : ''}</div>
+        </div>
+      </div>
+
+      ${f.positioning ? `<p class="modal-positioning">${esc(f.positioning)}</p>` : '<p class="modal-positioning modal-muted">Fiche non encore documentée pour cette firm.</p>'}
+
+      ${(f.knownFor || []).length ? `<div class="tag-row">${f.knownFor.map(k => `<span class="tag">${esc(k)}</span>`).join('')}</div>` : ''}
+
+      <dl class="modal-facts">
+        ${f.hq ? `<div><dt>Siège</dt><dd>${esc(f.hq)}</dd></div>` : ''}
+        ${f.founded ? `<div><dt>Créée en</dt><dd>${esc(f.founded)}</dd></div>` : ''}
+        ${f.sizeBand ? `<div><dt>Taille</dt><dd>${esc(f.headcount || SIZE_LABELS[f.sizeBand] || f.sizeBand)}</dd></div>` : ''}
+        <div><dt>Offres suivies</dt><dd>${jobs.length}${jobs.length ? ` · ${usable.length} exploitable${usable.length > 1 ? 's' : ''}` : ''}</dd></div>
+      </dl>
+
+      ${(f.selectivity || f.compensation) ? `<div class="modal-scores">
+        ${scoreBar('Sélectivité du recrutement', f.selectivity, medSel)}
+        ${scoreBar('Rémunération junior', f.compensation, medComp)}
+        <p class="modal-hint">Le repère vertical est la médiane des firms du même type. Estimations à partir de la réputation publique, pas de données officielles.</p>
+      </div>` : ''}
+
+      ${rank > 0 ? `<p class="modal-rank">Parmi les ${peers.length} firms de type « ${esc(ft?.long || '')} » du board, elle se classe <b>${rank}<sup>e</sup></b> en sélectivité.</p>` : ''}
+
+      ${f.juniorPath ? `<div class="modal-block"><h3>Entrée junior</h3><p>${esc(f.juniorPath)}</p></div>` : ''}
+      ${f.interview ? `<div class="modal-block"><h3>Processus</h3><p>${esc(f.interview)}</p></div>` : ''}
+      ${sameTier.length ? `<div class="modal-block"><h3>Firms comparables</h3><p class="modal-peers">${sameTier.map(esc).join(' · ')}</p></div>` : ''}
+
+      <div class="modal-actions">
+        ${f.careersUrl || f.website ? `<a class="apply-btn" href="${esc(f.careersUrl || f.website)}" target="_blank" rel="noopener">Page carrières ↗</a>` : ''}
+        <button class="card-btn" data-firm-filter="${esc(f.name)}">Voir ses ${jobs.length} offres</button>
+      </div>`;
+
+    $('firm-modal').showModal();
+  }
+
+
+  /** Onglet Paysage : les firms rangées par tier au sein de chaque type d'activité. */
+  function renderTiers() {
+    const view = $('tier-view');
+    const documented = FIRMS.filter(f => f.tier);
+    if (!documented.length) {
+      view.innerHTML = '<div class="empty">Les fiches de firms ne sont pas encore générées.</div>';
+      return;
+    }
+    const jobsPerFirm = new Map();
+    for (const j of DATA.jobs) {
+      if (hidden.has(j.id)) continue;
+      const cur = jobsPerFirm.get(j.firm) || { total: 0, usable: 0 };
+      cur.total++;
+      if (j.fit !== 'too_early') cur.usable++;
+      jobsPerFirm.set(j.firm, cur);
+    }
+
+    const groups = FIRM_TYPE_ORDER
+      .map(t => ({ t, list: documented.filter(f => (f.firmType || 'autre') === t) }))
+      .filter(g => g.list.length);
+
+    view.innerHTML = `<p class="tier-intro">Où se situe chaque firm dans son domaine. Le rang mêle notoriété, sélectivité du recrutement et rémunération junior : ce sont des estimations issues de la réputation publique du secteur, pas des données officielles.</p>` +
+      groups.map(g => {
+        const rows = ['S', 'A', 'B', 'C'].map(tier => {
+          const firms = g.list.filter(f => f.tier === tier)
+            .sort((a, b) => (b.selectivity || 0) - (a.selectivity || 0) || a.name.localeCompare(b.name));
+          if (!firms.length) return '';
+          return `<div class="tier-row">
+            <div class="tier-badge tier-${tier}">${tier}</div>
+            <div class="tier-firms">${firms.map(f => {
+              const c = jobsPerFirm.get(f.name);
+              return `<button class="tier-chip" data-firm-open="${esc(f.name)}" title="${esc(f.positioning || f.name)}">
+                ${esc(f.name)}${c ? `<span>${c.usable}</span>` : ''}
+              </button>`;
+            }).join('')}</div>
+          </div>`;
+        }).join('');
+        return `<section class="tier-group" style="--ft-color:${FIRM_TYPES[g.t].color}">
+          <h2>${esc(FIRM_TYPES[g.t].long)} <span>${g.list.length}</span></h2>
+          ${rows}
+        </section>`;
+      }).join('') +
+      `<p class="tier-legend"><b>S</b> élite mondiale · <b>A</b> très réputée · <b>B</b> solide et reconnue · <b>C</b> boutique ou peu visible.
+       Le nombre sur chaque firm est son nombre d'offres exploitables. Touche une firm pour sa fiche.</p>`;
   }
 
   function render() {
@@ -150,7 +316,15 @@
     $('badge-all').textContent = visible.length;
 
     document.querySelectorAll('.tab').forEach(t => t.classList.toggle('active', t.dataset.tab === state.tab));
-    $('filters').style.display = state.tab === 'firms' ? 'none' : '';
+    $('filters').style.display = (state.tab === 'firms' || state.tab === 'tiers') ? 'none' : '';
+
+    if (state.tab === 'tiers') {
+      jobList.hidden = true; empty.hidden = true; firmList.hidden = true;
+      $('tier-view').hidden = false;
+      renderTiers();
+      return;
+    }
+    $('tier-view').hidden = true;
 
     if (state.tab === 'firms') {
       jobList.hidden = true; empty.hidden = true; firmList.hidden = false;
@@ -233,6 +407,9 @@
     typeChips.innerHTML = TYPE_ORDER.map(t =>
       `<button class="chip${state.types.has(t) ? ' on' : ''}" data-type="${t}">${TYPE_LABELS[t]}</button>`).join('');
 
+    $('fit-chips').innerHTML = FIT_ORDER.map(f =>
+      `<button class="chip${state.fits.has(f) ? ' on' : ''}" data-fit="${f}" style="--chip-color:${FITS[f].color}" title="${esc(FITS[f].long)}">${esc(FITS[f].short)}</button>`).join('');
+
     // Un seul type de firm présent dans les données = filtre sans intérêt.
     const presentFirmTypes = FIRM_TYPE_ORDER.filter(t => FIRMS.some(f => f.firmType === t && f.jobCount > 0));
     $('firmtype-chips').innerHTML = presentFirmTypes.length > 1
@@ -261,6 +438,7 @@
     if (state.cats.size !== Object.keys(CAT_LABELS).length) n++;
     if (state.types.size !== DEFAULT_TYPES.length || DEFAULT_TYPES.some(t => !state.types.has(t))) n++;
     if (state.firmTypes.size !== FIRM_TYPE_ORDER.length) n++;
+    if (state.fits.size !== FIT_ORDER.length - 1 || state.fits.has('too_early')) n++;
     if (state.region) n++;
     if (state.firm) n++;
     if (state.sort !== 'priority') n++;
@@ -273,6 +451,7 @@
     state.cats = new Set(Object.keys(CAT_LABELS));
     state.types = new Set(DEFAULT_TYPES);
     state.firmTypes = new Set(FIRM_TYPE_ORDER);
+    state.fits = new Set(FIT_ORDER.filter(f => f !== 'too_early'));
     state.region = '';
     state.firm = '';
     state.sort = 'priority';
@@ -320,6 +499,14 @@
       saveFilters(); updateFilterCount(); resetAndRender();
     });
 
+    $('fit-chips').addEventListener('click', e => {
+      const chip = e.target.closest('.chip'); if (!chip) return;
+      const f = chip.dataset.fit;
+      state.fits.has(f) ? state.fits.delete(f) : state.fits.add(f);
+      chip.classList.toggle('on');
+      saveFilters(); updateFilterCount(); resetAndRender();
+    });
+
     $('firmtype-chips').addEventListener('click', e => {
       const chip = e.target.closest('.chip'); if (!chip) return;
       const t = chip.dataset.firmtype;
@@ -342,7 +529,10 @@
       const card = e.target.closest('.job-card');
       if (!card) return;
       const id = card.dataset.id;
-      if (btn?.dataset.act === 'fav') {
+      if (btn?.dataset.act === 'firm') {
+        const j = DATA.jobs.find(x => x.id === id);
+        if (j) openFirmModal(j.firm);
+      } else if (btn?.dataset.act === 'fav') {
         favs.has(id) ? favs.delete(id) : favs.add(id);
         store.set('qb-favs', [...favs]);
         btn.classList.toggle('on');
@@ -352,6 +542,28 @@
         render();
       } else if (!e.target.closest('a')) {
         card.classList.toggle('expanded');
+      }
+    });
+
+    // Ouvre une fiche depuis l'onglet Paysage ou la liste des firms.
+    for (const id of ['tier-view', 'firm-list']) {
+      $(id).addEventListener('click', e => {
+        const btn = e.target.closest('[data-firm-open]');
+        if (btn) { e.preventDefault(); openFirmModal(btn.dataset.firmOpen); }
+      });
+    }
+
+    const modal = $('firm-modal');
+    modal.addEventListener('click', e => {
+      if (e.target === modal || e.target.closest('#modal-close')) { modal.close(); return; }
+      const jump = e.target.closest('[data-firm-filter]');
+      if (jump) {
+        modal.close();
+        state.firm = jump.dataset.firmFilter;
+        state.tab = 'all';
+        buildFilters();
+        window.scrollTo({ top: 0 });
+        resetAndRender();
       }
     });
 
