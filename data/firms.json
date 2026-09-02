@@ -1021,17 +1021,17 @@
    "name": "Boerboel Trading",
    "website": "https://www.boerboeltrading.com",
    "careersUrl": "https://www.boerboeltrading.com/jobs.html",
-   "ats": "custom_html",
-   "apiEndpoint": "https://www.boerboeltrading.com/jobs.html",
+   "ats": "greenhouse",
+   "apiEndpoint": "https://boards-api.greenhouse.io/v1/boards/boerboeltrading/jobs?content=true",
    "apiMethod": "GET",
    "apiBody": null,
    "status": "ok",
-   "notes": "Plain static HTML accordion at /jobs.html, no pagination; each role links a PDF spec at /img/*.pdf. Re-scrape: curl -sL the page, extract hrefs matching img/*.pdf, pdftotext each. 5 roles on 2026-08-22; dropped: US Equities Market Maker (3+ yrs), UI Developer (MS + 36 months exp), Quant Developer (3+ yrs). Kept Network/Systems Engineer (no explicit years req). PDFs list state-level 'California' as a location (recorded as city). Systems Engineer also lists Malta. Apply via careers@boerboeltrading.com.",
-   "jobCount": 2,
+   "notes": "Plain static HTML accordion at /jobs.html, no pagination; each role links a PDF spec at /img/*.pdf. Re-scrape: curl -sL the page, extract hrefs matching img/*.pdf, pdftotext each. 5 roles on 2026-08-22; dropped: US Equities Market Maker (3+ yrs), UI Developer (MS + 36 months exp), Quant Developer (3+ yrs). Kept Network/Systems Engineer (no explicit years req). PDFs list state-level 'California' as a location (recorded as city). Systems Engineer also lists Malta. Apply via careers@boerboeltrading.com. AUTOMATED 2026-09-02: the careers page embeds a Greenhouse board (token 'boerboeltrading', found as greenhouse.io/embed/job_board?for=boerboeltrading in /jobs.html), so the standard `greenhouse` fetcher covers it - no bespoke code needed. 2026-09-02: 4 postings. 1 added, Production Engineer (London, DevOps on mid/back-office trading systems, no seniority bar stated). Dropped: C++ Developer (5+ yrs), Office Administrator (PT), and 'Opportunistic' - a catch-all talent-pool posting with no role definition, dropped for the same reason as Edgehog's 'General Expression of Interest' and Sunrise's 'General Application'. NOTE: the two roles already in jobs.json (Network Engineer, System Engineer) are NOT on the Greenhouse board; they come from standalone PDFs under /img/ which still resolve, so they were left alone - but they are probably stale, re-check them.",
+   "jobCount": 3,
    "apiEndpoints": [
     {
-     "ats": "custom_html",
-     "url": "https://www.boerboeltrading.com/jobs.html",
+     "ats": "greenhouse",
+     "url": "https://boards-api.greenhouse.io/v1/boards/boerboeltrading/jobs?content=true",
      "method": "GET",
      "body": null
     }
@@ -1168,17 +1168,17 @@
    "name": "Cantor Fitzgerald",
    "website": "https://www.cantor.com",
    "careersUrl": "https://hdow.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1003/jobs",
-   "ats": "other",
-   "apiEndpoint": "https://hdow.fa.us6.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.secondaryLocations&finder=findReqs;siteNumber=CX_1003,limit=25,offset=0,sortBy=POSTING_DATES_DESC",
+   "ats": "oraclecloud",
+   "apiEndpoint": "https://hdow.fa.us6.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.secondaryLocations,flexFieldsFacet.values&finder=findReqs;siteNumber=CX_1003,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=25,offset=0,sortBy=POSTING_DATES_DESC",
    "apiMethod": "GET",
    "apiBody": null,
    "status": "ok",
-   "notes": "Oracle Recruiting Cloud (Oracle Cloud HCM), shared Cantor/BGC tenant 'hdow.fa.us6', site CX_1003. www.cantor.com/careers/ 403s all non-browser fetchers - use the Oracle API. Paginate offset 0,25,50,... until TotalJobsCount (97 at scrape). Per-job details: .../recruitingCEJobRequisitionDetails?expand=all&onlyData=true&finder=ById;Id=%22{id}%22,siteNumber=CX_1003. No summer-analyst/campus postings were on this board on 2026-08-22 (Cantor SA 2027 apps expected via cantor.com campus pages).",
-   "jobCount": 9,
+   "notes": "Oracle Recruiting Cloud (Oracle Cloud HCM), shared Cantor/BGC tenant 'hdow.fa.us6', site CX_1003. www.cantor.com/careers/ 403s all non-browser fetchers - use the Oracle API. Paginate offset 0,25,50,... until TotalJobsCount (97 at scrape). Per-job details: .../recruitingCEJobRequisitionDetails?expand=all&onlyData=true&finder=ById;Id=%22{id}%22,siteNumber=CX_1003. No summer-analyst/campus postings were on this board on 2026-08-22 (Cantor SA 2027 apps expected via cantor.com campus pages). AUTOMATED 2026-09-02 via the `oraclecloud` fetcher. Watch out: the offset lives INSIDE the finder=findReqs;... parameter, not as its own query param, so it is replaced by regex. The candidate-experience job pages are JS-rendered - read descriptions through recruitingCEJobRequisitionDetails (ExternalDescriptionStr / ExternalQualificationsStr) instead. 2026-09-02: 92 postings. 1 added, Machine Learning (ML engineer, New York): bachelor's degree and experience acquired 'through work, internships, research, open source, or substantial personal projects' - no seniority bar. Dropped: Junior Product Manager (title says junior, body demands a MINIMUM OF 5 YEARS - do not trust the title on this board), Quant Developer London ('experienced pricing and analytics quant developer'), Senior Quant AI Researcher, and the rest of the board (investment banking, equity research, brokerage, operations, legal, back office). Data Analyst & Product Manager (London, id 247631) was skipped, not judged: its description and qualifications come back EMPTY from the API - re-check it on a later pass.",
+   "jobCount": 10,
    "apiEndpoints": [
     {
-     "ats": "other",
-     "url": "https://hdow.fa.us6.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.secondaryLocations&finder=findReqs;siteNumber=CX_1003,limit=25,offset=0,sortBy=POSTING_DATES_DESC",
+     "ats": "oraclecloud",
+     "url": "https://hdow.fa.us6.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.secondaryLocations,flexFieldsFacet.values&finder=findReqs;siteNumber=CX_1003,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=25,offset=0,sortBy=POSTING_DATES_DESC",
      "method": "GET",
      "body": null
     }
@@ -1400,7 +1400,7 @@
    "apiMethod": "GET",
    "apiBody": null,
    "status": "no_relevant_roles",
-   "notes": "No ATS and no job listings. Careers section is an anchor on the WordPress homepage with two APPLY NOW buttons (Investment / Non-Investment Opportunities) opening speculative-application FluentForm popups (popup ids 3025/3279, embedded in homepage HTML) aimed at PM candidates with track records; employment inquiries via recruiting@centivacapital.com. Web search confirms no external job board. Re-scrape: curl -sL https://centivacapital.com/ and diff the id=\"CAREERS\" section for new listings or ATS links.",
+   "notes": "No ATS and no job listings. Careers section is an anchor on the WordPress homepage with two APPLY NOW buttons (Investment / Non-Investment Opportunities) opening speculative-application FluentForm popups (popup ids 3025/3279, embedded in homepage HTML) aimed at PM candidates with track records; employment inquiries via recruiting@centivacapital.com. Web search confirms no external job board. Re-scrape: curl -sL https://centivacapital.com/ and diff the id=\"CAREERS\" section for new listings or ATS links. Re-checked 2026-09-02: homepage unchanged, still no listings and no ATS - only the two speculative-application popups. Nothing to automate.",
    "jobCount": 0,
    "apiEndpoints": [],
    "firmType": "hf_multistrat",
@@ -1658,7 +1658,7 @@
    "apiMethod": "GET",
    "apiBody": null,
    "status": "no_relevant_roles",
-   "notes": "CQS was acquired by Manulife (2024); cqs.com and cqs.com/careers now redirect to manulifeim.com/institutional/global/en/capabilities/cqs (product page, no careers). Hiring runs through parent Manulife's Phenom-based portal careers.manulife.com; keyword search 'CQS' returned 0 jobs on 2026-08-22 (page is JS-rendered - scrape with browser or Phenom widgets API). Standalone CQS ATS probes (greenhouse/lever/workday tenant cqs) negative. Re-scan the Manulife search URL for CQS-branded roles.",
+   "notes": "CQS was acquired by Manulife (2024); cqs.com and cqs.com/careers now redirect to manulifeim.com/institutional/global/en/capabilities/cqs (product page, no careers). Hiring runs through parent Manulife's Phenom-based portal careers.manulife.com; keyword search 'CQS' returned 0 jobs on 2026-08-22 (page is JS-rendered - scrape with browser or Phenom widgets API). Standalone CQS ATS probes (greenhouse/lever/workday tenant cqs) negative. Re-scan the Manulife search URL for CQS-branded roles. Re-checked 2026-09-02: still not automatable and still no CQS-branded roles. careers.manulife.com now answers 403 to every scripted request (/api/jobs, /global/en/api/jobs, /widgets and the search-results page alike), so even the Phenom fetcher this repo already has cannot reach it. Left on the manual list.",
    "jobCount": 0,
    "apiEndpoints": [
     {
@@ -1948,16 +1948,16 @@
    "name": "Edgehog Trading",
    "website": "https://www.edgehogtrading.com",
    "careersUrl": "https://www.edgehogtrading.com/careers/open-positions",
-   "ats": "other",
+   "ats": "rippling",
    "apiEndpoint": "https://api.rippling.com/platform/api/ats/v1/board/edgehog-trading/jobs",
    "apiMethod": "GET",
    "apiBody": null,
    "status": "ok",
-   "notes": "Rippling ATS (board 'edgehog-trading', public page https://ats.rippling.com/edgehog-trading/jobs). List endpoint returns all jobs (12, no pagination); per-job detail at .../jobs/{uuid} (description.role HTML, createdOn = posted date). edgehogtrading.com itself sits behind a Vercel security checkpoint that 429s curl - scrape the Rippling API instead. Filtered out: Evening Trader, Quantitative Options Trader and Quantitative Execution Trader (all require 1-4/2+ yrs options market-making with proven track record), Full Stack Developer (3+ yrs), Senior roles, People Ops, and 'General Expression of Interest' (not a specific role). All roles Chicago.",
+   "notes": "Rippling ATS (board 'edgehog-trading', public page https://ats.rippling.com/edgehog-trading/jobs). List endpoint returns all jobs (12, no pagination); per-job detail at .../jobs/{uuid} (description.role HTML, createdOn = posted date). edgehogtrading.com itself sits behind a Vercel security checkpoint that 429s curl - scrape the Rippling API instead. Filtered out: Evening Trader, Quantitative Options Trader and Quantitative Execution Trader (all require 1-4/2+ yrs options market-making with proven track record), Full Stack Developer (3+ yrs), Senior roles, People Ops, and 'General Expression of Interest' (not a specific role). All roles Chicago. AUTOMATED 2026-09-02 via the `rippling` fetcher on api.rippling.com/platform/api/ats/v1/board/edgehog-trading/jobs - that host answers JSON, while ats.rippling.com is JS-rendered and api/hosted-jobs 404s. This also sidesteps the Vercel checkpoint on edgehogtrading.com noted above. 2026-09-02: 12 postings; the 10 not in jobs.json are exactly the ones already filtered out above. Nothing added. Note: the tracked 'Quantitative Researcher' is no longer listed on the board, but its posting page still serves full content, so it was left in jobs.json rather than archived.",
    "jobCount": 2,
    "apiEndpoints": [
     {
-     "ats": "other",
+     "ats": "rippling",
      "url": "https://api.rippling.com/platform/api/ats/v1/board/edgehog-trading/jobs",
      "method": "GET",
      "body": null
@@ -2511,7 +2511,7 @@
    "apiMethod": "GET",
    "apiBody": null,
    "status": "no_relevant_roles",
-   "notes": "WordPress one-page site (Citadel-alumni fundamental+quant equity fund; offices Austin, New York, West Palm Beach, San Francisco). Careers section (#careers anchor) is culture prose only - no job listings, no ATS embed; applications via mailto:careers@fgrovep.com. /careers, /jobs, /open-positions -> 404. Web search found no greenhouse/lever/ashby board. Re-check: curl -sL https://fgrovep.com and grep for ATS domains or new careers links.",
+   "notes": "WordPress one-page site (Citadel-alumni fundamental+quant equity fund; offices Austin, New York, West Palm Beach, San Francisco). Careers section (#careers anchor) is culture prose only - no job listings, no ATS embed; applications via mailto:careers@fgrovep.com. /careers, /jobs, /open-positions -> 404. Web search found no greenhouse/lever/ashby board. Re-check: curl -sL https://fgrovep.com and grep for ATS domains or new careers links. Re-checked 2026-09-02: one-page site unchanged, careers section still culture prose with no listings and no ATS embed. Nothing to automate.",
    "jobCount": 0,
    "apiEndpoints": [],
    "firmType": "hf_multistrat",
@@ -2538,16 +2538,16 @@
    "name": "G-Research",
    "website": "https://www.gresearch.com",
    "careersUrl": "https://www.gresearch.com/vacancies/",
-   "ats": "custom_html",
+   "ats": "gresearch",
    "apiEndpoint": "https://www.gresearch.com/vacancies/",
    "apiMethod": "GET",
    "apiBody": null,
    "status": "ok",
-   "notes": "Custom WordPress site, server-rendered. Scrape https://www.gresearch.com/vacancies/ with a browser User-Agent and extract unique hrefs matching gresearch.com/vacancies/{slug}/ - the FULL vacancy list (63 slugs on 2026-08-22) is embedded in every listing page, so pagination (/vacancies/page/N/) need not be followed. Fetch each job page for details; location shown as 'Location: London' (all roles London; firm also has Dallas office). No JSON API, no posted dates. Summer internships are a fixed cohort: 21 Jun - 27 Aug 2027, 10 weeks, London. Dropped: security/pen-test/IAM/CSIRT roles, managers/leads/heads, 'Quantitative Researcher - Experienced', and full-time roles whose requirements demand deep/proven professional experience (C++ SWE, platform/infra/network engineers, performance engineers, Core AI Engineer, Applied AI Engineer, Functional Programmer, Trade Technology SWE, Quantitative Analyst #2 posting, QR Fundamental Equity, analytics/insight roles).",
+   "notes": "Custom WordPress site, server-rendered. Scrape https://www.gresearch.com/vacancies/ with a browser User-Agent and extract unique hrefs matching gresearch.com/vacancies/{slug}/ - the FULL vacancy list (63 slugs on 2026-08-22) is embedded in every listing page, so pagination (/vacancies/page/N/) need not be followed. Fetch each job page for details; location shown as 'Location: London' (all roles London; firm also has Dallas office). No JSON API, no posted dates. Summer internships are a fixed cohort: 21 Jun - 27 Aug 2027, 10 weeks, London. Dropped: security/pen-test/IAM/CSIRT roles, managers/leads/heads, 'Quantitative Researcher - Experienced', and full-time roles whose requirements demand deep/proven professional experience (C++ SWE, platform/infra/network engineers, performance engineers, Core AI Engineer, Applied AI Engineer, Functional Programmer, Trade Technology SWE, Quantitative Analyst #2 posting, QR Fundamental Equity, analytics/insight roles). AUTOMATED 2026-09-02 via the `gresearch` fetcher, which reads the c-vacancy-result cards (title and location sit in their own spans, so no need to fetch each vacancy page just to get them). 2026-09-02: 63 postings, same count as 08-22. The 38 not in jobs.json are all covered by the exclusions above - security/pen-test/IAM/CSIRT/red-team, managers/leads/heads, analytics & insight, network/platform/infra engineers, and 'Quantitative Researcher - Experienced'. The four that were not obviously covered were opened and checked: Algo Safety Risk Specialist ('deep experience with algorithmic trading controls'), Observability Engineer and Software Engineer - Observability Instrumentation (both observability-platform roles at scale), Kubernetes Software Engineer ('extensive experience with Linux', production-grade cluster administration) - all experienced, all dropped. Nothing added.",
    "jobCount": 25,
    "apiEndpoints": [
     {
-     "ats": "custom_html",
+     "ats": "gresearch",
      "url": "https://www.gresearch.com/vacancies/",
      "method": "GET",
      "body": null
@@ -3081,7 +3081,7 @@
    "apiMethod": "GET",
    "apiBody": null,
    "status": "no_relevant_roles",
-   "notes": "Careers page (Webflow site) is brochure-only: culture/values text, no job listings and no ATS integration. Recruiting contact is careers@hudsonbaycapital.com; offices Stamford/New York/Miami/Los Angeles/London/Dubai/Hong Kong. No Greenhouse/Lever/Ashby board found under hudsonbaycapital variants. Re-scrape: curl -sL https://www.hudsonbaycapital.com/careers and grep for ATS domains or new listing links; also check their LinkedIn jobs tab.",
+   "notes": "Careers page (Webflow site) is brochure-only: culture/values text, no job listings and no ATS integration. Recruiting contact is careers@hudsonbaycapital.com; offices Stamford/New York/Miami/Los Angeles/London/Dubai/Hong Kong. No Greenhouse/Lever/Ashby board found under hudsonbaycapital variants. Re-scrape: curl -sL https://www.hudsonbaycapital.com/careers and grep for ATS domains or new listing links; also check their LinkedIn jobs tab. Re-checked 2026-09-02: careers page unchanged, still brochure-only with no listings and no ATS embed (same signature grep as above, no hit). Nothing to automate.",
    "jobCount": 0,
    "apiEndpoints": [],
    "firmType": "hf_multistrat",
@@ -3511,17 +3511,17 @@
    "name": "Lord Abbett",
    "website": "https://www.lordabbett.com",
    "careersUrl": "https://careers-lordabbett.icims.com/jobs/search?ss=1",
-   "ats": "other",
-   "apiEndpoint": "https://careers-lordabbett.icims.com/jobs/search?ss=1&in_iframe=1&pr=0",
+   "ats": "icims",
+   "apiEndpoint": "https://careers-lordabbett.icims.com/jobs/search?ss=1&in_iframe=1",
    "apiMethod": "GET",
    "apiBody": null,
    "status": "no_relevant_roles",
-   "notes": "iCIMS (careers-lordabbett.icims.com). Server-rendered HTML; paginate with &pr=0,1,2... until no more 'iCIMS_Anchor' job links (29 postings across pr=0..1 on 2026-08-22; needs a browser User-Agent header). All current postings are senior (3+ yrs), fundamental credit research, sales/distribution, or back-office; Performance Analyst (3-7 yrs), Research Analyst RMBS (seasoned), Investment Data Specialist Dublin (4-6 yrs) all checked and dropped. Early-career programs (Investment Associate, Technology Associate, Advisor Consultant) are posted each FALL - re-scan https://careers-lordabbett.icims.com/jobs/search?ss=1&searchPositionType=18702&in_iframe=1 (currently only a sales 'Advisor Consultant Full-Time - Fall 2026' role); info page: https://www.lordabbett.com/en-us/financial-advisor/about-us/careers/early-careers.html",
+   "notes": "iCIMS (careers-lordabbett.icims.com). Server-rendered HTML; paginate with &pr=0,1,2... until no more 'iCIMS_Anchor' job links (29 postings across pr=0..1 on 2026-08-22; needs a browser User-Agent header). All current postings are senior (3+ yrs), fundamental credit research, sales/distribution, or back-office; Performance Analyst (3-7 yrs), Research Analyst RMBS (seasoned), Investment Data Specialist Dublin (4-6 yrs) all checked and dropped. Early-career programs (Investment Associate, Technology Associate, Advisor Consultant) are posted each FALL - re-scan https://careers-lordabbett.icims.com/jobs/search?ss=1&searchPositionType=18702&in_iframe=1 (currently only a sales 'Advisor Consultant Full-Time - Fall 2026' role); info page: https://www.lordabbett.com/en-us/financial-advisor/about-us/careers/early-careers.html AUTOMATED 2026-09-02 via the standard `icims` fetcher - the key was adding &in_iframe=1, since careers-lordabbett.icims.com/jobs/search?ss=1 only serves a wrapper page whose iframe carries the actual results. 2026-09-02: 20 postings. The FALL early-career postings anticipated above have now appeared (Investment Associate Internship / Full-Time Summer 2027, Advisor Consultant Internship / Full-Time), and were reviewed and dropped: the Investment Associate programme is a fundamental rotation across Taxable/Tax-Free Fixed Income, Equities and Private Investments, and Advisor Consultant is sales/distribution - neither falls under QR/QT/ML/ENG. This matches how the board treats traditional asset managers generally: across the 11 firms tagged firmType=am, every tracked role is QR, QT or ENG and none is fundamental or OTHER. A 'Technology Associate' programme is also mentioned on their early-careers page but is not currently posted - that one WOULD be in scope, so keep watching.",
    "jobCount": 0,
    "apiEndpoints": [
     {
-     "ats": "other",
-     "url": "https://careers-lordabbett.icims.com/jobs/search?ss=1&in_iframe=1&pr=0",
+     "ats": "icims",
+     "url": "https://careers-lordabbett.icims.com/jobs/search?ss=1&in_iframe=1",
      "method": "GET",
      "body": null
     }
@@ -3554,7 +3554,7 @@
    "apiMethod": "GET",
    "apiBody": null,
    "status": "no_relevant_roles",
-   "notes": "Teamtailor career site (careers.lynxhedge.se). Page currently shows \"No open positions right now\" and jobs.rss feed is empty. Re-scrape: GET https://careers.lynxhedge.se/jobs.rss (RSS of all openings) or parse https://careers.lynxhedge.se/jobs. Teams incl. Research, Trading, System Development, Data; offices Stockholm and New York.",
+   "notes": "Teamtailor career site (careers.lynxhedge.se). Page currently shows \"No open positions right now\" and jobs.rss feed is empty. Re-scrape: GET https://careers.lynxhedge.se/jobs.rss (RSS of all openings) or parse https://careers.lynxhedge.se/jobs. Teams incl. Research, Trading, System Development, Data; offices Stockholm and New York. AUTOMATED 2026-09-02 via the `teamtailor` fetcher, which reads the jobs.rss feed. 2026-09-02: the feed is still empty (valid RSS, zero items), so the item parsing could only be verified against a synthetic feed matching Teamtailor's format (title / link / tt:location) - re-check the first time a real posting appears.",
    "jobCount": 0,
    "apiEndpoints": [
     {
@@ -4625,16 +4625,16 @@
    "name": "Quantlab Financial",
    "website": "https://www.quantlab.com",
    "careersUrl": "https://jobs.jobvite.com/quantlab/jobs?nl=0",
-   "ats": "other",
+   "ats": "jobvite",
    "apiEndpoint": "https://jobs.jobvite.com/quantlab/jobs?nl=0",
    "apiMethod": "GET",
    "apiBody": null,
    "status": "no_relevant_roles",
-   "notes": "ATS is Jobvite (board 'quantlab'). Branded career site www.quantlab.com/careers?p=jobs (the target homepage 'Join Our Team' link and Jobvite redirect) returned 403 AccessDenied (S3) from both curl and browser at scrape time - possibly geo/IP blocked or broken. WORKAROUND: append nl=0 to jobs.jobvite.com URLs to stop the redirect and get the raw Jobvite board HTML; parse anchors matching /quantlab/job/{id}. On 2026-08-23 the board said 'There are currently no open jobs.' (confirmed via /quantlab/search?q=&nl=0: 'No results found'). General application: https://jobs.jobvite.com/quantlab/apply. HFT firm; offices Houston, NYC, Boston, Austin, Singapore.",
+   "notes": "ATS is Jobvite (board 'quantlab'). Branded career site www.quantlab.com/careers?p=jobs (the target homepage 'Join Our Team' link and Jobvite redirect) returned 403 AccessDenied (S3) from both curl and browser at scrape time - possibly geo/IP blocked or broken. WORKAROUND: append nl=0 to jobs.jobvite.com URLs to stop the redirect and get the raw Jobvite board HTML; parse anchors matching /quantlab/job/{id}. On 2026-08-23 the board said 'There are currently no open jobs.' (confirmed via /quantlab/search?q=&nl=0: 'No results found'). General application: https://jobs.jobvite.com/quantlab/apply. HFT firm; offices Houston, NYC, Boston, Austin, Singapore. AUTOMATED 2026-09-02 via the `jobvite` fetcher, which appends nl=0 as described above. 2026-09-02: the board is still empty (0 postings) - the fetcher simply reports nothing until a role appears, which is the point of wiring it.",
    "jobCount": 0,
    "apiEndpoints": [
     {
-     "ats": "other",
+     "ats": "jobvite",
      "url": "https://jobs.jobvite.com/quantlab/jobs?nl=0",
      "method": "GET",
      "body": null
@@ -4856,7 +4856,7 @@
    "apiMethod": "GET",
    "apiBody": null,
    "status": "no_relevant_roles",
-   "notes": "Careers page is a Next.js marketing page with no job listings and no ATS (checked page JS chunk /_next/static/chunks/app/careers/page-*.js: static content only). Greenhouse/Lever/Ashby tokens rokoscapital/rokoscapitalmanagement/rokos all 404. Applications go to careers@rokoscapital.com; roles are advertised via LinkedIn and recruiters. Re-scrape: curl -sL https://www.rokoscapital.com/careers and re-check for an ATS embed appearing.",
+   "notes": "Careers page is a Next.js marketing page with no job listings and no ATS (checked page JS chunk /_next/static/chunks/app/careers/page-*.js: static content only). Greenhouse/Lever/Ashby tokens rokoscapital/rokoscapitalmanagement/rokos all 404. Applications go to careers@rokoscapital.com; roles are advertised via LinkedIn and recruiters. Re-scrape: curl -sL https://www.rokoscapital.com/careers and re-check for an ATS embed appearing. Re-checked 2026-09-02: careers page unchanged, still a Next.js marketing page with no listings and no ATS embed (grepped for greenhouse/lever/ashby/workday/jobvite/smartrecruiters/teamtailor/recruitee/bamboohr/icims/eightfold/phenom - no hit). Nothing to automate.",
    "jobCount": 0,
    "apiEndpoints": [],
    "firmType": "hf_disc",
@@ -4883,16 +4883,16 @@
    "name": "RSJ",
    "website": "https://www.rsj.com/en",
    "careersUrl": "https://www.rsj.com/en/career.html",
-   "ats": "custom_html",
+   "ats": "rsj",
    "apiEndpoint": "https://www.rsj.com/en/career.html",
    "apiMethod": "GET",
    "apiBody": null,
    "status": "ok",
-   "notes": "Plain HTML careers page; job list under 'Available Jobs' anchor #section-available-jobs, links go to /cz/*.html posting pages (Czech language). No pagination. All candidates must have Czech or Slovak at C2/native (stated on careers page); contact HR@rsj.com. Dropped: Financni manazer (finance manager), and Private Equity / Real Estate / Venture Capital internships (RSJ Investments, non-quant). Re-scrape: curl -sL https://www.rsj.com/en/career.html and diff the job links.",
+   "notes": "Plain HTML careers page; job list under 'Available Jobs' anchor #section-available-jobs, links go to /cz/*.html posting pages (Czech language). No pagination. All candidates must have Czech or Slovak at C2/native (stated on careers page); contact HR@rsj.com. Dropped: Financni manazer (finance manager), and Private Equity / Real Estate / Venture Capital internships (RSJ Investments, non-quant). Re-scrape: curl -sL https://www.rsj.com/en/career.html and diff the job links. AUTOMATED 2026-09-02 via the `rsj` fetcher (anchors below the #section-available-jobs marker). 2026-09-02: 7 postings; the 6 not in jobs.json are the ones already dropped above (Financni manazer, the Private Equity / Real Estate / Venture Capital internships) plus 'Investicni analytik / Associate - Real Estate & Development' and 'Specialist(k)a komunikace a programu', both dropped on the same non-quant grounds. Nothing added. Note: 'Quantitative Trader - algorithmic trading' is no longer linked from the careers page, but its posting page still returns full content, so it was left in jobs.json rather than archived.",
    "jobCount": 2,
    "apiEndpoints": [
     {
-     "ats": "custom_html",
+     "ats": "rsj",
      "url": "https://www.rsj.com/en/career.html",
      "method": "GET",
      "body": null
@@ -5126,16 +5126,16 @@
    "name": "Spark Investment Management",
    "website": "https://www.sparkim.com",
    "careersUrl": "https://www.sparkim.com/careers/",
-   "ats": "custom_html",
+   "ats": "sparkim",
    "apiEndpoint": "https://www.sparkim.com/careers/",
    "apiMethod": "GET",
    "apiBody": null,
    "status": "ok",
-   "notes": "WordPress site, plain HTML, no ATS. Careers page lists Open Positions as links to https://www.sparkim.com/role/{slug}/ — parse hrefs matching /role/. ~20-person NYC quant hedge fund; apply via https://www.sparkim.com/apply-online/. Open roles on 2026-08-23: Corporate Strategist, Strategic Planning, Two-Week Internships, Quantitative Trader, COO Growth Path (last three non-quant/recruiting/leadership roles dropped). No posting dates published.",
+   "notes": "WordPress site, plain HTML, no ATS. Careers page lists Open Positions as links to https://www.sparkim.com/role/{slug}/ — parse hrefs matching /role/. ~20-person NYC quant hedge fund; apply via https://www.sparkim.com/apply-online/. Open roles on 2026-08-23: Corporate Strategist, Strategic Planning, Two-Week Internships, Quantitative Trader, COO Growth Path (last three non-quant/recruiting/leadership roles dropped). No posting dates published. AUTOMATED 2026-09-02 via the `sparkim` fetcher: postings are /role/{slug}/ pages, which are NOT children of /careers/, so the generic childlinks fetcher does not apply. 2026-09-02: 5 postings; the 3 not in jobs.json (Corporate Strategist, Strategic Planning, COO Growth Path) are exactly the ones already dropped above. Nothing added.",
    "jobCount": 2,
    "apiEndpoints": [
     {
-     "ats": "custom_html",
+     "ats": "sparkim",
      "url": "https://www.sparkim.com/careers/",
      "method": "GET",
      "body": null
@@ -5241,19 +5241,19 @@
    "name": "Summit Securities Group",
    "website": "https://www.ssgllc.com",
    "careersUrl": "https://jobs.gem.com/ssg",
-   "ats": "other",
-   "apiEndpoint": "https://jobs.gem.com/api/public/graphql",
-   "apiMethod": "POST",
-   "apiBody": "{\"operationName\": \"JobBoardList\", \"variables\": {\"boardId\": \"ssg\"}, \"query\": \"query JobBoardList($boardId: String!) { oatsExternalJobPostings(boardId: $boardId) { jobPostings { id extId title locations { name city isoCountry isRemote } job { department { name } locationType employmentType } } } }\"}",
+   "ats": "gem",
+   "apiEndpoint": "https://jobs.gem.com/ssg",
+   "apiMethod": "GET",
+   "apiBody": null,
    "status": "ok",
-   "notes": "ATS is Gem (jobs.gem.com). POST GraphQL JobBoardList query (Content-Type: application/json) returns all postings, no pagination (3 postings on 2026-08-23). Per-job detail via ExternalJobPosting(boardId:\"ssg\", extId) query; descriptionHtml + firstPublishedTsSec. Job URL = https://jobs.gem.com/ssg/{extId}. Dropped: C++ Software Engineer - Options Trading Systems (5+ yrs).",
-   "jobCount": 2,
+   "notes": "ATS is Gem (jobs.gem.com). POST GraphQL JobBoardList query (Content-Type: application/json) returns all postings, no pagination (3 postings on 2026-08-23). Per-job detail via ExternalJobPosting(boardId:\"ssg\", extId) query; descriptionHtml + firstPublishedTsSec. Job URL = https://jobs.gem.com/ssg/{extId}. Dropped: C++ Software Engineer - Options Trading Systems (5+ yrs). AUTOMATED 2026-09-02 via the `gem` fetcher. The GraphQL endpoint is https://jobs.gem.com/api/public/graphql (NOT /api/graphql, which answers 403); the operation is JobBoardList over oatsExternalJobPostings, and the fetcher derives the boardId from the board URL path. 2026-09-02: 2 postings. 'Software Engineer - C++' dropped (5+ yrs). ARCHIVED: 'Quantitative Trader - Global Session Coverage' - no longer on the board and its page now renders only the empty board shell.",
+   "jobCount": 1,
    "apiEndpoints": [
     {
-     "ats": "other",
-     "url": "https://jobs.gem.com/api/public/graphql",
-     "method": "POST",
-     "body": "{\"operationName\": \"JobBoardList\", \"variables\": {\"boardId\": \"ssg\"}, \"query\": \"query JobBoardList($boardId: String!) { oatsExternalJobPostings(boardId: $boardId) { jobPostings { id extId title locations { name city isoCountry isRemote } job { department { name } locationType employmentType } } } }\"}"
+     "ats": "gem",
+     "url": "https://jobs.gem.com/ssg",
+     "method": "GET",
+     "body": null
     }
    ],
    "firmType": "prop",
@@ -5310,17 +5310,17 @@
    "name": "Sunrise Futures",
    "website": "https://www.sunrisefutures.com",
    "careersUrl": "https://www.sunrisefutures.com/careers/",
-   "ats": "other",
-   "apiEndpoint": "https://jsapi.recruiterbox.com/v1/openings?client_name=sunrisefutures",
+   "ats": "trakstar",
+   "apiEndpoint": "https://sunrisefutures.hire.trakstar.com/",
    "apiMethod": "GET",
    "apiBody": null,
    "status": "ok",
-   "notes": "ATS is Trakstar Hire (formerly Recruiterbox); board at https://sunrisefutures.hire.trakstar.com/jobs/c109f3dbd444453d831021483d19c73d. JSON API returns id/title/description/location; paginate with ?offset=&limit= (meta.total; 5 openings on 2026-08-23). Job URL = https://sunrisefutures.hire.trakstar.com/jobs/{id}. NOTE: sunrisefutures.com blocks short User-Agents with ModSecurity 406 - send a full browser UA; the jsapi endpoint is unaffected. Dropped: Senior Systems Engineer (5+ yrs), Senior Quantitative Researcher/Strategy Developer (Senior), General Application (catch-all, not a role).",
+   "notes": "ATS is Trakstar Hire (formerly Recruiterbox); board at https://sunrisefutures.hire.trakstar.com/jobs/c109f3dbd444453d831021483d19c73d. JSON API returns id/title/description/location; paginate with ?offset=&limit= (meta.total; 5 openings on 2026-08-23). Job URL = https://sunrisefutures.hire.trakstar.com/jobs/{id}. NOTE: sunrisefutures.com blocks short User-Agents with ModSecurity 406 - send a full browser UA; the jsapi endpoint is unaffected. Dropped: Senior Systems Engineer (5+ yrs), Senior Quantitative Researcher/Strategy Developer (Senior), General Application (catch-all, not a role). AUTOMATED 2026-09-02 via the `trakstar` fetcher. There is no public JSON API: the board is server-rendered, one card per posting, and the FULL title and location are in the title= attributes (the visible text is truncated by the 'cut-text' CSS class). 2026-09-02: 5 postings; the 3 not in jobs.json are the Senior roles already dropped above. Nothing added.",
    "jobCount": 2,
    "apiEndpoints": [
     {
-     "ats": "other",
-     "url": "https://jsapi.recruiterbox.com/v1/openings?client_name=sunrisefutures",
+     "ats": "trakstar",
+     "url": "https://sunrisefutures.hire.trakstar.com/",
      "method": "GET",
      "body": null
     }
@@ -5613,16 +5613,16 @@
    "name": "Tokka Labs",
    "website": "https://tokkalabs.com",
    "careersUrl": "https://tokkalabs.hire.trakstar.com/",
-   "ats": "other",
+   "ats": "trakstar",
    "apiEndpoint": "https://tokkalabs.hire.trakstar.com/",
    "apiMethod": "GET",
    "apiBody": null,
    "status": "ok",
-   "notes": "Main site tokkalabs.com is a JS SPA (base44) whose Join Us button links to Trakstar Hire (ex-Recruiterbox) board https://tokkalabs.hire.trakstar.com/ (also reachable as tokkalabs.recruiterbox.com/jobs). Board is server-rendered HTML, no public JSON API found: parse anchors matching href=\"/jobs/{id}/\" and surrounding title/location text. 5 postings total on 2026-08-23; all Singapore. Dropped: Head of Trading Technology (Head), Delta One Trader (5+ yrs), Software Engineer - Core & Platform (5+ yrs).",
-   "jobCount": 2,
+   "notes": "Main site tokkalabs.com is a JS SPA (base44) whose Join Us button links to Trakstar Hire (ex-Recruiterbox) board https://tokkalabs.hire.trakstar.com/ (also reachable as tokkalabs.recruiterbox.com/jobs). Board is server-rendered HTML, no public JSON API found: parse anchors matching href=\"/jobs/{id}/\" and surrounding title/location text. 5 postings total on 2026-08-23; all Singapore. Dropped: Head of Trading Technology (Head), Delta One Trader (5+ yrs), Software Engineer - Core & Platform (5+ yrs). AUTOMATED 2026-09-02 via the shared `trakstar` fetcher (same platform as Sunrise Futures). 2026-09-02: 4 postings; the 3 not in jobs.json are the ones already dropped above (Head of Trading Technology, Delta One Trader, Software Engineer - Core & Platform). ARCHIVED: 'Junior Quant Trader (Night Shift)' - its posting page now returns HTTP 404 ('We could not find the job you were looking for'), so it was a dead link in the app.",
+   "jobCount": 1,
    "apiEndpoints": [
     {
-     "ats": "other",
+     "ats": "trakstar",
      "url": "https://tokkalabs.hire.trakstar.com/",
      "method": "GET",
      "body": null
@@ -5808,16 +5808,16 @@
    "name": "Trexquant Investment",
    "website": "https://trexquant.com",
    "careersUrl": "https://trexquant.com/careers",
-   "ats": "other",
+   "ats": "trexquant",
    "apiEndpoint": "https://trexquant.com/api/get-jobs",
    "apiMethod": "GET",
    "apiBody": null,
    "status": "ok",
-   "notes": "Next.js SPA; /careers renders 'Loading Jobs Listings...' with no ATS string in the HTML. The listing is fetched client-side from https://trexquant.com/api/get-jobs (GET, returns {\"jobs\":[...]}, all 33 postings in one response, no pagination). Per-job detail incl. description/requirements: https://trexquant.com/api/get-jobs?shortcode={shortcode}. Underlying ATS is Workable (org 'trexquant'); job URLs are https://trexquant.workable.com/jobs/{id} and apply links are https://apply.workable.com/j/{shortcode}. Filter facets at https://trexquant.com/api/get-filters. /university-program is an academic partnership page only - no student job postings. Dropped for 3+ yrs: Linux Systems Engineer, Trading Systems Operations Engineer, Python Engineer-Trade Operations, QR-Execution; QR-Volatility (5+ yrs); plus Head/Co-Head/Senior/Lead/Experienced-Hire titles, recruiting and legal roles.",
+   "notes": "Next.js SPA; /careers renders 'Loading Jobs Listings...' with no ATS string in the HTML. The listing is fetched client-side from https://trexquant.com/api/get-jobs (GET, returns {\"jobs\":[...]}, all 33 postings in one response, no pagination). Per-job detail incl. description/requirements: https://trexquant.com/api/get-jobs?shortcode={shortcode}. Underlying ATS is Workable (org 'trexquant'); job URLs are https://trexquant.workable.com/jobs/{id} and apply links are https://apply.workable.com/j/{shortcode}. Filter facets at https://trexquant.com/api/get-filters. /university-program is an academic partnership page only - no student job postings. Dropped for 3+ yrs: Linux Systems Engineer, Trading Systems Operations Engineer, Python Engineer-Trade Operations, QR-Execution; QR-Volatility (5+ yrs); plus Head/Co-Head/Senior/Lead/Experienced-Hire titles, recruiting and legal roles. AUTOMATED 2026-09-02 via the `trexquant` fetcher on /api/get-jobs, the SPA's own proxy in front of Workable (33 postings, one response). 2026-09-02: the 20 not in jobs.json are all covered by the exclusions above - Experienced Hires, Head/Co-Head/Lead/Senior titles, the 3+/5+ yrs engineering roles, recruiting and legal - except the two 'IT Systems Engineer - End-User Support' postings (USA and India), which were dropped as end-user IT support rather than quant or trading engineering. Nothing added.",
    "jobCount": 13,
    "apiEndpoints": [
     {
-     "ats": "other",
+     "ats": "trexquant",
      "url": "https://trexquant.com/api/get-jobs",
      "method": "GET",
      "body": null

@@ -1278,6 +1278,64 @@
    "gradYears": [],
    "fit": "rolling",
    "archivedAt": "2026-09-02"
+  },
+  {
+   "id": "055bf9621ffa",
+   "firm": "Summit Securities Group",
+   "title": "Quantitative Trader - Global Session Coverage",
+   "url": "https://jobs.gem.com/ssg/am9icG9zdDr-WPjKbBkyd5A1GTupzqhe",
+   "locations": [
+    {
+     "city": "Remote",
+     "country": "USA"
+    }
+   ],
+   "regions": [
+    "Amérique du Nord"
+   ],
+   "type": "fulltime_junior",
+   "category": "QT",
+   "posted": "2026-06-08",
+   "start": null,
+   "snippet": "Remote quant trader covering Asian/non-US market hours: research and backtest trade ideas in Python, improve execution, analyze risk/P&L, manage live orders. Requires 2-6 years in a quantitatively oriented trading/execution/research role.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "html",
+   "startYear": null,
+   "startMonth": null,
+   "startCandidates": [],
+   "gradYears": [],
+   "fit": "rolling",
+   "archivedAt": "2026-09-02"
+  },
+  {
+   "id": "c662a67964e6",
+   "firm": "Tokka Labs",
+   "title": "Junior Quant Trader (Night Shift)",
+   "url": "https://tokkalabs.hire.trakstar.com/jobs/fk0zzjn/",
+   "locations": [
+    {
+     "city": "Singapore",
+     "country": "Singapore"
+    }
+   ],
+   "regions": [
+    "Asie-Pacifique"
+   ],
+   "type": "fulltime_junior",
+   "category": "QT",
+   "posted": null,
+   "start": null,
+   "snippet": "Execution Trader in Singapore office working night shifts to cover 24/7 overseas markets; monitor live HFT systems, execute and oversee high-frequency strategies. Ideal candidate has 1-3 years HFT experience, strong interest in markets and technology. Crypto prop firm / market maker.",
+   "firstSeen": "2026-08-23",
+   "seenScan": "baseline",
+   "source": "html",
+   "startYear": null,
+   "startMonth": null,
+   "startCandidates": [],
+   "gradYears": [],
+   "fit": "rolling",
+   "archivedAt": "2026-09-02"
   }
  ]
 }

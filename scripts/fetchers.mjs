@@ -406,6 +406,172 @@ export const FETCHERS = {
     }
     return [...out.values()];
   },
+
+  async oraclecloud(ep) {
+    // Oracle Recruiting Cloud (Oracle Cloud HCM), ex. tenant Cantor/BGC.
+    // L'offset vit à l'intérieur du paramètre `finder=findReqs;...`, pas comme
+    // paramètre de query à part — d'où le remplacement par regex.
+    const site = (ep.url.match(/siteNumber=(CX_\d+)/) || [])[1];
+    if (!site) throw new Error('siteNumber=CX_… absent de l\'endpoint');
+    const origin = new URL(ep.url).origin;
+    const out = new Map();
+    let total = null;
+    for (let offset = 0; total === null || offset < total; offset += 25) {
+      const url = ep.url.replace(/offset=\d+/, `offset=${offset}`);
+      const d = await fetchJson(url, { headers: { 'User-Agent': BROWSER_UA } });
+      const item = (d.items || [])[0] || {};
+      total = item.TotalJobsCount ?? 0;
+      const list = item.requisitionList || [];
+      if (!list.length) break;
+      for (const j of list) {
+        const jobUrl = `${origin}/hcmUI/CandidateExperience/en/sites/${site}/job/${j.Id}`;
+        const locs = [j.PrimaryLocation, ...(j.secondaryLocations || []).map(l => l.Name || l.LocationName)];
+        out.set(String(j.Id), { key: String(j.Id), title: j.Title, url: jobUrl, locations: [...new Set(locs.filter(Boolean))].join('; ') });
+      }
+    }
+    return [...out.values()];
+  },
+
+  async teamtailor(ep) {
+    // Teamtailor : le flux jobs.rss du site carrières liste toutes les annonces
+    // publiées, ce qui évite de parser la page rendue en JS.
+    const xml = await fetchText(ep.url, { headers: { 'User-Agent': BROWSER_UA } });
+    const out = new Map();
+    for (const m of xml.matchAll(/<item>([\s\S]*?)<\/item>/gi)) {
+      const it = m[1];
+      const pick = tag => {
+        const r = it.match(new RegExp(`<${tag}[^>]*>([\\s\\S]*?)</${tag}>`, 'i'));
+        return r ? stripTags(r[1].replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1')) : '';
+      };
+      const url = pick('link');
+      const title = pick('title');
+      if (!url || !title) continue;
+      const key = normUrl(url);
+      if (!out.has(key)) out.set(key, { key, title, url, locations: pick('tt:location') });
+    }
+    return [...out.values()];
+  },
+
+  async jobvite(ep) {
+    // Jobvite. `nl=0` coupe la redirection vers le site carrières de marque
+    // (celui de Quantlab renvoie un 403 S3) et sert le HTML brut du board.
+    const html = await fetchText(withParam(ep.url, 'nl', 0), { headers: { 'User-Agent': BROWSER_UA } });
+    const out = new Map();
+    for (const a of anchors(html, ep.url, /\/job\/[A-Za-z0-9]+/)) {
+      const jobUrl = a.href.split(/[?#]/)[0];
+      const key = normUrl(jobUrl);
+      if (a.title && !out.has(key)) out.set(key, { key, title: a.title, url: jobUrl, locations: '' });
+    }
+    return [...out.values()];
+  },
+
+  async gresearch(ep) {
+    // gresearch.com/vacancies/ : chaque page de listing porte l'accordéon COMPLET
+    // des postes (un groupe par équipe), donc /vacancies/page/N/ est inutile.
+    const html = await fetchText(ep.url, { headers: { 'User-Agent': BROWSER_UA } });
+    const out = new Map();
+    for (const m of html.matchAll(/<a\b([^>]*class="c-vacancy-result"[^>]*)>([\s\S]*?)<\/a>/gi)) {
+      const href = (m[1].match(/href="([^"]+)"/) || [])[1];
+      const title = stripTags((m[2].match(/c-vacancy-result__title"[^>]*>([\s\S]*?)<\/span>/) || [])[1] || '');
+      const loc = stripTags((m[2].match(/c-vacancy-result__location"[^>]*>([\s\S]*?)<\/span>/) || [])[1] || '');
+      if (!href || !title) continue;
+      const jobUrl = new URL(decodeEntities(href), ep.url).toString();
+      const key = normUrl(jobUrl);
+      if (!out.has(key)) out.set(key, { key, title, url: jobUrl, locations: loc });
+    }
+    return [...out.values()];
+  },
+
+  async rsj(ep) {
+    // rsj.com/en/career.html : page statique, les postes sont les liens /cz/*.html
+    // listés sous l'ancre « Available Jobs » (annonces en tchèque).
+    const html = await fetchText(ep.url, { headers: { 'User-Agent': BROWSER_UA } });
+    const start = html.indexOf('section-available-jobs');
+    const section = start === -1 ? html : html.slice(start);
+    const out = new Map();
+    for (const a of anchors(section, ep.url, /\/cz\/[a-z0-9-]+\.html$/)) {
+      const key = normUrl(a.href);
+      if (a.title && !out.has(key)) out.set(key, { key, title: a.title, url: a.href, locations: '' });
+    }
+    return [...out.values()];
+  },
+
+  async rippling(ep) {
+    // Rippling ATS. api.rippling.com sert le board en JSON ; ats.rippling.com,
+    // lui, est rendu en JS. L'URL publique d'une offre est portée par le champ.
+    const d = await fetchJson(ep.url, { headers: { 'User-Agent': BROWSER_UA } });
+    const items = Array.isArray(d) ? d : (d.items || d.jobs || []);
+    return items.map(j => {
+      const jobUrl = j.url || j.applicationUrl;
+      return {
+        key: j.uuid || normUrl(jobUrl),
+        title: j.name || j.title,
+        url: jobUrl,
+        locations: (j.workLocation?.label) || [j.city, j.state, j.country].filter(Boolean).join(', ') || '',
+      };
+    }).filter(x => x.title && x.url);
+  },
+
+  async trakstar(ep) {
+    // Trakstar Hire (ex-Recruiterbox) : board rendu côté serveur, une carte par
+    // poste. Le titre et le lieu complets sont dans les attributs title=,
+    // le texte visible étant tronqué par CSS (« cut-text »).
+    const html = await fetchText(ep.url, { headers: { 'User-Agent': BROWSER_UA } });
+    const out = new Map();
+    for (const card of html.split('js-careers-page-job-list-item').slice(1)) {
+      const href = (card.match(/href="(\/jobs\/[^"]+)"/) || [])[1];
+      if (!href) continue;
+      const title = stripTags((card.match(/js-job-list-opening-name[^>]*title="([^"]*)"/) || [])[1] || '');
+      const loc = stripTags((card.match(/js-job-list-opening-loc[^>]*title="([^"]*)"/) || [])[1] || '');
+      const jobUrl = new URL(decodeEntities(href), ep.url).toString();
+      const key = normUrl(jobUrl);
+      if (title && !out.has(key)) out.set(key, { key, title, url: jobUrl, locations: loc });
+    }
+    return [...out.values()];
+  },
+
+  async gem(ep) {
+    // Gem (jobs.gem.com/{board}) : SPA, mais l'API GraphQL publique répond sans
+    // authentification. `ep.url` est la page du board, dont on tire le boardId.
+    const origin = new URL(ep.url).origin;
+    const boardId = new URL(ep.url).pathname.split('/').filter(Boolean)[0];
+    if (!boardId) throw new Error('boardId absent de l\'URL du board');
+    const query = 'query JobBoardList($boardId: String!) { oatsExternalJobPostings(boardId: $boardId) { jobPostings { extId title locations { name city isoCountry isRemote } } } }';
+    const d = await fetchJson(`${origin}/api/public/graphql`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'User-Agent': BROWSER_UA, Referer: ep.url, Origin: origin },
+      body: JSON.stringify({ operationName: 'JobBoardList', variables: { boardId }, query }),
+    });
+    return (d.data?.oatsExternalJobPostings?.jobPostings || []).map(j => {
+      const jobUrl = `${origin}/${boardId}/${j.extId}`;
+      const locs = (j.locations || []).map(l => l.name || [l.city, l.isoCountry].filter(Boolean).join(', '));
+      return { key: j.extId, title: j.title, url: jobUrl, locations: [...new Set(locs.filter(Boolean))].join('; ') };
+    });
+  },
+
+  async trexquant(ep) {
+    // trexquant.com/api/get-jobs : la SPA expose son propre proxy vers Workable,
+    // qui rend tout le board en une réponse.
+    const d = await fetchJson(ep.url, { headers: { 'User-Agent': BROWSER_UA } });
+    return (d.jobs || []).map(j => ({
+      key: j.shortcode || normUrl(j.url),
+      title: j.title,
+      url: j.url || j.shortlink,
+      locations: j.location?.location_str || [j.location?.city, j.location?.country].filter(Boolean).join(', ') || '',
+    })).filter(x => x.title && x.url);
+  },
+
+  async sparkim(ep) {
+    // sparkim.com : page carrières WordPress dont chaque poste est une page
+    // /role/{slug}/ — pas un enfant de /careers/, d'où un fetcher dédié.
+    const html = await fetchText(ep.url, { headers: { 'User-Agent': BROWSER_UA } });
+    const out = new Map();
+    for (const a of anchors(html, ep.url, /\/role\/[a-z0-9-]+\/?$/i)) {
+      const key = normUrl(a.href);
+      if (a.title && !out.has(key)) out.set(key, { key, title: a.title, url: a.href, locations: '' });
+    }
+    return [...out.values()];
+  },
 };
 
 /** Interroge tous les boards d'une firm et fusionne les postings. */

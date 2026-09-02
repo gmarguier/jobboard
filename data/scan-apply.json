@@ -1,134 +1,39 @@
 {
- "scanId": "2026-09-02T13:07:14.693Z",
+ "scanId": "2026-09-02T14:14:05.773Z",
  "add": [
   {
-   "firm": "Millennium",
-   "title": "Quantitative Researcher",
-   "url": "https://mlp.eightfold.ai/careers/job/755957852765",
+   "firm": "Cantor Fitzgerald",
+   "title": "Machine Learning",
+   "url": "https://hdow.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1003/job/249829",
    "locations": [
     {
      "city": "New York",
      "country": "USA"
-    }
-   ],
-   "type": "fulltime_junior",
-   "category": "QR",
-   "posted": "2026-07-30",
-   "snippet": "QR généraliste sur le desk NY ; PhD préféré mais non exigé, les Bachelor/Master exceptionnels sont considérés — aucune ancienneté requise. Python scientifique, stats/optimisation, évaluation rigoureuse des modèles."
-  },
-  {
-   "firm": "Millennium",
-   "title": "Quantitative Researcher",
-   "url": "https://mlp.eightfold.ai/careers/job/755956478721",
-   "locations": [
-    {
-     "city": "Hong Kong",
-     "country": "Hong Kong"
-    }
-   ],
-   "type": "fulltime_junior",
-   "category": "QR",
-   "posted": "2026-06-04",
-   "snippet": "QR Hong Kong : modèles d'investissement quantitatifs et algorithmes de ML. Qualifications ouvertes explicitement aux « undergraduates, Masters or doctorate », sans exigence d'années d'expérience."
-  },
-  {
-   "firm": "Millennium",
-   "title": "Quantitative Analyst, Quantitative Strategies",
-   "url": "https://mlp.eightfold.ai/careers/job/755956329760",
-   "locations": [
-    {
-     "city": "New York",
-     "country": "USA"
-    }
-   ],
-   "type": "fulltime_junior",
-   "category": "QR",
-   "posted": "2026-05-27",
-   "snippet": "Quantitative Strategies, New York. Licence/Master/PhD quantitatif, Python, données alternatives et KPI sectoriels ; 1–3 ans d'expérience « preferred » (donc accessible en sortie d'études)."
-  },
-  {
-   "firm": "Millennium",
-   "title": "Quantitative Analyst",
-   "url": "https://mlp.eightfold.ai/careers/job/755956237097",
-   "locations": [
-    {
-     "city": "Hong Kong",
-     "country": "Hong Kong"
-    }
-   ],
-   "type": "fulltime_junior",
-   "category": "QR",
-   "posted": "2026-05-20",
-   "snippet": "Recherche cash equities Asie avec volet AI/ML. Bachelor's ou Master's 1re classe en maths/physique/finance quantitative ; 1–3 ans d'expérience demandés."
-  },
-  {
-   "firm": "Millennium",
-   "title": "Quantitative Researcher, Equity",
-   "url": "https://mlp.eightfold.ai/careers/job/755943523992",
-   "locations": [
-    {
-     "city": "Singapore",
-     "country": "Singapore"
-    },
-    {
-     "city": "Hong Kong",
-     "country": "Hong Kong"
-    }
-   ],
-   "type": "fulltime_junior",
-   "category": "QR",
-   "posted": "2025-05-18",
-   "snippet": "Alpha research cash equities Asie. Master ou PhD quantitatif d'une université de premier rang ; 1–3 ans d'expérience « preferred ». Démarrage dès que possible."
-  },
-  {
-   "firm": "Millennium",
-   "title": "AI Engineer",
-   "url": "https://mlp.eightfold.ai/careers/job/755958192608",
-   "locations": [
-    {
-     "city": "Hong Kong",
-     "country": "Hong Kong"
-    },
-    {
-     "city": "Shanghai",
-     "country": "China"
     }
    ],
    "type": "fulltime_junior",
    "category": "ML",
-   "posted": "2026-08-20",
-   "snippet": "AI engineering (LLM, agents, RAG) au service des équipes de recherche. Bachelor/Master/PhD CS ou IA et 1–3 ans d'expérience professionnelle."
+   "posted": "2026-09-02",
+   "snippet": "ML Engineer chez Cantor Fitzgerald Technology Markets : applications LLM (prompting, tool-calling, retrieval) mises en production. Licence CS/maths/stats et expérience acquise « en stage, en recherche, en open source ou sur des projets personnels » — aucune ancienneté exigée."
   },
   {
-   "firm": "Millennium",
-   "title": "Enterprise Risk Researcher",
-   "url": "https://mlp.eightfold.ai/careers/job/755953927634",
+   "firm": "Boerboel Trading",
+   "title": "Production Engineer",
+   "url": "https://www.boerboeltrading.com/jobs.html?gh_jid=6119665004",
    "locations": [
     {
-     "city": "Bangalore",
-     "country": "India"
+     "city": "London",
+     "country": "UK"
     }
    ],
    "type": "fulltime_junior",
-   "category": "OTHER",
-   "posted": "2026-01-20",
-   "snippet": "Quantitative Risk Modeler junior (1–3 ans) : analytics multi-actifs, VaR et stress, back-testing centralisé pour l'Office of the CIO."
-  },
-  {
-   "firm": "Capital Fund Management",
-   "title": "Project Management Support - Technology",
-   "url": "https://jobs.cfm.com/job/Paris-Project-Management-Support-Technology-75/1364893955/",
-   "locations": [
-    {
-     "city": "Paris",
-     "country": "France"
-    }
-   ],
-   "type": "internship",
-   "category": "OTHER",
-   "posted": null,
-   "snippet": "Stage « Project Management Support » à la DSI (candidature par mail à nathalie.moreaudavid@cfm.com). Bac+5 gestion de projet/ingénierie, anglais courant, Power Apps/Jira appréciés ; aucune expérience exigée."
+   "category": "ENG",
+   "posted": "2026-07-20",
+   "snippet": "DevOps/production sur les systèmes de trading mid & back office à Londres : CI/CD, conteneurs, monitoring, serveurs Linux on-prem. Poste « hands-on », aucune ancienneté exigée dans l'annonce."
   }
  ],
- "removeIds": []
+ "removeIds": [
+  "c662a67964e6",
+  "055bf9621ffa"
+ ]
 }
