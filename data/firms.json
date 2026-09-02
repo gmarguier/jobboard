@@ -604,16 +604,16 @@
    "name": "Aspect Capital",
    "website": "https://www.aspectcapital.com",
    "careersUrl": "https://www.aspectcapital.com/careers/opportunities/",
-   "ats": "other",
+   "ats": "hibob",
    "apiEndpoint": "https://aspectcapital-94a5ce.careers.hibob.com/api/job-ad",
    "apiMethod": "GET",
    "apiBody": null,
    "status": "ok",
-   "notes": "ATS is HiBob (bob). Careers page redirects to https://aspectcapital-94a5ce.careers.hibob.com. API returns 401 to bare curl; do a 2-step: (1) curl -s -c cookies.txt -A '<browser UA>' https://aspectcapital-94a5ce.careers.hibob.com/ (2) curl -s -b cookies.txt -A '<same UA>' -H 'Referer: https://aspectcapital-94a5ce.careers.hibob.com/' https://aspectcapital-94a5ce.careers.hibob.com/api/job-ad . JSON key jobAdDetails[] has id/title/site/country/description/publishedAt; no pagination (5 jobs total on 2026-08-22). Job URL = https://aspectcapital-94a5ce.careers.hibob.com/jobs/{id}. Dropped: Senior Quantitative Developer - Python, Senior Software Engineer - Data (Senior), Software Engineer (4-6 yrs required), Systems Administrator (2-5 yrs, IT infra admin).",
+   "notes": "ATS is HiBob (bob). Careers page redirects to https://aspectcapital-94a5ce.careers.hibob.com. API returns 401 to bare curl; do a 2-step: (1) curl -s -c cookies.txt -A '<browser UA>' https://aspectcapital-94a5ce.careers.hibob.com/ (2) curl -s -b cookies.txt -A '<same UA>' -H 'Referer: https://aspectcapital-94a5ce.careers.hibob.com/' https://aspectcapital-94a5ce.careers.hibob.com/api/job-ad . JSON key jobAdDetails[] has id/title/site/country/description/publishedAt; no pagination (5 jobs total on 2026-08-22). Job URL = https://aspectcapital-94a5ce.careers.hibob.com/jobs/{id}. Dropped: Senior Quantitative Developer - Python, Senior Software Engineer - Data (Senior), Software Engineer (4-6 yrs required), Systems Administrator (2-5 yrs, IT infra admin). AUTOMATED 2026-09-02 via the `hibob` fetcher, which performs the 2-step described above: the 401 comes from Cloudflare's __cf_bm gate, so the fetcher loads the careers home first and replays its Set-Cookie. 2026-09-02: 5 postings; the 4 in the delta are exactly the four dropped above - nothing new.",
    "jobCount": 1,
    "apiEndpoints": [
     {
-     "ats": "other",
+     "ats": "hibob",
      "url": "https://aspectcapital-94a5ce.careers.hibob.com/api/job-ad",
      "method": "GET",
      "body": null
@@ -764,7 +764,7 @@
    "apiMethod": "GET",
    "apiBody": null,
    "status": "ok",
-   "notes": "Careers portal is a Salesforce Experience Cloud (Aura/LWC) site at https://bambusdev.my.site.com/s/ - NEEDS a headless browser (content is JS-rendered inside shadow DOM; plain curl returns an empty shell). Job list (141 roles on 2026-08-22, no pagination - all rendered on one page) loads via POST https://bambusdev.my.site.com/s/sfsites/aura?r=N&aura.ApexAction.execute=1 with framework-generated Aura tokens (not standalone curl-able); the JSON includes Requisition_Number__c, Experience_Level__c, locations and Job_Req_Title_in_URL__c. Detail URL pattern: https://bambusdev.my.site.com/s/details?jobReq={slug}_{REQ####} where slug = title with every non-alphanumeric char replaced by '-' and '+' replaced by '-plus-'; pattern verified by loading 10+ postings (REQ8460/8461/8462/8454/8446/8467/8337/8477/8325/7211/8268/6490 observed directly); remaining kept-job URLs constructed with the same verified rule. Posted dates derived from 'Posted N Days Ago' relative to 2026-08-22. Full-time roles are tagged Experience_Level__c='Experience Professionals'; generic experienced QR/engineer roles were excluded - only junior-marked full-time roles kept. Fundamental L/S analyst internship (REQ8475) and Catalyst Equities Grad Program (REQ8261, fundamental equities) excluded as non-quant categories.",
+   "notes": "Careers portal is a Salesforce Experience Cloud (Aura/LWC) site at https://bambusdev.my.site.com/s/ - NEEDS a headless browser (content is JS-rendered inside shadow DOM; plain curl returns an empty shell). Job list (141 roles on 2026-08-22, no pagination - all rendered on one page) loads via POST https://bambusdev.my.site.com/s/sfsites/aura?r=N&aura.ApexAction.execute=1 with framework-generated Aura tokens (not standalone curl-able); the JSON includes Requisition_Number__c, Experience_Level__c, locations and Job_Req_Title_in_URL__c. Detail URL pattern: https://bambusdev.my.site.com/s/details?jobReq={slug}_{REQ####} where slug = title with every non-alphanumeric char replaced by '-' and '+' replaced by '-plus-'; pattern verified by loading 10+ postings (REQ8460/8461/8462/8454/8446/8467/8337/8477/8325/7211/8268/6490 observed directly); remaining kept-job URLs constructed with the same verified rule. Posted dates derived from 'Posted N Days Ago' relative to 2026-08-22. Full-time roles are tagged Experience_Level__c='Experience Professionals'; generic experienced QR/engineer roles were excluded - only junior-marked full-time roles kept. Fundamental L/S analyst internship (REQ8475) and Catalyst Equities Grad Program (REQ8261, fundamental equities) excluded as non-quant categories. Re-checked 2026-09-02: still NOT automatable from a plain script, left on the manual list with Citadel. The list does come back from POST /s/sfsites/aura?r=N&aura.ApexAction.execute=1 as Job_Requisition__c records (Publish_Title__c, Experience_Level__c, Requisition_Number__c, Job_Req_Title_in_URL__c, Location__r.External_Name__c) - verified by observing the page in a browser - but the call is gated by a guest session token (a bare POST answers aura:invalidSession) and needs the framework-generated fwuid/app context, so it cannot be replayed by scan.mjs, which has no browser.",
    "jobCount": 20,
    "apiEndpoints": [
     {
@@ -1207,16 +1207,16 @@
    "name": "Capital Fund Management",
    "website": "https://www.cfm.com",
    "careersUrl": "https://jobs.cfm.com/",
-   "ats": "other",
+   "ats": "successfactors",
    "apiEndpoint": "https://jobs.cfm.com/search/?q=&locale=en_US&startrow=0",
    "apiMethod": "GET",
    "apiBody": null,
    "status": "ok",
-   "notes": "SAP SuccessFactors career site (jobs2web style) at jobs.cfm.com, linked from https://www.cfm.com/join-us. No JSON API: scrape HTML search results, 25 rows/page, paginate with &startrow=25,50,...; total shown as 'N Jobs' (28 at scrape). Job links match href=\"/job/...\". Detail pages are plain HTML (regex the text); posted dates not exposed. Internship categories also browsable at /go/Internship/9276655/ and /go/Stages/9277455/ (FR).",
-   "jobCount": 11,
+   "notes": "SAP SuccessFactors career site (jobs2web style) at jobs.cfm.com, linked from https://www.cfm.com/join-us. No JSON API: scrape HTML search results, 25 rows/page, paginate with &startrow=25,50,...; total shown as 'N Jobs' (28 at scrape). Job links match href=\"/job/...\". Detail pages are plain HTML (regex the text); posted dates not exposed. Internship categories also browsable at /go/Internship/9276655/ and /go/Stages/9277455/ (FR). AUTOMATED 2026-09-02 via the `successfactors` fetcher (25 rows/page, startrow pagination). Careful when parsing locations: the sr-only label carries the same 'section-location-value' string in its aria-describedby, so the id= attribute must be anchored. 2026-09-02 pass: 26 postings, 1 added (Project Management Support - Technology, an internship applied for by email to the PM team). Dropped: Quantitative Developer - Equity & Options Portfolio Construction (4 to 8 yrs), Data Support & Reliability Engineer (minimum 7 yrs), Equity research analyst Hardware & Semiconductors and Financials (4-7 yrs and fundamental equity), China - Alpha Capture Relationship Manager (5+ yrs), ML platform Engineer (senior platform role: 'influence without authority', team enablement), DevSecOps Engineer and GenAI Security Engineer (infosec SME), the four 'Senior ...' roles, and the non-quant business roles (China Data Sourcing Specialist, Treasury & Cash Management Specialist, Business Controller).",
+   "jobCount": 12,
    "apiEndpoints": [
     {
-     "ats": "other",
+     "ats": "successfactors",
      "url": "https://jobs.cfm.com/search/?q=&locale=en_US&startrow=0",
      "method": "GET",
      "body": null
@@ -2849,16 +2849,16 @@
    "name": "Group One Trading",
    "website": "https://group1.com",
    "careersUrl": "https://group1.com/careers/",
-   "ats": "other",
+   "ats": "applicantpro",
    "apiEndpoint": "https://group1.com/careers/",
    "apiMethod": "GET",
    "apiBody": null,
    "status": "ok",
-   "notes": "ATS is ApplicantPro (isolved Talent Acquisition), tenant group1.applicantpro.com; its /jobs/ board page is JS-only. Re-scrape: GET https://group1.com/careers/ and extract group1.applicantpro.com/jobs/<id> links (currently hardcoded, 3 postings). On each posting page the title+location are in og:title and a truncated description sits in the meta description / embedded \"description\" JSON; full body is JS-rendered. Trading Analyst note: 2026 cohort full, 2027 cohort recruiting opens fall 2026.",
+   "notes": "ATS is ApplicantPro (isolved Talent Acquisition), tenant group1.applicantpro.com; its /jobs/ board page is JS-only. Re-scrape: GET https://group1.com/careers/ and extract group1.applicantpro.com/jobs/<id> links (currently hardcoded, 3 postings). On each posting page the title+location are in og:title and a truncated description sits in the meta description / embedded \"description\" JSON; full body is JS-rendered. Trading Analyst note: 2026 cohort full, 2027 cohort recruiting opens fall 2026. AUTOMATED 2026-09-02 via the `applicantpro` fetcher, which reads the group1.applicantpro.com/jobs/<id> links off group1.com/careers/ (the tenant's own board page stays JS-only). 2026-09-02: 3 postings, all already tracked. Note: the firm re-published the Trading Analyst Intern posting under id 4192883 while jobs.json still carries id 3859850; both URLs still resolve to the same posting, so the entry was left alone rather than given a new job id.",
    "jobCount": 3,
    "apiEndpoints": [
     {
-     "ats": "other",
+     "ats": "applicantpro",
      "url": "https://group1.com/careers/",
      "method": "GET",
      "body": null
@@ -3849,17 +3849,23 @@
    "name": "Millennium",
    "website": "https://www.mlp.com",
    "careersUrl": "https://www.mlp.com/careers/",
-   "ats": "other",
+   "ats": "eightfold",
    "apiEndpoint": "https://app.eightfold.ai/api/apply/v2/jobs?domain=mlp.com&microsite=campus-site&num=10&start=0&sort_by=timestamp",
    "apiMethod": "GET",
    "apiBody": null,
    "status": "ok",
-   "notes": "ATS is Eightfold. Two boards: campus microsite (interns; add &microsite=campus-site; 59 postings) and main experienced board (drop &microsite; 225 postings): https://app.eightfold.ai/api/apply/v2/jobs?domain=mlp.com&num=10&start=0&sort_by=timestamp. num is capped at 10 - paginate start=0,10,20,... until 'count' reached; positions[] carries id/name/location/t_create/canonicalPositionUrl (https://mlp.eightfold.ai/careers/job/{id}). Single job with description: https://app.eightfold.ai/api/apply/v2/jobs/{id}?domain=mlp.com. Send a browser User-Agent. 2027 summer interns require graduating Dec 2027 - Jul 2028; max 2 applications per candidate. Main board is essentially all experienced hires (only vetted junior ones kept); dropped campus roles: Sector Specialist, Trading Services, Data & Research Strategy (Content Solutions), Broker Relations, Finance/Compliance/HR/Marketing/Ops interns.",
-   "jobCount": 33,
+   "notes": "ATS is Eightfold. Two boards: campus microsite (interns; add &microsite=campus-site; 59 postings) and main experienced board (drop &microsite; 225 postings): https://app.eightfold.ai/api/apply/v2/jobs?domain=mlp.com&num=10&start=0&sort_by=timestamp. num is capped at 10 - paginate start=0,10,20,... until 'count' reached; positions[] carries id/name/location/t_create/canonicalPositionUrl (https://mlp.eightfold.ai/careers/job/{id}). Single job with description: https://app.eightfold.ai/api/apply/v2/jobs/{id}?domain=mlp.com. Send a browser User-Agent. 2027 summer interns require graduating Dec 2027 - Jul 2028; max 2 applications per candidate. Main board is essentially all experienced hires (only vetted junior ones kept); dropped campus roles: Sector Specialist, Trading Services, Data & Research Strategy (Content Solutions), Broker Relations, Finance/Compliance/HR/Marketing/Ops interns. AUTOMATED 2026-09-02 via the `eightfold` fetcher; BOTH boards are wired as apiEndpoints (campus microsite + main), and fetchFirm merges them. 2026-09-02 pass: 278 postings, 7 junior roles added - Quantitative Researcher NY ('PhD preferred but not required', Bachelor's/Master's accepted, no years stated) and Quantitative Researcher HK ('Undergraduates, Masters or doctorate', no years stated); Quantitative Analyst Quantitative Strategies NY, Quantitative Analyst HK, Quantitative Researcher Equity SG/HK, AI Engineer HK/Shanghai and Enterprise Risk Researcher Bangalore (all 1-3 years, same bar as the Data Analyst role already kept). Dropped this pass: 2026 Commodity Research & Trading Analytics Intern Houston (fundamental commodity research, and its Dec 2026-Jul 2027 graduation window with a Fall 2026 start is out of range); AI Engineer NY and Bangalore (5+ and 5-6 years - the '1-2 years of AI' clause sits INSIDE a 5+ years data-engineering requirement, do not be fooled by a years regex); Quantitative Researcher Dublin (6+ yrs); Applied AI Engineer NY and Tel Aviv (3+ yrs); Quantitative Researcher - Rates, Quantitative Trader HK, ML Research Scientist NY and the rest of the main board as experienced hires; all other 2027 campus interns per the non-quant function list above.",
+   "jobCount": 40,
    "apiEndpoints": [
     {
-     "ats": "other",
+     "ats": "eightfold",
      "url": "https://app.eightfold.ai/api/apply/v2/jobs?domain=mlp.com&microsite=campus-site&num=10&start=0&sort_by=timestamp",
+     "method": "GET",
+     "body": null
+    },
+    {
+     "ats": "eightfold",
+     "url": "https://app.eightfold.ai/api/apply/v2/jobs?domain=mlp.com&num=10&start=0&sort_by=timestamp",
      "method": "GET",
      "body": null
     }
@@ -4431,16 +4437,16 @@
    "name": "Quadeye",
    "website": "https://www.quadeye.com",
    "careersUrl": "https://www.quadeye.com/careers/",
-   "ats": "other",
+   "ats": "zohorecruit",
    "apiEndpoint": "https://quadeye.zohorecruit.in/recruit/v2/public/Job_Openings?pagename=Careers&source=CareerSite",
    "apiMethod": "GET",
    "apiBody": null,
    "status": "ok",
-   "notes": "Zoho Recruit (India DC). Careers page embeds Zoho widget; the public JSON endpoint returns all postings in one response (24 seen, no pagination). Each record's $url is the posting page on career.quadeye.com; Date_Opened is MM/DD/YYYY; City/Country often missing (firm HQ is Gurgaon/Gurugram, India -- unstated locations flagged in snippets). Dropped: Linux Engineer L2/L3 (3+ yrs), Software Developer Fullstack (5+ yrs). '2028 Batch' interns target students graduating in 2028.",
+   "notes": "Zoho Recruit (India DC). Careers page embeds Zoho widget; the public JSON endpoint returns all postings in one response (24 seen, no pagination). Each record's $url is the posting page on career.quadeye.com; Date_Opened is MM/DD/YYYY; City/Country often missing (firm HQ is Gurgaon/Gurugram, India -- unstated locations flagged in snippets). Dropped: Linux Engineer L2/L3 (3+ yrs), Software Developer Fullstack (5+ yrs). '2028 Batch' interns target students graduating in 2028. AUTOMATED 2026-09-02 via the `zohorecruit` fetcher. 2026-09-02: 23 postings; the delta against jobs.json is exactly the two roles already dropped above (Linux Engineer L2/L3, Software Developer Fullstack) - nothing new.",
    "jobCount": 22,
    "apiEndpoints": [
     {
-     "ats": "other",
+     "ats": "zohorecruit",
      "url": "https://quadeye.zohorecruit.in/recruit/v2/public/Job_Openings?pagename=Careers&source=CareerSite",
      "method": "GET",
      "body": null
@@ -4806,16 +4812,16 @@
    "name": "Renaissance Technologies",
    "website": "https://www.rentec.com",
    "careersUrl": "https://www.rentec.com/Careers.action?jobs=true",
-   "ats": "custom_html",
+   "ats": "rentec",
    "apiEndpoint": "https://www.rentec.com/Careers.action?jobs=true",
    "apiMethod": "GET",
    "apiBody": null,
    "status": "ok",
-   "notes": "Custom server-rendered HTML, no ATS. GET careers URL, parse anchors href=/Careers.action?jobs=true&selectedPosition={id} (12 standing postings, no dates, no pagination). Each posting page is static HTML with a Skills/Qualifications section and salary range. Most roles state a degree but no years requirement (junior-accessible); Network Engineer asks min 2 yrs. Dropped Data Center Specialist (3+ yrs) and Security Engineer (infosec). No internships/graduate programme currently listed.",
+   "notes": "Custom server-rendered HTML, no ATS. GET careers URL, parse anchors href=/Careers.action?jobs=true&selectedPosition={id} (12 standing postings, no dates, no pagination). Each posting page is static HTML with a Skills/Qualifications section and salary range. Most roles state a degree but no years requirement (junior-accessible); Network Engineer asks min 2 yrs. Dropped Data Center Specialist (3+ yrs) and Security Engineer (infosec). No internships/graduate programme currently listed. AUTOMATED 2026-09-02 via the `rentec` fetcher (anchors carrying ?selectedPosition=). 2026-09-02: 12 postings, matching the 12 counted on 08-23; the 2 in the delta are Data Center Specialist and Security Engineer, already dropped above - nothing new. The listing exposes no location, so postings come back with an empty locations field.",
    "jobCount": 10,
    "apiEndpoints": [
     {
-     "ats": "custom_html",
+     "ats": "rentec",
      "url": "https://www.rentec.com/Careers.action?jobs=true",
      "method": "GET",
      "body": null
@@ -5685,16 +5691,16 @@
    "name": "Tradebot",
    "website": "https://www.tradebot.com",
    "careersUrl": "https://www.tradebot.com/careers",
-   "ats": "custom_html",
+   "ats": "tradebot",
    "apiEndpoint": "https://www.tradebot.com/careers",
    "apiMethod": "GET",
    "apiBody": null,
    "status": "ok",
-   "notes": "Wix site; curl -sL of /careers returns server-rendered HTML - parse the \"Tradebot Openings\" section for listing titles and the linked PDF under /_files/ugd/ for details. Single opening on 2026-08-23. Apply by emailing resume with GPA and ACT score to work@tradebot.com. Location not stated on page; Kansas City is firm HQ (in-person culture per PDF). PDF URL may change when the posting is refreshed.",
+   "notes": "Wix site; curl -sL of /careers returns server-rendered HTML - parse the \"Tradebot Openings\" section for listing titles and the linked PDF under /_files/ugd/ for details. Single opening on 2026-08-23. Apply by emailing resume with GPA and ACT score to work@tradebot.com. Location not stated on page; Kansas City is firm HQ (in-person culture per PDF). PDF URL may change when the posting is refreshed. AUTOMATED 2026-09-02 via the `tradebot` fetcher, which reads the anchors of the 'Tradebot Openings' section. Because the PDF URL changes whenever the posting is re-published, the fetcher keys a posting on its TITLE rather than its URL - otherwise every refresh of the file would surface as a brand-new offer. 2026-09-02: 1 posting, already tracked.",
    "jobCount": 1,
    "apiEndpoints": [
     {
-     "ats": "custom_html",
+     "ats": "tradebot",
      "url": "https://www.tradebot.com/careers",
      "method": "GET",
      "body": null
@@ -5841,16 +5847,16 @@
    "name": "Two Sigma",
    "website": "https://www.twosigma.com",
    "careersUrl": "https://www.twosigma.com/careers/",
-   "ats": "other",
+   "ats": "avature",
    "apiEndpoint": "https://careers.twosigma.com/careers/OpenRoles?jobRecordsPerPage=10&jobOffset=0",
    "apiMethod": "GET",
    "apiBody": null,
    "status": "ok",
-   "notes": "ATS is Avature (careers.twosigma.com, avature.js/avature.portal.* in the HTML); no public JSON API - scrape the HTML listing. MUST PAGINATE: jobRecordsPerPage is capped at 10 server-side (passing 100 is ignored), so loop jobOffset=0,10,20,... until a page yields no JobDetail links. As of 2026-08-23 that is offsets 0-40 = 50 roles total, listed alphabetically. Each result row carries Title / Location / Function / Experience Level; Experience Level is one of Internship, Early Careers, Experienced - filter on the first two for junior roles. Job links match href=\"https://careers.twosigma.com/careers/JobDetail/{slug}/{id}\". Only 4 of the 50 roles are Internship or Early Careers; the other 46 are tagged Experienced and were dropped. Offices seen: New York and London.",
+   "notes": "ATS is Avature (careers.twosigma.com, avature.js/avature.portal.* in the HTML); no public JSON API - scrape the HTML listing. MUST PAGINATE: jobRecordsPerPage is capped at 10 server-side (passing 100 is ignored), so loop jobOffset=0,10,20,... until a page yields no JobDetail links. As of 2026-08-23 that is offsets 0-40 = 50 roles total, listed alphabetically. Each result row carries Title / Location / Function / Experience Level; Experience Level is one of Internship, Early Careers, Experienced - filter on the first two for junior roles. Job links match href=\"https://careers.twosigma.com/careers/JobDetail/{slug}/{id}\". Only 4 of the 50 roles are Internship or Early Careers; the other 46 are tagged Experienced and were dropped. Offices seen: New York and London. AUTOMATED 2026-09-02 via the `avature` fetcher (scripts/fetchers.mjs): the paginated OpenRoles HTML is parsed directly, no more manual pass. Re-verified 2026-09-02: 47 roles (down from 50 on 08-23), of which exactly 4 are Internship/Early Careers - the 4 already tracked - and 43 Experienced, so the Experience Level rule above still holds and nothing was added.",
    "jobCount": 4,
    "apiEndpoints": [
     {
-     "ats": "other",
+     "ats": "avature",
      "url": "https://careers.twosigma.com/careers/OpenRoles?jobRecordsPerPage=10&jobOffset=0",
      "method": "GET",
      "body": null
@@ -5880,14 +5886,21 @@
    "name": "Valkyrie Trading",
    "website": "https://www.valkyrietrading.com",
    "careersUrl": "https://www.valkyrietrading.com/careers/",
-   "ats": "custom_html",
-   "apiEndpoint": null,
+   "ats": "childlinks",
+   "apiEndpoint": "https://www.valkyrietrading.com/careers/",
    "apiMethod": "GET",
    "apiBody": null,
    "status": "ok",
-   "notes": "Custom WordPress careers page, no ATS and no JSON API - scrape https://www.valkyrietrading.com/careers/ (single page, no pagination, header states the open-position count, 6 as of 2026-08-23). Each role links to https://www.valkyrietrading.com/careers/{slug}/ containing 'What You'll Do' / 'What You'll Need' / salary range. IMPORTANT: the careers page explicitly states 'We will not be offering fall, spring or summer internships in the 2026-2027 academic year' - no internships at all this cycle, only a possible one-week Trading Boot Camp announced via a notify form. All roles are Chicago (425 S. Financial Place, Suite 3200) and require unrestricted US work authorisation with no visa sponsorship. Dropped: Senior Derivatives Trader (Experienced) and Quantitative Researcher (Experienced).",
+   "notes": "Custom WordPress careers page, no ATS and no JSON API - scrape https://www.valkyrietrading.com/careers/ (single page, no pagination, header states the open-position count, 6 as of 2026-08-23). Each role links to https://www.valkyrietrading.com/careers/{slug}/ containing 'What You'll Do' / 'What You'll Need' / salary range. IMPORTANT: the careers page explicitly states 'We will not be offering fall, spring or summer internships in the 2026-2027 academic year' - no internships at all this cycle, only a possible one-week Trading Boot Camp announced via a notify form. All roles are Chicago (425 S. Financial Place, Suite 3200) and require unrestricted US work authorisation with no visa sponsorship. Dropped: Senior Derivatives Trader (Experienced) and Quantitative Researcher (Experienced). AUTOMATED 2026-09-02 via the generic `childlinks` fetcher: every posting is a child page of /careers/, so the fetcher keeps the same-origin links strictly below the board URL. Caveat: an editorial sub-page of /careers/ would be picked up as a posting - check the count if it drifts. 2026-09-02: 6 postings; the 2 in the delta are the two Experienced roles already dropped above - nothing new.",
    "jobCount": 4,
-   "apiEndpoints": [],
+   "apiEndpoints": [
+    {
+     "ats": "childlinks",
+     "url": "https://www.valkyrietrading.com/careers/",
+     "method": "GET",
+     "body": null
+    }
+   ],
    "firmType": "prop",
    "tier": "C",
    "selectivity": 4,

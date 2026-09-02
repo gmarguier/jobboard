@@ -1,532 +1,133 @@
 {
- "scanId": "2026-09-02T11:41:56.765Z",
+ "scanId": "2026-09-02T13:07:14.693Z",
  "add": [
   {
-   "firm": "Jane Street",
-   "title": "IT Operations Engineer",
-   "url": "https://www.janestreet.com/join-jane-street/position/8651274002/",
-   "locations": [
-    {
-     "city": "London",
-     "country": "UK"
-    }
-   ],
-   "type": "summer_internship",
-   "category": "ENG",
-   "posted": null,
-   "start": "June-September",
-   "snippet": null,
-   "source": "api"
-  },
-  {
-   "firm": "Jane Street",
-   "title": "IT Operations Engineer",
-   "url": "https://www.janestreet.com/join-jane-street/position/8641377002/",
-   "locations": [
-    {
-     "city": "Hong Kong",
-     "country": "Hong Kong"
-    }
-   ],
-   "type": "summer_internship",
-   "category": "ENG",
-   "posted": null,
-   "start": "May-August",
-   "snippet": null,
-   "source": "api"
-  },
-  {
-   "firm": "Jane Street",
-   "title": "IT Operations Engineer",
-   "url": "https://www.janestreet.com/join-jane-street/position/8377831002/",
-   "locations": [
-    {
-     "city": "Hong Kong",
-     "country": "Hong Kong"
-    }
-   ],
-   "type": "offcycle_internship",
-   "category": "ENG",
-   "posted": null,
-   "start": "December-February",
-   "snippet": "Stage off-cycle décembre-février de l'équipe Technology.",
-   "source": "api"
-  },
-  {
-   "firm": "Jane Street",
-   "title": "IT Operations Engineer",
-   "url": "https://www.janestreet.com/join-jane-street/position/8641280002/",
+   "firm": "Millennium",
+   "title": "Quantitative Researcher",
+   "url": "https://mlp.eightfold.ai/careers/job/755957852765",
    "locations": [
     {
      "city": "New York",
      "country": "USA"
     }
    ],
-   "type": "summer_internship",
-   "category": "ENG",
-   "posted": null,
-   "start": "May-August",
-   "snippet": null,
-   "source": "api"
+   "type": "fulltime_junior",
+   "category": "QR",
+   "posted": "2026-07-30",
+   "snippet": "QR généraliste sur le desk NY ; PhD préféré mais non exigé, les Bachelor/Master exceptionnels sont considérés — aucune ancienneté requise. Python scientifique, stats/optimisation, évaluation rigoureuse des modèles."
   },
   {
-   "firm": "Susquehanna International Group",
-   "title": "Technology Co-op with Drexel University",
-   "url": "https://careers.sig.com/jobs/11422",
-   "locations": [
-    {
-     "city": "Bala Cynwyd",
-     "country": "USA"
-    }
-   ],
-   "type": "internship",
-   "category": "ENG",
-   "posted": null,
-   "start": null,
-   "snippet": "Co-op en partenariat avec Drexel University.",
-   "source": "api"
-  },
-  {
-   "firm": "Susquehanna International Group",
-   "title": "AI Co-op with Drexel University",
-   "url": "https://careers.sig.com/jobs/11368",
-   "locations": [
-    {
-     "city": "Bala Cynwyd",
-     "country": "USA"
-    }
-   ],
-   "type": "internship",
-   "category": "ML",
-   "posted": null,
-   "start": null,
-   "snippet": "Co-op IA en partenariat avec Drexel University.",
-   "source": "api"
-  },
-  {
-   "firm": "Susquehanna International Group",
-   "title": "Macro Analyst Internship: Summer 2027",
-   "url": "https://careers.sig.com/jobs/11362",
+   "firm": "Millennium",
+   "title": "Quantitative Researcher",
+   "url": "https://mlp.eightfold.ai/careers/job/755956478721",
    "locations": [
     {
      "city": "Hong Kong",
      "country": "Hong Kong"
     }
    ],
-   "type": "summer_internship",
+   "type": "fulltime_junior",
    "category": "QR",
-   "posted": null,
-   "start": "Summer 2027",
-   "snippet": null,
-   "source": "api"
+   "posted": "2026-06-04",
+   "snippet": "QR Hong Kong : modèles d'investissement quantitatifs et algorithmes de ML. Qualifications ouvertes explicitement aux « undergraduates, Masters or doctorate », sans exigence d'années d'expérience."
   },
   {
-   "firm": "Susquehanna International Group",
-   "title": "Equity Analyst Internship: Summer 2027",
-   "url": "https://careers.sig.com/jobs/11361",
+   "firm": "Millennium",
+   "title": "Quantitative Analyst, Quantitative Strategies",
+   "url": "https://mlp.eightfold.ai/careers/job/755956329760",
+   "locations": [
+    {
+     "city": "New York",
+     "country": "USA"
+    }
+   ],
+   "type": "fulltime_junior",
+   "category": "QR",
+   "posted": "2026-05-27",
+   "snippet": "Quantitative Strategies, New York. Licence/Master/PhD quantitatif, Python, données alternatives et KPI sectoriels ; 1–3 ans d'expérience « preferred » (donc accessible en sortie d'études)."
+  },
+  {
+   "firm": "Millennium",
+   "title": "Quantitative Analyst",
+   "url": "https://mlp.eightfold.ai/careers/job/755956237097",
    "locations": [
     {
      "city": "Hong Kong",
      "country": "Hong Kong"
     }
    ],
-   "type": "summer_internship",
+   "type": "fulltime_junior",
    "category": "QR",
-   "posted": null,
-   "start": "Summer 2027",
-   "snippet": null,
-   "source": "api"
+   "posted": "2026-05-20",
+   "snippet": "Recherche cash equities Asie avec volet AI/ML. Bachelor's ou Master's 1re classe en maths/physique/finance quantitative ; 1–3 ans d'expérience demandés."
   },
   {
-   "firm": "Susquehanna International Group",
-   "title": "Equity Analyst Internship: Summer 2027",
-   "url": "https://careers.sig.com/jobs/11216",
-   "locations": [
-    {
-     "city": "Chicago",
-     "country": "USA"
-    }
-   ],
-   "type": "summer_internship",
-   "category": "QR",
-   "posted": null,
-   "start": "Summer 2027",
-   "snippet": null,
-   "source": "api"
-  },
-  {
-   "firm": "Susquehanna International Group",
-   "title": "Equity Research Internship: Summer 2027",
-   "url": "https://careers.sig.com/jobs/11085",
-   "locations": [
-    {
-     "city": "London",
-     "country": "UK"
-    }
-   ],
-   "type": "summer_internship",
-   "category": "QR",
-   "posted": null,
-   "start": "Summer 2027",
-   "snippet": null,
-   "source": "api"
-  },
-  {
-   "firm": "Susquehanna International Group",
-   "title": "Equity Research Analyst Internship: Summer 2027",
-   "url": "https://careers.sig.com/jobs/10876",
-   "locations": [
-    {
-     "city": "Dublin",
-     "country": "Ireland"
-    }
-   ],
-   "type": "summer_internship",
-   "category": "QR",
-   "posted": null,
-   "start": "Summer 2027",
-   "snippet": null,
-   "source": "api"
-  },
-  {
-   "firm": "Susquehanna International Group",
-   "title": "Analytics Internship: Fall 2026",
-   "url": "https://careers.sig.com/jobs/11099",
-   "locations": [
-    {
-     "city": "Richmond",
-     "country": "USA"
-    }
-   ],
-   "type": "offcycle_internship",
-   "category": "OTHER",
-   "posted": null,
-   "start": "Fall 2026",
-   "snippet": null,
-   "source": "api"
-  },
-  {
-   "firm": "Susquehanna International Group",
-   "title": "Credit Analyst Internship: Summer 2027",
-   "url": "https://careers.sig.com/jobs/10794",
-   "locations": [
-    {
-     "city": "Bala Cynwyd",
-     "country": "USA"
-    }
-   ],
-   "type": "summer_internship",
-   "category": "OTHER",
-   "posted": null,
-   "start": "Summer 2027",
-   "snippet": null,
-   "source": "api"
-  },
-  {
-   "firm": "Susquehanna International Group",
-   "title": "Growth Equity Portfolio Value Creation Analyst Internship: Summer 2027",
-   "url": "https://careers.sig.com/jobs/10716",
-   "locations": [
-    {
-     "city": "Bala Cynwyd",
-     "country": "USA"
-    }
-   ],
-   "type": "summer_internship",
-   "category": "OTHER",
-   "posted": null,
-   "start": "Summer 2027",
-   "snippet": null,
-   "source": "api"
-  },
-  {
-   "firm": "Susquehanna International Group",
-   "title": "Equity Analyst Internship: Summer 2027",
-   "url": "https://careers.sig.com/jobs/10723",
-   "locations": [
-    {
-     "city": "Bala Cynwyd",
-     "country": "USA"
-    }
-   ],
-   "type": "summer_internship",
-   "category": "QR",
-   "posted": null,
-   "start": "Summer 2027",
-   "snippet": null,
-   "source": "api"
-  },
-  {
-   "firm": "Susquehanna International Group",
-   "title": "Macro Analyst Internship: Summer 2027",
-   "url": "https://careers.sig.com/jobs/10724",
-   "locations": [
-    {
-     "city": "Bala Cynwyd",
-     "country": "USA"
-    }
-   ],
-   "type": "summer_internship",
-   "category": "QR",
-   "posted": null,
-   "start": "Summer 2027",
-   "snippet": null,
-   "source": "api"
-  },
-  {
-   "firm": "Susquehanna International Group",
-   "title": "Macro Analyst Internship: Summer 2027",
-   "url": "https://careers.sig.com/jobs/10725",
-   "locations": [
-    {
-     "city": "New York",
-     "country": "USA"
-    }
-   ],
-   "type": "summer_internship",
-   "category": "QR",
-   "posted": null,
-   "start": "Summer 2027",
-   "snippet": null,
-   "source": "api"
-  },
-  {
-   "firm": "Susquehanna International Group",
-   "title": "Equity Analyst Internship: Summer 2027",
-   "url": "https://careers.sig.com/jobs/10573",
-   "locations": [
-    {
-     "city": "New York",
-     "country": "USA"
-    }
-   ],
-   "type": "summer_internship",
-   "category": "QR",
-   "posted": null,
-   "start": "Summer 2027",
-   "snippet": null,
-   "source": "api"
-  },
-  {
-   "firm": "DE Shaw",
-   "title": "Fundamental Analyst – Convertible Arbitrage Strategy (Singapore)",
-   "url": "https://www.deshaw.com/careers/fundamental-analyst-convertible-arbitrage-strategy-singapore-5786",
+   "firm": "Millennium",
+   "title": "Quantitative Researcher, Equity",
+   "url": "https://mlp.eightfold.ai/careers/job/755943523992",
    "locations": [
     {
      "city": "Singapore",
      "country": "Singapore"
+    },
+    {
+     "city": "Hong Kong",
+     "country": "Hong Kong"
     }
    ],
    "type": "fulltime_junior",
    "category": "QR",
-   "posted": null,
-   "start": null,
-   "snippet": "Stratégie Convertible Arbitrage.",
-   "source": "api"
+   "posted": "2025-05-18",
+   "snippet": "Alpha research cash equities Asie. Master ou PhD quantitatif d'une université de premier rang ; 1–3 ans d'expérience « preferred ». Démarrage dès que possible."
   },
   {
-   "firm": "DE Shaw",
-   "title": "Applied AI Engineer",
-   "url": "https://www.deshaw.com/careers/applied-ai-engineer-5375",
+   "firm": "Millennium",
+   "title": "AI Engineer",
+   "url": "https://mlp.eightfold.ai/careers/job/755958192608",
    "locations": [
     {
-     "city": "New York",
-     "country": "USA"
+     "city": "Hong Kong",
+     "country": "Hong Kong"
+    },
+    {
+     "city": "Shanghai",
+     "country": "China"
     }
    ],
    "type": "fulltime_junior",
    "category": "ML",
-   "posted": null,
-   "start": null,
-   "snippet": "Équipe Quantitative Strategies.",
-   "source": "api"
+   "posted": "2026-08-20",
+   "snippet": "AI engineering (LLM, agents, RAG) au service des équipes de recherche. Bachelor/Master/PhD CS ou IA et 1–3 ans d'expérience professionnelle."
   },
   {
-   "firm": "DE Shaw",
-   "title": "Data Center Engineer (North/Central New Jersey)",
-   "url": "https://www.deshaw.com/careers/data-center-engineer-north-central-new-jersey-5990",
+   "firm": "Millennium",
+   "title": "Enterprise Risk Researcher",
+   "url": "https://mlp.eightfold.ai/careers/job/755953927634",
    "locations": [
     {
-     "city": "Piscataway",
-     "country": "USA"
-    }
-   ],
-   "type": "fulltime_junior",
-   "category": "ENG",
-   "posted": null,
-   "start": null,
-   "snippet": null,
-   "source": "api"
-  },
-  {
-   "firm": "DE Shaw",
-   "title": "Systems: Cloud Engineer",
-   "url": "https://www.deshaw.com/careers/systems-cloud-engineer-5983",
-   "locations": [
-    {
-     "city": "New York",
-     "country": "USA"
-    }
-   ],
-   "type": "fulltime_junior",
-   "category": "ENG",
-   "posted": null,
-   "start": null,
-   "snippet": "Équipe Quantitative Strategies.",
-   "source": "api"
-  },
-  {
-   "firm": "DE Shaw",
-   "title": "All Positions in Quantitative Strategies",
-   "url": "https://www.deshaw.com/careers/all-positions-in-quantitative-strategies-3456",
-   "locations": [
-    {
-     "city": "New York",
-     "country": "USA"
-    }
-   ],
-   "type": "fulltime_junior",
-   "category": "QR",
-   "posted": null,
-   "start": null,
-   "snippet": "Candidature générale à l'ensemble des postes de Quantitative Strategies.",
-   "source": "api"
-  },
-  {
-   "firm": "DE Shaw",
-   "title": "Software Developer: Developer Experience",
-   "url": "https://www.deshaw.com/careers/software-developer-developer-experience-5866",
-   "locations": [
-    {
-     "city": "New York",
-     "country": "USA"
-    }
-   ],
-   "type": "fulltime_junior",
-   "category": "ENG",
-   "posted": null,
-   "start": null,
-   "snippet": null,
-   "source": "api"
-  },
-  {
-   "firm": "DE Shaw",
-   "title": "Rotational Associates Program",
-   "url": "https://www.deshaw.com/careers/rotational-associates-program-6020",
-   "locations": [
-    {
-     "city": "New York",
-     "country": "USA"
-    }
-   ],
-   "type": "graduate",
-   "category": "OTHER",
-   "posted": null,
-   "start": null,
-   "snippet": "Programme de rotations pour profils en début de carrière.",
-   "source": "api"
-  },
-  {
-   "firm": "DE Shaw",
-   "title": "Data Center Infrastructure Engineer, Liquid Cooling - North/Central New Jersey",
-   "url": "https://www.deshaw.com/careers/data-center-infrastructure-engineer-liquid-cooling-north-central-new-jersey-5857",
-   "locations": [
-    {
-     "city": "Totowa",
-     "country": "USA"
-    }
-   ],
-   "type": "fulltime_junior",
-   "category": "ENG",
-   "posted": null,
-   "start": null,
-   "snippet": null,
-   "source": "api"
-  },
-  {
-   "firm": "DE Shaw",
-   "title": "Infrastructure Software Engineer: Application Engineering",
-   "url": "https://www.deshaw.com/careers/infrastructure-software-engineer-application-engineering-5829",
-   "locations": [
-    {
-     "city": "New York",
-     "country": "USA"
-    }
-   ],
-   "type": "fulltime_junior",
-   "category": "ENG",
-   "posted": null,
-   "start": null,
-   "snippet": null,
-   "source": "api"
-  },
-  {
-   "firm": "DE Shaw",
-   "title": "Full-Stack Software Engineer: Application Engineering",
-   "url": "https://www.deshaw.com/careers/full-stack-software-engineer-application-engineering-5828",
-   "locations": [
-    {
-     "city": "New York",
-     "country": "USA"
-    }
-   ],
-   "type": "fulltime_junior",
-   "category": "ENG",
-   "posted": null,
-   "start": null,
-   "snippet": null,
-   "source": "api"
-  },
-  {
-   "firm": "DE Shaw",
-   "title": "AI Product Engineer – Venture Studio (Startup Incubator)",
-   "url": "https://www.deshaw.com/careers/ai-product-engineer-venture-studio-startup-incubator-5545",
-   "locations": [
-    {
-     "city": "New York",
-     "country": "USA"
-    }
-   ],
-   "type": "fulltime_junior",
-   "category": "ENG",
-   "posted": null,
-   "start": null,
-   "snippet": "Venture Studio (incubateur interne).",
-   "source": "api"
-  },
-  {
-   "firm": "GTS",
-   "title": "Quantitative Trader - 2027 Graduates",
-   "url": "https://careers-gtsx.icims.com/jobs/1608/quantitative-trader---2027-graduates/job",
-   "locations": [
-    {
-     "city": "New York",
-     "country": "USA"
-    }
-   ],
-   "type": "graduate",
-   "category": "QT",
-   "posted": null,
-   "start": "2027",
-   "snippet": "Programme Quantitative Trader du groupe ETF, pour les diplômés 2027.",
-   "source": "api"
-  },
-  {
-   "firm": "GTS",
-   "title": "Operations Analyst",
-   "url": "https://careers-gtsx.icims.com/jobs/1603/operations-analyst/job",
-   "locations": [
-    {
-     "city": "Montevideo",
-     "country": "Uruguay"
+     "city": "Bangalore",
+     "country": "India"
     }
    ],
    "type": "fulltime_junior",
    "category": "OTHER",
+   "posted": "2026-01-20",
+   "snippet": "Quantitative Risk Modeler junior (1–3 ans) : analytics multi-actifs, VaR et stress, back-testing centralisé pour l'Office of the CIO."
+  },
+  {
+   "firm": "Capital Fund Management",
+   "title": "Project Management Support - Technology",
+   "url": "https://jobs.cfm.com/job/Paris-Project-Management-Support-Technology-75/1364893955/",
+   "locations": [
+    {
+     "city": "Paris",
+     "country": "France"
+    }
+   ],
+   "type": "internship",
+   "category": "OTHER",
    "posted": null,
-   "start": null,
-   "snippet": "GTS Asset Management, opérations quotidiennes.",
-   "source": "api"
+   "snippet": "Stage « Project Management Support » à la DSI (candidature par mail à nathalie.moreaudavid@cfm.com). Bac+5 gestion de projet/ingénierie, anglais courant, Power Apps/Jira appréciés ; aucune expérience exigée."
   }
  ],
  "removeIds": []
