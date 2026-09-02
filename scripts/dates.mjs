@@ -121,6 +121,18 @@ function isRange(text) {
   return re.test(text || '');
 }
 
+/**
+ * Une période sans millésime — « December-February », « Summer », « June - August » —
+ * décrit un cycle annuel qui se répète, pas une date manquante. Le déduire du texte
+ * plutôt que de le faire juger offre par offre évite que deux stages identiques
+ * reçoivent des verdicts opposés.
+ */
+const PERIOD_WORDS = new RegExp(
+  `\\b(${[...Object.keys(MONTHS), ...Object.keys(SEASONS)].join('|')})\\b`, 'i');
+function looksRecurring(startText) {
+  return !!startText && PERIOD_WORDS.test(startText) && !/20[2-3][0-9]/.test(startText);
+}
+
 const atOrAfter = c =>
   c.year > AVAILABLE_FROM.year ||
   (c.year === AVAILABLE_FROM.year && c.month != null && c.month >= AVAILABLE_FROM.month);
@@ -133,6 +145,7 @@ const strictlyBefore = c =>
  * Renvoie { startYear, startMonth, startCandidates, gradYears, fit }.
  * fit : "ok" (démarre après sa disponibilité) · "too_early" (toutes les sessions
  * sont passées pour lui) · "uncertain" (bonne année, mois inconnu) ·
+ * "recurring" (programme annuel sans millésime : l'édition qui le concerne reste à venir) ·
  * "rolling" (poste permanent sans session datée) · "unknown" (poste daté, date illisible).
  */
 export function parseDates(job) {
@@ -150,7 +163,11 @@ export function parseDates(job) {
 
   let fit;
   if (!candidates.length) {
-    fit = job.type === 'fulltime_junior' ? 'rolling' : 'unknown';
+    // Un programme récurrent sans millésime (« December-February » chez Jane Street)
+    // n'est pas une date manquante : c'est un cycle annuel dont l'édition qui le
+    // concerne reste à venir. Le confondre avec "unknown" masquerait ses meilleures pistes.
+    if (job.recurring || looksRecurring(job.start)) fit = 'recurring';
+    else fit = job.type === 'fulltime_junior' ? 'rolling' : 'unknown';
   } else if (candidates.some(atOrAfter)) {
     fit = 'ok';
   } else if (candidates.every(strictlyBefore)) {

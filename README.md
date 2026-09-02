@@ -9,10 +9,31 @@ Jobboard personnel recensant les offres junior — **stages off-cycle en priorit
 Page statique servie par GitHub Pages, installable sur l'écran d'accueil (PWA) et consultable hors ligne.
 
 - **Nouvelles** — les offres apparues au dernier scan. Elles rejoignent le flux commun au scan suivant.
-- **Offres** — toute la base, triée par pertinence (off-cycle en tête). Filtres : catégorie, type, région, firm, recherche plein texte, favoris ⭐.
-- **Firms** — les 177 firms suivies, leur ATS et leur nombre d'offres, avec lien direct vers leur page carrières.
+- **Offres** — toute la base, triée par pertinence (off-cycle en tête). Filtres : catégorie, type de poste, type de firm, compatibilité de calendrier, région, firm, recherche plein texte, favoris ⭐.
+- **Firms** — les 177 firms suivies, groupées par type d'activité, avec leur nombre d'offres et un lien vers leur page carrières.
+- **Paysage** — les firms rangées par tier (S/A/B/C) au sein de chaque domaine, pour situer d'un coup d'œil une maison inconnue.
 
-Les summer internships sont collectés mais **masqués par défaut** (incompatibles avec une sortie d'Oxford en septembre 2027) ; le chip « Summer » les réaffiche.
+Deux filtres sont actifs par défaut parce qu'ils écartent des offres inaccessibles : les **summer internships** (incompatibles avec une sortie d'Oxford en septembre 2027) et les offres **« Trop tôt »** (dont la session démarre avant cette date). Les chips correspondants les réaffichent.
+
+### Dates de début
+
+Chaque offre porte une date de début analysée et un verdict de compatibilité :
+
+| Verdict | Sens |
+|---|---|
+| `ok` | démarre en septembre 2027 ou après |
+| `too_early` | toutes les sessions annoncées sont antérieures — masqué par défaut |
+| `uncertain` | bonne année, mois non précisé |
+| `rolling` | poste permanent, sans session datée |
+| `unknown` | poste daté, mais aucune date lisible sur l'annonce |
+
+Le piège que gère `scripts/dates.mjs` : les annonces mélangent la date de **début** et l'année de **diplôme** exigée. « Stage été 2027 pour étudiants diplômés en 2028 » démarre en 2027, pas en 2028.
+
+### Fiche de firm
+
+Un bouton « La firm ⓘ » sur chaque offre ouvre une fiche : positionnement en quelques phrases, tier, sélectivité et rémunération junior **comparées à la médiane des firms du même type**, taille, siège, voie d'entrée junior, type d'entretien, firms comparables.
+
+Ces trois notes sont des **estimations construites à partir de la réputation publique du secteur**, pas des données officielles — utile pour distinguer une grande maison d'une boutique, à ne pas prendre pour une grille salariale.
 
 ### Installer sur iPhone
 
@@ -48,6 +69,7 @@ node scripts/apply-scan.mjs     # applique data/scan-apply.json à la base
 node scripts/merge.mjs          # refusionne data/raw/batch-*.json (scrape initial)
 node scripts/fix-endpoints.mjs  # reconstruit les recettes + applique les overrides
 node scripts/tag-source.mjs     # marque chaque offre 'api' ou 'html'
+node scripts/parse-dates.mjs    # (re)calcule les dates de début et le verdict fit
 ```
 
 Après le scrape initial, seuls les deux premiers et `apply-scan` servent au quotidien.

@@ -29,17 +29,20 @@
   // Calculée par scripts/dates.mjs et stockée dans le champ `fit`.
   const FITS = {
     ok:        { short: 'Compatible',   long: 'Démarre après septembre 2027',            color: 'var(--accent)' },
+    recurring: { short: 'Récurrent',    long: 'Programme annuel : vise l\'édition qui te concerne', color: 'var(--qr)' },
     uncertain: { short: '2027 ?',       long: 'Bonne année, mois non précisé',           color: 'var(--fit-maybe)' },
     unknown:   { short: 'Date ?',       long: 'Aucune date de début annoncée',           color: 'var(--other)' },
     rolling:   { short: 'Au fil de l\'eau', long: 'Poste permanent, sans session datée', color: 'var(--other)' },
     too_early: { short: 'Trop tôt',     long: 'Démarre avant sa disponibilité',          color: 'var(--danger)' },
   };
-  const FIT_ORDER = ['ok', 'uncertain', 'unknown', 'rolling', 'too_early'];
+  const FIT_ORDER = ['ok', 'recurring', 'uncertain', 'unknown', 'rolling', 'too_early'];
   const MONTH_LABELS = ['', 'janv.', 'févr.', 'mars', 'avr.', 'mai', 'juin', 'juil.', 'août', 'sept.', 'oct.', 'nov.', 'déc.'];
 
   // Priorité de tri « Pertinence » : off-cycle d'abord (seuls compatibles avec
   // une sortie d'Oxford en sept. 2027), summers en dernier.
   const TYPE_PRIORITY = { offcycle_internship: 0, internship: 1, graduate: 2, fulltime_junior: 3, summer_internship: 4 };
+  // À type égal, une offre dont la date colle passe devant une offre sans date.
+  const FIT_PRIORITY = { ok: 0, recurring: 1, uncertain: 2, unknown: 3, rolling: 4, too_early: 5 };
   const PAGE_SIZE = 40;
 
   const state = {
@@ -124,16 +127,24 @@
     } else {
       copy.sort((a, b) =>
         (TYPE_PRIORITY[a.type] ?? 9) - (TYPE_PRIORITY[b.type] ?? 9) ||
+        (FIT_PRIORITY[a.fit] ?? 9) - (FIT_PRIORITY[b.fit] ?? 9) ||
         (b.firstSeen || '').localeCompare(a.firstSeen || '') ||
         a.firm.localeCompare(b.firm));
     }
     return copy;
   }
 
+  /** « vue le 23/08 » — la ligne d'actions est trop étroite pour une date ISO. */
+  function shortSeen(iso) {
+    if (!iso) return '';
+    const [, m, d] = iso.split('-');
+    return `vue ${d}/${m}`;
+  }
+
   /** Libellé court et lisible de la date de début, dérivé du parsing. */
   function startLabel(j) {
     const fit = FITS[j.fit] || FITS.unknown;
-    if (j.fit === 'rolling' || j.fit === 'unknown') return fit.short;
+    if (j.fit === 'rolling' || j.fit === 'unknown' || j.fit === 'recurring') return fit.short;
     if (j.startYear && j.startMonth) return `${MONTH_LABELS[j.startMonth]} ${j.startYear}`;
     if (j.startYear) return String(j.startYear);
     return fit.short;
@@ -158,10 +169,10 @@
       ${j.snippet ? `<div class="job-snippet">${esc(j.snippet)}</div>` : ''}
       <div class="job-actions">
         <a class="apply-btn" href="${esc(j.url)}" target="_blank" rel="noopener">Postuler ↗</a>
-        <button class="card-btn" data-act="firm" title="Fiche de la firm">La firm ⓘ</button>
+        <button class="card-btn" data-act="firm" title="Fiche de la firm">Firm ⓘ</button>
         <button class="card-btn fav${isFav ? ' on' : ''}" data-act="fav" title="Favori">★</button>
         <button class="card-btn" data-act="hide" title="Masquer">✕</button>
-        <span class="job-date">vue le ${esc(j.firstSeen || '?')}</span>
+        <span class="job-date" title="première fois vue le ${esc(j.firstSeen || '?')}">${esc(shortSeen(j.firstSeen))}</span>
       </div>
     </article>`;
   }

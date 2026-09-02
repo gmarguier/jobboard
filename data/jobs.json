@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-02T10:04:39.842Z",
+ "generated": "2026-09-02T10:29:05.875Z",
  "lastScanId": "baseline",
  "jobs": [
   {
@@ -303,7 +303,7 @@
    "type": "internship",
    "category": "QT",
    "posted": "2026-07-19",
-   "start": "2027 (in-person program weeks, Chicago)",
+   "start": "2027",
    "snippet": "Early-insight campus program (not a full internship): week-long in-person 'Sneak Peek' at Chicago HQ. For BS/MS/PhD students in STEM/economics graduating between December 2027 and August 2028.",
    "firstSeen": "2026-08-23",
    "seenScan": "baseline",
@@ -320,7 +320,8 @@
     2027,
     2028
    ],
-   "fit": "uncertain"
+   "fit": "uncertain",
+   "startEvidence": "\"we will be hosting multiple Trading Sneak Peek Weeks throughout 2027, rather than a traditional summer internship\""
   },
   {
    "id": "8be4d93a39e7",
@@ -855,7 +856,8 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "unknown",
+   "startEvidence": "aucune date sur la page : site vitrine sans mois, saison, année ni durée"
   },
   {
    "id": "26efc9cc200c",
@@ -883,7 +885,8 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "unknown",
+   "startEvidence": "aucune date sur la page : site vitrine sans mois, saison, année ni durée"
   },
   {
    "id": "4772abad5fbc",
@@ -2534,7 +2537,7 @@
    "type": "internship",
    "category": "QR",
    "posted": "2025-06-30",
-   "start": null,
+   "start": "Summer or Winter",
    "snippet": "New York internship, season unspecified (standing posting). Open to undergrad/grad students at top universities with strong quant background (engineering, maths, physics, fin-eng). Develop trading strategies with PMs/researchers using probability, statistics, ML; data work and research infra.",
    "firstSeen": "2026-08-23",
    "seenScan": "baseline",
@@ -2543,7 +2546,9 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring",
+   "recurring": true,
+   "startEvidence": "\"This role is open year-round: we welcome applications for summer internships, winter-break internships, or part-time roles\""
   },
   {
    "id": "ecbcc1e6ae79",
@@ -4267,7 +4272,8 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "unknown",
+   "startEvidence": "page accessible mais sans description : seulement \"Posting Date 07/03/2025\", aucune date de début"
   },
   {
    "id": "3124c64d7866",
@@ -4407,7 +4413,8 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "unknown",
+   "startEvidence": "\"an intern for a duration of 6 months\" : durée seule, aucune date de début"
   },
   {
    "id": "3b1412493660",
@@ -4435,7 +4442,8 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "unknown",
+   "startEvidence": "aucune date sur la page : ni mois, ni saison, ni durée mentionnés"
   },
   {
    "id": "06104fa1cac7",
@@ -4463,7 +4471,8 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "unknown",
+   "startEvidence": "aucune date sur la page : ni mois, ni saison, ni durée mentionnés"
   },
   {
    "id": "2b2709dac874",
@@ -4547,7 +4556,8 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "unknown",
+   "startEvidence": "aucune date sur la page : ni mois, ni saison, ni durée mentionnés"
   },
   {
    "id": "40161b39acba",
@@ -5240,7 +5250,9 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring",
+   "recurring": true,
+   "startEvidence": "\"Opportunities may be available from time to time in any location in which the business is based\""
   },
   {
    "id": "feed39466403",
@@ -5344,7 +5356,7 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring"
   },
   {
    "id": "28b70f22d7c1",
@@ -5384,7 +5396,9 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring",
+   "recurring": true,
+   "startEvidence": "\"Opportunities may be available from time to time in any location in which the business is based\""
   },
   {
    "id": "9abafb784a49",
@@ -5412,7 +5426,9 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring",
+   "recurring": true,
+   "startEvidence": "\"Opportunities may be available from time to time in any location in which the business is based\""
   },
   {
    "id": "7184b34d7ba7",
@@ -5440,7 +5456,9 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring",
+   "recurring": true,
+   "startEvidence": "Aucune date sur la page ; « Opportunities may be available from time to time » (annonce permanente, sans millésime)."
   },
   {
    "id": "8dbf21f81c39",
@@ -5504,7 +5522,7 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring"
   },
   {
    "id": "3a22687c4bdf",
@@ -5636,7 +5654,7 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring"
   },
   {
    "id": "ad6571f8821c",
@@ -5672,7 +5690,7 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring"
   },
   {
    "id": "e59d5621a1c9",
@@ -5744,7 +5762,7 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring"
   },
   {
    "id": "16ce70d1e0fd",
@@ -5784,7 +5802,7 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring"
   },
   {
    "id": "b4492ef00403",
@@ -5952,7 +5970,7 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring"
   },
   {
    "id": "173b0502ebc9",
@@ -5984,7 +6002,7 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring"
   },
   {
    "id": "39c326b6c306",
@@ -6024,7 +6042,7 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring"
   },
   {
    "id": "e97dce15a033",
@@ -6060,7 +6078,9 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring",
+   "recurring": true,
+   "startEvidence": "Aucune date sur la page ; « Opportunities may be available from time to time » (annonce permanente, sans millésime)."
   },
   {
    "id": "3111d32006a0",
@@ -6120,7 +6140,9 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring",
+   "recurring": true,
+   "startEvidence": "Aucune date sur la page ; « Opportunities may be available from time to time » (annonce permanente, sans millésime)."
   },
   {
    "id": "a13e8b9bfc60",
@@ -6148,7 +6170,9 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring",
+   "recurring": true,
+   "startEvidence": "Aucune date sur la page ; « Opportunities may be available from time to time » (annonce permanente, sans millésime)."
   },
   {
    "id": "7394e1d9191f",
@@ -6181,7 +6205,8 @@
     }
    ],
    "gradYears": [],
-   "fit": "uncertain"
+   "fit": "uncertain",
+   "startEvidence": "Titre de la page : « Sector Data Scientist – 2027 Intern (US) » ; corps sans autre date."
   },
   {
    "id": "df23518bf12c",
@@ -6283,7 +6308,7 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring"
   },
   {
    "id": "8ea59b9f4ccf",
@@ -6311,7 +6336,9 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring",
+   "recurring": true,
+   "startEvidence": "Durée seule : « an 11-week program » ; aucune date de début, ni saison ni année sur la page."
   },
   {
    "id": "749ad0fb61ca",
@@ -6351,7 +6378,9 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring",
+   "recurring": true,
+   "startEvidence": "Durée seule : « an 11-week program » ; aucune date de début, ni saison ni année sur la page."
   },
   {
    "id": "897c34f88ef5",
@@ -6455,7 +6484,9 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring",
+   "recurring": true,
+   "startEvidence": "Aucune date sur la page : « a structured program », sans mois, saison ni année."
   },
   {
    "id": "30383a1cfeee",
@@ -6601,7 +6632,9 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring",
+   "recurring": true,
+   "startEvidence": "Durée seule : « an 11-week program » rotating across Credit and Rates ; aucune date de début."
   },
   {
    "id": "07adb87bf90c",
@@ -6736,7 +6769,9 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring",
+   "recurring": true,
+   "startEvidence": "Durée seule : « an 11-week program » ; aucune date de début sur la page."
   },
   {
    "id": "1949774607e1",
@@ -6814,7 +6849,9 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring",
+   "recurring": true,
+   "startEvidence": "Durée seule : « an 12-week program » ; « Opportunities may be available from time to time »."
   },
   {
    "id": "61133fb07533",
@@ -6842,7 +6879,9 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring",
+   "recurring": true,
+   "startEvidence": "Durée seule : « an 11-week program » ; aucune date de début sur la page."
   },
   {
    "id": "84aa209f5293",
@@ -6865,7 +6904,7 @@
    "type": "internship",
    "category": "ENG",
    "posted": null,
-   "start": null,
+   "start": "June - August",
    "snippet": "Paid 11-week FPGA internship; next-generation ultra-low-latency FPGA solutions for market making.",
    "firstSeen": "2026-08-23",
    "seenScan": "baseline",
@@ -6874,7 +6913,9 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring",
+   "recurring": true,
+   "startEvidence": "Formulaire de candidature : « Our signature internship program takes place June through August » (aucun millésime)."
   },
   {
    "id": "8d5b5e048ce3",
@@ -7112,7 +7153,7 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring"
   },
   {
    "id": "cb86f6fef4dd",
@@ -7144,7 +7185,7 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring"
   },
   {
    "id": "e16ec91a1ea2",
@@ -7254,7 +7295,9 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring",
+   "recurring": true,
+   "startEvidence": "aucune date sur la page ; seule mention : « an 11 week program »."
   },
   {
    "id": "0eb1c59cf93a",
@@ -7345,7 +7388,7 @@
    "type": "internship",
    "category": "QR",
    "posted": null,
-   "start": null,
+   "start": "June - August",
    "snippet": "Paid 11-week internship for BS/MS students; market modeling and trading strategy research with QR teams.",
    "firstSeen": "2026-08-23",
    "seenScan": "baseline",
@@ -7354,7 +7397,9 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring",
+   "recurring": true,
+   "startEvidence": "Formulaire de candidature : « Our signature internship program takes place June through August » (aucun millésime)."
   },
   {
    "id": "ecdc7cecd00e",
@@ -7382,7 +7427,9 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring",
+   "recurring": true,
+   "startEvidence": "aucune date sur la page ; pas de formulaire de candidature ni de période mentionnée."
   },
   {
    "id": "18de99d4c674",
@@ -7409,7 +7456,7 @@
    "type": "internship",
    "category": "QR",
    "posted": null,
-   "start": null,
+   "start": "June - August",
    "snippet": "Paid 11-week internship for BS/MS students; quantitative research with the team modeling markets and building trading strategies.",
    "firstSeen": "2026-08-23",
    "seenScan": "baseline",
@@ -7418,7 +7465,9 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring",
+   "recurring": true,
+   "startEvidence": "Formulaire de candidature : « Our signature internship program takes place June through August » (aucun millésime)."
   },
   {
    "id": "8dc3e9222f1d",
@@ -7450,7 +7499,9 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring",
+   "recurring": true,
+   "startEvidence": "aucune date sur la page ; seule mention : « an 11 week program »."
   },
   {
    "id": "406b5f183bbb",
@@ -7542,7 +7593,7 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring"
   },
   {
    "id": "35d0d6658218",
@@ -7674,7 +7725,7 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring"
   },
   {
    "id": "1cc590fcc3df",
@@ -7706,7 +7757,7 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring"
   },
   {
    "id": "7d8afe5a2faa",
@@ -7738,7 +7789,7 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring"
   },
   {
    "id": "0ebad116d0ce",
@@ -7866,7 +7917,7 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring"
   },
   {
    "id": "ab2e02ce589b",
@@ -7969,7 +8020,7 @@
    "type": "internship",
    "category": "QT",
    "posted": null,
-   "start": null,
+   "start": "June - August",
    "snippet": "Paid 11-week quantitative trading internship in Hong Kong; real-time risk decisions with predictive analytics.",
    "firstSeen": "2026-08-23",
    "seenScan": "baseline",
@@ -7978,7 +8029,9 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring",
+   "recurring": true,
+   "startEvidence": "Formulaire de candidature : « Our signature internship program takes place June through August » (aucun millésime)."
   },
   {
    "id": "9f3c327d6582",
@@ -8006,7 +8059,9 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring",
+   "recurring": true,
+   "startEvidence": "aucune date sur la page ; seule mention : « an 11 week program »."
   },
   {
    "id": "8e7b13c25c9d",
@@ -8029,7 +8084,7 @@
    "type": "internship",
    "category": "QT",
    "posted": null,
-   "start": null,
+   "start": "June - August",
    "snippet": "Paid 11-week quantitative trading internship; work with markets and trading experts using predictive analytics.",
    "firstSeen": "2026-08-23",
    "seenScan": "baseline",
@@ -8038,7 +8093,9 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring",
+   "recurring": true,
+   "startEvidence": "Formulaire de candidature : « Our signature internship program takes place June through August » (aucun millésime)."
   },
   {
    "id": "555b29b20424",
@@ -8122,7 +8179,7 @@
    "type": "internship",
    "category": "QT",
    "posted": null,
-   "start": null,
+   "start": "June - August",
    "snippet": "11-week trading internship; real-time risk decisions and trade execution at scale with predictive analytics on the Rates desk.",
    "firstSeen": "2026-08-23",
    "seenScan": "baseline",
@@ -8131,7 +8188,9 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring",
+   "recurring": true,
+   "startEvidence": "Formulaire de candidature : « Our signature internship program takes place June through August » (aucun millésime)."
   },
   {
    "id": "162f16c7f0a3",
@@ -8301,7 +8360,7 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring"
   },
   {
    "id": "e00e136993bb",
@@ -8329,7 +8388,9 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring",
+   "recurring": true,
+   "startEvidence": "aucune date sur la page ; seule mention : « an 11 week program »."
   },
   {
    "id": "ea62eedd4725",
@@ -8348,7 +8409,7 @@
    "type": "internship",
    "category": "ENG",
    "posted": null,
-   "start": null,
+   "start": "June - August",
    "snippet": "Paid 11-week internship in London; production trading technology in small teams.",
    "firstSeen": "2026-08-23",
    "seenScan": "baseline",
@@ -8357,7 +8418,9 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring",
+   "recurring": true,
+   "startEvidence": "Formulaire de candidature : « Our signature internship program takes place June through August » (aucun millésime)."
   },
   {
    "id": "a1acd09e4bfb",
@@ -8389,7 +8452,9 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring",
+   "recurring": true,
+   "startEvidence": "\"an 11-week program\" — no month, season or year anywhere on the page"
   },
   {
    "id": "72409d275a71",
@@ -8620,7 +8685,9 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring",
+   "recurring": true,
+   "startEvidence": "\"an 11-week program\" — no month, season or year anywhere on the page"
   },
   {
    "id": "09838ccb8fa2",
@@ -8734,7 +8801,9 @@
    "gradYears": [
     2028
    ],
-   "fit": "unknown"
+   "fit": "recurring",
+   "recurring": true,
+   "startEvidence": "\"we have designed an 8-week program\"; no start date, only \"reviewing applications on Monday, 27 July\""
   },
   {
    "id": "b70873dbfc98",
@@ -12587,7 +12656,9 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring",
+   "recurring": true,
+   "startEvidence": "aucune date sur la page (ni saison, ni mois, ni durée)"
   },
   {
    "id": "0f2471dd4b60",
@@ -13513,16 +13584,26 @@
    "type": "internship",
    "category": "QT",
    "posted": "2026-08-04",
-   "start": null,
+   "start": "June 2027 - July 2027 or December 2027 - January 2028",
    "snippet": "Trading internship on the APAC trading floor: educational courses, trading simulations, and strategy design through project-based work using quantitative modelling. Season/duration not stated.",
    "firstSeen": "2026-08-23",
    "seenScan": "baseline",
    "source": "api",
-   "startYear": null,
-   "startMonth": null,
-   "startCandidates": [],
+   "startYear": 2028,
+   "startMonth": 1,
+   "startCandidates": [
+    {
+     "year": 2027,
+     "month": 6
+    },
+    {
+     "year": 2028,
+     "month": 1
+    }
+   ],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "ok",
+   "startEvidence": "\"Internship Duration: June 2027 - July 2027/ December 2027 - January 2028... will last for 6 weeks\""
   },
   {
    "id": "a819830f7c49",
@@ -13994,7 +14075,9 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring",
+   "recurring": true,
+   "startEvidence": "\"based out of our Geneva or Zug offices for 6 months and starting as soon as the candidate is available\""
   },
   {
    "id": "1d573cccfc08",
@@ -14054,7 +14137,9 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring",
+   "recurring": true,
+   "startEvidence": "\"seeking a Software Engineer Intern (AI Internal Tools) for a 6-month internship\" — aucune date de début donnée"
   },
   {
    "id": "aa36882084fc",
@@ -14731,7 +14816,9 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring",
+   "recurring": true,
+   "startEvidence": "\"apply by end of March... before the internship start date\" — la date de début elle-même n'est jamais donnée"
   },
   {
    "id": "62b421c97d21",
@@ -14787,7 +14874,9 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring",
+   "recurring": true,
+   "startEvidence": "\"apply by end of March... before the internship start date\" — la date de début elle-même n'est jamais donnée"
   },
   {
    "id": "1e9080462436",
@@ -17184,18 +17273,24 @@
    "type": "internship",
    "category": "ENG",
    "posted": "2026-07-31",
-   "start": null,
+   "start": "April 2027 - September 2027",
    "snippet": "In your penultimate year of study in Computer Science, Software Engineering, Electrical Engineering degree or a related field, graduating in 2028 Familiarity with a hardware descriptive language (VHDL, Verilog or SystemVerilog). Additionally, proficiency in a software programming language would be…",
    "firstSeen": "2026-08-23",
    "seenScan": "baseline",
    "source": "api",
-   "startYear": null,
-   "startMonth": null,
-   "startCandidates": [],
+   "startYear": 2027,
+   "startMonth": 4,
+   "startCandidates": [
+    {
+     "year": 2027,
+     "month": 4
+    }
+   ],
    "gradYears": [
     2028
    ],
-   "fit": "unknown"
+   "fit": "too_early",
+   "startEvidence": "\"length of the internship is variable from 3-months up to 6-months between April and September 2027\""
   },
   {
    "id": "cc87f26df457",
@@ -18466,7 +18561,9 @@
     2026,
     2027
    ],
-   "fit": "unknown"
+   "fit": "recurring",
+   "recurring": true,
+   "startEvidence": "\"Available to work part-time (20-hours per week)... for at least 6-months\" — aucune date de début"
   },
   {
    "id": "379e116e3255",
@@ -18578,7 +18675,9 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring",
+   "recurring": true,
+   "startEvidence": "\"Commitment to working a minimum of 20 hours per week\" — aucune date de début sur la page"
   },
   {
    "id": "474d3a7b608c",
@@ -18662,7 +18761,7 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring"
   },
   {
    "id": "c5694caa5506",
@@ -18690,7 +18789,7 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring"
   },
   {
    "id": "9f6996edd2a7",
@@ -18718,7 +18817,7 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring"
   },
   {
    "id": "a0a3a69fa2ba",
@@ -18746,7 +18845,7 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring"
   },
   {
    "id": "30c79241658c",
@@ -18830,7 +18929,9 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring",
+   "recurring": true,
+   "startEvidence": "Page heading: \"Linux Engineer Internship, December-February\" (HKG) ; aucune annee indiquee, programme annuel recurrent."
   },
   {
    "id": "003b6160c790",
@@ -18858,7 +18959,7 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring"
   },
   {
    "id": "89ef8679462d",
@@ -18886,7 +18987,7 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring"
   },
   {
    "id": "6538db4ac97e",
@@ -18942,7 +19043,7 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring"
   },
   {
    "id": "d30276b98a69",
@@ -19026,7 +19127,7 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring"
   },
   {
    "id": "a68740f1f1e1",
@@ -19054,7 +19155,7 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring"
   },
   {
    "id": "40b930882839",
@@ -19082,7 +19183,7 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring"
   },
   {
    "id": "81ea0af8f193",
@@ -19138,7 +19239,7 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring"
   },
   {
    "id": "2813a07b4bb8",
@@ -19194,7 +19295,8 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring",
+   "startEvidence": "Page inaccessible (HTTP 404) ; offre absente aussi du catalogue janestreet.com/jobs/main.json."
   },
   {
    "id": "ff0d355b4287",
@@ -19222,7 +19324,7 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring"
   },
   {
    "id": "6be4e8ae0ab3",
@@ -19278,7 +19380,7 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring"
   },
   {
    "id": "5549ba7f3b9d",
@@ -19306,7 +19408,7 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring"
   },
   {
    "id": "30c367eb4cc9",
@@ -19334,7 +19436,8 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring",
+   "startEvidence": "Page inaccessible (HTTP 404) ; offre absente aussi du catalogue janestreet.com/jobs/main.json."
   },
   {
    "id": "3c0305b00088",
@@ -19362,7 +19465,7 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring"
   },
   {
    "id": "ce4fd65a1a33",
@@ -19446,7 +19549,7 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring"
   },
   {
    "id": "d3c54f5fa810",
@@ -19474,7 +19577,7 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring"
   },
   {
    "id": "059bcf1bea63",
@@ -19530,7 +19633,8 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring",
+   "startEvidence": "Page inaccessible (HTTP 404) ; offre absente aussi du catalogue janestreet.com/jobs/main.json."
   },
   {
    "id": "f36b6f0e23b8",
@@ -19614,7 +19718,7 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring"
   },
   {
    "id": "8cb74bce532a",
@@ -19642,7 +19746,7 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring"
   },
   {
    "id": "cad552d25fa1",
@@ -19670,7 +19774,7 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring"
   },
   {
    "id": "ea0120f15d88",
@@ -19726,7 +19830,7 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring"
   },
   {
    "id": "95f0e7d8fd41",
@@ -19754,7 +19858,7 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring"
   },
   {
    "id": "a3e0367fb262",
@@ -19782,7 +19886,7 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring"
   },
   {
    "id": "a9e0b8ce6185",
@@ -19810,7 +19914,9 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring",
+   "recurring": true,
+   "startEvidence": "\"Software Engineer Internship, January-April\" (Winter Co-Op, NYC) ; aucune annee, programme co-op recurrent."
   },
   {
    "id": "7b6623b93e22",
@@ -19838,7 +19944,7 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring"
   },
   {
    "id": "e2025fcf7bee",
@@ -19866,7 +19972,7 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring"
   },
   {
    "id": "939fd86a5b0c",
@@ -19894,7 +20000,7 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring"
   },
   {
    "id": "60b368675b6f",
@@ -20006,7 +20112,7 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring"
   },
   {
    "id": "dd42c9330265",
@@ -20034,7 +20140,8 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring",
+   "startEvidence": "Page inaccessible (HTTP 404) ; offre absente aussi du catalogue janestreet.com/jobs/main.json."
   },
   {
    "id": "7746ee2cfe7c",
@@ -20146,7 +20253,7 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring"
   },
   {
    "id": "f440425215c1",
@@ -20174,7 +20281,7 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring"
   },
   {
    "id": "6d1ce2904550",
@@ -20202,7 +20309,8 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring",
+   "startEvidence": "Page inaccessible (HTTP 404) ; offre absente aussi du catalogue janestreet.com/jobs/main.json."
   },
   {
    "id": "0b282bd65a83",
@@ -20258,7 +20366,7 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring"
   },
   {
    "id": "b8cc3eede628",
@@ -20314,7 +20422,7 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring"
   },
   {
    "id": "cbd716eba668",
@@ -20346,7 +20454,9 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring",
+   "recurring": true,
+   "startEvidence": "Aucune date sur la page (texte Greenhouse integral verifie) ; posting campus permanent, pas de millesime."
   },
   {
    "id": "9b505c091bf0",
@@ -20442,7 +20552,9 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring",
+   "recurring": true,
+   "startEvidence": "Aucune date sur la page (texte Greenhouse integral verifie) ; posting campus permanent, pas de millesime."
   },
   {
    "id": "2688a494a0b3",
@@ -20506,7 +20618,9 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring",
+   "recurring": true,
+   "startEvidence": "Aucune date sur la page (texte Greenhouse integral verifie) ; posting campus permanent, pas de millesime."
   },
   {
    "id": "cc1ed9a4232d",
@@ -20562,7 +20676,9 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring",
+   "recurring": true,
+   "startEvidence": "Aucune date sur la page (texte Greenhouse integral verifie) ; posting campus permanent, pas de millesime."
   },
   {
    "id": "28f0818f1d97",
@@ -20622,7 +20738,7 @@
    "type": "internship",
    "category": "ENG",
    "posted": "2026-07-13",
-   "start": "Summer default; non-summer terms (winter/spring/fall) allowed",
+   "start": "Summer, or winter, spring or fall term",
    "snippet": "Core Development is a global team of technologists who architect, build and maintain our world-class trading platform. From optimizing our core trading engine to building custom hardware, we leverage software &amp; hardware engineering, data science and research, to deliver the infrastructure and to",
    "firstSeen": "2026-08-23",
    "seenScan": "baseline",
@@ -20631,7 +20747,9 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring",
+   "recurring": true,
+   "startEvidence": "\"We also allow internships to take place during a non-summer term (the winter, spring, or fall months)\""
   },
   {
    "id": "ca9a9f5066d8",
@@ -20650,7 +20768,7 @@
    "type": "internship",
    "category": "ENG",
    "posted": "2026-08-03",
-   "start": null,
+   "start": "Summer",
    "snippet": "Core Development is a global team of technologists who architect, build and maintain our world-class trading platform. From optimizing our core trading engine to building custom hardware, we leverage software &amp; hardware engineering, data science and research, to deliver the infrastructure and to",
    "firstSeen": "2026-08-23",
    "seenScan": "baseline",
@@ -20659,7 +20777,9 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring",
+   "recurring": true,
+   "startEvidence": "\"an intensive 10-week experience\"; \"coaching from a dedicated mentor throughout the summer\" — saison seule, aucune annee"
   },
   {
    "id": "4ac0db2cdc41",
@@ -20715,7 +20835,9 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring",
+   "recurring": true,
+   "startEvidence": "aucune date sur la page : ni saison, ni annee, ni duree dans l'annonce Jump Crypto"
   },
   {
    "id": "4fceb71973e1",
@@ -20734,7 +20856,7 @@
    "type": "internship",
    "category": "ENG",
    "posted": "2026-07-13",
-   "start": "Summer default; non-summer terms (winter/spring/fall) allowed",
+   "start": "Summer (winter, spring or fall term also possible)",
    "snippet": "&nbsp; Jump Trading has a global team of technologists who architect, build and maintain our world-class trading platform. From optimizing our core trading engine to building custom hardware, we leverage software &amp; hardware engineering, sophisticated front-end technologies, data science and rese",
    "firstSeen": "2026-08-23",
    "seenScan": "baseline",
@@ -20743,7 +20865,9 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring",
+   "recurring": true,
+   "startEvidence": "\"We also allow internships to take place during a non-summer term (winter, spring, or fall months)\""
   },
   {
    "id": "9be050a55d1c",
@@ -20762,7 +20886,7 @@
    "type": "internship",
    "category": "ENG",
    "posted": "2026-07-08",
-   "start": null,
+   "start": "Summer",
    "snippet": "Jump Trading has a global team of technologists who architect, build and maintain our world-class trading platform. From optimizing our core trading engine to building custom hardware, we leverage software &amp; hardware engineering, sophisticated front-end technologies, data science and research, t",
    "firstSeen": "2026-08-23",
    "seenScan": "baseline",
@@ -20771,7 +20895,9 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring",
+   "recurring": true,
+   "startEvidence": "\"intensive 10-week experience\"; \"coaching from a dedicated mentor throughout the summer\" — aucune annee indiquee"
   },
   {
    "id": "a6655dc9cd31",
@@ -20799,7 +20925,9 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring",
+   "recurring": true,
+   "startEvidence": "aucune date sur la page : ni saison, ni duree, ni annee dans l'annonce FPGA Chicago"
   },
   {
    "id": "4bad28e61748",
@@ -20818,7 +20946,7 @@
    "type": "internship",
    "category": "ENG",
    "posted": "2026-07-13",
-   "start": "Summer default; non-summer terms (winter/spring/fall) allowed",
+   "start": "Summer (winter, spring or fall term also possible)",
    "snippet": "&nbsp; Core Development is a global team of technologists who&nbsp;architect,&nbsp;build&nbsp;and&nbsp;maintain&nbsp;our world-class trading platform. From&nbsp;optimizing&nbsp;our core trading engine to building custom hardware, we&nbsp;leverage&nbsp;software &amp; hardware engineering, data&nbsp;s",
    "firstSeen": "2026-08-23",
    "seenScan": "baseline",
@@ -20827,7 +20955,9 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring",
+   "recurring": true,
+   "startEvidence": "\"We also allow internships to take place during a non-summer term (winter, spring, or fall months)\""
   },
   {
    "id": "71e1a481af37",
@@ -20883,7 +21013,9 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring",
+   "recurring": true,
+   "startEvidence": "aucune date sur la page : aucune mention de saison, duree ou annee"
   },
   {
    "id": "103ab0a5da36",
@@ -20902,7 +21034,7 @@
    "type": "internship",
    "category": "ENG",
    "posted": "2026-08-03",
-   "start": null,
+   "start": "Summer",
    "snippet": "Core Development is a global team of technologists who architect, build and maintain our world-class trading platform. From optimizing our core trading engine to building custom hardware, we leverage software &amp; hardware engineering, data science and research, to deliver the infrastructure and to",
    "firstSeen": "2026-08-23",
    "seenScan": "baseline",
@@ -20911,7 +21043,9 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring",
+   "recurring": true,
+   "startEvidence": "\"intensive 10-week experience at Jump Trading's Singapore office\"; \"mentor throughout the summer\" — sans annee"
   },
   {
    "id": "51e965c7e493",
@@ -20971,7 +21105,9 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring",
+   "recurring": true,
+   "startEvidence": "aucune date sur la page : seulement \"Our 10-week internship program\" et \"Timing... will vary\""
   },
   {
    "id": "1d73b71b8b1e",
@@ -21003,7 +21139,9 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring",
+   "recurring": true,
+   "startEvidence": "aucune date sur la page : seulement \"an intensive 10-week program\" (duree, pas de debut)"
   },
   {
    "id": "9c8ed51acd93",
@@ -21035,7 +21173,9 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring",
+   "recurring": true,
+   "startEvidence": "aucune date sur la page : programme M1/M2 pour ecoles francaises, sans mois ni annee"
   },
   {
    "id": "468278ae0224",
@@ -21136,7 +21276,9 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring",
+   "recurring": true,
+   "startEvidence": "aucune date sur la page : seulement \"an intensive 10-week program\" (duree, pas de debut)"
   },
   {
    "id": "25d3105831b1",
@@ -21232,7 +21374,9 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring",
+   "recurring": true,
+   "startEvidence": "\"an intensive 10-week program\" : durée seule, ni saison ni année ; aucune date de début."
   },
   {
    "id": "f6a3cccbe831",
@@ -21260,7 +21404,9 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring",
+   "recurring": true,
+   "startEvidence": "\"Timing of application consideration and interviews will vary to accommodate university timelines\" ; aucune date de début."
   },
   {
    "id": "7393d08df64e",
@@ -21292,7 +21438,9 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring",
+   "recurring": true,
+   "startEvidence": "\"an intensive 10-week program\" : durée seule, ni saison ni année ; aucune date de début."
   },
   {
    "id": "410e9737d36d",
@@ -21339,7 +21487,7 @@
    "type": "internship",
    "category": "ENG",
    "posted": "2026-07-13",
-   "start": "Summer default; non-summer terms (winter/spring/fall) allowed",
+   "start": "Summer",
    "snippet": "&nbsp; Core Development is a global team of technologists who&nbsp;architect, build and&nbsp;maintain&nbsp;our world-class trading platform. From&nbsp;optimizing&nbsp;our core trading engine to building custom hardware, we&nbsp;leverage&nbsp;software &amp; hardware engineering, data&nbsp;science&nbs",
    "firstSeen": "2026-08-23",
    "seenScan": "baseline",
@@ -21348,7 +21496,9 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring",
+   "recurring": true,
+   "startEvidence": "\"coaching from a dedicated mentor throughout the summer\" ; \"internships during a non-summer term\" autorisées ; aucune année."
   },
   {
    "id": "08208e910995",
@@ -21376,7 +21526,7 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring"
   },
   {
    "id": "3d0b3113d474",
@@ -21492,7 +21642,9 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring",
+   "recurring": true,
+   "startEvidence": "\"an intensive 10-week experience\" : durée seule, ni saison ni année ; aucune date de début."
   },
   {
    "id": "8261f1c04521",
@@ -21520,7 +21672,9 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring",
+   "recurring": true,
+   "startEvidence": "\"an intensive 10-week experience\" : durée seule, ni saison ni année ; aucune date de début."
   },
   {
    "id": "677c1e0321a5",
@@ -21548,7 +21702,9 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring",
+   "recurring": true,
+   "startEvidence": "\"an intensive 10-week experience\" : durée seule, ni saison ni année ; aucune date de début."
   },
   {
    "id": "0ed2f975b726",
@@ -21576,7 +21732,8 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "unknown",
+   "startEvidence": "\"Candidates for this off cycle internship should be graduating in 2026 or 2027\" : année de diplôme, pas de début."
   },
   {
    "id": "b6ff70d41b95",
@@ -21604,7 +21761,9 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring",
+   "recurring": true,
+   "startEvidence": "\"an intensive 10-week experience at Jump Trading\" : durée seule, ni saison ni année."
   },
   {
    "id": "2537166b1cbf",
@@ -21623,7 +21782,7 @@
    "type": "internship",
    "category": "ENG",
    "posted": "2026-07-13",
-   "start": "Summer default; non-summer terms (winter/spring/fall) allowed",
+   "start": "Summer",
    "snippet": "&nbsp; Jump Trading has a global team of technologists who architect, build and maintain our world-class trading platform. From optimizing our core trading engine to building custom hardware, we leverage software &amp; hardware engineering, sophisticated front-end technologies, data science and rese",
    "firstSeen": "2026-08-23",
    "seenScan": "baseline",
@@ -21632,7 +21791,9 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring",
+   "recurring": true,
+   "startEvidence": "\"We also allow internships to take place during a non-summer term (winter, spring, or fall)\" ; aucune année."
   },
   {
    "id": "a8069e1c0bbc",
@@ -25295,7 +25456,8 @@
     }
    ],
    "gradYears": [],
-   "fit": "uncertain"
+   "fit": "uncertain",
+   "startEvidence": "Titre \"FPGA Internship (2027 Start)\" ; \"a ten-week internship\" ; saison non précisée (2028 = année de diplôme)."
   },
   {
    "id": "592926af138d",
@@ -25846,7 +26008,8 @@
     }
    ],
    "gradYears": [],
-   "fit": "uncertain"
+   "fit": "uncertain",
+   "startEvidence": "Titre \"Quantitative Research Internship (2027 Start)\" ; \"By the end of the ten-week internship\" ; saison absente."
   },
   {
    "id": "ff99480616e2",
@@ -25912,7 +26075,8 @@
     }
    ],
    "gradYears": [],
-   "fit": "uncertain"
+   "fit": "uncertain",
+   "startEvidence": "Titre « Quantitative Trading Internship (2027 Start) » ; « our ten-week internship » — aucun mois ni saison précisé."
   },
   {
    "id": "e1b57db18688",
@@ -25945,7 +26109,8 @@
     }
    ],
    "gradYears": [],
-   "fit": "uncertain"
+   "fit": "uncertain",
+   "startEvidence": "Page inaccessible : HTTP 404 (offre retirée du site Optiver)."
   },
   {
    "id": "69e46bac71d7",
@@ -25997,21 +26162,22 @@
    "type": "internship",
    "category": "QT",
    "posted": null,
-   "start": "2027",
+   "start": "Summer 2027 or Winter 2027",
    "snippet": "Trading | level: Internship.",
    "firstSeen": "2026-08-23",
    "seenScan": "baseline",
    "source": "html",
    "startYear": 2027,
-   "startMonth": null,
+   "startMonth": 1,
    "startCandidates": [
     {
      "year": 2027,
-     "month": null
+     "month": 1
     }
    ],
    "gradYears": [],
-   "fit": "uncertain"
+   "fit": "too_early",
+   "startEvidence": "« you'll spend your summer or winter break tackling complex, quantitative problems » ; titre « (Taiwan) - 2027 », 8-week."
   },
   {
    "id": "b91a82840ab2",
@@ -26096,21 +26262,22 @@
    "type": "internship",
    "category": "ENG",
    "posted": null,
-   "start": "2027",
+   "start": "Summer 2027",
    "snippet": "Technology | level: Internship.",
    "firstSeen": "2026-08-23",
    "seenScan": "baseline",
    "source": "html",
    "startYear": 2027,
-   "startMonth": null,
+   "startMonth": 6,
    "startCandidates": [
     {
      "year": 2027,
-     "month": null
+     "month": 6
     }
    ],
    "gradYears": [],
-   "fit": "uncertain"
+   "fit": "too_early",
+   "startEvidence": "« right to work in the UK for the full duration of the London Summer 2027 Internship »"
   },
   {
    "id": "7b37b4b34d14",
@@ -26143,7 +26310,8 @@
     }
    ],
    "gradYears": [],
-   "fit": "uncertain"
+   "fit": "uncertain",
+   "startEvidence": "Titre « Software Engineer Internship (2027 Start) » ; « During the ten-week internship » — aucune saison précisée."
   },
   {
    "id": "78d1a039b702",
@@ -26232,7 +26400,8 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "unknown",
+   "startEvidence": "Offre retirée : board Workday PanAgora ne liste plus ce poste (API 403, page vide)."
   },
   {
    "id": "43ff67d8fb6d",
@@ -27142,7 +27311,9 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring",
+   "recurring": true,
+   "startEvidence": "Aucune date sur la page (annonce Greenhouse permanente, sans millésime)."
   },
   {
    "id": "f401391ebcb8",
@@ -27592,7 +27763,9 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring",
+   "recurring": true,
+   "startEvidence": "Aucune date sur la page (annonce Greenhouse permanente, sans millésime)."
   },
   {
    "id": "6c2ba0394ac8",
@@ -28197,7 +28370,9 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring",
+   "recurring": true,
+   "startEvidence": "Aucune date sur la page (annonce Greenhouse permanente, sans millésime)."
   },
   {
    "id": "27d53473690d",
@@ -28225,7 +28400,9 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring",
+   "recurring": true,
+   "startEvidence": "Aucune date sur la page (annonce Greenhouse permanente, sans millésime)."
   },
   {
    "id": "9740ae6930d3",
@@ -28322,7 +28499,9 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring",
+   "recurring": true,
+   "startEvidence": "« prorated based on internship start and end date » — aucune date précise sur la page."
   },
   {
    "id": "00f25ab61a96",
@@ -28634,7 +28813,9 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring",
+   "recurring": true,
+   "startEvidence": "aucune date sur la page : ni saison, ni année, ni durée mentionnée"
   },
   {
    "id": "5e08e8f524b1",
@@ -29059,7 +29240,8 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "unknown",
+   "startEvidence": "« Sorry, This job posting is no longer available » — offre retirée, aucune date accessible"
   },
   {
    "id": "dca3910e16d0",
@@ -29645,7 +29827,7 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring"
   },
   {
    "id": "f9e853b36462",
@@ -32291,7 +32473,9 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring",
+   "recurring": true,
+   "startEvidence": "aucune date sur la page ; VIE à candidater aussi sur mon-vie-via.businessfrance.fr (démarrage au fil de l'eau)"
   },
   {
    "id": "a806fe0dd75d",
@@ -32597,7 +32781,7 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring"
   },
   {
    "id": "aa8c22e11bfd",
@@ -33250,7 +33434,9 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring",
+   "recurring": true,
+   "startEvidence": "« The minimum internship period is 6 months » — durée seule, aucune date de début"
   },
   {
    "id": "6629057d8afa",
@@ -33674,7 +33860,7 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring"
   },
   {
    "id": "dab1055c6802",
@@ -33924,7 +34110,9 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring",
+   "recurring": true,
+   "startEvidence": "aucune date sur la page (annonce permanente, cinq bureaux, aucune saison ni année)"
   },
   {
    "id": "90b6be505c4e",
@@ -33957,7 +34145,8 @@
     }
    ],
    "gradYears": [],
-   "fit": "uncertain"
+   "fit": "uncertain",
+   "startEvidence": "« This internship is based in London and is available throughout the year » (intitulé : 2027)"
   },
   {
    "id": "c7bfd961dffd",
@@ -33990,7 +34179,8 @@
     }
    ],
    "gradYears": [],
-   "fit": "uncertain"
+   "fit": "uncertain",
+   "startEvidence": "« This internship is based in Montreal and is available in any season » (intitulé : 2027)"
   },
   {
    "id": "7c5ff3c9cfe6",
@@ -34023,7 +34213,8 @@
     }
    ],
    "gradYears": [],
-   "fit": "uncertain"
+   "fit": "uncertain",
+   "startEvidence": "« This internship is based in Singapore and is available in any season » (intitulé : 2027)"
   },
   {
    "id": "388b8e301304",
@@ -34611,7 +34802,9 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring",
+   "recurring": true,
+   "startEvidence": "« Must be able to work 30+ hours per week during Fall months » ; aucune année"
   },
   {
    "id": "d990f57edbe9",
@@ -35101,7 +35294,9 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring",
+   "recurring": true,
+   "startEvidence": "aucune date sur la page"
   },
   {
    "id": "ebd44f14d025",
@@ -35260,7 +35455,7 @@
    "type": "internship",
    "category": "QR",
    "posted": "2026-05-24",
-   "start": null,
+   "start": "Summer or school year",
    "snippet": "Empirical alpha research internship: full-time summer and part-time school-year options for undergrad, masters and PhD students in quantitative disciplines. R/C++/Python and regression experience preferred.",
    "firstSeen": "2026-08-23",
    "seenScan": "baseline",
@@ -35269,7 +35464,9 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring",
+   "recurring": true,
+   "startEvidence": "« full-time summer internships and part-time work throughout the school year » ; aucune année précisée"
   },
   {
    "id": "d1d2e802ee14",
@@ -35782,7 +35979,8 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "unknown",
+   "startEvidence": "page inaccessible (HTTP 404 sur careers.sig.com/jobs/11078) — offre retirée, aucune date lisible"
   },
   {
    "id": "9e6bc8d839e5",
@@ -35829,21 +36027,22 @@
    "type": "offcycle_internship",
    "category": "ENG",
    "posted": "2026-08-19",
-   "start": "2027",
+   "start": "January 2027",
    "snippet": "University co-op placement 2027, Dublin. As a Hardware Engineering Co – Op (Placement) at Susquehanna, you will be working with senior hardware engineers and have the opportunity to use their talents for hardware related activities such as system modelling, verification and design implementation and",
    "firstSeen": "2026-08-23",
    "seenScan": "baseline",
    "source": "html",
    "startYear": 2027,
-   "startMonth": null,
+   "startMonth": 1,
    "startCandidates": [
     {
      "year": 2027,
-     "month": null
+     "month": 1
     }
    ],
    "gradYears": [],
-   "fit": "uncertain"
+   "fit": "too_early",
+   "startEvidence": "En-tête de l'offre : « January 2027 Start » (Dublin, Hardware Engineering)."
   },
   {
    "id": "d09f052e7d35",
@@ -35862,21 +36061,22 @@
    "type": "internship",
    "category": "ML",
    "posted": "2026-04-09",
-   "start": "2027",
+   "start": "June 2027",
    "snippet": "10-week ML internship for PhD candidates, 2027. Our Machine Learning PhD Internship is a 10-week immersive experience designed for PhD candidates who are passionate about solving high-impact problems at the intersection of data, algorithms, and markets. As a Machine Learning Intern at Susquehanna, y",
    "firstSeen": "2026-08-23",
    "seenScan": "baseline",
    "source": "html",
    "startYear": 2027,
-   "startMonth": null,
+   "startMonth": 6,
    "startCandidates": [
     {
      "year": 2027,
-     "month": null
+     "month": 6
     }
    ],
    "gradYears": [],
-   "fit": "uncertain"
+   "fit": "too_early",
+   "startEvidence": "En-tête de l'offre : « June 2027 Start » (Machine Learning Internship - PhD: 2027)."
   },
   {
    "id": "a03b9ee2db9a",
@@ -36120,7 +36320,9 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring",
+   "recurring": true,
+   "startEvidence": "Champ Start Date : « Flexible Start » ; « Over the 10-week program » — aucun mois ni année."
   },
   {
    "id": "411b53dfe35f",
@@ -37387,7 +37589,9 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring",
+   "recurring": true,
+   "startEvidence": "Champ Start Date : « Flexible Start » ; « Over the 10-week program » — aucun mois ni année."
   },
   {
    "id": "4805a09b66e2",
@@ -37754,21 +37958,22 @@
    "type": "offcycle_internship",
    "category": "ENG",
    "posted": "2026-08-19",
-   "start": "2027",
+   "start": "January 2027",
    "snippet": "University co-op placement 2027, Dublin. As a Site Reliability Co - Op (Placement) Student at Susquehanna, you will be working with senior technologists from the beginning of your programme who will act as your mentors throughout. Your Co - Op programme will allow you to get involved with the teams",
    "firstSeen": "2026-08-23",
    "seenScan": "baseline",
    "source": "html",
    "startYear": 2027,
-   "startMonth": null,
+   "startMonth": 1,
    "startCandidates": [
     {
      "year": 2027,
-     "month": null
+     "month": 1
     }
    ],
    "gradYears": [],
-   "fit": "uncertain"
+   "fit": "too_early",
+   "startEvidence": "En-tête de l'offre : « January 2027 Start » (Dublin, Site Reliability Engineering)."
   },
   {
    "id": "a481783a1387",
@@ -38462,7 +38667,9 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring",
+   "recurring": true,
+   "startEvidence": "Aucune date sur la page ; le formulaire demande seulement « When can you start? »."
   },
   {
    "id": "da9a8adb845f",
@@ -38612,7 +38819,8 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "unknown",
+   "startEvidence": "Offre retirée : l'API Greenhouse renvoie 404 « Job not found », contenu inaccessible."
   },
   {
    "id": "b47c7e4b58e3",
@@ -38952,7 +39160,8 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "unknown",
+   "startEvidence": "« Availability for a 10-week internship » — durée seule, aucun mois, saison ni année."
   },
   {
    "id": "75e91966332e",
@@ -39073,7 +39282,9 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring",
+   "recurring": true,
+   "startEvidence": "« Internship can start on a timeline convenient to you, preferably within 6 months preferred »."
   },
   {
    "id": "ede1a1922a0f",
@@ -39249,7 +39460,9 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "recurring",
+   "recurring": true,
+   "startEvidence": "« Availability for 4-6 months or 10-week summer term » — aucune année précisée."
   },
   {
    "id": "9d5dbb9fb0b3",
@@ -39379,7 +39592,8 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "unknown",
+   "startEvidence": "Offre retirée : l'API Greenhouse renvoie 404 « Job not found », contenu inaccessible."
   },
   {
    "id": "ca85f8a0e891",
@@ -39723,7 +39937,8 @@
     2027,
     2028
    ],
-   "fit": "unknown"
+   "fit": "unknown",
+   "startEvidence": "Aucune date de début ; la page ne cite que la date de diplôme exigée (déc. 2027-printemps 2028)."
   },
   {
    "id": "35bc1462e327",
@@ -39751,7 +39966,8 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "unknown",
+   "startEvidence": "aucune date sur la page (description et exigences sans mention de saison, mois ou année)"
   },
   {
    "id": "ba6f36122b52",
@@ -39900,7 +40116,8 @@
     2027,
     2028
    ],
-   "fit": "unknown"
+   "fit": "unknown",
+   "startEvidence": "aucune date de début ; seulement « graduation date between December 2027 and Spring 2028 » (diplôme)"
   },
   {
    "id": "c575733b6663",
@@ -39928,7 +40145,8 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "unknown",
+   "startEvidence": "aucune date sur la page"
   },
   {
    "id": "5a4fedc40400",
@@ -40640,7 +40858,8 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "unknown",
+   "startEvidence": "aucune date sur la page"
   },
   {
    "id": "40afc5e79dc3",
@@ -42863,21 +43082,22 @@
    "type": "internship",
    "category": "ENG",
    "posted": "2026-06-11",
-   "start": "2027",
+   "start": "Summer 2027",
    "snippet": "Software/data engineering internship in the Research department; prefers completion of 3+ years of a CS undergrad degree; housing and transportation provided where applicable. Season not stated (2027 cohort).",
    "firstSeen": "2026-08-23",
    "seenScan": "baseline",
    "source": "api",
    "startYear": 2027,
-   "startMonth": null,
+   "startMonth": 6,
    "startCandidates": [
     {
      "year": 2027,
-     "month": null
+     "month": 6
     }
    ],
    "gradYears": [],
-   "fit": "uncertain"
+   "fit": "too_early",
+   "startEvidence": "« Are you able to work on-site at our Jupiter, FL office for a 10-week Summer 2027 internship? »"
   },
   {
    "id": "015a2b741435",
@@ -42910,7 +43130,8 @@
     }
    ],
    "gradYears": [],
-   "fit": "uncertain"
+   "fit": "uncertain",
+   "startEvidence": "Titre « Quantitative Research Fellowship 2027 » ; « our 10 week program » — aucune saison précisée"
   },
   {
    "id": "7b57773ec67c",
@@ -42929,21 +43150,22 @@
    "type": "internship",
    "category": "QR",
    "posted": "2026-06-11",
-   "start": "2027",
+   "start": "Summer 2027",
    "snippet": "10-week internship working with data scientists on research using stats/ML on large real-world datasets; math/stats/physics background; opportunity to convert full-time. Season not stated (2027 cohort).",
    "firstSeen": "2026-08-23",
    "seenScan": "baseline",
    "source": "api",
    "startYear": 2027,
-   "startMonth": null,
+   "startMonth": 6,
    "startCandidates": [
     {
      "year": 2027,
-     "month": null
+     "month": 6
     }
    ],
    "gradYears": [],
-   "fit": "uncertain"
+   "fit": "too_early",
+   "startEvidence": "« ...work on-site at our Jupiter, FL office for a 10-week Summer 2027 internship? »"
   },
   {
    "id": "b178decde536",
@@ -44501,7 +44723,8 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "unknown",
+   "startEvidence": "aucune date sur la page (annonce bilingue Pékin/Shanghai, sans période ni durée)"
   },
   {
    "id": "a605770b1b18",
@@ -44811,16 +45034,22 @@
    "type": "internship",
    "category": "ENG",
    "posted": "2025-06-03",
-   "start": null,
+   "start": "January 2026",
    "snippet": "Book Platform and Operations team, Singapore. Currently pursuing a Bachelor's or Master's in CS or engineering; coursework or project-level Python and/or C++, Bash, Linux and Git. Season not stated.",
    "firstSeen": "2026-08-23",
    "seenScan": "baseline",
    "source": "api",
-   "startYear": null,
-   "startMonth": null,
-   "startCandidates": [],
+   "startYear": 2026,
+   "startMonth": 1,
+   "startCandidates": [
+    {
+     "year": 2026,
+     "month": 1
+    }
+   ],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "too_early",
+   "startEvidence": "« Internship availability - at least 4 months, starting January 2026. » (date déjà passée, annonce non actualisée)"
   },
   {
    "id": "ed3090973419",
@@ -45000,7 +45229,8 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "unknown",
+   "startEvidence": "aucune date de début ; seulement « Candidates should be graduating in late 2027 or 2028 »"
   },
   {
    "id": "b95aa1496e30",
@@ -45032,7 +45262,8 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "unknown",
+   "startEvidence": "aucune date de début ; seulement « 6-month learning and development path » (durée, sans mois ni année)"
   },
   {
    "id": "f38bfc5ecb47",
@@ -45360,7 +45591,8 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "unknown",
+   "startEvidence": "aucune date sur la page"
   },
   {
    "id": "80a66bb77130",
@@ -45388,7 +45620,8 @@
    "startMonth": null,
    "startCandidates": [],
    "gradYears": [],
-   "fit": "unknown"
+   "fit": "unknown",
+   "startEvidence": "aucune date sur la page"
   },
   {
    "id": "166d15d06f34",
