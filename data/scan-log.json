@@ -1,0 +1,13 @@
+{
+ "_comment": "Journal des scans, alimenté par apply-scan.mjs. Sert la carte d'état de l'onglet Nouvelles.",
+ "scans": [
+  {
+   "scanId": "baseline",
+   "at": "2026-08-23T10:29:05.875Z",
+   "added": 1482,
+   "removed": 0,
+   "total": 1482,
+   "note": "constitution de la base initiale"
+  }
+ ]
+}

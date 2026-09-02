@@ -43,6 +43,29 @@ Ouvrir le lien dans Safari → Partager → « Sur l'écran d'accueil ».
 
 Une tâche planifiée (`quant-board-veille`, tous les jours à 7h23) lance la procédure décrite dans [.claude/commands/scan.md](.claude/commands/scan.md). Elle est aussi lançable à la main avec `/scan` depuis ce dossier.
 
+L'onglet **Nouvelles** affiche la date du dernier scan, ce qu'il a rapporté, la prochaine échéance, et prévient si plus de 36 h se sont écoulées sans veille.
+
+### Pourquoi l'app ne peut pas lancer le scan elle-même
+
+Le scan interroge 87 boards ATS puis fait classer les nouveautés par Claude sur le plan Max : il s'exécute donc sur le Mac. GitHub Pages ne sert que des fichiers statiques, sans serveur ni accès à la machine — aucun bouton d'une page web ne peut y démarrer un processus. Faire tourner la veille dans GitHub Actions supposerait une clé API Anthropic facturée à l'usage, ce que le plan Max ne couvre pas.
+
+Le bouton **« Rafraîchir les données »** fait ce qui est réellement utile dans la quasi-totalité des cas : il recharge `jobs.json` en contournant le cache du service worker. C'est ce qu'il faut quand la veille a tourné pendant que l'app était ouverte sur le téléphone.
+
+### Lancer un scan depuis le téléphone (facultatif)
+
+Un raccourci iOS peut déclencher la veille sur le Mac par SSH :
+
+1. Sur le Mac : Réglages → Général → Partage → activer **Connexion à distance**.
+2. Dans l'app **Raccourcis** de l'iPhone, créer un raccourci nommé `QuantBoard Scan`.
+3. Y ajouter l'action **« Exécuter un script via SSH »** : hôte = l'adresse locale du Mac, utilisateur = `gregouze`, authentification par clé SSH.
+4. Script à exécuter :
+
+```bash
+cd ~/jobboard && claude -p "/scan"
+```
+
+Le Mac doit être allumé et joignable (même réseau, ou via un VPN type Tailscale). Le raccourci se lance ensuite depuis l'écran d'accueil ou Siri.
+
 Le scan combine deux étages :
 
 1. **Déterministe** — `scripts/scan.mjs` interroge les APIs ATS de 87 firms (Greenhouse, Lever, Ashby, Workday, SmartRecruiters, Recruitee, Workable, Breezy, Pinpoint, WordPress) et compare à l'index `data/seen.json`.

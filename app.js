@@ -92,6 +92,7 @@
 
   let DATA = { jobs: [], lastScanId: 'baseline', generated: null };
   let FIRMS = [];
+  let SCAN_LOG = [];
 
   const $ = id => document.getElementById(id);
 
@@ -336,6 +337,104 @@
        Le nombre sur chaque firm est son nombre d'offres exploitables. Touche une firm pour sa fiche.</p>`;
   }
 
+
+  // ---------- Carte d'état du scan (onglet « Nouvelles ») ----------
+
+  /** Heure du scan automatique quotidien, alignée sur la tâche planifiée. */
+  const DAILY_SCAN = { hour: 7, minute: 23 };
+
+  function relTime(iso) {
+    const then = new Date(iso);
+    if (isNaN(then)) return '';
+    const mins = Math.round((Date.now() - then) / 60000);
+    if (mins < 2) return "à l'instant";
+    if (mins < 60) return `il y a ${mins} min`;
+    const h = Math.round(mins / 60);
+    if (h < 24) return `il y a ${h} h`;
+    const d = Math.round(h / 24);
+    return `il y a ${d} jour${d > 1 ? 's' : ''}`;
+  }
+
+  function nextScanText() {
+    const next = new Date();
+    next.setSeconds(0, 0);
+    next.setHours(DAILY_SCAN.hour, DAILY_SCAN.minute);
+    if (next <= new Date()) next.setDate(next.getDate() + 1);
+    const isTomorrow = next.getDate() !== new Date().getDate();
+    const hhmm = next.toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' });
+    return `${isTomorrow ? 'demain' : "aujourd'hui"} à ${hhmm}`;
+  }
+
+  function renderScanStatus() {
+    const el = $('scan-status');
+    const last = SCAN_LOG[0];
+    const at = last?.at || DATA.generated;
+    const stale = at && (Date.now() - new Date(at)) > 36 * 3600 * 1000;
+    const isBaseline = !last || last.scanId === 'baseline';
+
+    const when = at
+      ? `${new Date(at).toLocaleDateString('fr-FR', { day: 'numeric', month: 'long' })} à ${new Date(at).toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' })}`
+      : 'jamais';
+
+    el.innerHTML = `
+      <div class="scan-line">
+        <span class="scan-dot${stale ? ' stale' : ''}"></span>
+        <div class="scan-text">
+          <b>${isBaseline ? 'Base initiale constituée' : 'Dernier scan'} — ${esc(when)}</b>
+          <span>${esc(relTime(at))}${last && !isBaseline ? ` · +${last.added} nouvelle${last.added > 1 ? 's' : ''}, −${last.removed} retirée${last.removed > 1 ? 's' : ''}` : ''}</span>
+        </div>
+      </div>
+      <div class="scan-next">Prochain scan automatique ${esc(nextScanText())}.</div>
+      ${stale ? `<div class="scan-warn">${isBaseline
+        ? "Aucune veille n'a encore tourné depuis la constitution de la base. La tâche planifiée ne s'exécute que lorsque l'app est ouverte sur le Mac."
+        : "Plus de 36 h sans scan — la tâche planifiée ne s'est peut-être pas exécutée."}</div>` : ''}
+      <div class="scan-actions">
+        <button class="scan-btn primary" id="scan-refresh">Rafraîchir les données</button>
+        <button class="scan-btn" id="scan-run">Lancer un scan</button>
+      </div>
+      <div class="scan-help" id="scan-help" hidden>
+        <p>Le scan interroge les 87 boards ATS puis fait classer les nouveautés par Claude, sur ton plan Max. Il tourne donc <b>sur ton Mac</b>, pas depuis cette page : un site statique n'a aucun moyen de l'y déclencher.</p>
+        <p>Trois façons de le lancer :</p>
+        <ul>
+          <li>attendre le scan automatique (${esc(nextScanText())}) ;</li>
+          <li>sur ton Mac, <code>/scan</code> dans Claude Code depuis le dossier <code>jobboard</code> ;</li>
+          <li>depuis le téléphone, un raccourci iOS qui lance la commande en SSH — la recette est dans le README.</li>
+        </ul>
+        <p>« Rafraîchir » récupère les données du dernier scan effectué : c'est ce qu'il te faut si la veille a tourné pendant que l'app était ouverte.</p>
+      </div>`;
+  }
+
+  /** Recharge jobs.json et firms.json en contournant le cache, puis re-rend. */
+  async function refreshData(btn) {
+    const before = DATA.jobs.length;
+    const label = btn.textContent;
+    btn.disabled = true;
+    btn.textContent = 'Chargement…';
+    try {
+      const bust = `?t=${Date.now()}`;
+      const [j, f, l] = await Promise.all([
+        fetch(`data/jobs.json${bust}`, { cache: 'no-store' }).then(r => r.json()),
+        fetch(`data/firms.json${bust}`, { cache: 'no-store' }).then(r => r.json()),
+        fetch(`data/scan-log.json${bust}`, { cache: 'no-store' }).then(r => r.json()).catch(() => ({ scans: [] })),
+      ]);
+      DATA = j;
+      FIRMS = f.firms || [];
+      SCAN_LOG = l.scans || [];
+      firmTypeOf.clear(); firmTierOf.clear();
+      for (const x of FIRMS) {
+        firmTypeOf.set(x.name, x.firmType || 'autre');
+        if (x.tier) firmTierOf.set(x.name, x.tier);
+      }
+      const delta = DATA.jobs.length - before;
+      btn.textContent = delta === 0 ? 'À jour ✓' : `${delta > 0 ? '+' : ''}${delta} offre${Math.abs(delta) > 1 ? 's' : ''} ✓`;
+      buildFilters();
+      resetAndRender();
+    } catch {
+      btn.textContent = 'Échec — réessaie';
+    }
+    setTimeout(() => { btn.disabled = false; btn.textContent = label; }, 2500);
+  }
+
   function render() {
     const jobList = $('job-list'), firmList = $('firm-list'), empty = $('empty');
     $('loading').hidden = true;
@@ -349,7 +448,7 @@
     $('filters').style.display = (state.tab === 'firms' || state.tab === 'tiers') ? 'none' : '';
 
     if (state.tab === 'tiers') {
-      jobList.hidden = true; empty.hidden = true; firmList.hidden = true;
+      jobList.hidden = true; empty.hidden = true; firmList.hidden = true; $('scan-status').hidden = true;
       $('tier-view').hidden = false;
       renderTiers();
       return;
@@ -357,7 +456,7 @@
     $('tier-view').hidden = true;
 
     if (state.tab === 'firms') {
-      jobList.hidden = true; empty.hidden = true; firmList.hidden = false;
+      jobList.hidden = true; empty.hidden = true; firmList.hidden = false; $('scan-status').hidden = true;
       const withJobs = FIRMS.filter(f => f.jobCount > 0).length;
       const firmRow = f => {
         const dot = f.status === 'ok' ? 'ok' : f.status === 'no_relevant_roles' ? 'warn' : 'bad';
@@ -384,6 +483,9 @@
     }
 
     firmList.hidden = true;
+    $('scan-status').hidden = state.tab !== 'new';
+    if (state.tab === 'new') renderScanStatus();
+
     const pool = state.tab === 'new' ? newJobs : DATA.jobs;
     const shown = sortJobs(pool.filter(matches));
 
@@ -391,7 +493,7 @@
       jobList.hidden = true;
       empty.hidden = false;
       empty.textContent = state.tab === 'new'
-        ? 'Aucune nouvelle offre depuis le dernier scan. Reviens après la prochaine veille ✨'
+        ? 'Aucune nouvelle offre au dernier scan.'
         : 'Aucune offre ne correspond aux filtres.';
       return;
     }
@@ -613,6 +715,16 @@
       }
     });
 
+    $('scan-status').addEventListener('click', e => {
+      const refresh = e.target.closest('#scan-refresh');
+      if (refresh) { refreshData(refresh); return; }
+      if (e.target.closest('#scan-run')) {
+        const help = $('scan-help');
+        help.hidden = !help.hidden;
+        $('scan-run').classList.toggle('on', !help.hidden);
+      }
+    });
+
     $('job-list').addEventListener('click', e => {
       if (e.target.closest('#more-btn')) {
         state.shown += PAGE_SIZE;
@@ -624,12 +736,14 @@
   async function load() {
     try {
       const bust = `?t=${Date.now()}`;
-      const [jobsRes, firmsRes] = await Promise.all([
+      const [jobsRes, firmsRes, logRes] = await Promise.all([
         fetch(`data/jobs.json${bust}`),
         fetch(`data/firms.json${bust}`),
+        fetch(`data/scan-log.json${bust}`).catch(() => null),
       ]);
       DATA = await jobsRes.json();
       FIRMS = (await firmsRes.json()).firms || [];
+      SCAN_LOG = logRes ? ((await logRes.json().catch(() => ({}))).scans || []) : [];
       for (const f of FIRMS) {
         firmTypeOf.set(f.name, f.firmType || 'autre');
         if (f.tier) firmTierOf.set(f.name, f.tier);

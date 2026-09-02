@@ -65,6 +65,20 @@ const counts = {};
 for (const j of jobsData.jobs) counts[j.firm] = (counts[j.firm] || 0) + 1;
 for (const f of firmsData.firms) f.jobCount = counts[f.name] || 0;
 
+// Journal des scans : alimente la carte d'état de l'onglet « Nouvelles ».
+// Borné à 60 entrées, le fichier est servi au chargement de l'app.
+const logPath = p('scan-log.json');
+const log = existsSync(logPath) ? JSON.parse(readFileSync(logPath, 'utf8')) : { scans: [] };
+log.scans.unshift({
+  scanId,
+  at: new Date().toISOString(),
+  added,
+  removed: dropped.length,
+  total: jobsData.jobs.length,
+});
+log.scans = log.scans.slice(0, 60);
+writeFileSync(logPath, JSON.stringify(log, null, 1));
+
 writeFileSync(p('jobs.json'), JSON.stringify(jobsData, null, 1));
 writeFileSync(p('firms.json'), JSON.stringify(firmsData, null, 1));
 writeFileSync(p('archive.json'), JSON.stringify(archive, null, 1));
