@@ -3899,7 +3899,7 @@
    "apiMethod": "GET",
    "apiBody": null,
    "status": "careers_not_found",
-   "notes": "Board Greenhouse 'monoceros' supprimé (404 confirmé le 2026-08-23, aucun token alternatif trouvé). monoceros.com sans page carrières. À re-tester périodiquement.",
+   "notes": "Board Greenhouse 'monoceros' supprimé (404 confirmé le 2026-08-23, aucun token alternatif trouvé). monoceros.com sans page carrières. À re-tester périodiquement. Re-checked 2026-09-02: the Greenhouse board is GONE - boards-api.greenhouse.io/v1/boards/monoceros/jobs and job-boards.greenhouse.io/monoceros both answer 404, even though monoceros.com still links to it. Not wired to the greenhouse fetcher for that reason: it would fail on every scan instead of reporting zero. Re-check the token periodically; if the board comes back, wiring is a one-liner (ats 'greenhouse' + the boards-api URL).",
    "jobCount": 0,
    "apiEndpoints": [],
    "firmType": "prop",
@@ -4341,7 +4341,7 @@
    "apiMethod": "GET",
    "apiBody": null,
    "status": "careers_not_found",
-   "notes": "Squarespace site; homepage nav links to /join-us but it returns 404; legacy /careers.html also 404. No ATS found. Historical applications via hr@prime-trading.com; third-party listings exist on Built In Chicago (builtinchicago.org/company/prime-trading-llc/jobs). Re-check /join-us periodically in case the page is restored.",
+   "notes": "Squarespace site; homepage nav links to /join-us but it returns 404; legacy /careers.html also 404. No ATS found. Historical applications via hr@prime-trading.com; third-party listings exist on Built In Chicago (builtinchicago.org/company/prime-trading-llc/jobs). Re-check /join-us periodically in case the page is restored. Re-checked 2026-09-02: /join-us serves the full page (225 KB, contains the positions section) but returns HTTP 404 as its status code - a static-host quirk, not a dead page. Do not treat the status code as 'careers page gone'; fetch and read the body.",
    "jobCount": 0,
    "apiEndpoints": [],
    "firmType": "prop",
@@ -5968,7 +5968,7 @@
    "apiMethod": "GET",
    "apiBody": null,
    "status": "no_relevant_roles",
-   "notes": "Careers page renders jobs client-side from https://vectrading.com/data/roles.json (synced server-side from a Google Sheet; 'generated' timestamp included). As of 2026-08-23 the feed is empty: {\"roles\": []}. Re-scrape: GET the JSON; each role object gets a detail view at /roles.html#<slug>. Applications go through an on-page modal (POST /api/apply) or hr@vectrading.com. Chicago-based prop firm (phone +1 312).",
+   "notes": "Careers page renders jobs client-side from https://vectrading.com/data/roles.json (synced server-side from a Google Sheet; 'generated' timestamp included). As of 2026-08-23 the feed is empty: {\"roles\": []}. Re-scrape: GET the JSON; each role object gets a detail view at /roles.html#<slug>. Applications go through an on-page modal (POST /api/apply) or hr@vectrading.com. Chicago-based prop firm (phone +1 312). Re-checked 2026-09-02: https://vectrading.com/roles.html responds 200 and is readable (an earlier probe timed out - transient, not a dead URL).",
    "jobCount": 0,
    "apiEndpoints": [
     {
